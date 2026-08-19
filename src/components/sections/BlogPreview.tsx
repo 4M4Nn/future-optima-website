@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Reveal from "@/components/motion/Reveal";
 import { blogPosts } from "@/lib/data/blog";
-import { courseImages } from "@/lib/data/images";
+import { getBlogImage } from "@/lib/data/images";
 
 export default function BlogPreview() {
   const latest = blogPosts.slice(0, 3);
@@ -38,7 +38,7 @@ export default function BlogPreview() {
               >
                 <div className="relative h-40 overflow-hidden">
                   <Image
-                    src={courseImages[post.coverImage]}
+                    src={getBlogImage(post.slug, post.coverImage)}
                     alt={post.title}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"

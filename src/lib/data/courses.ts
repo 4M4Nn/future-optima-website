@@ -48,6 +48,8 @@ export const courses: Course[] = [
       { question: "Is this Python full-stack course suitable for non-CS graduates in Kochi?", answer: "Yes. The course starts from Python fundamentals and is designed for both CS and non-CS graduates. Several of our placed students come from BSc/BCom backgrounds." },
       { question: "Does the course cover AI, or is it only web development?", answer: "Both. You'll build a complete Django + React full-stack application and integrate real AI features such as an LLM-powered assistant, which is what makes this course different from a standard Python course in Kochi." },
       { question: "What is the average starting salary after this course?", answer: "Placed students from this track typically start between ₹2.5 LPA and ₹6.5 LPA depending on prior background, performance and the hiring company, with strong performers placed at IT services firms in Kochi and beyond." },
+      { question: "Is Python full-stack a good choice if I might want to move into data science or AI later?", answer: "Yes — Python carries directly into data science and AI engineering roles, so this course keeps that door open in a way a pure JavaScript stack wouldn't, if you think you might specialize later." },
+      { question: "How much of the course is theory vs hands-on building?", answer: "The course is project-driven from the first module onward — theory is kept to what's needed to understand what you're building, with the majority of time spent writing, debugging and shipping real Django/React code." },
     ],
     featured: true,
   },
@@ -149,6 +151,8 @@ export const courses: Course[] = [
       { question: "Is MERN stack or Python full-stack better to learn first in Kochi's job market?", answer: "Both are equally hired for in Kochi — MERN suits students aiming at product/startup roles and JavaScript-heavy teams, while Python full-stack suits those who also want a path into data/AI roles later. We help you choose during counseling." },
       { question: "Will I build real projects during the MERN course?", answer: "Yes — the course is project-driven throughout, culminating in a team-built full-stack capstone application you can demo directly to interviewers." },
       { question: "Is placement support included with the MERN stack course?", answer: "Yes, every MERN stack batch includes resume building, mock interviews and access to our placement cell with 200+ hiring partners." },
+      { question: "Do I need to know JavaScript before joining the MERN stack course?", answer: "No — the course starts with modern JavaScript (ES6+) fundamentals before moving into React and Node.js, so no prior JavaScript experience is required." },
+      { question: "What kind of companies in Kochi hire MERN stack developers?", answer: "IT services firms, product startups and digital agencies across Kochi actively hire MERN developers — our placed graduates include roles at companies like Accenture and specialized software development firms." },
     ],
   },
   {
@@ -199,6 +203,8 @@ export const courses: Course[] = [
       { question: "Can a non-CS student join the Data Science with AI course in Kochi?", answer: "Yes — this is one of our most popular non-CS-friendly tracks. Statistics and Python are taught from the ground up, and several placed students (including at Accenture) came through BTech CS and non-CS routes alike." },
       { question: "What is the difference between this course and AI-Powered Data Analytics?", answer: "Data Science with AI goes deeper into machine learning and model building, aimed at Data Scientist/ML roles. AI-Powered Data Analytics focuses on business analytics and dashboards using Python and Power BI, aimed at Data Analyst/BI roles." },
       { question: "Does the course include real datasets and projects?", answer: "Yes, every module is anchored to real or realistic datasets, and the capstone project takes you from raw data to a working deployed model for your portfolio." },
+      { question: "Why is Data Science with AI Future Optima's most-placed course?", answer: "It sits at the intersection of two of the strongest hiring categories in Kerala's IT market — data and AI — and is accessible to both CS and non-CS graduates, which is reflected in the volume and range of real placements from this track, including at Accenture and Malabar Group." },
+      { question: "What machine learning topics are actually covered?", answer: "Regression, classification, clustering, ensemble methods, model evaluation and tuning, plus an introduction to deep learning and applied AI — enough breadth to be genuinely job-ready, not just a theoretical overview." },
     ],
     featured: true,
   },
@@ -249,6 +255,8 @@ export const courses: Course[] = [
       { question: "Is this course good for commerce/BCom students in Kochi?", answer: "Yes, this is one of the most commerce-friendly tracks we offer — several placed analysts (including in business analyst roles at Malabar Group and Distinct Infotech) come from commerce and non-engineering backgrounds." },
       { question: "Do I need to know coding before joining?", answer: "No prior coding is required. Excel and SQL are taught from the basics, and Python is introduced gradually for analytics tasks." },
       { question: "How is AI actually used in this course?", answer: "You'll learn to use AI tools to speed up exploratory data analysis, generate first-draft insights and summaries, and query data in natural language — skills increasingly expected of analysts in 2026." },
+      { question: "Will I learn Power BI dashboard building from scratch?", answer: "Yes — data modeling, DAX fundamentals and interactive dashboard design are covered as a dedicated module, building up to publishing and sharing real reports." },
+      { question: "How long is this course compared to Data Science with AI?", answer: "AI-Powered Data Analytics is a faster, 3.5-month track focused on business analytics, compared to Data Science with AI's 6-month deeper machine-learning curriculum — pick based on whether you want analyst or data scientist roles." },
     ],
   },
   {
@@ -298,6 +306,8 @@ export const courses: Course[] = [
       { question: "Should I choose Red Team (offensive) or SOC Analyst (defensive) roles after this course?", answer: "The course covers both, and our placement cell counsels you based on your strengths — many students start in SOC analyst roles for stability and move into red team/penetration testing later." },
       { question: "Are the labs on real systems or just theory?", answer: "The course is lab-heavy from week one — you practice on real vulnerable lab environments and log-analysis exercises, not just presentation slides." },
       { question: "Is prior networking knowledge required to join?", answer: "No — networking and systems fundamentals are taught as the first module, so you can join with zero prior security background." },
+      { question: "Does the course lead toward any recognized security certifications?", answer: "The course includes certification roadmap guidance so you know which industry certifications (beyond your Future Optima and NACTET certificates) are worth pursuing next based on your specialization." },
+      { question: "What is the earning potential for cybersecurity roles in Kochi?", answer: "Cybersecurity is one of the higher-demand, better-compensated entry paths in Kochi's IT market as of 2026, with SOC analyst and junior security roles offering strong growth as you gain experience and certifications." },
     ],
   },
   {
@@ -347,6 +357,8 @@ export const courses: Course[] = [
       { question: "What's the difference between this and the Agentic AI Development course?", answer: "AI Engineering & Automation is broader — covering AI system design, RAG, and business process automation. Agentic AI Development goes deeper specifically into building autonomous multi-step AI agents. Many students take AI Engineering first, then specialize." },
       { question: "Do I need prior AI or ML knowledge to join?", answer: "No formal ML background is required, but basic programming familiarity helps you move faster. Non-programmers are supported with bridge material in the first two weeks." },
       { question: "What kind of capstone project will I build?", answer: "You'll design and deploy a real AI-powered automation solving an actual business workflow problem, reviewed by industry mentors as part of your placement portfolio." },
+      { question: "Is AI Engineering & Automation a good course for someone in Kochi wanting to work with AI professionally?", answer: "Yes — it's built specifically around practical AI engineering skills (LLM integration, RAG, automation) that Kochi's IT companies are actively hiring for in 2026, rather than theoretical AI/ML concepts alone." },
+      { question: "What tools and platforms will I actually use in this course?", answer: "You'll work hands-on with Python, real LLM APIs, vector databases for retrieval, REST APIs and workflow automation platforms — the same category of tools used in production AI engineering roles." },
     ],
   },
   {
@@ -396,6 +408,8 @@ export const courses: Course[] = [
       { question: "Do I need an electronics/ECE background to join this course?", answer: "No — the course teaches electronics, robotics and embedded fundamentals from scratch. Students from CS, mechanical and electronics backgrounds have all completed this track successfully." },
       { question: "Will I get to work with real hardware, or is it simulation only?", answer: "You get real hardware lab access — this course is built around physically assembling, programming and testing robotics/IoT devices, not simulations alone." },
       { question: "What kind of jobs does this course lead to in Kerala?", answer: "Graduates move into robotics engineering, IoT development and edge AI roles with manufacturing, automation and product companies, including industrial automation employers similar to our placement partners." },
+      { question: "Is this course only useful for factory/manufacturing jobs?", answer: "No — while manufacturing and industrial automation are strong hiring areas in Kerala, edge AI and robotics skills also apply to consumer robotics, IoT product companies, and increasingly, smart-device startups." },
+      { question: "How is this different from AI Engineering & Automation?", answer: "AI Engineering & Automation focuses on software-based AI systems and business process automation. AI Robotics & Edge AI Engineering focuses specifically on physical hardware, sensors and deploying AI models onto edge devices — a genuinely different, hands-on skill set." },
     ],
   },
   {
@@ -445,6 +459,8 @@ export const courses: Course[] = [
       { question: "What is agentic AI and why does Kerala need this course now?", answer: "Agentic AI refers to AI systems that plan and act across multiple steps using tools, rather than just answering a single prompt. As Kerala's IT companies adopt this technology, Future Optima built one of the region's first dedicated courses to meet that demand early." },
       { question: "Is this suitable for absolute beginners?", answer: "This course is intermediate-level and assumes basic Python. Absolute beginners are guided to start with Python Full-Stack with AI or AI Engineering & Automation first, then take this course." },
       { question: "Does this connect to the Advanced Diploma program?", answer: "Yes — Agentic AI Development is one of the core building blocks of our flagship Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development." },
+      { question: "What will my agentic AI portfolio project actually look like?", answer: "You'll build a working autonomous agent that plans a task, uses at least one real tool or API, and handles failure cases gracefully — the kind of project that stands out in interviews far more than a single-response chatbot demo." },
+      { question: "Which companies in Kerala are hiring for agentic AI skills?", answer: "IT services firms, product startups, and increasingly traditional businesses across Kochi are building or buying agentic AI workflows in 2026 — demand is broadening beyond just large tech companies." },
     ],
   },
   {
@@ -493,6 +509,8 @@ export const courses: Course[] = [
       { question: "How is this diploma different from the 1-year Advanced Diploma?", answer: "This diploma is a focused 8-month program on AI product engineering and agentic AI. Our Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development is a full 1-year flagship program with deeper systems engineering coverage." },
       { question: "Will I build a real product I can show employers?", answer: "Yes — the diploma is structured around sprint-based product building, and you finish with a capstone AI product presented to an industry panel for your portfolio." },
       { question: "Does this diploma include placement support?", answer: "Yes, like all Future Optima programs it includes full placement support, resume building and interview preparation in the final phase." },
+      { question: "What roles is this diploma specifically built for?", answer: "It targets AI Product Engineer, AI Solutions Associate and technical/junior AI product roles — positions that need both engineering depth and the ability to scope, build and present a product, not pure backend engineering roles." },
+      { question: "Can I join this diploma straight after school or does it require a degree?", answer: "A degree isn't strictly required — what matters more is some programming exposure and genuine commitment to the 8-month format; strong beginners are supported with bridge modules at the start." },
     ],
   },
   {
@@ -594,6 +612,8 @@ export const courses: Course[] = [
       { question: "Is software testing a good career start for freshers in Kochi?", answer: "Yes — testing has one of the fastest and most consistent entry paths into IT in Kochi's job market, and this course covers both manual and automation skills so you're not limited to one type of role." },
       { question: "Do I need programming knowledge to join this course?", answer: "No prior programming is required for manual testing. Basic programming is taught as part of the automation module, specifically for writing Selenium scripts." },
       { question: "Does this course include real project experience?", answer: "Yes — you'll test a real live application end-to-end across both manual and automated cycles as part of the course, giving you genuine project experience for interviews." },
+      { question: "How long does it take to complete this course?", answer: "The Software Testing Certification runs 3 months — one of our fastest tracks, designed to get you into an entry-level QA role quickly without sacrificing real automation skills." },
+      { question: "Can testing lead to other IT roles later, or is it a dead end?", answer: "It's rarely a dead end — many testers move into automation engineering, or use the process discipline they build to transition into business analyst or product roles as their career develops." },
     ],
   },
 ];

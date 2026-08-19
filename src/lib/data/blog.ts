@@ -797,6 +797,236 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "ai-robotics-edge-ai-career-guide-kochi",
+    title: "AI Robotics & Edge AI: A Career Guide for Kochi's Hardware-Curious Students",
+    metaTitle: "AI Robotics & Edge AI Career Guide Kochi | Future Optima",
+    metaDescription:
+      "Curious about robotics and edge AI careers in Kochi, Kerala? A practical guide to what edge AI engineers actually do, the skills needed, and how to break in.",
+    keywords: ["ai robotics career kochi", "edge ai jobs kerala", "robotics engineer career kochi", "iot ai career kerala"],
+    category: "Career Guides",
+    excerpt:
+      "AI isn't only cloud software. Robotics and edge AI careers are growing in Kerala's manufacturing and automation sector — here's what the work actually looks like.",
+    publishedAt: "2026-08-12",
+    updatedAt: "2026-08-12",
+    readingTime: "5 min read",
+    coverImage: "ai-robotics-edge-ai-engineering",
+    relatedCourseSlug: "ai-robotics-edge-ai-engineering",
+    body: [
+      {
+        type: "p",
+        text: "Most AI career conversations focus on software — chatbots, dashboards, agents. But a growing share of AI work in 2026 happens on physical devices: robots, sensors, cameras and industrial equipment that need to make decisions locally, without waiting on a cloud round-trip. That's edge AI, and Kerala's manufacturing and automation employers are hiring for it.",
+      },
+      { type: "h2", text: "What edge AI and robotics engineers actually do" },
+      {
+        type: "list",
+        items: [
+          "Deploy lightweight, optimized AI models onto microcontrollers and edge hardware",
+          "Build and test sensor-to-decision pipelines (a camera or sensor feeding a real-time model)",
+          "Work with robotics fundamentals: sensors, actuators, control systems",
+          "Debug physical systems, not just code — latency, power draw, and reliability all matter",
+        ],
+      },
+      { type: "h2", text: "Why this is a good fit for hands-on learners" },
+      {
+        type: "p",
+        text: "If you've always preferred building and testing physical things over staring at a screen, this track rewards that instinct. Our AI Robotics & Edge AI Engineering course includes real hardware lab time — you assemble, program and debug actual devices, not simulations.",
+      },
+      { type: "h2", text: "Where these skills lead in Kerala's job market" },
+      {
+        type: "p",
+        text: "Industrial automation, manufacturing and electromechanical companies across Kerala increasingly need engineers who understand both hardware and AI — one of our own placed graduates works as a Commissioning Engineer at an industrial automation employer, a role that didn't exist in this form five years ago.",
+      },
+    ],
+    faqs: [
+      { question: "Do I need an electronics background for an edge AI career in Kerala?", answer: "No — our AI Robotics & Edge AI Engineering course teaches electronics and robotics fundamentals from scratch alongside the AI deployment skills." },
+      { question: "Is edge AI a niche skill or a growing field?", answer: "It's a growing field as more devices need on-device intelligence without constant cloud connectivity — from industrial sensors to consumer robotics — making it a good long-term bet for hands-on learners." },
+    ],
+  },
+  {
+    slug: "diploma-ai-product-engineering-explained",
+    title: "What Is the Diploma in AI Product Engineering & Agentic AI? A Full Breakdown",
+    metaTitle: "Diploma in AI Product Engineering & Agentic AI Explained | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 8-month Diploma in AI Product Engineering & Agentic AI — who it's for, what you'll build, and how it compares to shorter courses.",
+    keywords: ["ai product engineering diploma explained", "agentic ai diploma kochi", "8 month ai diploma kerala"],
+    category: "Course Guides",
+    excerpt:
+      "Not a short course, not a full year — this 8-month diploma sits in between. Here's exactly what it covers and who it's actually built for.",
+    publishedAt: "2026-08-08",
+    updatedAt: "2026-08-08",
+    readingTime: "5 min read",
+    coverImage: "diploma-ai-product-engineering-agentic-ai",
+    relatedCourseSlug: "diploma-ai-product-engineering-agentic-ai",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima offers three tiers of serious AI training: single courses (3-6 months), this diploma (8 months), and the full 1-year Advanced Diploma. The Diploma in AI Product Engineering & Agentic AI is deliberately the middle option, and it confuses people until they see what's actually inside it.",
+      },
+      { type: "h2", text: "It's not just 'AI Engineering' with a longer name" },
+      {
+        type: "p",
+        text: "The diploma combines three things a single course usually can't: deep AI engineering (LLM integration, RAG), agentic AI systems (autonomous multi-step agents), and product development discipline (scoping, building, presenting a real product). Most single courses cover one of these well; this diploma is built to combine all three.",
+      },
+      { type: "h2", text: "Who this diploma is actually for" },
+      {
+        type: "list",
+        items: [
+          "Students who want more depth than a single course but can't commit a full year",
+          "Anyone who wants to build AI products, not just AI features — think startup or product-team roles",
+          "Students who like presenting and communicating, not just coding — the program includes real demo and stakeholder-communication practice",
+        ],
+      },
+      { type: "h2", text: "What you actually build" },
+      {
+        type: "p",
+        text: "Across the diploma's sprint-based structure, you move from problem discovery through a full technical build to a capstone AI product presented to an industry panel — a genuinely different portfolio piece than a single course's end project, because it demonstrates product thinking alongside engineering skill.",
+      },
+    ],
+    faqs: [
+      { question: "Is the Diploma in AI Product Engineering harder to get into than a regular course?", answer: "It's recommended for candidates with some programming exposure, though strong beginners are supported with bridge modules — it's not a selective admissions process, just a heavier time commitment." },
+      { question: "Can I upgrade from this diploma to the full 1-year Advanced Diploma later?", answer: "Yes — our counselors regularly help students extend from this 8-month diploma into the full Advanced Diploma, with credit for modules already completed." },
+    ],
+  },
+  {
+    slug: "freelance-web-developer-income-guide-kochi-2026",
+    title: "How Much Can a Freelance Web Developer Earn in Kochi in 2026? A Realistic Guide",
+    metaTitle: "Freelance Web Developer Income Guide Kochi 2026 | Future Optima",
+    metaDescription:
+      "A realistic look at freelance web development income in Kochi in 2026 — what beginners can expect, how AI tools change the math, and how to get your first clients.",
+    keywords: ["freelance web developer income kochi", "freelance website income kerala 2026", "how to freelance web development kochi"],
+    category: "Career Guides",
+    excerpt:
+      "Freelance web development income claims online are wildly inconsistent. Here's a grounded look at what's realistic for a beginner in Kochi in 2026, and how AI tools change the math.",
+    publishedAt: "2026-08-15",
+    updatedAt: "2026-08-15",
+    readingTime: "6 min read",
+    coverImage: "ai-website-development",
+    relatedCourseSlug: "ai-website-development",
+    body: [
+      {
+        type: "p",
+        text: "Search 'freelance web developer income' and you'll get everything from 'impossible to make money' to 'quit your job and earn lakhs.' Neither extreme is honest. Here's a grounded look at what's actually realistic for someone starting out in Kochi in 2026 — and why AI-assisted development changes the calculation.",
+      },
+      { type: "h2", text: "Why the math changed with AI-assisted development" },
+      {
+        type: "p",
+        text: "Building a simple business website used to take a solo freelancer days of manual coding — pricing had to account for that time. With AI-assisted development tools, a competent freelancer can build and customize a professional small-business site in hours, not days. That doesn't mean charging less; it means far better hourly economics on the same project price.",
+      },
+      { type: "h2", text: "Realistic first-project expectations" },
+      {
+        type: "list",
+        items: [
+          "Simple business/portfolio websites for local Kochi clients: modest but real project fees to start",
+          "Your first few projects will likely come from your own network, local businesses, or freelance platforms — not big agencies",
+          "Pricing should reflect value delivered (a working, professional site fast) not just hours spent",
+          "Repeat clients and referrals, not one-off projects, are where sustainable freelance income actually comes from",
+        ],
+      },
+      { type: "h2", text: "What actually determines your income as a freelancer" },
+      {
+        type: "p",
+        text: "Technical speed (thanks to AI tools) solves only half the problem. The other half — proposal writing, client communication, scoping projects so they don't spiral, and building a portfolio that gets referrals — is exactly why our AI Website Development course dedicates a full module to freelancing, not just the technical build.",
+      },
+      {
+        type: "p",
+        text: "Realistically, freelancing is a side-income or income-building path in the first few months for most beginners, growing into a fuller income stream as your client base and reputation build — it's rarely instant, but it is genuinely reachable faster than it used to be.",
+      },
+    ],
+    faqs: [
+      { question: "Can I freelance web development part-time while studying or working in Kochi?", answer: "Yes — this is exactly how most freelancers in Kochi start. AI-assisted development lets you deliver projects fast enough to fit around a job or studies, which is part of why the AI Website Development course is only 2 weeks." },
+      { question: "Do I need a portfolio before I can get freelance clients?", answer: "A small portfolio helps a lot — our AI Website Development course has you build and deploy two real websites (a personal portfolio and a mock client project) specifically so you have something to show before your first paid client." },
+    ],
+  },
+  {
+    slug: "nactet-certification-explained-kerala",
+    title: "NACTET Certification Explained: What It Is and Why It Matters in Kerala",
+    metaTitle: "NACTET Certification Explained for Kerala Students | Future Optima",
+    metaDescription:
+      "What is NACTET certification, how is it different from an institute's own certificate, and why does it matter for IT job applications in Kerala? A clear explainer.",
+    keywords: ["nactet certification explained", "nactet certificate kerala", "nactet vs institute certificate"],
+    category: "Admissions",
+    excerpt:
+      "NACTET comes up often in Kerala's IT training conversations, but few students understand exactly what it is or how it differs from a course-completion certificate.",
+    publishedAt: "2026-07-30",
+    updatedAt: "2026-07-30",
+    readingTime: "4 min read",
+    coverImage: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "Students frequently ask us to clarify the difference between their Future Optima course certificate and their NACTET certificate — understandably, since the two serve different purposes and follow completely different processes.",
+      },
+      { type: "h2", text: "Future Optima's certificate vs NACTET" },
+      {
+        type: "p",
+        text: "Future Optima's own certificate is issued directly by us once you complete your course project — it reflects that you finished real, applied work, not just attendance. NACTET is a separate, external certification with its own independent application process, issued outside Future Optima once you've completed your course.",
+      },
+      { type: "h2", text: "Why the NACTET process takes time" },
+      {
+        type: "p",
+        text: "Because NACTET is an external body, its certification isn't instant — it typically takes a minimum of two weeks to process after course completion, and Future Optima's team manages the application and upload on your behalf so you don't have to navigate it alone.",
+      },
+      { type: "h2", text: "Why having both matters for job applications" },
+      {
+        type: "list",
+        items: [
+          "Future Optima's certificate demonstrates practical, project-based skill directly to employers we work with",
+          "NACTET adds an externally recognized credential to your resume, independent of any single institute",
+          "Together, they give hiring managers both a portfolio signal and a third-party credential",
+        ],
+      },
+    ],
+    faqs: [
+      { question: "How long does it take to get my NACTET certificate after finishing a course?", answer: "NACTET certification has a minimum turnaround of about two weeks after course completion, since it's processed by an external body separate from Future Optima." },
+      { question: "Do I need to apply for NACTET myself?", answer: "No — Future Optima's team manages the NACTET application and uploads your certificate to your student record once it arrives, so you don't need to navigate the external process alone." },
+    ],
+  },
+  {
+    slug: "how-future-optima-placement-cell-works",
+    title: "Inside Future Optima's Placement Cell: How We Actually Get Students Hired",
+    metaTitle: "How Future Optima's Placement Cell Works | Kochi, Kerala",
+    metaDescription:
+      "A behind-the-scenes look at how Future Optima IT Solutions' placement cell in Kochi actually works — from resume building to hiring-partner outreach to interview prep.",
+    keywords: ["future optima placement cell", "how it institute placement works kochi", "placement support kerala explained"],
+    category: "Admissions",
+    excerpt:
+      "\"Placement support\" is a vague phrase every institute uses. Here's specifically what our placement cell in Kochi does, step by step, for every graduating batch.",
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-01",
+    readingTime: "5 min read",
+    coverImage: "python-full-stack-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "\"100% placement support\" is a claim nearly every training institute makes, and it rarely comes with specifics. Here's exactly what happens at Future Optima, step by step, from the middle of your course through your first job offer.",
+      },
+      { type: "h2", text: "It starts before your course even ends" },
+      {
+        type: "p",
+        text: "Placement prep isn't a bolt-on at the end — resume building and soft-skills training run alongside your technical coursework, so by the time you finish your capstone project, your resume and interview basics are already in shape, not rushed together at the last minute.",
+      },
+      { type: "h2", text: "The actual placement process" },
+      {
+        type: "list",
+        items: [
+          "Portfolio and resume review with your project work highlighted properly",
+          "Mock interviews with real technical and behavioral questions, not generic ones",
+          "Matching against our 200+ hiring partner network based on your course, project strength and interests",
+          "Continued follow-up from our placement cell after your course ends, until you're placed",
+        ],
+      },
+      { type: "h2", text: "Why the 25% fee-after-placement structure matters here" },
+      {
+        type: "p",
+        text: "Because 25% of your course fee is only collected after you're placed, our placement cell has a direct financial reason to keep working your case — not just wish you well and move to the next batch. That structural incentive is the actual answer to 'why should I trust your placement support.'",
+      },
+    ],
+    faqs: [
+      { question: "Does Future Optima's placement cell only work with big companies?", answer: "No — our 200+ hiring partners span IT services, product startups, analytics firms and industrial automation employers, giving graduates a realistic range of first roles, not just a handful of large-company slots." },
+      { question: "What happens if I'm not placed quickly after my course?", answer: "The placement cell continues working with you — refining your portfolio, additional mock interviews, and ongoing hiring-partner matching — since a meaningful part of our fee structure depends on your eventual placement, not just course completion." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {

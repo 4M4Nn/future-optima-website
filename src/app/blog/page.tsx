@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import Reveal from "@/components/motion/Reveal";
 import { blogPosts } from "@/lib/data/blog";
-import { courseImages } from "@/lib/data/images";
+import { getBlogImage } from "@/lib/data/images";
 
 export const metadata: Metadata = {
   title: "Blog — AI & IT Career Guides",
@@ -41,7 +41,7 @@ export default function BlogPage() {
                 >
                   <div className="relative h-44 overflow-hidden">
                     <Image
-                      src={courseImages[post.coverImage]}
+                      src={getBlogImage(post.slug, post.coverImage)}
                       alt={post.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"

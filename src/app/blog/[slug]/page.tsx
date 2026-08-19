@@ -15,7 +15,7 @@ import Reveal from "@/components/motion/Reveal";
 import BlogBody from "@/components/blog/BlogBody";
 import { blogPosts, getBlogPostBySlug } from "@/lib/data/blog";
 import { getCourseBySlug } from "@/lib/data/courses";
-import { courseImages } from "@/lib/data/images";
+import { getBlogImage } from "@/lib/data/images";
 import { siteConfig } from "@/lib/data/site";
 
 export function generateStaticParams() {
@@ -42,7 +42,7 @@ export async function generateMetadata({
       type: "article",
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
-      images: [courseImages[post.coverImage]],
+      images: [getBlogImage(post.slug, post.coverImage)],
     },
   };
 }
@@ -82,6 +82,16 @@ export default async function BlogPostPage({
       }
     : null;
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${siteConfig.url}/blog` },
+      { "@type": "ListItem", position: 3, name: post.title, item: `${siteConfig.url}/blog/${post.slug}` },
+    ],
+  };
+
   return (
     <article>
       <script
@@ -94,11 +104,15 @@ export default async function BlogPostPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       ) : null}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <section className="relative overflow-hidden bg-navy-950 text-white">
         <div className="absolute inset-0">
           <Image
-            src={courseImages[post.coverImage]}
+            src={getBlogImage(post.slug, post.coverImage)}
             alt={post.title}
             fill
             priority
