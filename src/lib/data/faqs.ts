@@ -41,4 +41,29 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes — visit our Virtual Office page to answer a few quick questions about your interests and comfort with coding, and get 2-3 personalized course suggestions with reasons, or call our counselors directly.",
   },
+  {
+    question: "How long does it take to get a job after training at Future Optima in Kochi?",
+    answer:
+      "Most students enter active interview cycles within a few weeks of completing their course project, though exact timelines vary by course, market conditions and individual interview performance. Our placement cell continues working with you until you're placed, which is also why 25% of the fee is only due after that happens.",
+  },
+  {
+    question: "Does Future Optima guarantee a job after the course?",
+    answer:
+      "We don't promise a guaranteed job for every student regardless of effort — no credible institute honestly can — but we do provide structured, ongoing placement support (resume building, mock interviews, 200+ hiring partners) and a 90%+ placement success rate across recent batches, with fee terms structured to reflect that commitment.",
+  },
+  {
+    question: "What is the fee for AI and IT courses at Future Optima in Kochi?",
+    answer:
+      "Fees vary by course length and depth — from shorter tracks like Software Testing Certification to the 1-year Advanced Diploma. Call our admissions team at the number listed on our Contact page for an accurate quote for your chosen course and batch (online or offline).",
+  },
+  {
+    question: "Which Kochi/Kerala locations do Future Optima students typically come from?",
+    answer:
+      "While our campus is in Chembumukku, Ernakulam, Kochi, our online batches mean students join us from across Kerala — Ernakulam, Thrissur, Kottayam, Alappuzha and beyond — with the same mentors, curriculum and placement support as our classroom batches.",
+  },
+  {
+    question: "Can working professionals or those with a career gap join Future Optima's courses?",
+    answer:
+      "Yes. Our batches include recent graduates, working professionals looking to upskill into AI/IT roles, and students returning after a career gap. Course pacing and mentor support are adjusted to help each group reach the same job-ready outcome.",
+  },
 ];

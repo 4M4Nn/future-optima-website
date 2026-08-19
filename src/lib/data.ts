@@ -6,3 +6,4 @@ export * from "./data/images";
 export * from "./data/course-finder";
 export * from "./data/faqs";
 export * from "./data/blog";
+export * from "./data/placement-photos";

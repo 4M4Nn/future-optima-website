@@ -5,7 +5,6 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import SmoothScrollProvider from "@/components/motion/SmoothScrollProvider";
-import IntroLoader from "@/components/motion/IntroLoader";
 import { siteConfig } from "@/lib/data/site";
 
 const inter = Inter({
@@ -37,11 +36,25 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: [
     "best IT institute in Kochi",
-    "best AI institute Kerala",
+    "best AI institute in Kochi Kerala",
     "AI course Kochi",
+    "AI course Kerala",
     "python full stack course Kochi",
-    "data science course Kerala",
+    "python full stack course Kerala",
+    "MERN stack course Kochi",
+    "data science course Kochi Kerala",
+    "data science with AI course Kerala",
     "software training institute Kochi",
+    "software training institute Ernakulam",
+    "IT training institute Chembumukku Kochi",
+    "cybersecurity course Kochi Kerala",
+    "agentic AI course Kerala",
+    "AI engineering course Kochi",
+    "software testing course Kochi",
+    "job oriented IT courses Kerala",
+    "placement guaranteed IT course Kochi",
+    "IT institute near Chembumukku",
+    "AI training institute Ernakulam",
   ],
   authors: [{ name: siteConfig.name }],
   openGraph: {
@@ -95,7 +108,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
-        <IntroLoader />
         <SmoothScrollProvider>
           <Navbar />
           <main className="flex-1">{children}</main>

@@ -4,42 +4,51 @@ import { ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SplitWords from "@/components/motion/SplitWords";
 import Reveal from "@/components/motion/Reveal";
+import RoamingRobot from "@/components/motion/RoamingRobot";
 import { heroStats } from "@/lib/data/site";
-import { stockImages } from "@/lib/data/images";
 
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-navy-950 text-white">
       <div className="absolute inset-0">
         <Image
-          src={stockImages.hero}
-          alt="Students learning AI and software development at Future Optima IT Solutions, Kochi"
+          src="/images/campus/classroom-session-2.jpeg"
+          alt="Students studying AI and software development at Future Optima IT Solutions training institute, Kochi, Kerala"
           fill
           priority
-          className="object-cover opacity-25"
+          className="object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-navy-950/95 to-navy-950" />
+        <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-navy-950/90 to-navy-950" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
         <Reveal>
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
+          <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
             <Sparkles className="h-3.5 w-3.5 text-amber-500" />
             Kerala&apos;s Industry-Mentored AI &amp; IT Training Institute
+            <RoamingRobot className="pointer-events-none absolute -top-6 left-[85%] hidden sm:block" />
           </div>
         </Reveal>
 
         <h1 className="max-w-4xl font-heading text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
           <SplitWords text="Best IT" className="block" />
-          <SplitWords text="& AI Institute" className="block text-gradient-amber" delay={0.15} />
+          <SplitWords
+            text="& AI Institute"
+            className="block"
+            wordClassName="text-gradient-amber"
+            delay={0.15}
+          />
           <SplitWords text="in Kochi, Kerala" className="block" delay={0.3} />
         </h1>
 
         <Reveal delay={0.35}>
           <p className="mt-6 max-w-2xl text-base text-white/70 sm:text-lg">
-            Job-oriented courses in Python full-stack, MERN, Data Science, AI Engineering,
-            Cybersecurity and Agentic AI — built with real projects, industry mentors, and{" "}
-            <span className="accent-highlight font-semibold">25% fee payment after placement</span>.
+            Job-oriented IT and AI courses in Kochi — Python full-stack, MERN, Data Science,
+            AI Engineering, Cybersecurity and Agentic AI — built with real projects, industry
+            mentors, and{" "}
+            <span className="accent-highlight font-semibold">25% fee payment after placement</span>
+            . Trusted by students across Kochi, Ernakulam and Kerala for genuine, placement-first
+            training.
           </p>
         </Reveal>
 

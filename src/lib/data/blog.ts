@@ -632,6 +632,171 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "vibe-coding-explained-will-ai-replace-developers-kochi",
+    title: "Vibe Coding Explained: Will AI Replace Developers in Kochi's IT Job Market?",
+    metaTitle: "Vibe Coding Explained — Will AI Replace Developers in Kochi? | Future Optima",
+    metaDescription:
+      "Vibe coding is the biggest AI-and-development trend of 2026. Here's what it actually means, and whether it's replacing developer jobs in Kochi, Kerala.",
+    keywords: ["vibe coding explained", "will ai replace developers kochi", "vibe coding kerala", "ai coding trend 2026"],
+    category: "AI Explained",
+    excerpt:
+      "\"Vibe coding\" — building software by describing what you want to an AI rather than writing every line — is everywhere in 2026. Here's what it means for developer careers in Kochi.",
+    publishedAt: "2026-08-05",
+    updatedAt: "2026-08-05",
+    readingTime: "6 min read",
+    coverImage: "python-full-stack-with-ai",
+    relatedCourseSlug: "python-full-stack-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "\"Vibe coding\" — a term that exploded through 2025 and into 2026 — describes building software by describing what you want in natural language and letting an AI coding assistant generate and iterate on the code, rather than writing every line by hand. It's fast, it's everywhere in demos, and it's raised a real question among students in Kochi: is it still worth learning to code properly?",
+      },
+      { type: "h2", text: "What vibe coding actually is (and isn't)" },
+      {
+        type: "p",
+        text: "Vibe coding tools — AI-powered editors and assistants — can scaffold an entire working app from a prompt. That's genuinely useful for prototypes, internal tools, and getting unstuck fast. What it doesn't reliably do yet is handle production-grade concerns: security, performance at scale, maintainability, and debugging subtle logic errors when the AI-generated code breaks in ways its author never wrote and doesn't fully understand.",
+      },
+      { type: "h2", text: "Why companies still hire developers who understand the fundamentals" },
+      {
+        type: "list",
+        items: [
+          "Someone has to review, debug and secure AI-generated code — that requires real understanding, not just prompting skill",
+          "Vibe-coded prototypes still need to be re-architected for production by engineers who understand systems",
+          "Interviewers increasingly test whether you understand *why* code works, not just whether you can produce working code",
+        ],
+      },
+      { type: "h2", text: "How this changes what you should actually learn in 2026" },
+      {
+        type: "p",
+        text: "The practical answer isn't \"skip learning to code\" — it's \"learn to code with AI as part of your workflow from day one.\" That's exactly why our Python Full-Stack with AI course doesn't treat AI as a bolt-on: you learn Django and React fundamentals properly, while also learning to use AI coding tools productively and knowing when to trust — and when to double-check — what they generate.",
+      },
+      {
+        type: "p",
+        text: "Developers who understand fundamentals and use AI tools well are becoming more valuable, not less — because they can move fast without shipping code nobody, including the AI, can explain.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is vibe coding replacing the need to learn programming in Kochi's job market?",
+        answer:
+          "No — companies still need developers who understand what the AI-generated code is actually doing, especially for debugging, security and production-readiness. Vibe coding is changing the workflow, not eliminating the need for real programming knowledge.",
+      },
+      {
+        question: "Should I learn AI tools alongside traditional coding skills?",
+        answer:
+          "Yes — this is increasingly the expectation, not an optional extra. Future Optima's Python Full-Stack with AI course teaches Django/React fundamentals alongside practical AI-assisted development workflows for exactly this reason.",
+      },
+    ],
+  },
+  {
+    slug: "agentic-ai-hiring-trend-kerala-it-companies-2026",
+    title: "AI Agents at Work: How Agentic AI Is Changing Hiring in Kerala's IT Companies (2026)",
+    metaTitle: "Agentic AI Hiring Trend in Kerala 2026 | Future Optima Kochi",
+    metaDescription:
+      "Agentic AI is reshaping what Kerala's IT companies hire for in 2026. Here's what's actually changing, and how to position yourself for these roles.",
+    keywords: ["agentic ai hiring trend kerala", "ai agents jobs kochi 2026", "agentic ai companies kerala"],
+    category: "Career Guides",
+    excerpt:
+      "Kerala's IT companies are quietly rewriting job descriptions around agentic AI in 2026. Here's what's actually changing, and how to be ready for it.",
+    publishedAt: "2026-07-28",
+    updatedAt: "2026-07-28",
+    readingTime: "5 min read",
+    coverImage: "agentic-ai-development",
+    relatedCourseSlug: "agentic-ai-development",
+    body: [
+      {
+        type: "p",
+        text: "Through 2026, a growing share of job postings from Kochi's IT services and product companies mention 'agentic AI', 'AI agents' or 'autonomous workflows' — often in roles that, a year earlier, would have just said 'Python developer' or 'automation engineer'. Something is genuinely shifting in what companies hire for.",
+      },
+      { type: "h2", text: "What's actually driving this shift" },
+      {
+        type: "p",
+        text: "As LLMs became reliable enough to use tools and take multi-step actions, companies started automating workflows that used to require a human moving data between systems — customer support triage, report generation, research summarization, code review assistance. Someone has to build and maintain those agentic workflows, and that's the new hiring category.",
+      },
+      { type: "h2", text: "What Kerala employers are actually asking for" },
+      {
+        type: "list",
+        items: [
+          "Experience integrating LLM APIs into real applications, not just using ChatGPT",
+          "Understanding of tool use / function calling patterns",
+          "Ability to evaluate and guardrail AI agent behavior, not just build the happy path",
+          "Basic system design — since agentic workflows touch multiple services and APIs",
+        ],
+      },
+      { type: "h2", text: "How to position yourself for these roles" },
+      {
+        type: "p",
+        text: "A portfolio project that only calls an LLM API once for a single response no longer stands out. What does stand out: a project where an AI agent plans a task, uses at least one real tool or API, and handles a failure case gracefully. That's precisely the kind of capstone built into our Agentic AI Development course and our flagship Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Are agentic AI jobs only available at big tech companies, or also in Kochi?",
+        answer:
+          "Kochi's IT services firms, product startups and even traditional businesses are increasingly building or buying agentic AI workflows in 2026 — the hiring demand is broader than just large tech companies, including several of Future Optima's own hiring partners.",
+      },
+      {
+        question: "Do I need a computer science degree to get an agentic AI role in Kerala?",
+        answer:
+          "No — what matters more is a demonstrable project portfolio showing real agent-building experience, which is exactly what our Agentic AI Development course and Advanced Diploma are structured to produce, regardless of your degree background.",
+      },
+    ],
+  },
+  {
+    slug: "prompt-engineering-vs-ai-engineering-whats-in-demand-2026",
+    title: "Prompt Engineering vs AI Engineering: What's Actually in Demand in 2026?",
+    metaTitle: "Prompt Engineering vs AI Engineering — 2026 Demand | Future Optima Kochi",
+    metaDescription:
+      "Prompt engineering hype has cooled while AI engineering demand has grown. Here's the real difference, and which one actually leads to a stable career in Kochi, Kerala.",
+    keywords: ["prompt engineering vs ai engineering", "prompt engineer jobs kochi", "ai engineer demand kerala 2026"],
+    category: "Career Guides",
+    excerpt:
+      "\"Prompt engineer\" was one of 2023's hottest job titles. By 2026, the market has clarified what's actually a durable career versus a passing skill. Here's the honest breakdown.",
+    publishedAt: "2026-07-20",
+    updatedAt: "2026-07-20",
+    readingTime: "5 min read",
+    coverImage: "ai-engineering-automation",
+    relatedCourseSlug: "ai-engineering-automation",
+    body: [
+      {
+        type: "p",
+        text: "\"Prompt engineer\" as a standalone job title has largely faded from job boards by 2026 — not because prompting skill stopped mattering, but because it turned out to be a skill everyone in an AI-related role needs, not a job on its own. Meanwhile, \"AI Engineer\" postings have grown steadily. Here's what actually happened.",
+      },
+      { type: "h2", text: "Why standalone prompt engineering roles cooled" },
+      {
+        type: "p",
+        text: "Writing effective prompts turned out to be learnable in days, not months, and modern models became more forgiving of imperfect prompts. Companies realized they didn't need a dedicated prompt specialist — they needed engineers who could integrate AI into real systems, where prompting is just one small piece of the job.",
+      },
+      { type: "h2", text: "What AI Engineering actually demands instead" },
+      {
+        type: "list",
+        items: [
+          "Integrating LLM APIs into production applications reliably",
+          "Building retrieval (RAG) pipelines so AI outputs are grounded in real data",
+          "Designing agentic workflows that can use tools and handle multi-step tasks",
+          "Managing cost, latency and evaluation for AI features at scale",
+        ],
+      },
+      { type: "h2", text: "The practical takeaway for students in Kochi" },
+      {
+        type: "p",
+        text: "Prompting is a skill worth having — you'll use it constantly — but it's not a career on its own anymore. The durable, hireable skillset is AI Engineering: knowing how to build the systems around the model, not just talk to the model well. That's the gap our AI Engineering & Automation course and Advanced Diploma are built to close.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is prompt engineering still worth learning in 2026?",
+        answer:
+          "Yes, as a skill within a broader AI Engineering toolkit — but not as a standalone career path, since most AI-related roles now expect prompting ability as a baseline rather than a specialization on its own.",
+      },
+      {
+        question: "What should I learn instead of just prompt engineering to get hired in Kerala's AI job market?",
+        answer:
+          "Focus on AI Engineering fundamentals — LLM API integration, RAG pipelines, and agentic workflow design — which is what Future Optima's AI Engineering & Automation course and Advanced Diploma are built around.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {
