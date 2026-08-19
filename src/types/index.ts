@@ -35,6 +35,8 @@ export interface Course {
   careerRoles: string[];
   faqs: CourseFaq[];
   featured?: boolean;
+  /** Short marketing badge shown on the course card, e.g. "Most Placed", "New · 2 Weeks" */
+  badge?: string;
 }
 
 export interface BlogPost {

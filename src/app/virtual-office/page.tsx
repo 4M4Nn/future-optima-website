@@ -22,9 +22,10 @@ export default function VirtualOfficePage() {
             alt="Future Optima virtual office and training floor"
             fill
             priority
-            className="object-cover opacity-15"
+            className="object-cover opacity-55"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/60 via-navy-950/95 to-navy-950" />
+          <div className="absolute inset-0 bg-navy-950/55" />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/40 via-transparent to-navy-950/85" />
         </div>
         <div className="relative mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8">
           <Reveal>

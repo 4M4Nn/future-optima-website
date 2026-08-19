@@ -9,6 +9,7 @@ import {
   GraduationCap,
   Layers,
   Phone,
+  ShieldCheck,
   Users,
   Wrench,
 } from "lucide-react";
@@ -21,6 +22,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import Reveal from "@/components/motion/Reveal";
+import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 import { courses, getCourseBySlug } from "@/lib/data/courses";
 import { courseImages } from "@/lib/data/images";
 import { siteConfig } from "@/lib/data/site";
@@ -107,15 +109,25 @@ export default async function CoursePage({
             alt={course.name}
             fill
             priority
-            className="object-cover opacity-20"
+            className="object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/70 via-navy-950/95 to-navy-950" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-950/75 to-navy-950/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/50" />
         </div>
         <div className="relative mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
           <Reveal>
-            <Badge className="border-none bg-amber-500/15 text-amber-400">
-              {course.category}
-            </Badge>
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge className="border-none bg-amber-500/15 text-amber-400">
+                {course.category}
+              </Badge>
+              {course.badge ? (
+                <Badge className="border-none bg-amber-500 text-navy-950">{course.badge}</Badge>
+              ) : null}
+              <Badge className="border-none bg-white/10 text-white">
+                <ShieldCheck className="mr-1 h-3.5 w-3.5 text-amber-400" />
+                100% Placement Support
+              </Badge>
+            </div>
             <h1 className="mt-4 font-heading text-3xl font-extrabold leading-tight sm:text-5xl">
               {course.name}
             </h1>
@@ -149,6 +161,12 @@ export default async function CoursePage({
                   <Phone className="mr-1 h-4 w-4" /> {siteConfig.primaryPhone}
                 </a>
               </Button>
+              <WhatsAppQuickLink
+                message={`Hi Future Optima! I'm interested in the ${course.shortName} course — can you share more details?`}
+                className="h-11 gap-2 px-6 text-sm font-semibold"
+                iconClassName="h-4 w-4"
+                label="Chat on WhatsApp"
+              />
             </div>
           </Reveal>
         </div>

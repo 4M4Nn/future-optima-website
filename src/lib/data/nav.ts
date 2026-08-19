@@ -7,6 +7,11 @@ export const mainNav: NavItem[] = [
     href: "/courses",
     children: [
       {
+        label: "AI Website Development (2 Weeks)",
+        href: "/courses/ai-website-development",
+        description: "Build & launch real websites in hours, then freelance",
+      },
+      {
         label: "Python Full-Stack with AI",
         href: "/courses/python-full-stack-with-ai",
         description: "Django, REST APIs & AI-integrated web apps",
@@ -80,6 +85,7 @@ export const mainNav: NavItem[] = [
 
 export const footerNav = {
   courses: [
+    { label: "AI Website Development (2 Weeks)", href: "/courses/ai-website-development" },
     { label: "Python Full-Stack with AI", href: "/courses/python-full-stack-with-ai" },
     { label: "MERN Stack Development", href: "/courses/mern-stack-development" },
     { label: "Data Science with AI", href: "/courses/data-science-with-ai" },

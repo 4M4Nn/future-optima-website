@@ -111,4 +111,11 @@ export const courseFinderProfiles: CourseFinderProfile[] = [
     whyGood: "A structured, detail-driven path into IT — manual testing needs no coding, with light automation scripting layered in later.",
     whyLowCoding: "One of our fastest, most coding-light entry routes into the IT industry.",
   },
+  {
+    slug: "ai-website-development",
+    tags: ["coding", "business", "ai"],
+    codingLevel: "light",
+    whyGood: "The fastest path to a real, sellable skill — build and launch websites with AI tools and start freelancing in just 2 weeks.",
+    whyLowCoding: "AI tools handle most of the heavy coding — you focus on customizing, launching and finding clients.",
+  },
 ];

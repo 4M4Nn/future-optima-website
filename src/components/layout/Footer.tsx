@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Mail, MapPin, Phone } from "lucide-react";
-import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import { FacebookIcon, InstagramIcon, LinkedinIcon, WhatsappIcon } from "@/components/icons/SocialIcons";
 import { footerNav } from "@/lib/data/nav";
 import { siteConfig } from "@/lib/data/site";
 
@@ -102,6 +102,18 @@ export default function Footer() {
               <Mail className="h-4 w-4 shrink-0 text-amber-500" />
               <a href={`mailto:${siteConfig.email}`} className="hover:text-white">
                 {siteConfig.email}
+              </a>
+            </li>
+            <li>
+              <a
+                href={`https://wa.me/${siteConfig.whatsapp}?text=${encodeURIComponent(
+                  "Hi Future Optima! I'd like to know more about your IT & AI courses."
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-2 text-xs font-semibold text-white transition-transform hover:scale-105"
+              >
+                <WhatsappIcon className="h-4 w-4" /> Chat on WhatsApp
               </a>
             </li>
           </ul>

@@ -23,4 +23,5 @@ export const courseImages: Record<string, string> = {
   "diploma-ai-product-engineering-agentic-ai": unsplash("photo-1620712943543-bcc4688e7485"),
   "advanced-diploma-ai-systems-engineering": unsplash("photo-1523240795612-9a054b0db644"),
   "software-testing-certification": unsplash("photo-1518770660439-4636190af475"),
+  "ai-website-development": unsplash("photo-1547658719-da2b51169166"),
 };

@@ -16,6 +16,7 @@ import {
 import { mainNav } from "@/lib/data/nav";
 import { siteConfig } from "@/lib/data/site";
 import { cn } from "@/lib/utils";
+import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -93,6 +94,7 @@ export default function Navbar() {
             <Phone className="h-4 w-4 text-amber-500" />
             {siteConfig.primaryPhone}
           </a>
+          <WhatsAppQuickLink className="h-9 w-9" iconClassName="h-4 w-4" />
           <Button asChild className="bg-navy-900 hover:bg-navy-800">
             <Link href="/contact">Enroll Now</Link>
           </Button>
@@ -164,13 +166,20 @@ export default function Navbar() {
                   </Link>
                 )
               )}
-              <a
-                href={`tel:${siteConfig.primaryPhone}`}
-                className="mt-4 flex items-center justify-center gap-2 rounded-md bg-navy-50 py-3 text-sm font-semibold text-navy-900"
-              >
-                <Phone className="h-4 w-4 text-amber-500" />
-                Call {siteConfig.primaryPhone}
-              </a>
+              <div className="mt-4 flex gap-2">
+                <a
+                  href={`tel:${siteConfig.primaryPhone}`}
+                  className="flex flex-1 items-center justify-center gap-2 rounded-md bg-navy-50 py-3 text-sm font-semibold text-navy-900"
+                >
+                  <Phone className="h-4 w-4 text-amber-500" />
+                  Call
+                </a>
+                <WhatsAppQuickLink
+                  className="flex-1 rounded-md py-3 text-sm font-semibold"
+                  iconClassName="h-4 w-4"
+                  label="WhatsApp"
+                />
+              </div>
               <Button asChild className="mt-2 bg-navy-900 hover:bg-navy-800">
                 <Link href="/contact" onClick={() => setOpen(false)}>
                   Enroll Now

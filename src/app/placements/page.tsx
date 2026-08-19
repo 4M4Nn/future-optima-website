@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowRight, Briefcase, Building2, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Reveal from "@/components/motion/Reveal";
+import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 import { heroStats, hiringPartners } from "@/lib/data/site";
 import { placementRecords } from "@/lib/data/placements";
 
@@ -139,11 +140,19 @@ export default function PlacementsPage() {
             <h2 className="font-heading text-2xl font-extrabold sm:text-3xl">
               Hiring for your team? See who you could hire from us.
             </h2>
-            <Button asChild size="lg" className="mt-6 bg-amber-500 text-navy-950 hover:bg-amber-400">
-              <Link href="/hire-from-us">
-                Visit Hire From Us <ArrowRight className="ml-1 h-4 w-4" />
-              </Link>
-            </Button>
+            <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+              <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">
+                <Link href="/hire-from-us">
+                  Visit Hire From Us <ArrowRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
+              <WhatsAppQuickLink
+                message="Hi Future Optima! I'd like to talk about hiring/recruiting your trained students."
+                className="h-11 gap-2 px-6 text-sm font-semibold"
+                iconClassName="h-4 w-4"
+                label="Chat on WhatsApp"
+              />
+            </div>
           </Reveal>
         </div>
       </section>

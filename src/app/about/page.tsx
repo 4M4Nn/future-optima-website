@@ -44,8 +44,9 @@ export default function AboutPage() {
     <div>
       <section className="relative overflow-hidden bg-navy-950 text-white">
         <div className="absolute inset-0">
-          <Image src={stockImages.about} alt="Future Optima team and students" fill className="object-cover opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/70 via-navy-950/95 to-navy-950" />
+          <Image src={stockImages.about} alt="Future Optima team and students" fill className="object-cover opacity-55" />
+          <div className="absolute inset-0 bg-navy-950/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/40 via-transparent to-navy-950/80" />
         </div>
         <div className="relative mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8">
           <Reveal>

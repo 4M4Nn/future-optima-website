@@ -102,9 +102,10 @@ export default async function BlogPostPage({
             alt={post.title}
             fill
             priority
-            className="object-cover opacity-20"
+            className="object-cover opacity-50"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/70 via-navy-950/95 to-navy-950" />
+          <div className="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-950/75 to-navy-950/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-navy-950/50" />
         </div>
         <div className="relative mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <Reveal>

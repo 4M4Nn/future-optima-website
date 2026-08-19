@@ -16,12 +16,15 @@ export default function Hero() {
           alt="Students studying AI and software development at Future Optima IT Solutions training institute, Kochi, Kerala"
           fill
           priority
-          className="object-cover opacity-30"
+          className="object-cover opacity-50"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-navy-950/90 to-navy-950" />
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-950 via-navy-950/80 to-navy-950/35" />
+        <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-transparent to-navy-950" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
+        <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
+
         <Reveal>
           <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
             <Sparkles className="h-3.5 w-3.5 text-amber-500" />
