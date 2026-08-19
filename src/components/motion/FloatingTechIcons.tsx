@@ -2,13 +2,29 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { PythonIcon, DjangoIcon, VSCodeIcon, AIToolIcon } from "@/components/icons/TechIcons";
+import { PythonIcon, DjangoIcon, VSCodeIcon, ClaudeIcon } from "@/components/icons/TechIcons";
 
 const icons = [
-  { Icon: PythonIcon, className: "right-[22%] top-[12%] h-10 w-10" },
-  { Icon: DjangoIcon, className: "right-[8%] top-[32%] h-9 w-9" },
-  { Icon: VSCodeIcon, className: "right-[28%] top-[52%] h-10 w-10" },
-  { Icon: AIToolIcon, className: "right-[10%] top-[68%] h-8 w-8" },
+  {
+    Icon: PythonIcon,
+    label: "Python",
+    className: "right-[8%] top-[9%] lg:right-[24%] lg:top-[12%]",
+  },
+  {
+    Icon: DjangoIcon,
+    label: "Django",
+    className: "left-[6%] top-[36%] lg:left-auto lg:right-[6%] lg:top-[32%]",
+  },
+  {
+    Icon: VSCodeIcon,
+    label: "VS Code",
+    className: "right-[8%] top-[54%] lg:right-[28%] lg:top-[52%]",
+  },
+  {
+    Icon: ClaudeIcon,
+    label: "Claude AI",
+    className: "left-[6%] top-[70%] lg:left-auto lg:right-[40%] lg:top-[20%]",
+  },
 ];
 
 export default function FloatingTechIcons() {
@@ -26,7 +42,7 @@ export default function FloatingTechIcons() {
         gsap.to(node, {
           y: i % 2 === 0 ? -14 : 14,
           x: i % 2 === 0 ? 6 : -6,
-          rotation: i % 2 === 0 ? 6 : -6,
+          rotation: i % 2 === 0 ? 2 : -2,
           duration: 2.6 + i * 0.4,
           repeat: -1,
           yoyo: true,
@@ -42,15 +58,16 @@ export default function FloatingTechIcons() {
   return (
     <div
       ref={wrapRef}
-      className="pointer-events-none absolute inset-0 hidden overflow-hidden lg:block"
+      className="pointer-events-none absolute inset-0 overflow-hidden"
       aria-hidden="true"
     >
-      {icons.map(({ Icon, className }, i) => (
+      {icons.map(({ Icon, label, className }, i) => (
         <div
           key={i}
-          className={`floating-tech-icon absolute drop-shadow-lg ${className}`}
+          className={`floating-tech-icon absolute flex items-center gap-1.5 rounded-full bg-white/10 py-1 pl-1 pr-3 opacity-80 shadow-lg backdrop-blur-sm sm:opacity-100 ${className}`}
         >
-          <Icon className="h-full w-full" />
+          <Icon className="h-7 w-7 shrink-0 drop-shadow lg:h-9 lg:w-9" />
+          <span className="whitespace-nowrap text-xs font-semibold text-white">{label}</span>
         </div>
       ))}
     </div>
