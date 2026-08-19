@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { ExternalLink, Mail, MapPin, Phone } from "lucide-react";
 import { FacebookIcon, InstagramIcon, LinkedinIcon, WhatsappIcon } from "@/components/icons/SocialIcons";
 import { footerNav } from "@/lib/data/nav";
 import { siteConfig } from "@/lib/data/site";
@@ -90,7 +90,17 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-white/60">
             <li className="flex items-start gap-2">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-              <span>{siteConfig.address.full}</span>
+              <span>
+                {siteConfig.address.full}
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${siteConfig.address.geo.lat},${siteConfig.address.geo.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-1 flex items-center gap-1 text-xs font-medium text-amber-400 hover:text-amber-300 hover:underline"
+                >
+                  View on Google Maps <ExternalLink className="h-3 w-3" />
+                </a>
+              </span>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 shrink-0 text-amber-500" />

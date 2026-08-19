@@ -22,8 +22,11 @@ export const courseImages: Record<string, string> = {
   "agentic-ai-development": unsplash("photo-1620712943543-bcc4688e7485"),
   "diploma-ai-product-engineering-agentic-ai": unsplash("photo-1531482615713-2afd69097998"),
   "advanced-diploma-ai-systems-engineering": unsplash("photo-1523240795612-9a054b0db644"),
-  "software-testing-certification": unsplash("photo-1518770660439-4636190af475"),
   "ai-website-development": unsplash("photo-1547658719-da2b51169166"),
+  "certified-penetration-testing": unsplash("photo-1526374965328-7f61d4dc18c5"),
+  "certified-ethical-hacking": unsplash("photo-1563986768609-322da13575f3"),
+  "certified-soc-analyst": unsplash("photo-1544197150-b99a580bb7a8"),
+  "web-bug-hunter": unsplash("photo-1614064548237-096f735f344f"),
 };
 
 // A distinct pool for blog cover images so blog cards don't visually
@@ -45,6 +48,8 @@ export const blogImages: Record<string, string> = {
   "prompt-engineering-vs-ai-engineering-whats-in-demand-2026": unsplash("photo-1522071820081-009f0129c71c"),
   "nactet-certification-explained-kerala": unsplash("photo-1587440871875-191322ee64b0"),
   "how-future-optima-placement-cell-works": unsplash("photo-1553877522-43269d4ea984"),
+  "penetration-testing-vs-ethical-hacking-vs-soc-analyst-vs-bug-hunter": unsplash("photo-1517245386807-bb43f82c33c4"),
+  "bug-bounty-hunting-kerala-web-bug-hunter-income-guide": unsplash("photo-1571171637578-41bc2dd41cd2"),
 };
 
 export function getBlogImage(slug: string, fallbackCourseSlug?: string) {

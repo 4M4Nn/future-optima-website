@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
+import DemoClassNotification from "@/components/layout/DemoClassNotification";
 import SmoothScrollProvider from "@/components/motion/SmoothScrollProvider";
 import { siteConfig } from "@/lib/data/site";
 
@@ -113,6 +114,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <DemoClassNotification />
         </SmoothScrollProvider>
       </body>
     </html>

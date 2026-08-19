@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import SplitWords from "@/components/motion/SplitWords";
 import Reveal from "@/components/motion/Reveal";
 import RoamingRobot from "@/components/motion/RoamingRobot";
+import PointingGirl from "@/components/motion/PointingGirl";
+import FloatingTechIcons from "@/components/motion/FloatingTechIcons";
 import { heroStats } from "@/lib/data/site";
 
 export default function Hero() {
@@ -12,7 +14,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-navy-950 text-white">
       <div className="absolute inset-0">
         <Image
-          src="/images/campus/classroom-session-2.jpeg"
+          src="/images/campus/classroom-session-1.jpeg"
           alt="Students studying AI and software development at Future Optima IT Solutions training institute, Kochi, Kerala"
           fill
           priority
@@ -22,11 +24,14 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-transparent to-navy-950" />
       </div>
 
+      <FloatingTechIcons />
+
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
         <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
 
         <Reveal>
           <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
+            <PointingGirl className="pointer-events-none absolute -left-14 -top-12 hidden scale-90 sm:block" />
             <Sparkles className="h-3.5 w-3.5 text-amber-500" />
             Kerala&apos;s Industry-Mentored AI &amp; IT Training Institute
             <RoamingRobot className="pointer-events-none absolute -top-6 left-[85%] hidden sm:block" />

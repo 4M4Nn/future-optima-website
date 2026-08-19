@@ -50,9 +50,9 @@ export const courseFinderProfiles: CourseFinderProfile[] = [
   },
   {
     slug: "mern-stack-development",
-    tags: ["coding"],
+    tags: ["coding", "ai"],
     codingLevel: "heavy",
-    whyGood: "A hands-on, code-first path if you want to become a strong JavaScript full-stack developer.",
+    whyGood: "A hands-on, code-first path if you want to become a strong JavaScript full-stack developer who can also ship AI agent features.",
   },
   {
     slug: "data-science-with-ai",
@@ -105,11 +105,30 @@ export const courseFinderProfiles: CourseFinderProfile[] = [
     whyGood: "Our flagship 1-year program — the right pick if you're serious about a deep, well-rounded AI career and can commit a full year.",
   },
   {
-    slug: "software-testing-certification",
-    tags: ["testing", "coding"],
+    slug: "certified-soc-analyst",
+    tags: ["security", "testing"],
+    codingLevel: "none",
+    whyGood: "One of the most accessible cybersecurity entry points — real SIEM tools and incident response, no coding required.",
+    whyLowCoding: "No programming needed at all — this is a monitoring, detection and process-driven role.",
+  },
+  {
+    slug: "certified-ethical-hacking",
+    tags: ["security", "testing"],
     codingLevel: "light",
-    whyGood: "A structured, detail-driven path into IT — manual testing needs no coding, with light automation scripting layered in later.",
-    whyLowCoding: "One of our fastest, most coding-light entry routes into the IT industry.",
+    whyGood: "A broad, hands-on offensive-security foundation — good if you want to think like an attacker before specializing.",
+  },
+  {
+    slug: "certified-penetration-testing",
+    tags: ["security"],
+    codingLevel: "moderate",
+    whyGood: "A fast, focused 1-month credential if you already have some networking basics and want a genuine pentest specialization.",
+  },
+  {
+    slug: "web-bug-hunter",
+    tags: ["security", "testing", "coding", "business"],
+    codingLevel: "light",
+    whyGood: "A focused path into web vulnerability hunting with a real freelance/bounty income angle alongside job roles.",
+    whyLowCoding: "Manual testing judgment matters more than heavy programming — light web knowledge is enough to start.",
   },
   {
     slug: "ai-website-development",

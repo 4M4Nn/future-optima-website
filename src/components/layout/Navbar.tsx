@@ -49,8 +49,13 @@ export default function Navbar() {
                   {item.label}
                   <ChevronDown className="h-3.5 w-3.5 text-navy-600 transition-transform group-hover:rotate-180" />
                 </button>
-                <div className="invisible absolute left-0 top-full z-20 w-80 translate-y-2 rounded-xl border border-border-soft bg-white p-3 opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                  <ul className="grid gap-1">
+                <div
+                  className={cn(
+                    "invisible absolute left-0 top-full z-20 max-h-[75vh] translate-y-2 overflow-y-auto rounded-xl border border-border-soft bg-white p-3 opacity-0 shadow-xl transition-all duration-150 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100",
+                    item.children.length > 8 ? "w-[36rem]" : "w-80"
+                  )}
+                >
+                  <ul className={cn("grid gap-1", item.children.length > 8 && "sm:grid-cols-2")}>
                     {item.children.map((child) => (
                       <li key={child.href}>
                         <Link

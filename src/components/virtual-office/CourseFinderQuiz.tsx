@@ -14,6 +14,8 @@ import {
 } from "@/lib/data/course-finder";
 import { getCourseBySlug } from "@/lib/data/courses";
 import { cn } from "@/lib/utils";
+import CounselorGuide from "@/components/virtual-office/CounselorGuide";
+import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 
 type Step = "interests" | "coding" | "results";
 
@@ -95,6 +97,7 @@ export default function CourseFinderQuiz() {
     <div className="rounded-3xl border border-border-soft bg-white p-6 shadow-xl sm:p-10">
       {step === "interests" ? (
         <div>
+          <CounselorGuide message="Hi, I'm Opti — your virtual counselor! Let's find your perfect course. First, tell me what you're interested in." />
           <p className="flex items-center gap-2 text-sm font-semibold text-amber-600">
             <Sparkles className="h-4 w-4" /> Step 1 of 2
           </p>
@@ -139,6 +142,7 @@ export default function CourseFinderQuiz() {
 
       {step === "coding" ? (
         <div>
+          <CounselorGuide message="Good picks! One more question so I can narrow this down properly — how do you feel about coding?" />
           <p className="flex items-center gap-2 text-sm font-semibold text-amber-600">
             <Sparkles className="h-4 w-4" /> Step 2 of 2
           </p>
@@ -168,6 +172,7 @@ export default function CourseFinderQuiz() {
 
       {step === "results" ? (
         <div>
+          <CounselorGuide message="Here's what I'd recommend based on your answers. Want to talk it through with a real counselor and grab a free demo class? I can connect you on WhatsApp right now." />
           <p className="flex items-center gap-2 text-sm font-semibold text-amber-600">
             <Sparkles className="h-4 w-4" /> Your Matches
           </p>
@@ -207,6 +212,24 @@ export default function CourseFinderQuiz() {
                 </div>
               );
             })}
+          </div>
+          <div className="mt-8 rounded-2xl bg-navy-900 p-5 text-white sm:p-6">
+            <h3 className="font-heading text-lg font-bold">
+              Ready for the next step?
+            </h3>
+            <p className="mt-1 text-sm text-white/70">
+              Talk to a real counselor for free — and ask about booking a free demo class before
+              you enroll.
+            </p>
+            <WhatsAppQuickLink
+              message={`Hi Future Optima! I just used the Virtual Office course finder and got matched with: ${recommendations
+                .map((rec) => getCourseBySlug(rec.slug)?.shortName)
+                .filter(Boolean)
+                .join(", ")}. I'd like free counselling and to book a free demo class.`}
+              className="mt-4 gap-2 px-6 py-3 text-sm font-semibold"
+              iconClassName="h-4 w-4"
+              label="Get Free Counselling on WhatsApp"
+            />
           </div>
           <Button variant="outline" onClick={reset} className="mt-6">
             <RotateCcw className="mr-1 h-4 w-4" /> Start Over

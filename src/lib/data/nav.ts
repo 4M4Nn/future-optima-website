@@ -17,9 +17,9 @@ export const mainNav: NavItem[] = [
         description: "Django, REST APIs & AI-integrated web apps",
       },
       {
-        label: "MERN Stack Development",
+        label: "MERN Stack with Agentic AI",
         href: "/courses/mern-stack-development",
-        description: "MongoDB, Express, React & Node.js",
+        description: "MongoDB, Express, React, Node.js & agentic AI",
       },
       {
         label: "Data Science with AI",
@@ -62,9 +62,24 @@ export const mainNav: NavItem[] = [
         description: "1-year flagship: Agentic AI & Product Development",
       },
       {
-        label: "Software Testing Certification",
-        href: "/courses/software-testing-certification",
-        description: "Manual + automation testing career program",
+        label: "Certified SOC Analyst",
+        href: "/courses/certified-soc-analyst",
+        description: "3 months — SIEM, log analysis & incident response",
+      },
+      {
+        label: "Certified Ethical Hacking",
+        href: "/courses/certified-ethical-hacking",
+        description: "2 months — offensive security foundations",
+      },
+      {
+        label: "Certified Penetration Testing",
+        href: "/courses/certified-penetration-testing",
+        description: "1 month — fast, focused pentest certification",
+      },
+      {
+        label: "Web Bug Hunter",
+        href: "/courses/web-bug-hunter",
+        description: "1 month — bug bounty hunting & freelance income",
       },
     ],
   },
@@ -87,10 +102,11 @@ export const footerNav = {
   courses: [
     { label: "AI Website Development (2 Weeks)", href: "/courses/ai-website-development" },
     { label: "Python Full-Stack with AI", href: "/courses/python-full-stack-with-ai" },
-    { label: "MERN Stack Development", href: "/courses/mern-stack-development" },
+    { label: "MERN Stack with Agentic AI", href: "/courses/mern-stack-development" },
     { label: "Data Science with AI", href: "/courses/data-science-with-ai" },
     { label: "AI-Powered Data Analytics", href: "/courses/ai-powered-data-analytics" },
-    { label: "Cybersecurity — Red Team & SOC Analyst", href: "/courses/cybersecurity-red-team-soc-analyst" },
+    { label: "Certified SOC Analyst", href: "/courses/certified-soc-analyst" },
+    { label: "Web Bug Hunter", href: "/courses/web-bug-hunter" },
     { label: "Advanced Diploma — AI Systems Engineering", href: "/courses/advanced-diploma-ai-systems-engineering" },
   ],
   company: [
