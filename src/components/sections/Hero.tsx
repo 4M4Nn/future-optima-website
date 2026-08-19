@@ -28,6 +28,7 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
         <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
+        <PointingGirl className="pointer-events-none absolute left-2 top-0 scale-75 sm:hidden" />
 
         <Reveal>
           <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
