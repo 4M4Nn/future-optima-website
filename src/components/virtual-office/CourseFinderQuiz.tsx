@@ -97,7 +97,7 @@ export default function CourseFinderQuiz() {
     <div className="rounded-3xl border border-border-soft bg-white p-6 shadow-xl sm:p-10">
       {step === "interests" ? (
         <div>
-          <CounselorGuide message="Hi, I'm Opti — your virtual counselor! Let's find your perfect course. First, tell me what you're interested in." />
+          <CounselorGuide message="Hi, I'm Norah — your virtual counselor! Let's find your perfect course. First, tell me what you're interested in." />
           <p className="flex items-center gap-2 text-sm font-semibold text-amber-600">
             <Sparkles className="h-4 w-4" /> Step 1 of 2
           </p>

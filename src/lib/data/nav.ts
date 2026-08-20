@@ -52,11 +52,6 @@ export const mainNav: NavItem[] = [
         description: "Build autonomous AI agents & workflows",
       },
       {
-        label: "Diploma in AI Product Engineering",
-        href: "/courses/diploma-ai-product-engineering-agentic-ai",
-        description: "Agentic AI & product engineering diploma",
-      },
-      {
         label: "Advanced Diploma — AI Systems Engineering",
         href: "/courses/advanced-diploma-ai-systems-engineering",
         description: "1-year flagship: Agentic AI & Product Development",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Poppins, Caveat } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -7,6 +8,14 @@ import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import DemoClassNotification from "@/components/layout/DemoClassNotification";
 import SmoothScrollProvider from "@/components/motion/SmoothScrollProvider";
 import { siteConfig } from "@/lib/data/site";
+
+// Same GTM container + Google tag already live on the WordPress production
+// site (verified by fetching futureoptimaitsolutions.com and reading the
+// embedded gtag.js/gtm.js script tags — not newly created). Carrying the
+// exact same IDs over keeps GA4/GTM history continuous across the
+// WordPress -> Next.js cutover. See SEO-MIGRATION-REPORT.md Section L.
+const GTM_CONTAINER_ID = "GTM-PD2WDLQP";
+const GOOGLE_TAG_ID = "GT-TWTT2Z4T";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -105,6 +114,27 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${inter.variable} ${poppins.variable} ${caveat.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <Script id="gtm-script" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','${GTM_CONTAINER_ID}');`}
+        </Script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TAG_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-tag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GOOGLE_TAG_ID}');`}
+        </Script>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_CONTAINER_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}

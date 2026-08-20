@@ -29,6 +29,14 @@ const nextConfig: NextConfig = {
   // this list was derived from.
   async redirects() {
     return [
+      // --- Internal (non-WordPress) redirects: retired/merged routes on
+      // this Next.js site itself, not part of the WordPress legacy map. ---
+      {
+        source: "/courses/diploma-ai-product-engineering-agentic-ai",
+        destination: "/courses/advanced-diploma-ai-systems-engineering",
+        permanent: true,
+      },
+
       // --- Core / static pages: same content, WordPress used trailing slashes ---
       { source: "/about/", destination: "/about", permanent: true },
       { source: "/courses/", destination: "/courses", permanent: true },
@@ -90,7 +98,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/diploma-ai-product-engineering-agentic-ai/",
-        destination: "/courses/diploma-ai-product-engineering-agentic-ai",
+        destination: "/courses/advanced-diploma-ai-systems-engineering",
         permanent: true,
       },
       {
@@ -154,7 +162,7 @@ const nextConfig: NextConfig = {
       // post-launch for the higher-impression ones. ---
       {
         source: "/job-oriented-it-courses-to-build-your-career-best-software-training-institute-in-kochi-kerala/",
-        destination: "/courses",
+        destination: "/blog/job-oriented-it-courses-kochi-career",
         permanent: true,
       },
       {
@@ -169,7 +177,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/keralas-first-ai-lab-for-practical-ai-learning-projects-and-career-focused-training/",
-        destination: "/about",
+        destination: "/blog/keralas-first-ai-lab-practical-ai-training",
         permanent: true,
       },
       {

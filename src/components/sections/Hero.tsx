@@ -5,8 +5,7 @@ import { Button } from "@/components/ui/button";
 import SplitWords from "@/components/motion/SplitWords";
 import Reveal from "@/components/motion/Reveal";
 import RoamingRobot from "@/components/motion/RoamingRobot";
-import PointingGirl from "@/components/motion/PointingGirl";
-import FloatingTechIcons from "@/components/motion/FloatingTechIcons";
+import HeroGirlVisual from "@/components/motion/HeroGirlVisual";
 import { heroStats } from "@/lib/data/site";
 
 export default function Hero() {
@@ -24,22 +23,20 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-navy-950 via-transparent to-navy-950" />
       </div>
 
-      <FloatingTechIcons />
-
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
         <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
-        <PointingGirl className="pointer-events-none absolute left-2 top-0 scale-75 sm:hidden" />
+
+        <HeroGirlVisual className="pointer-events-none absolute right-1 top-2 z-10 sm:right-3 sm:top-4 lg:right-8 lg:top-0 xl:right-14" />
 
         <Reveal>
           <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
-            <PointingGirl className="pointer-events-none absolute -left-14 -top-12 hidden scale-90 sm:block" />
             <Sparkles className="h-3.5 w-3.5 text-amber-500" />
-            Kerala&apos;s Industry-Mentored AI &amp; IT Training Institute
+            Kerala&apos;s 1st AI Lab &middot; Industry-Mentored AI &amp; IT Training Institute
             <RoamingRobot className="pointer-events-none absolute -top-6 left-[85%] hidden sm:block" />
           </div>
         </Reveal>
 
-        <h1 className="max-w-4xl font-heading text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
+        <h1 className="relative z-20 max-w-4xl font-heading text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
           <SplitWords text="Best IT" className="block" />
           <SplitWords
             text="& AI Institute"

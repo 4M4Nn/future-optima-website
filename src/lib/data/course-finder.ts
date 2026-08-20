@@ -93,12 +93,6 @@ export const courseFinderProfiles: CourseFinderProfile[] = [
     whyGood: "A focused, cutting-edge path into building autonomous AI agents — great if AI itself is your main interest.",
   },
   {
-    slug: "diploma-ai-product-engineering-agentic-ai",
-    tags: ["ai", "business", "coding"],
-    codingLevel: "moderate",
-    whyGood: "Balances AI engineering with product and business thinking — good if you like AI but also enjoy strategy and presentation.",
-  },
-  {
     slug: "advanced-diploma-ai-systems-engineering",
     tags: ["ai", "coding", "analytics", "business"],
     codingLevel: "moderate",

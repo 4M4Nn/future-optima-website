@@ -20,7 +20,6 @@ export const courseImages: Record<string, string> = {
   "ai-engineering-automation": unsplash("photo-1485827404703-89b55fcc595e"),
   "ai-robotics-edge-ai-engineering": unsplash("photo-1581091226825-a6a2a5aee158"),
   "agentic-ai-development": unsplash("photo-1620712943543-bcc4688e7485"),
-  "diploma-ai-product-engineering-agentic-ai": unsplash("photo-1531482615713-2afd69097998"),
   "advanced-diploma-ai-systems-engineering": unsplash("photo-1523240795612-9a054b0db644"),
   "ai-website-development": unsplash("photo-1547658719-da2b51169166"),
   "certified-penetration-testing": unsplash("photo-1526374965328-7f61d4dc18c5"),

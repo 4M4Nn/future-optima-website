@@ -2,6 +2,104 @@ import type { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "keralas-first-ai-lab-practical-ai-training",
+    title: "Inside Kerala's First Industry-Mentored AI Lab for Practical, Career-Focused Training",
+    metaTitle: "Kerala's First AI Lab — Practical AI Training | Future Optima",
+    metaDescription:
+      "A look inside Future Optima's industry-mentored AI Lab in Kochi — hands-on agentic AI, automation and data project training guided by working AI professionals, not slide decks.",
+    keywords: ["ai lab kochi", "kerala first ai lab", "practical ai training kerala", "hands-on ai lab kochi"],
+    category: "Inside Future Optima",
+    excerpt:
+      "Most 'AI training' is still slides and theory. Here's what actually happens inside Future Optima's industry-mentored AI Lab in Chembumukku, Kochi.",
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    readingTime: "4 min read",
+    coverImage: "agentic-ai-development",
+    relatedCourseSlug: "agentic-ai-development",
+    body: [
+      {
+        type: "p",
+        text: "A lot of institutes advertise \"AI training\" that's really a few slide decks on machine learning theory bolted onto an existing course. Future Optima's AI Lab in Chembumukku, Kochi was built to be the opposite: a hands-on space where students work on real agentic AI, automation and data projects, guided directly by working AI professionals rather than static coursework.",
+      },
+      { type: "h2", text: "What makes it different from a typical \"AI module\"" },
+      {
+        type: "list",
+        items: [
+          "Lab access built specifically around agentic AI, automation and data projects — not just lecture-style AI theory",
+          "Direct guidance from working industry professionals, not only in-house faculty",
+          "Project-first structure: students build and ship working systems, not just study concepts",
+          "Shared across multiple course tracks — Data Science with AI, Agentic AI Development, AI Engineering & Automation and the Advanced Diploma all use the same lab",
+        ],
+      },
+      { type: "h2", text: "Why a dedicated lab matters for AI training specifically" },
+      {
+        type: "p",
+        text: "AI and agentic AI skills are unusually hard to learn from slides alone — the actual skill is debugging why an agent's reasoning loop failed, or why a RAG pipeline is retrieving the wrong context, which only shows up when you're building something real. A dedicated lab with industry mentors on hand is what turns \"I understand the concept\" into \"I can ship this,\" which is the gap employers actually screen for.",
+      },
+      { type: "h2", text: "Who gets lab access" },
+      {
+        type: "p",
+        text: "Every student on an AI-focused track at Future Optima — Data Science with AI, AI-Powered Data Analytics, Agentic AI Development, AI Engineering & Automation, AI Robotics & Edge AI Engineering, and the Advanced Diploma in AI Systems Engineering — gets structured lab time as part of the course, not as a paid add-on.",
+      },
+    ],
+    faqs: [
+      { question: "Is AI Lab access an extra cost on top of course fees?", answer: "No — lab access is built into every AI-focused course at Future Optima, not sold separately." },
+      { question: "Do I need prior AI or coding experience to use the AI Lab?", answer: "No. The lab is structured around your course curriculum, so it's paced to match wherever you're starting from — from complete beginners to students with prior programming experience." },
+    ],
+  },
+  {
+    slug: "job-oriented-it-courses-kochi-career",
+    title: "Job-Oriented IT Courses in Kochi: How to Actually Build a Career, Not Just Collect a Certificate",
+    metaTitle: "Job-Oriented IT Courses in Kochi — Career Guide | Future Optima",
+    metaDescription:
+      "What actually makes an IT course 'job-oriented' in Kochi's crowded training market, and a breakdown of Future Optima's job-oriented course lineup by career path.",
+    keywords: ["job oriented it courses kochi", "career focused it training kerala", "best software training institute kochi kerala"],
+    category: "Career Guides",
+    excerpt:
+      "\"Job-oriented\" is on every training institute's homepage in Kochi. Here's what the phrase should actually mean, and how to evaluate it before you enroll anywhere.",
+    publishedAt: "2026-08-20",
+    updatedAt: "2026-08-20",
+    readingTime: "5 min read",
+    coverImage: "python-full-stack-with-ai",
+    relatedCourseSlug: "python-full-stack-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "Nearly every IT training institute in Kochi calls its courses \"job-oriented.\" The phrase has been repeated so often it's nearly meaningless unless you know what to actually check for. Here's how to evaluate it, and how Future Optima's course lineup is structured around it.",
+      },
+      { type: "h2", text: "What \"job-oriented\" should actually mean" },
+      {
+        type: "list",
+        items: [
+          "A dedicated placement cell that works with you until you're placed, not just a certificate at course-end",
+          "Real hiring-partner relationships — ask how many companies actively recruit from recent batches",
+          "Project-based curriculum, so you finish with a portfolio, not just lecture notes",
+          "Mock interviews, resume building and soft-skills training built into the course, not sold separately",
+          "A fee structure that reflects confidence in outcomes — Future Optima's pay-after-placement model (up to ₹15,000 due only once you're placed) is a direct example",
+        ],
+      },
+      { type: "h2", text: "Future Optima's job-oriented course lineup, by career path" },
+      {
+        type: "list",
+        items: [
+          "Full-stack development: Python Full-Stack with AI, MERN Stack with Agentic AI, AI Website Development (2 weeks)",
+          "Data & AI: Data Science with AI, AI-Powered Data Analytics, AI Engineering & Automation, Agentic AI Development, AI Robotics & Edge AI Engineering",
+          "Security: Certified SOC Analyst, Certified Ethical Hacking, Certified Penetration Testing, Web Bug Hunter",
+          "Flagship: the 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development",
+        ],
+      },
+      { type: "h2", text: "How to actually evaluate an institute before enrolling" },
+      {
+        type: "p",
+        text: "Ask any institute — including us — for specifics: how many students from the last 2-3 batches were placed, which companies actually hired, and what happens if you're not placed quickly. Vague answers to those three questions are the real warning sign, regardless of how polished the marketing is.",
+      },
+    ],
+    faqs: [
+      { question: "Which job-oriented course should I choose if I'm not sure what fits me?", answer: "Try the Virtual Office course finder for 2-3 personalized suggestions based on your interests and comfort with coding, or call our counselors directly for a quick assessment." },
+      { question: "Do all of Future Optima's courses include placement support?", answer: "Yes — every course includes resume building, mock interviews and access to our 200+ hiring partner network through a dedicated placement cell." },
+    ],
+  },
+  {
     slug: "best-ai-courses-kochi-kerala-2026",
     title: "Best AI Courses in Kochi, Kerala — 2026 Guide",
     metaTitle: "Best AI Courses in Kochi, Kerala (2026) | Future Optima",
@@ -850,47 +948,48 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "diploma-ai-product-engineering-explained",
-    title: "What Is the Diploma in AI Product Engineering & Agentic AI? A Full Breakdown",
-    metaTitle: "Diploma in AI Product Engineering & Agentic AI Explained | Future Optima",
+    title: "Why Future Optima Consolidated Its AI Diploma Into One Flagship 1-Year Program",
+    metaTitle: "Our AI Diploma Programs, Explained | Future Optima Kochi",
     metaDescription:
-      "A full breakdown of Future Optima's 8-month Diploma in AI Product Engineering & Agentic AI — who it's for, what you'll build, and how it compares to shorter courses.",
-    keywords: ["ai product engineering diploma explained", "agentic ai diploma kochi", "8 month ai diploma kerala"],
+      "Future Optima previously offered an 8-month AI product engineering diploma alongside its 1-year Advanced Diploma. Here's why we consolidated into one flagship program.",
+    keywords: ["future optima ai diploma", "advanced diploma ai systems engineering kochi", "ai diploma program kerala"],
     category: "Course Guides",
     excerpt:
-      "Not a short course, not a full year — this 8-month diploma sits in between. Here's exactly what it covers and who it's actually built for.",
+      "We used to offer two diploma-length AI programs of different depths. We've since consolidated into one flagship 1-year track — here's why, and what it now covers.",
     publishedAt: "2026-08-08",
-    updatedAt: "2026-08-08",
-    readingTime: "5 min read",
-    coverImage: "diploma-ai-product-engineering-agentic-ai",
-    relatedCourseSlug: "diploma-ai-product-engineering-agentic-ai",
+    updatedAt: "2026-08-20",
+    readingTime: "4 min read",
+    coverImage: "advanced-diploma-ai-systems-engineering",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
     body: [
       {
         type: "p",
-        text: "Future Optima offers three tiers of serious AI training: single courses (3-6 months), this diploma (8 months), and the full 1-year Advanced Diploma. The Diploma in AI Product Engineering & Agentic AI is deliberately the middle option, and it confuses people until they see what's actually inside it.",
+        text: "Future Optima previously ran two diploma-length AI programs: an 8-month Diploma in AI Product Engineering & Agentic AI, and a full 1-year Advanced Diploma. We've since consolidated into a single flagship track — the Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development — rather than running two overlapping programs side by side.",
       },
-      { type: "h2", text: "It's not just 'AI Engineering' with a longer name" },
+      { type: "h2", text: "Why one program instead of two" },
       {
         type: "p",
-        text: "The diploma combines three things a single course usually can't: deep AI engineering (LLM integration, RAG), agentic AI systems (autonomous multi-step agents), and product development discipline (scoping, building, presenting a real product). Most single courses cover one of these well; this diploma is built to combine all three.",
+        text: "The two programs covered genuinely overlapping ground — AI engineering, agentic AI systems and product-building discipline — at different depths. Rather than ask students to choose between a lighter version and a deeper version of largely the same curriculum, we consolidated everything the 8-month diploma covered into the 1-year Advanced Diploma, so every student gets the full depth: more capstone projects, more mentor time, and a more complete systems-engineering foundation underneath the same agentic AI and product-building skills.",
       },
-      { type: "h2", text: "Who this diploma is actually for" },
+      { type: "h2", text: "What the Advanced Diploma covers now" },
       {
         type: "list",
         items: [
-          "Students who want more depth than a single course but can't commit a full year",
-          "Anyone who wants to build AI products, not just AI features — think startup or product-team roles",
-          "Students who like presenting and communicating, not just coding — the program includes real demo and stakeholder-communication practice",
+          "AI systems engineering — LLM integration, RAG, vector databases and system design for AI products",
+          "Agentic AI — autonomous multi-step agents, tool use and multi-agent orchestration",
+          "Product development — scoping, building and presenting real AI products, exactly like the former diploma's sprint-based structure",
+          "Multiple real capstone projects across the year, not just one at the end",
         ],
       },
-      { type: "h2", text: "What you actually build" },
+      { type: "h2", text: "If you were considering the 8-month diploma" },
       {
         type: "p",
-        text: "Across the diploma's sprint-based structure, you move from problem discovery through a full technical build to a capstone AI product presented to an industry panel — a genuinely different portfolio piece than a single course's end project, because it demonstrates product thinking alongside engineering skill.",
+        text: "Everything that made the shorter diploma appealing — the product-building focus, the presentation and stakeholder-communication practice, the capstone reviewed by an industry panel — is part of the Advanced Diploma now, alongside deeper systems-engineering coverage. Talk to our counselors about the 1-year commitment and how it compares to our shorter single courses if you're weighing time investment against depth.",
       },
     ],
     faqs: [
-      { question: "Is the Diploma in AI Product Engineering harder to get into than a regular course?", answer: "It's recommended for candidates with some programming exposure, though strong beginners are supported with bridge modules — it's not a selective admissions process, just a heavier time commitment." },
-      { question: "Can I upgrade from this diploma to the full 1-year Advanced Diploma later?", answer: "Yes — our counselors regularly help students extend from this 8-month diploma into the full Advanced Diploma, with credit for modules already completed." },
+      { question: "I was interested in the 8-month AI Product Engineering diploma — is it still available?", answer: "That program has been consolidated into our 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development, which now covers everything the shorter diploma did, in more depth." },
+      { question: "Is the Advanced Diploma harder to get into than a regular course?", answer: "Admission isn't selective — it's open to serious, committed students from any background, with a short counseling and aptitude conversation to confirm fit given the 1-year time commitment." },
     ],
   },
   {
