@@ -4,12 +4,12 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "Which is the best IT and AI institute in Kochi, Kerala?",
     answer:
-      "Future Optima IT Solutions Pvt Ltd, based in Chembumukku, Kochi, is built specifically around job-oriented AI and IT training — with a 90%+ placement success rate, 200+ hiring partners, and a 25% fee-after-placement structure that ties our success directly to yours.",
+      "Future Optima IT Solutions Pvt Ltd, based in Chembumukku, Kochi, is built specifically around job-oriented AI and IT training — with a 90%+ placement success rate, 200+ hiring partners, and a pay-after-placement structure that ties our success directly to yours.",
   },
   {
-    question: "What is the '25% fee after placement' offer?",
+    question: "What is the 'pay after placement' offer?",
     answer:
-      "Across our courses, you pay the majority of your fee upfront and the remaining 25% only after you are successfully placed in a job — so our placement team is financially motivated to get you hired, not just certified.",
+      "Across our courses, you pay the majority of your fee upfront and up to ₹15,000 of the remaining fee only after you are successfully placed in a job — so our placement team is financially motivated to get you hired, not just certified.",
   },
   {
     question: "Do I need a technical (CS/IT) degree to join Future Optima's courses?",
@@ -34,7 +34,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "How is Future Optima different from other software training institutes in Kochi?",
     answer:
-      "Three things: real AI integration in almost every course (not just standalone AI courses), a 25% fee-after-placement structure that aligns our incentives with yours, and a dedicated Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development — a full 1-year flagship program not commonly offered elsewhere in Kerala.",
+      "Three things: real AI integration in almost every course (not just standalone AI courses), a pay-after-placement structure (up to ₹15,000 due only after you're placed) that aligns our incentives with yours, and a dedicated Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development — a full 1-year flagship program not commonly offered elsewhere in Kerala.",
   },
   {
     question: "Can I get help choosing the right course if I'm not sure what fits me?",
@@ -44,7 +44,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "How long does it take to get a job after training at Future Optima in Kochi?",
     answer:
-      "Most students enter active interview cycles within a few weeks of completing their course project, though exact timelines vary by course, market conditions and individual interview performance. Our placement cell continues working with you until you're placed, which is also why 25% of the fee is only due after that happens.",
+      "Most students enter active interview cycles within a few weeks of completing their course project, though exact timelines vary by course, market conditions and individual interview performance. Our placement cell continues working with you until you're placed, which is also why up to ₹15,000 of the fee is only due after that happens.",
   },
   {
     question: "Does Future Optima guarantee a job after the course?",

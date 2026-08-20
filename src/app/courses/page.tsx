@@ -32,7 +32,8 @@ export default function CoursesPage() {
             <p className="mx-auto mt-4 max-w-2xl text-white/70">
               Every course is built around real projects, industry mentorship and{" "}
               <span className="accent-highlight font-semibold">100% placement support</span>,
-              with 25% fee payment after placement. Not sure which course fits you? Try our{" "}
+              with up to ₹15,000 fees payable only after placement. Not sure which course fits
+              you? Try our{" "}
               <Link href="/virtual-office" className="underline decoration-amber-500">
                 Virtual Office course finder
               </Link>

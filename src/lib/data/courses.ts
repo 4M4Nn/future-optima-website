@@ -549,7 +549,7 @@ export const courses: Course[] = [
       "Multiple real capstone projects across the year, not just one at the end",
       "Direct mentorship from industry AI professionals throughout",
       "Priority placement track with our top hiring partners",
-      "25% fee after placement, exactly like our other programs",
+      "Pay after placement — up to ₹15,000 due only once you're placed, exactly like our other programs",
     ],
     modules: [
       { title: "Programming & Systems Foundations", topics: ["Python engineering fundamentals", "Data structures & systems thinking", "APIs, databases & backend basics", "Git, testing & engineering discipline"] },
@@ -564,7 +564,7 @@ export const courses: Course[] = [
     careerRoles: ["AI Systems Engineer", "AI Product Engineer", "Agentic AI Developer", "AI Engineering Lead (Junior)"],
     faqs: [
       { question: "Why choose the 1-year Advanced Diploma over a shorter AI course in Kochi?", answer: "The 1-year format lets us go far deeper than any single course — combining AI systems engineering, agentic AI and product development into one continuous program with multiple real capstones, which is why it's our flagship, most industry-mentored track." },
-      { question: "Does the Advanced Diploma also include the 25% fee-after-placement benefit?", answer: "Yes — this flagship program follows the same 25% fee-after-placement structure as our other courses, so a significant portion of your fee is only due once you're placed." },
+      { question: "Does the Advanced Diploma also include the pay-after-placement benefit?", answer: "Yes — this flagship program follows the same pay-after-placement structure as our other courses: up to ₹15,000 of your fee is only due once you're placed." },
       { question: "What kind of roles do Advanced Diploma graduates get placed in?", answer: "Graduates are positioned for AI Systems Engineer, AI Product Engineer and Agentic AI Developer roles, and get priority placement-track access to our 200+ hiring partners." },
       { question: "Can I switch into the Advanced Diploma after starting a shorter AI course?", answer: "Yes, our counselors regularly help students upgrade from a shorter track like Agentic AI Development or AI Engineering & Automation into the full Advanced Diploma — talk to admissions about credit for modules already completed." },
     ],

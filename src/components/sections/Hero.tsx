@@ -55,7 +55,7 @@ export default function Hero() {
             Job-oriented IT and AI courses in Kochi — Python full-stack, MERN, Data Science,
             AI Engineering, Cybersecurity and Agentic AI — built with real projects, industry
             mentors, and{" "}
-            <span className="accent-highlight font-semibold">25% fee payment after placement</span>
+            <span className="accent-highlight font-semibold">up to ₹15,000 fees pay only after placement</span>
             . Trusted by students across Kochi, Ernakulam and Kerala for genuine, placement-first
             training.
           </p>

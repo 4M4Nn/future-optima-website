@@ -25,9 +25,10 @@ export default function TermsPage() {
           <h2 className="font-heading text-lg font-bold text-navy-900">Course Enrollment</h2>
           <p className="mt-2">
             Enrollment in any course is confirmed only after admissions counseling and agreed
-            fee payment terms, including our 25% fee-after-placement structure where
-            applicable. Specific fee amounts, batch schedules, and mode (online/offline) are
-            confirmed directly with our admissions team prior to enrollment.
+            fee payment terms, including our pay-after-placement structure (up to ₹15,000 of the
+            course fee payable only after placement) where applicable. Specific fee amounts,
+            batch schedules, and mode (online/offline) are confirmed directly with our
+            admissions team prior to enrollment.
           </p>
         </section>
 

@@ -64,13 +64,13 @@ export const blogPosts: BlogPost[] = [
     title: "AI Course Fees in Kochi: What to Expect in 2026 (and How Pay-After-Placement Works)",
     metaTitle: "AI Course Fees in Kochi 2026 — Pay After Placement Explained | Future Optima",
     metaDescription:
-      "What AI and IT course fees look like in Kochi in 2026, and how Future Optima's 25% fee-after-placement model works to reduce your upfront risk.",
+      "What AI and IT course fees look like in Kochi in 2026, and how Future Optima's pay-after-placement model — up to ₹15,000 due only after you're placed — works to reduce your upfront risk.",
     keywords: ["ai course fees kochi", "it course fee kerala 2026", "pay after placement course"],
     category: "Admissions",
     excerpt:
       "Course fees are one of the biggest factors in choosing an institute — here's what to actually expect, and how a pay-after-placement model changes the calculation.",
     publishedAt: "2026-07-10",
-    updatedAt: "2026-07-10",
+    updatedAt: "2026-08-20",
     readingTime: "5 min read",
     coverImage: "ai-powered-data-analytics",
     body: [
@@ -88,10 +88,10 @@ export const blogPosts: BlogPost[] = [
           "Classroom vs online batches",
         ],
       },
-      { type: "h2", text: "How the 25% fee-after-placement model works" },
+      { type: "h2", text: "How the pay-after-placement model works" },
       {
         type: "p",
-        text: "Across our courses, students pay the majority of the course fee at enrollment and the remaining 25% only once they are placed in a job. This isn't a discount — it's a structural choice: it means our placement cell has a direct financial reason to keep working on your placement even after your classes end, rather than considering the relationship over once training is complete.",
+        text: "Across our courses, students pay the majority of the course fee at enrollment, and up to ₹15,000 of the remaining fee only once they are placed in a job. This isn't a discount — it's a structural choice: it means our placement cell has a direct financial reason to keep working on your placement even after your classes end, rather than considering the relationship over once training is complete.",
       },
       {
         type: "p",
@@ -111,7 +111,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Does Future Optima charge the full fee upfront?",
         answer:
-          "No — our standard structure has you pay the majority of the fee at enrollment and the remaining 25% only after you are placed in a job.",
+          "No — our standard structure has you pay the majority of the fee at enrollment, with up to ₹15,000 of the remaining fee only due after you are placed in a job.",
       },
       {
         question: "Are online batches cheaper than classroom batches?",
@@ -998,7 +998,7 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "\"Placement support\" is a vague phrase every institute uses. Here's specifically what our placement cell in Kochi does, step by step, for every graduating batch.",
     publishedAt: "2026-08-01",
-    updatedAt: "2026-08-01",
+    updatedAt: "2026-08-20",
     readingTime: "5 min read",
     coverImage: "python-full-stack-with-ai",
     body: [
@@ -1021,10 +1021,10 @@ export const blogPosts: BlogPost[] = [
           "Continued follow-up from our placement cell after your course ends, until you're placed",
         ],
       },
-      { type: "h2", text: "Why the 25% fee-after-placement structure matters here" },
+      { type: "h2", text: "Why the pay-after-placement structure matters here" },
       {
         type: "p",
-        text: "Because 25% of your course fee is only collected after you're placed, our placement cell has a direct financial reason to keep working your case — not just wish you well and move to the next batch. That structural incentive is the actual answer to 'why should I trust your placement support.'",
+        text: "Because up to ₹15,000 of your course fee is only collected after you're placed, our placement cell has a direct financial reason to keep working your case — not just wish you well and move to the next batch. That structural incentive is the actual answer to 'why should I trust your placement support.'",
       },
     ],
     faqs: [

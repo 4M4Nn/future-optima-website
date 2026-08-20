@@ -14,8 +14,9 @@ export default function FinalCTA() {
             <span className="text-gradient-amber">one conversation</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-white/70">
-            Talk to our admissions counselors about the right course, batch timing, and how the
-            25% fee-after-placement plan works for you.
+            Talk to our admissions counselors about the right course, batch timing, and how our
+            pay-after-placement plan (up to ₹15,000 due only after you&apos;re placed) works for
+            you.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">

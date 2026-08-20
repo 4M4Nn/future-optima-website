@@ -21,7 +21,7 @@ const coreValues = [
     icon: HeartHandshake,
     title: "Shared Risk, Shared Success",
     description:
-      "Our 25% fee-after-placement model means our own success depends on yours — we stay invested in every student until they're placed.",
+      "Our pay-after-placement model — up to ₹15,000 of your fee is only due once you're placed — means our own success depends on yours.",
   },
   {
     icon: Sparkles,

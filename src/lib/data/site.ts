@@ -56,9 +56,9 @@ export const hiringPartners: HiringPartner[] = [
 
 export const usps: { title: string; description: string }[] = [
   {
-    title: "25% Fee After Placement",
+    title: "Pay After Placement",
     description:
-      "Pay the majority of your course fee upfront and the remaining 25% only after you are placed — we succeed when you do.",
+      "Pay the majority of your course fee upfront — up to ₹15,000 is only due after you're placed in a job through us.",
   },
   {
     title: "90%+ Placement Success Rate",

@@ -21,9 +21,9 @@ const values = [
   },
   {
     icon: HeartHandshake,
-    title: "25% Fee After Placement",
+    title: "Pay After Placement",
     description:
-      "We structured our fees so our own success depends on yours — the placement team stays invested after your classes end.",
+      "Up to ₹15,000 of your fee is only due after you're placed — the placement team stays invested after your classes end.",
   },
   {
     icon: Users,
@@ -78,10 +78,11 @@ export default function AboutPage() {
             </p>
             <p>
               That philosophy shows up structurally, not just in marketing copy: our{" "}
-              <span className="accent-highlight font-semibold">25% fee-after-placement</span>{" "}
-              model means a meaningful part of what we earn from every student is tied to
-              whether they actually get hired. It&apos;s a small structural choice with a large
-              effect on how our placement cell operates.
+              <span className="accent-highlight font-semibold">pay-after-placement</span>{" "}
+              model — up to ₹15,000 of your fee is only due once you&apos;re placed — means a
+              meaningful part of what we earn from every student is tied to whether they
+              actually get hired. It&apos;s a small structural choice with a large effect on how
+              our placement cell operates.
             </p>
             <p className="accent-script text-xl text-navy-900">&ldquo;{siteConfig.founderNote}&rdquo;</p>
           </div>

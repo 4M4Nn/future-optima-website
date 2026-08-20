@@ -74,6 +74,68 @@ export const newsPosts: NewsPost[] = [
       },
     ],
   },
+  {
+    slug: "kseb-corporate-training-ai-tools",
+    title: "Future Optima Delivers Corporate Training for KSEB on AI Tools",
+    metaTitle: "Corporate AI Tools Training for KSEB — Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions delivered a corporate training session for the Kerala State Electricity Board (KSEB) on practical AI tools, held on August 13, 2026.",
+    excerpt:
+      "Future Optima IT Solutions conducted a corporate training session for Kerala State Electricity Board (KSEB) staff on practical AI tools for the workplace, held on August 13, 2026.",
+    publishedAt: "2026-08-13",
+    coverImage: "/images/news/kseb-corporate-training.jpeg",
+    coverAlt: "Future Optima IT Solutions conducting corporate AI tools training for Kerala State Electricity Board staff",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions conducted a corporate training session for the Kerala State Electricity Board (KSEB) on August 13, 2026, focused on practical AI tools for day-to-day workplace use.",
+      },
+      {
+        type: "p",
+        text: "The session extended Future Optima's project-first, hands-on training approach beyond its regular student batches and into a corporate setting — helping KSEB staff build practical comfort with AI tools for tasks like data analysis, reporting, drafting and workflow automation.",
+      },
+      { type: "h2", text: "Why Corporate AI Training Matters" },
+      {
+        type: "p",
+        text: "As AI tools become part of everyday office work across public sector and private organizations alike, structured, hands-on training helps teams adopt them productively and responsibly, rather than learning by trial and error. This is the same practical, project-first approach Future Optima uses in its student courses, applied to a working professional audience.",
+      },
+      {
+        type: "p",
+        text: "This engagement reflects Future Optima's growing role beyond student training — delivering applied AI upskilling directly to organizations across Kerala.",
+      },
+    ],
+  },
+  {
+    slug: "hr-session-smruthy-ashokan-nuventure",
+    title: "HR Session by Mrs. Smruthy S. Ashokan (Nuventure) for Future Optima Students",
+    metaTitle: "HR Session with Smruthy S. Ashokan, Nuventure — Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions hosted an HR session by Mrs. Smruthy S. Ashokan, Senior HR Manager at Nuventure, for its students on July 11, 2026.",
+    excerpt:
+      "Mrs. Smruthy S. Ashokan, Senior HR Manager at Nuventure, conducted an HR session for Future Optima students on July 11, 2026, covering what employers actually look for at interview stage.",
+    publishedAt: "2026-07-11",
+    coverImage: "/images/news/hr-session-nuventure.jpeg",
+    coverAlt: "Mrs. Smruthy S. Ashokan of Nuventure conducting an HR session for Future Optima students",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions hosted an HR session for its students on July 11, 2026, led by Mrs. Smruthy S. Ashokan, Senior HR Manager at Nuventure — one of Future Optima's hiring partners.",
+      },
+      {
+        type: "p",
+        text: "The session gave students a direct, employer-side view of the hiring process — what recruiters actually screen for, how to present technical projects clearly in an interview, and how to handle the non-technical parts of the hiring process with confidence.",
+      },
+      { type: "h2", text: "Why Sessions Like This Matter" },
+      {
+        type: "p",
+        text: "Technical skill alone doesn't guarantee a job offer — how a candidate communicates, presents their work and handles an interview matters just as much. Bringing in working HR professionals to run these sessions directly, rather than relying only on in-house placement coaching, gives students a more realistic, current view of what employers are evaluating.",
+      },
+      {
+        type: "p",
+        text: "Sessions like this run periodically alongside Future Optima's regular placement cell activities, giving students recurring, direct exposure to hiring-side perspectives from real industry professionals.",
+      },
+    ],
+  },
 ];
 
 export function getNewsPostBySlug(slug: string) {
