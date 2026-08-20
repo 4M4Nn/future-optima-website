@@ -26,8 +26,6 @@ export default function Hero() {
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
         <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
 
-        <HeroGirlVisual className="pointer-events-none absolute right-1 top-10 z-10 sm:right-3 sm:top-12 lg:right-8 lg:top-10 xl:right-14" />
-
         <Reveal>
           <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
             <Sparkles className="h-3.5 w-3.5 text-amber-500" />
@@ -82,6 +80,8 @@ export default function Hero() {
             NACTET-recognized certification pathway &middot; 200+ hiring partners
           </div>
         </Reveal>
+
+        <HeroGirlVisual className="pointer-events-none relative z-10 mx-auto mt-10 flex w-fit justify-center sm:absolute sm:inset-x-auto sm:right-3 sm:top-12 sm:mt-0 lg:right-8 lg:top-10 xl:right-14" />
 
         <Reveal delay={0.6}>
           <div className="mt-14 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">

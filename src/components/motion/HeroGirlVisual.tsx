@@ -68,14 +68,19 @@ export default function HeroGirlVisual({ className }: { className?: string }) {
 
   return (
     <div ref={wrapRef} className={className} aria-hidden="true">
-      <div className="relative mx-auto aspect-[1186/1327] w-[210px] sm:w-[280px] lg:w-[400px] xl:w-[440px]">
+      <div className="relative mx-auto aspect-[1186/1327] w-[240px] sm:w-[280px] lg:w-[400px] xl:w-[440px]">
+        <div
+          className="absolute inset-x-[6%] bottom-0 top-[12%] -z-10 rounded-full bg-amber-500/20 blur-3xl"
+          style={{ background: "radial-gradient(closest-side, rgba(245,166,35,0.28), rgba(245,166,35,0) 72%)" }}
+        />
+
         <div className="hero-girl-figure relative h-full w-full">
           <Image
             src="/images/hero/hero-girl.png"
             alt=""
             fill
             priority
-            sizes="(min-width: 1280px) 440px, (min-width: 1024px) 400px, (min-width: 640px) 280px, 210px"
+            sizes="(min-width: 1280px) 440px, (min-width: 1024px) 400px, (min-width: 640px) 280px, 240px"
             className="object-contain object-bottom drop-shadow-[0_25px_35px_rgba(0,0,0,0.45)]"
           />
         </div>
@@ -83,7 +88,7 @@ export default function HeroGirlVisual({ className }: { className?: string }) {
         {badges.map(({ Icon, label, className: pos, hideOnMobile }) => (
           <div
             key={label}
-            className={`hero-girl-badge absolute flex items-center gap-1.5 rounded-full bg-white/10 py-1 pl-1 pr-3 shadow-lg backdrop-blur-sm ${pos} ${
+            className={`hero-girl-badge absolute flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 py-1 pl-1 pr-3 shadow-lg backdrop-blur-sm ${pos} ${
               hideOnMobile ? "hidden sm:flex" : "flex"
             }`}
           >
