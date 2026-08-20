@@ -105,3 +105,33 @@ export interface FaqItem {
   question: string;
   answer: string;
 }
+
+export interface NewsPost {
+  slug: string;
+  title: string;
+  metaTitle: string;
+  metaDescription: string;
+  excerpt: string;
+  publishedAt: string;
+  coverImage: string;
+  coverAlt: string;
+  body: BlogBlock[];
+}
+
+export interface GoogleReview {
+  name: string;
+  quote: string;
+  rating: number;
+  timeAgo: string;
+}
+
+export interface JobOpening {
+  slug: string;
+  title: string;
+  type: string;
+  experience: string;
+  location: string;
+  postedAt: string;
+  skills: string[];
+  responsibilities: string[];
+}

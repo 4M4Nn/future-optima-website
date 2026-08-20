@@ -86,11 +86,23 @@ export const mainNav: NavItem[] = [
   { label: "Placements", href: "/placements" },
   { label: "About", href: "/about" },
   {
+    label: "Career",
+    children: [
+      { label: "Career Overview", href: "/career", description: "Work with us at Future Optima" },
+      { label: "Become a Faculty", href: "/career/faculty", description: "Full-time teaching positions" },
+      { label: "Become a Tutor", href: "/career/become-a-tutor", description: "Part-time & freelance tutoring" },
+      { label: "Open Positions", href: "/career/open-positions", description: "Current job openings" },
+    ],
+  },
+  {
     label: "More",
     children: [
       { label: "Virtual Office", href: "/virtual-office", description: "Get AI-matched course suggestions" },
       { label: "Hire From Us", href: "/hire-from-us", description: "Recruit our trained talent" },
       { label: "Gallery", href: "/gallery", description: "Campus, labs & training moments" },
+      { label: "Testimonials", href: "/testimonials", description: "Google reviews & student stories" },
+      { label: "Vision & Mission", href: "/vision-mission", description: "What drives Future Optima" },
+      { label: "News", href: "/news", description: "Latest updates & announcements" },
       { label: "Blog", href: "/blog", description: "Guides on AI & IT careers" },
       { label: "FAQ", href: "/faq", description: "Common questions answered" },
       { label: "Contact Us", href: "/contact", description: "Talk to our counselors" },
@@ -112,6 +124,10 @@ export const footerNav = {
   company: [
     { label: "About Us", href: "/about" },
     { label: "Placements", href: "/placements" },
+    { label: "Vision & Mission", href: "/vision-mission" },
+    { label: "Testimonials", href: "/testimonials" },
+    { label: "News", href: "/news" },
+    { label: "Career", href: "/career" },
     { label: "Virtual Office", href: "/virtual-office" },
     { label: "Hire From Us", href: "/hire-from-us" },
     { label: "Gallery", href: "/gallery" },

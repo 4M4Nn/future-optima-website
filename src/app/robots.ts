@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
+import { siteConfig } from "@/lib/data/site";
 
-const BASE_URL = "https://future-optima-website.vercel.app";
+const BASE_URL = siteConfig.url;
 
 export default function robots(): MetadataRoute.Robots {
   return {

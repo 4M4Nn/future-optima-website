@@ -1,8 +1,10 @@
 import type { MetadataRoute } from "next";
 import { courses } from "@/lib/data/courses";
 import { blogPosts } from "@/lib/data/blog";
+import { newsPosts } from "@/lib/data/news";
+import { siteConfig } from "@/lib/data/site";
 
-const BASE_URL = "https://future-optima-website.vercel.app";
+const BASE_URL = siteConfig.url;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -16,6 +18,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/faq`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/contact`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/testimonials`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE_URL}/vision-mission`, changeFrequency: "yearly", priority: 0.4 },
+    { url: `${BASE_URL}/news`, changeFrequency: "weekly", priority: 0.6 },
+    { url: `${BASE_URL}/career`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${BASE_URL}/career/faculty`, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${BASE_URL}/career/become-a-tutor`, changeFrequency: "monthly", priority: 0.4 },
+    { url: `${BASE_URL}/career/open-positions`, changeFrequency: "weekly", priority: 0.5 },
     { url: `${BASE_URL}/privacy-policy`, changeFrequency: "yearly", priority: 0.2 },
     { url: `${BASE_URL}/terms`, changeFrequency: "yearly", priority: 0.2 },
   ];
@@ -33,5 +42,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...courseRoutes, ...blogRoutes];
+  const newsRoutes: MetadataRoute.Sitemap = newsPosts.map((post) => ({
+    url: `${BASE_URL}/news/${post.slug}`,
+    lastModified: post.publishedAt,
+    changeFrequency: "monthly",
+    priority: 0.5,
+  }));
+
+  return [...staticRoutes, ...courseRoutes, ...blogRoutes, ...newsRoutes];
 }

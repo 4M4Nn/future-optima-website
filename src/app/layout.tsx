@@ -29,7 +29,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://future-optima-website.vercel.app"),
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: `${siteConfig.name} — Best IT & AI Institute in Kochi, Kerala`,
     template: `%s | ${siteConfig.shortName}`,
