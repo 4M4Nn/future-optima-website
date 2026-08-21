@@ -8,7 +8,7 @@ export const siteConfig = {
   tagline: "Best IT & AI Institute in Kochi, Kerala",
   description:
     "Future Optima IT Solutions Pvt Ltd is a premium AI & IT training institute in Chembumukku, Kochi, Kerala, offering job-oriented courses in Python full-stack development, MERN stack, data science with AI, AI engineering, cybersecurity and more — with 90%+ placement success and pay-after-placement fee support.",
-  phones: ["8891129111", "8891129222", "8891129333"],
+  phones: ["8891129333"],
   primaryPhone: "8891129333",
   whatsapp: "918891129333",
   email: "info@futureoptimaitsolutions.com",
