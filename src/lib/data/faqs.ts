@@ -54,7 +54,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "What is the fee for AI and IT courses at Future Optima in Kochi?",
     answer:
-      "Fees vary by course length and depth — from shorter tracks like Software Testing Certification to the 1-year Advanced Diploma. Call our admissions team at the number listed on our Contact page for an accurate quote for your chosen course and batch (online or offline).",
+      "Fees vary by course length and depth — from shorter tracks like Web Bug Hunter or Certified Penetration Testing to the 1-year Advanced Diploma. Call our admissions team at the number listed on our Contact page for an accurate quote for your chosen course and batch (online or offline).",
   },
   {
     question: "Which Kochi/Kerala locations do Future Optima students typically come from?",
@@ -65,5 +65,35 @@ export const generalFaqs: FaqItem[] = [
     question: "Can working professionals or those with a career gap join Future Optima's courses?",
     answer:
       "Yes. Our batches include recent graduates, working professionals looking to upskill into AI/IT roles, and students returning after a career gap. Course pacing and mentor support are adjusted to help each group reach the same job-ready outcome.",
+  },
+  {
+    question: "Does Future Optima offer weekend or flexible batch timings?",
+    answer:
+      "Batch timing depends on the course and current schedule — many of our online batches are structured to accommodate working professionals. Talk to our admissions counselors about weekend or evening timing for your preferred course before enrolling.",
+  },
+  {
+    question: "Does Future Optima provide internship opportunities during the course?",
+    answer:
+      "Yes — several of our courses include an internship component with real client or partner projects, in areas like Business Analytics, Cybersecurity and Data Science with AI, in addition to the standard capstone project every course ends with.",
+  },
+  {
+    question: "What certificate do I receive after completing a course at Future Optima?",
+    answer:
+      "You receive Future Optima's own project-completion certificate once you finish your course project. Students who also complete the NACTET application receive that external certification separately, roughly 2 weeks after course completion.",
+  },
+  {
+    question: "Is prior coding experience required to join an AI or IT course at Future Optima?",
+    answer:
+      "No — every course is designed to take complete beginners to job-ready, including non-CS graduates with zero prior coding background. A few of our more advanced tracks (like Certified Penetration Testing) recommend basic networking familiarity, but this is called out clearly on each course page.",
+  },
+  {
+    question: "What is the difference between Certified Ethical Hacking and Certified Penetration Testing?",
+    answer:
+      "Certified Ethical Hacking is a broader 2-month certification covering the full attacker methodology end to end. Certified Penetration Testing is a tighter, 1-month format that goes deeper specifically into the exploitation and professional-reporting phase of a real pentest engagement.",
+  },
+  {
+    question: "Can I switch courses after enrolling if I choose the wrong one?",
+    answer:
+      "Yes — our counselors regularly help students switch or upgrade tracks early in a course (for example, from a shorter certification into the full Advanced Diploma) with credit for modules already completed, as long as it's raised early with admissions.",
   },
 ];
