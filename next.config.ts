@@ -29,6 +29,19 @@ const nextConfig: NextConfig = {
   // this list was derived from.
   async redirects() {
     return [
+      // --- www -> apex, matching the live WordPress site's existing
+      // behavior exactly (verified via `curl -I https://www...` before
+      // cutover: WordPress already 301s www to the bare domain). Handled
+      // here at the application layer rather than a Vercel dashboard
+      // domain-redirect toggle so it's version-controlled and doesn't
+      // depend on someone remembering to configure it in the UI. ---
+      {
+        source: "/:path*",
+        destination: "https://futureoptimaitsolutions.com/:path*",
+        permanent: true,
+        has: [{ type: "host", value: "www.futureoptimaitsolutions.com" }],
+      },
+
       // --- Internal (non-WordPress) redirects: retired/merged routes on
       // this Next.js site itself, not part of the WordPress legacy map. ---
       {
