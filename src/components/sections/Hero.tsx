@@ -86,29 +86,10 @@ export default function Hero() {
               </div>
             </Reveal>
 
-            <div className="mt-10 lg:mt-20 lg:flex lg:items-start lg:gap-6">
-              <HeroGirlVisual className="pointer-events-none relative z-10 mx-auto flex w-fit justify-center lg:order-2 lg:mx-0 lg:shrink-0" />
-
-              <Reveal delay={0.65} className="lg:order-1 lg:flex-1">
-                <div className="mt-10 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm sm:p-7 lg:mt-0 lg:h-full">
-                  <h2 className="font-heading text-lg font-extrabold text-white sm:text-xl">
-                    Why Students Choose Future Optima in Kochi
-                  </h2>
-                  <p className="mt-3 text-sm leading-relaxed text-white/70 sm:text-base">
-                    Future Optima IT Solutions Pvt Ltd is Chembumukku, Kochi&apos;s leading AI and
-                    IT training institute — built for real careers, not just certificates. Every
-                    course blends hands-on AI integration, industry-mentored projects and dedicated
-                    placement support, backed by a 90%+ placement success rate and 200+ hiring
-                    partners across Kerala. Whether you&apos;re starting fresh or upskilling from a
-                    non-technical background, our Central Government and State Government
-                    affiliated, NACTET-certified programs are built to get you job-ready — fast.
-                  </p>
-                </div>
-              </Reveal>
-            </div>
+            <HeroGirlVisual className="pointer-events-none relative z-10 mx-auto mt-10 flex w-fit justify-center lg:mx-0 lg:ml-auto lg:mt-16" />
           </div>
 
-          {/* Left column: government/NACTET affiliations + tech stack */}
+          {/* Left column: government/NACTET affiliations + tech stack + trust content */}
           <div className="mt-14 lg:order-1 lg:mt-3">
             <Reveal delay={0.15}>
               <h2 className="font-heading text-2xl font-extrabold leading-tight sm:text-3xl">
@@ -154,6 +135,23 @@ export default function Hero() {
                 );
               })}
             </div>
+
+            <Reveal delay={0.55}>
+              <div className="mt-8 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm">
+                <h2 className="font-heading text-lg font-extrabold text-white sm:text-xl">
+                  Why Students Choose Future Optima in Kochi
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-white/70 sm:text-base">
+                  Future Optima IT Solutions Pvt Ltd is Chembumukku, Kochi&apos;s leading AI and
+                  IT training institute — built for real careers, not just certificates. Every
+                  course blends hands-on AI integration, industry-mentored projects and dedicated
+                  placement support, backed by a 90%+ placement success rate and 200+ hiring
+                  partners across Kerala. Whether you&apos;re starting fresh or upskilling from a
+                  non-technical background, our Central Government and State Government
+                  affiliated, NACTET-certified programs are built to get you job-ready — fast.
+                </p>
+              </div>
+            </Reveal>
           </div>
         </div>
 
