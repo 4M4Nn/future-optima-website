@@ -1,12 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowRight, BadgeCheck, Building2, Landmark, ShieldCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SplitWords from "@/components/motion/SplitWords";
 import Reveal from "@/components/motion/Reveal";
 import RoamingRobot from "@/components/motion/RoamingRobot";
 import HeroGirlVisual from "@/components/motion/HeroGirlVisual";
-import { heroStats } from "@/lib/data/site";
+import { heroAffiliations, heroStats, heroTechStack } from "@/lib/data/site";
+
+const affiliationIcons = [Landmark, Building2, BadgeCheck];
 
 export default function Hero() {
   return (
@@ -24,64 +26,117 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
-        <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
+        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-16">
+          {/* Right column (first in DOM so it reads first on mobile): headline, pitch, girl visual */}
+          <div className="relative lg:order-2">
+            <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
 
-        <Reveal>
-          <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
-            <Sparkles className="h-3.5 w-3.5 text-amber-500" />
-            Kerala&apos;s 1st AI Lab &middot; Industry-Mentored AI &amp; IT Training Institute
-            <RoamingRobot className="pointer-events-none absolute -top-6 left-[85%] hidden sm:block" />
+            <Reveal>
+              <div className="relative mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium text-white/80 sm:text-sm">
+                <Sparkles className="h-3.5 w-3.5 text-amber-500" />
+                Kerala&apos;s 1st AI Lab &middot; Industry-Mentored AI &amp; IT Training Institute
+                <RoamingRobot className="pointer-events-none absolute -top-6 left-[85%] hidden sm:block" />
+              </div>
+            </Reveal>
+
+            <h1 className="relative z-20 font-heading text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
+              <SplitWords text="Best IT" className="block" />
+              <SplitWords
+                text="& AI Institute"
+                className="block"
+                wordClassName="text-gradient-amber"
+                delay={0.15}
+              />
+              <SplitWords text="in Kochi, Kerala" className="block" delay={0.3} />
+            </h1>
+
+            <Reveal delay={0.35}>
+              <p className="mt-6 max-w-2xl text-base text-white/70 sm:text-lg">
+                Job-oriented IT and AI courses in Kochi — Python full-stack, MERN, Data Science,
+                AI Engineering, Cybersecurity and Agentic AI — built with real projects, industry
+                mentors, and{" "}
+                <span className="accent-highlight font-semibold">up to ₹15,000 fees pay only after placement</span>
+                . Trusted by students across Kochi, Ernakulam and Kerala for genuine, placement-first
+                training.
+              </p>
+            </Reveal>
+
+            <Reveal delay={0.45}>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">
+                  <Link href="/courses">
+                    Explore Courses <ArrowRight className="ml-1 h-4 w-4" />
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="border-white/25 bg-transparent text-white hover:bg-white/10 hover:text-white"
+                >
+                  <Link href="/virtual-office">Talk to Our Virtual Counselor</Link>
+                </Button>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.55}>
+              <div className="mt-4 flex items-center gap-2 text-xs text-white/50 sm:text-sm">
+                <ShieldCheck className="h-4 w-4 text-amber-500" />
+                NACTET-recognized certification pathway &middot; 200+ hiring partners
+              </div>
+            </Reveal>
+
+            <HeroGirlVisual className="pointer-events-none relative z-10 mx-auto mt-10 flex w-fit justify-center lg:mx-0 lg:ml-auto" />
           </div>
-        </Reveal>
 
-        <h1 className="relative z-20 max-w-4xl font-heading text-4xl font-extrabold leading-tight sm:text-5xl lg:text-6xl">
-          <SplitWords text="Best IT" className="block" />
-          <SplitWords
-            text="& AI Institute"
-            className="block"
-            wordClassName="text-gradient-amber"
-            delay={0.15}
-          />
-          <SplitWords text="in Kochi, Kerala" className="block" delay={0.3} />
-        </h1>
+          {/* Left column: government/NACTET affiliations + tech stack */}
+          <div className="mt-14 lg:order-1 lg:mt-3">
+            <Reveal delay={0.15}>
+              <h2 className="font-heading text-2xl font-extrabold leading-tight sm:text-3xl">
+                Master{" "}
+                <span className="text-gradient-amber">Software &amp; AI Programs</span>
+              </h2>
+              <p className="mt-3 max-w-md text-sm text-white/70 sm:text-base">
+                Government-affiliated, NACTET-certified training in the exact tools and
+                technologies companies in Kochi and across Kerala are hiring for right now.
+              </p>
+            </Reveal>
 
-        <Reveal delay={0.35}>
-          <p className="mt-6 max-w-2xl text-base text-white/70 sm:text-lg">
-            Job-oriented IT and AI courses in Kochi — Python full-stack, MERN, Data Science,
-            AI Engineering, Cybersecurity and Agentic AI — built with real projects, industry
-            mentors, and{" "}
-            <span className="accent-highlight font-semibold">up to ₹15,000 fees pay only after placement</span>
-            . Trusted by students across Kochi, Ernakulam and Kerala for genuine, placement-first
-            training.
-          </p>
-        </Reveal>
+            <Reveal delay={0.25}>
+              <div className="mt-6 flex flex-wrap gap-2.5">
+                {heroTechStack.map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-sm font-semibold text-white backdrop-blur-sm"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </Reveal>
 
-        <Reveal delay={0.45}>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">
-              <Link href="/courses">
-                Explore Courses <ArrowRight className="ml-1 h-4 w-4" />
-              </Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-white/25 bg-transparent text-white hover:bg-white/10 hover:text-white"
-            >
-              <Link href="/virtual-office">Talk to Our Virtual Counselor</Link>
-            </Button>
+            <div className="mt-8 space-y-3">
+              {heroAffiliations.map((item, i) => {
+                const Icon = affiliationIcons[i % affiliationIcons.length];
+                return (
+                  <Reveal key={item.title} delay={0.3 + i * 0.08}>
+                    <div className="flex items-center gap-4 rounded-2xl border border-white/15 bg-white/5 p-4 backdrop-blur-sm">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-500/15 text-amber-400">
+                        <Icon className="h-5 w-5" />
+                      </div>
+                      <div>
+                        <p className="font-heading text-sm font-bold text-white sm:text-base">
+                          {item.title}
+                        </p>
+                        <p className="text-xs text-white/60 sm:text-sm">{item.description}</p>
+                      </div>
+                    </div>
+                  </Reveal>
+                );
+              })}
+            </div>
           </div>
-        </Reveal>
-
-        <Reveal delay={0.55}>
-          <div className="mt-4 flex items-center gap-2 text-xs text-white/50 sm:text-sm">
-            <ShieldCheck className="h-4 w-4 text-amber-500" />
-            NACTET-recognized certification pathway &middot; 200+ hiring partners
-          </div>
-        </Reveal>
-
-        <HeroGirlVisual className="pointer-events-none relative z-10 mx-auto mt-10 flex w-fit justify-center sm:absolute sm:inset-x-auto sm:right-3 sm:top-12 sm:mt-0 lg:right-8 lg:top-10 xl:right-14" />
+        </div>
 
         <Reveal delay={0.6}>
           <div className="mt-14 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">

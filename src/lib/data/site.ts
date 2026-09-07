@@ -36,6 +36,32 @@ export const heroStats: StatItem[] = [
   { label: "Starting Salary (avg.)", value: "6.5", suffix: " LPA" },
 ];
 
+export const heroAffiliations: { title: string; description: string }[] = [
+  {
+    title: "Central Government Affiliated",
+    description: "AI & IT Training Institute",
+  },
+  {
+    title: "State Government Affiliation",
+    description: "Recognized Skilling & Training Partner",
+  },
+  {
+    title: "NACTET Affiliated",
+    description: "Certification Pathway for Every Course",
+  },
+];
+
+export const heroTechStack: string[] = [
+  "Python",
+  "Cybersecurity",
+  "Django",
+  "React",
+  "Claude",
+  "VS Code",
+  "AI Agents",
+  "Gen AI",
+];
+
 export const hiringPartners: HiringPartner[] = [
   { name: "Accenture", type: "IT Services & Consulting" },
   { name: "IBM", type: "Technology & Cloud" },
