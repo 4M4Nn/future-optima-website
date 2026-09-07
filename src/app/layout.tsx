@@ -82,7 +82,11 @@ export const metadata: Metadata = {
     description: siteConfig.description,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/images/brand/favicon-256.png", type: "image/png", sizes: "256x256" },
+    ],
+    apple: "/images/brand/favicon-256.png",
   },
 };
 
