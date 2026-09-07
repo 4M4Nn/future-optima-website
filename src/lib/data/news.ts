@@ -2,6 +2,44 @@ import type { NewsPost } from "@/types";
 
 export const newsPosts: NewsPost[] = [
   {
+    slug: "bharata-mata-college-data-analytics-genai-addon-launch",
+    title:
+      "Future Optima Launches Data Analytics with Gen AI Add-On Program at Bharata Mata College, Thrikkakara",
+    metaTitle: "Data Analytics with Gen AI Add-On Launch — Bharata Mata College",
+    metaDescription:
+      "Future Optima IT Solutions has launched the industry-linked Data Analytics with Gen AI add-on program in the AI & Machine Learning department at Bharata Mata College (Autonomous), Thrikkakara, Kochi.",
+    excerpt:
+      "Following its MoU with Bharata Mata College, Future Optima has now launched the Data Analytics with Gen AI add-on program in the college's AI & Machine Learning department, inaugurated by company head Jeena Madhavan.",
+    publishedAt: "2026-09-08",
+    coverImage: "/images/news/bmc-data-analytics-genai-addon-launch.jpeg",
+    coverAlt:
+      "Future Optima IT Solutions head Jeena Madhavan inaugurating the Data Analytics with Gen AI add-on program at Bharata Mata College, Thrikkakara",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions Pvt Ltd has launched \"Data Analytics with Gen AI,\" an industry-linked add-on program, in the Government-Aided Integrated MSc Computer Science (Artificial Intelligence & Machine Learning) department at Bharata Mata College (Autonomous), Thrikkakara, Kochi — following the MoU signed between the two institutions.",
+      },
+      {
+        type: "p",
+        text: "The program was inaugurated by Jeena Madhavan, Head of Future Optima IT Solutions Pvt Ltd, in the presence of Dr. John T. Abraham, Dean of Computer Science, faculty member Greety Dominic, and Data Analytics trainers Rahul P. and Anjana Aji Kumar.",
+      },
+      { type: "h2", text: "What the Add-On Program Covers" },
+      {
+        type: "list",
+        items: [
+          "Practical data analytics skills built directly into the AI & ML department's MSc curriculum",
+          "Applied generative AI tools and workflows alongside core data analytics training",
+          "Delivery by Future Optima's own data analytics trainers, working within the college",
+          "A direct extension of the Data Analyst with Gen AI program established through the Future Optima–Bharata Mata College MoU",
+        ],
+      },
+      {
+        type: "p",
+        text: "This launch moves the earlier MoU from agreement into an active, running program — giving Bharata Mata College's AI & ML postgraduate students structured, industry-linked data analytics and generative AI training as part of their regular academic term.",
+      },
+    ],
+  },
+  {
     slug: "mou-bharata-mata-college-thrikkakara-data-analyst-genai",
     title:
       "Future Optima Signs MoU with Bharata Mata College, Thrikkakara for a Data Analyst with Gen AI Program",

@@ -26,7 +26,7 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 pb-20 pt-14 sm:px-6 sm:pb-28 sm:pt-20 lg:px-8">
-        <div className="lg:grid lg:grid-cols-2 lg:items-start lg:gap-16">
+        <div className="lg:grid lg:grid-cols-[0.85fr_1.15fr] lg:items-start lg:gap-10">
           {/* Right column (first in DOM so it reads first on mobile): headline, pitch, girl visual */}
           <div className="relative lg:order-2">
             <RoamingRobot className="pointer-events-none absolute right-2 top-0 scale-75 sm:hidden" />
@@ -137,7 +137,7 @@ export default function Hero() {
             </div>
 
             <Reveal delay={0.55}>
-              <div className="mt-8 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm">
+              <div className="mt-12 rounded-2xl border border-white/15 bg-white/5 p-6 backdrop-blur-sm">
                 <h2 className="font-heading text-lg font-extrabold text-white sm:text-xl">
                   Why Students Choose Future Optima in Kochi
                 </h2>

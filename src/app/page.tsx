@@ -10,6 +10,7 @@ import PlacementWall from "@/components/sections/PlacementWall";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import InstagramCTA from "@/components/sections/InstagramCTA";
 import BlogPreview from "@/components/sections/BlogPreview";
+import LatestNewsLoop from "@/components/sections/LatestNewsLoop";
 import FAQPreview from "@/components/sections/FAQPreview";
 import FinalCTA from "@/components/sections/FinalCTA";
 import { siteConfig } from "@/lib/data/site";
@@ -45,6 +46,7 @@ export default function Home() {
       <PlacementWall />
       <TestimonialsSection />
       <BlogPreview />
+      <LatestNewsLoop />
       <FAQPreview />
       <InstagramCTA />
       <FinalCTA />

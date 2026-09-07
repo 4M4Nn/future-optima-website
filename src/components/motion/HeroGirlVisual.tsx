@@ -68,7 +68,7 @@ export default function HeroGirlVisual({ className }: { className?: string }) {
 
   return (
     <div ref={wrapRef} className={className} aria-hidden="true">
-      <div className="relative mx-auto aspect-[1186/1327] w-[240px] sm:w-[280px] lg:w-[340px] xl:w-[400px]">
+      <div className="relative mx-auto aspect-[1186/1327] w-[240px] sm:w-[280px] lg:w-[380px] xl:w-[460px]">
         <div
           className="absolute inset-x-[6%] bottom-0 top-[12%] -z-10 rounded-full bg-amber-500/20 blur-3xl"
           style={{ background: "radial-gradient(closest-side, rgba(245,166,35,0.28), rgba(245,166,35,0) 72%)" }}
