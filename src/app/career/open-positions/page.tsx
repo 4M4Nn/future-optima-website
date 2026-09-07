@@ -32,7 +32,7 @@ export default function OpenPositionsPage() {
       address: {
         "@type": "PostalAddress",
         streetAddress: siteConfig.address.line1,
-        addressLocality: "Kochi",
+        addressLocality: siteConfig.address.locality,
         addressRegion: "Kerala",
         postalCode: "682021",
         addressCountry: "IN",

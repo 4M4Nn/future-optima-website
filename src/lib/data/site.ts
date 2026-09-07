@@ -14,8 +14,9 @@ export const siteConfig = {
   email: "info@futureoptimaitsolutions.com",
   address: {
     line1: "Civil Line Road, Chembumukku",
-    line2: "Ernakulam, Kochi, Kerala 682021",
-    full: "Civil Line Road, Chembumukku, Ernakulam, Kochi, Kerala 682021",
+    line2: "Thrikkakara, Ernakulam, Kerala 682021",
+    full: "Civil Line Road, Chembumukku, Thrikkakara, Ernakulam, Kerala 682021",
+    locality: "Thrikkakara",
     mapsQuery: "Future+Optima+IT+Solutions+Chembumukku+Kochi",
     geo: { lat: 10.0432, lng: 76.3308 },
   },
