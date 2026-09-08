@@ -94,6 +94,7 @@ export const mainNav: NavItem[] = [
     children: [
       { label: "Virtual Office", href: "/virtual-office", description: "Get AI-matched course suggestions" },
       { label: "Hire From Us", href: "/hire-from-us", description: "Recruit our trained talent" },
+      { label: "Internship & Corporate Training", href: "/internship-corporate-training", description: "For students and organizations" },
       { label: "Gallery", href: "/gallery", description: "Campus, labs & training moments" },
       { label: "Testimonials", href: "/testimonials", description: "Google reviews & student stories" },
       { label: "Vision & Mission", href: "/vision-mission", description: "What drives Future Optima" },
@@ -125,6 +126,7 @@ export const footerNav = {
     { label: "Career", href: "/career" },
     { label: "Virtual Office", href: "/virtual-office" },
     { label: "Hire From Us", href: "/hire-from-us" },
+    { label: "Internship & Corporate Training", href: "/internship-corporate-training" },
     { label: "Gallery", href: "/gallery" },
     { label: "Blog", href: "/blog" },
     { label: "FAQ", href: "/faq" },

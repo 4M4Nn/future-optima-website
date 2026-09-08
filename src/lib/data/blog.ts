@@ -2,6 +2,106 @@ import type { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "corporate-it-ai-training-kochi-kerala",
+    title: "Corporate IT & AI Training in Kochi: How Teams Actually Upskill",
+    metaTitle: "Corporate IT & AI Training in Kochi, Kerala | Future Optima",
+    metaDescription:
+      "What corporate IT and AI training actually looks like in Kochi — practical, hands-on upskilling for teams, based on Future Optima's real corporate training engagements in Kerala.",
+    keywords: [
+      "corporate it training kochi",
+      "corporate ai training kerala",
+      "employee upskilling training kochi",
+      "workplace ai training kerala",
+    ],
+    category: "Corporate Training",
+    excerpt:
+      "Corporate training only works when it's hands-on, not a slide-deck workshop. Here's what that actually looks like, based on Future Optima's real engagements in Kerala.",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    readingTime: "4 min read",
+    coverImage: "ai-engineering-automation",
+    body: [
+      {
+        type: "p",
+        text: "\"Corporate AI training\" usually means one of two things: a one-off motivational workshop that doesn't change how anyone actually works, or genuinely hands-on training that leaves a team able to use AI tools productively the next day. The difference comes down to whether the training is project-first or slide-first.",
+      },
+      { type: "h2", text: "What effective corporate AI training actually covers" },
+      {
+        type: "list",
+        items: [
+          "Practical AI tools for daily tasks — data analysis, reporting, drafting and workflow automation",
+          "Hands-on exercises using the team's own real work, not generic sample data",
+          "A pace and depth matched to the team's existing technical comfort level",
+          "Delivery on-site at the organization or at a dedicated training facility, whichever fits the team's schedule",
+        ],
+      },
+      { type: "h2", text: "A real example: training for Kerala State Electricity Board" },
+      {
+        type: "p",
+        text: "In August 2026, Future Optima delivered a corporate training session for the Kerala State Electricity Board (KSEB) focused specifically on practical AI tools for the workplace — extending the same project-first, hands-on approach used in our student courses to a working professional audience. It's a useful reference point for what genuine corporate AI training looks like: focused, practical, and built around real workplace tasks rather than generic AI theory.",
+      },
+      { type: "h2", text: "Why this matters beyond one session" },
+      {
+        type: "p",
+        text: "As AI tools become part of everyday office work across public sector and private organizations alike, structured, hands-on training helps teams adopt them productively and responsibly, rather than learning by trial and error — or worse, not adopting them at all because no one showed the team how.",
+      },
+    ],
+    faqs: [
+      { question: "Does Future Optima only train IT companies?", answer: "No — corporate training is built around whatever your team's actual workplace tasks are, whether that's a public sector organization like KSEB, a private company, or any team that wants practical AI skills." },
+      { question: "How long does a corporate training engagement typically run?", answer: "This depends entirely on your team's goals and current skill level — reach out with details and we'll scope a session or program length that fits." },
+    ],
+  },
+  {
+    slug: "internship-programs-future-optima-kochi",
+    title: "Internship Programs at Future Optima: What You'll Actually Work On",
+    metaTitle: "Internship Programs in Kochi — Future Optima IT Solutions",
+    metaDescription:
+      "What Future Optima's internship programs in Kochi actually involve — real client and partner project work in Business Analytics, Cybersecurity and Data Science with AI.",
+    keywords: [
+      "internship program kochi",
+      "it internship kerala",
+      "data science internship kochi",
+      "business analytics internship kochi",
+    ],
+    category: "Career Guides",
+    excerpt:
+      "\"Internship\" often means fetching coffee and watching from the sidelines. Here's what students at Future Optima are actually working on during theirs.",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    readingTime: "4 min read",
+    coverImage: "data-science-with-ai",
+    relatedCourseSlug: "data-science-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "A lot of internships are internships in name only — students sit in on meetings, shadow a mentor, and leave with a certificate but not much they can point to in an interview. That's specifically what Future Optima's internship components are built to avoid.",
+      },
+      { type: "h2", text: "Real project work, not simulated exercises" },
+      {
+        type: "p",
+        text: "Internships run as a hands-on component within select courses — Business Analytics, Cybersecurity and Data Science with AI — built around real client and partner project work, mentored directly by working industry professionals. Students consistently point to this as one of the most practical parts of their training, precisely because the work is real.",
+      },
+      { type: "h2", text: "What students actually work on" },
+      {
+        type: "list",
+        items: [
+          "Business Analytics interns work on real dashboards and reporting for actual business use cases",
+          "Cybersecurity interns get hands-on lab and assessment work spanning practical security fundamentals",
+          "Data Science with AI interns work on applied machine learning and data projects with real datasets",
+        ],
+      },
+      { type: "h2", text: "Why this matters for your first job search" },
+      {
+        type: "p",
+        text: "An internship that produced real project work gives you something concrete to walk an interviewer through — what the problem was, what you built, and what the outcome was. That's a fundamentally different conversation than describing a certificate, and it's exactly the gap this internship structure is designed to close.",
+      },
+    ],
+    faqs: [
+      { question: "Is the internship a separate program, or part of my course?", answer: "It's built directly into select courses — Business Analytics, Cybersecurity and Data Science with AI — as a hands-on component alongside your regular coursework and capstone project." },
+      { question: "Will I get real project work, or just shadow someone?", answer: "Real client and partner project work, mentored by working industry professionals — not simulated exercises or observation-only shadowing." },
+    ],
+  },
+  {
     slug: "keralas-first-ai-lab-practical-ai-training",
     title: "Inside Kerala's First Industry-Mentored AI Lab for Practical, Career-Focused Training",
     metaTitle: "Kerala's First AI Lab — Practical AI Training | Future Optima",

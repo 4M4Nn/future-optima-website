@@ -77,6 +77,16 @@ export const generalFaqs: FaqItem[] = [
       "Yes — several of our courses include an internship component with real client or partner projects, in areas like Business Analytics, Cybersecurity and Data Science with AI, in addition to the standard capstone project every course ends with.",
   },
   {
+    question: "Does Future Optima offer corporate training for companies?",
+    answer:
+      "Yes — we deliver hands-on AI and workplace technology training for organizations, using the same project-first approach as our student courses. We delivered this for Kerala State Electricity Board (KSEB) in August 2026, focused on practical AI tools for the workplace.",
+  },
+  {
+    question: "Is corporate training only for IT companies, or any organization?",
+    answer:
+      "Any organization — corporate training is scoped around your team's actual goals and current skill level, not a fixed curriculum built only for technical teams.",
+  },
+  {
     question: "What certificate do I receive after completing a course at Future Optima?",
     answer:
       "You receive Future Optima's own project-completion certificate once you finish your course project. Students who also complete the NACTET application receive that external certification separately, roughly 2 weeks after course completion.",
