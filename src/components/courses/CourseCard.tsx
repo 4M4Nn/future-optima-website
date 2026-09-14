@@ -58,7 +58,7 @@ export default function CourseCard({ course, delayIndex = 0 }: { course: Course;
           </span>
           <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-700">
             <ShieldCheck className="h-3.5 w-3.5" />
-            100% Placement Support
+            {course.placementLabel ?? "100% Placement Support"}
           </span>
         </div>
 

@@ -38,6 +38,8 @@ export interface Course {
   featured?: boolean;
   /** Short marketing badge shown on the course card, e.g. "Most Placed", "New · 2 Weeks" */
   badge?: string;
+  /** Overrides the default "100% Placement Support" pill, e.g. "100% Job Assurance" */
+  placementLabel?: string;
 }
 
 export interface BlogPost {

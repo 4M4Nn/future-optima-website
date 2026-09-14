@@ -137,10 +137,12 @@ export default async function CoursePage({
               {course.badge ? (
                 <Badge className="border-none bg-amber-500 text-navy-950">{course.badge}</Badge>
               ) : null}
-              <Badge className="border-none bg-white/10 text-white">
-                <ShieldCheck className="mr-1 h-3.5 w-3.5 text-amber-400" />
-                100% Placement Support
-              </Badge>
+              {course.badge?.includes(course.placementLabel ?? "100% Placement Support") ? null : (
+                <Badge className="border-none bg-white/10 text-white">
+                  <ShieldCheck className="mr-1 h-3.5 w-3.5 text-amber-400" />
+                  {course.placementLabel ?? "100% Placement Support"}
+                </Badge>
+              )}
             </div>
             <h1 className="mt-4 font-heading text-3xl font-extrabold leading-tight sm:text-5xl">
               {course.name}
