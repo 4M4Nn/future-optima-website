@@ -6,6 +6,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import DemoClassNotification from "@/components/layout/DemoClassNotification";
+import ChatWidget from "@/components/chat/ChatWidget";
 import SmoothScrollProvider from "@/components/motion/SmoothScrollProvider";
 import { siteConfig } from "@/lib/data/site";
 
@@ -148,6 +149,7 @@ gtag('config', '${GOOGLE_TAG_ID}');`}
           <main className="flex-1">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <ChatWidget />
           <DemoClassNotification />
         </SmoothScrollProvider>
       </body>
