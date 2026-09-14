@@ -1516,6 +1516,122 @@ export const blogPosts: BlogPost[] = [
       { question: "Can I join an online batch while working full-time?", answer: "Yes — course pacing and mentor support are adjusted to help working professionals reach the same job-ready outcome without requiring you to leave your current job first." },
     ],
   },
+  {
+    slug: "certified-soc-analyst-course-kochi-explained",
+    title: "Certified SOC Analyst Course in Kochi: What You Actually Learn in 3 Months",
+    metaTitle: "Certified SOC Analyst Course in Kochi (3 Months) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 3-month Certified SOC Analyst course in Kochi, Kerala — the SIEM tools, log analysis and incident response skills you'll cover, and who it's built for.",
+    keywords: [
+      "certified soc analyst course kochi",
+      "soc analyst training kerala",
+      "soc analyst certification kochi",
+      "security operations center course kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "SOC analyst is one of the most accessible entry points into cybersecurity anywhere. Here's exactly what Future Optima's focused 3-month certification covers, and who it's for.",
+    publishedAt: "2026-09-14",
+    updatedAt: "2026-09-14",
+    readingTime: "4 min read",
+    coverImage: "certified-soc-analyst",
+    relatedCourseSlug: "certified-soc-analyst",
+    body: [
+      {
+        type: "p",
+        text: "Every organization running IT systems — from a bank to a small product company — eventually needs someone watching for threats in real time. That's the SOC (Security Operations Center) analyst role, and it's consistently one of the most accessible entry points into a cybersecurity career, provided the training goes beyond theory into real tools and a real incident-response process.",
+      },
+      { type: "h2", text: "What the 3-month format actually covers" },
+      {
+        type: "list",
+        items: [
+          "SOC Fundamentals — what a SOC actually does day to day, security monitoring concepts, alert triage basics, and how SOC teams are structured into tiers",
+          "SIEM & Log Analysis — SIEM tool fundamentals, log sources and parsing, correlation rules, and building dashboards that surface what actually matters",
+          "Threat Detection — common attack patterns to watch for, separating false positives from true positives, and threat intelligence basics",
+          "Incident Response — the full incident response lifecycle, containment and escalation, documentation standards, and post-incident review",
+          "Case Studies & Certification — real-style investigation case studies, a mock SOC shift simulation, the certification exam, and interview preparation for SOC roles",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "The course is built around SIEM tools, Wireshark, log analysis platforms and threat intelligence feeds — the same category of tools used inside real SOC environments, not simplified classroom substitutes, since the whole point of a SOC analyst role is comfort with real alert volume and real log data.",
+      },
+      { type: "h2", text: "Who this course is actually for" },
+      {
+        type: "p",
+        text: "It's open to all degree and diploma backgrounds with no prior security experience required — this is deliberately one of the most accessible cybersecurity starting points we offer, unlike Certified Penetration Testing, which assumes some existing networking familiarity.",
+      },
+      {
+        type: "p",
+        text: "Three months is enough to build a genuine, certifiable foundation and step into an SOC Analyst (L1), Security Operations Trainee or Incident Response Associate role — deeper specialization, including a later move toward red-team or penetration-testing work, then builds on the job.",
+      },
+    ],
+    faqs: [
+      { question: "Is Certified SOC Analyst a good first cybersecurity course for a complete beginner?", answer: "Yes — SOC analyst roles are widely considered one of the most accessible entry points into cybersecurity, and this course assumes no prior security background." },
+      { question: "What's the difference between this and Certified Ethical Hacking?", answer: "This course focuses purely on the defensive side — monitoring, detecting and responding to threats (blue team). Certified Ethical Hacking focuses on the offensive side — finding and exploiting vulnerabilities (red team)." },
+      { question: "What roles can I apply for after this certification?", answer: "SOC Analyst (L1), Security Operations Trainee and Incident Response Associate roles are the typical first step, backed by Future Optima's placement cell and hiring partner network." },
+    ],
+  },
+  {
+    slug: "mern-stack-agentic-ai-course-kochi-explained",
+    title: "MERN Stack with Agentic AI Course in Kochi: What You Actually Build in 7 Months",
+    metaTitle: "MERN Stack with Agentic AI Course in Kochi (7 Months) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 7-month MERN Stack with Agentic AI course in Kochi, Kerala — the JavaScript full-stack skills and agentic AI integration you'll build, and who it's for.",
+    keywords: [
+      "mern stack course kochi",
+      "mern stack with agentic ai kerala",
+      "react node js course kochi",
+      "full stack javascript developer kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "MERN stack developers who can also ship AI features are a genuinely different hire than a plain JavaScript developer. Here's exactly what Future Optima's 7-month track covers.",
+    publishedAt: "2026-09-14",
+    updatedAt: "2026-09-14",
+    readingTime: "5 min read",
+    coverImage: "mern-stack-development",
+    relatedCourseSlug: "mern-stack-development",
+    body: [
+      {
+        type: "p",
+        text: "MongoDB, Express.js, React and Node.js — the MERN stack — still power a huge share of the web products Kochi's IT services firms and product startups build. What's changed by 2026 is that those same employers now expect a full-stack developer who can also wire AI features into the product, not hand that work off to a separate team.",
+      },
+      { type: "h2", text: "What the 7-month track actually covers" },
+      {
+        type: "list",
+        items: [
+          "JavaScript Foundations — ES6+ syntax and async/await, DOM and browser fundamentals, Node.js runtime basics, npm and package management",
+          "Frontend with React — components, props and hooks, React Router, state management patterns, API integration in React",
+          "Backend with Node & Express — REST API design, middleware and error handling, authentication with JWT, file uploads and validation",
+          "Database with MongoDB — schema design and Mongoose, aggregation pipeline basics, indexing and performance, relationships in NoSQL",
+          "Agentic AI Integration — LLM APIs from a Node.js backend, tool use and function calling basics, building an in-app AI agent feature, and handling AI failures gracefully in production",
+          "Full-Stack Integration — connecting React to Express APIs, environment config and security, testing basics, and deployment with CI basics",
+        ],
+      },
+      { type: "h2", text: "Why agentic AI is built in, not bolted on" },
+      {
+        type: "p",
+        text: "The agentic AI module sits deliberately after the core JavaScript, React, Node and MongoDB modules — not before them — because integrating an AI agent into a real application is a full-stack problem: it touches your API layer, your database, your frontend state, and how you handle a tool call that fails midway. Learning it on top of a working MERN foundation is what makes the skill transferable to a real job, not just a demo.",
+      },
+      { type: "h2", text: "The capstone" },
+      {
+        type: "p",
+        text: "The course finishes with a team-built, full-stack capstone application that includes a working AI agent feature — something you can actually demo end-to-end to an interviewer, including explaining what happens when the AI call fails, which is exactly the kind of question a technical interviewer is likely to ask.",
+      },
+      { type: "h2", text: "Who this course is for" },
+      {
+        type: "p",
+        text: "It's open to any degree or diploma background — basic computer literacy is enough to start, with no prior JavaScript or AI experience required. If you'd rather build in Python instead of JavaScript, or want a path that leans more toward data and AI roles later, our Python Full-Stack with AI course covers similar full-stack ground on a different language track.",
+      },
+    ],
+    faqs: [
+      { question: "Why does the MERN course now include agentic AI, and why is it 7 months instead of shorter?", answer: "Product teams increasingly expect full-stack developers to also wire in AI features, not hand that off separately. The extra time builds genuine agentic AI integration skill inside a real MERN app, not just a surface-level add-on." },
+      { question: "Do I need to know JavaScript or AI before joining?", answer: "No prior JavaScript or AI experience is required — the course starts with modern JavaScript (ES6+) fundamentals before moving into React, Node.js, and agentic AI integration in that order." },
+      { question: "Should I choose MERN with Agentic AI or Python Full-Stack with AI?", answer: "Both lead to strong full-stack developer roles in Kochi. MERN suits students who want to work in JavaScript across the whole stack and target product/startup teams; Python Full-Stack with AI suits students who might later want a path into data science or AI engineering, since Python carries directly into those fields." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {

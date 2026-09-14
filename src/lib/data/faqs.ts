@@ -106,4 +106,19 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes — our counselors regularly help students switch or upgrade tracks early in a course (for example, from a shorter certification into the full Advanced Diploma) with credit for modules already completed, as long as it's raised early with admissions.",
   },
+  {
+    question: "What's the difference between Certified SOC Analyst and the Cybersecurity — Red Team & SOC Analyst course?",
+    answer:
+      "Certified SOC Analyst is a focused, 3-month certification purely on the defensive (blue team) side — SIEM tools, log analysis and incident response. Cybersecurity — Red Team & SOC Analyst is a broader, longer program covering both offensive and defensive skills together.",
+  },
+  {
+    question: "Should I choose MERN Stack with Agentic AI or Python Full-Stack with AI?",
+    answer:
+      "Both lead to strong full-stack developer roles in Kochi. MERN Stack with Agentic AI suits students who want to work in JavaScript across the whole stack and target product/startup teams; Python Full-Stack with AI suits students who might later want a path into data science or AI engineering roles.",
+  },
+  {
+    question: "How is the 2-week AI Website Development course different from the 6-month Python Full-Stack with AI course?",
+    answer:
+      "AI Website Development is our fastest, most practical track — building and launching real websites in hours using AI-assisted tools, aimed at freelance and small-business work. Python Full-Stack with AI is a deep, 6-month software engineering program aimed at full-stack developer job roles, not just freelancing.",
+  },
 ];
