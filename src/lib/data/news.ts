@@ -179,9 +179,9 @@ export const newsPosts: NewsPost[] = [
     title: "Live Placement Drive at Future Optima: 10 Students Selected",
     metaTitle: "Live Placement Drive — 10 Students Selected | Future Optima",
     metaDescription:
-      "Future Optima IT Solutions conducted a live placement drive at its Chembumukku, Kochi campus on April 9, 2025, with 10 students selected by hiring partners.",
+      "Future Optima IT Solutions conducted a live placement drive at its Chembumukku, Kochi campus on April 9, 2025, with 10 students selected by hiring partner Claysis, Infopark, Kochi.",
     excerpt:
-      "Future Optima hosted a live placement drive at its Chembumukku campus on April 9, 2025, with hiring partners selecting 10 students on the spot.",
+      "Future Optima hosted a live placement drive at its Chembumukku campus on April 9, 2025, with hiring partner Claysis, Infopark, Kochi, selecting 10 students on the spot.",
     publishedAt: "2025-04-09",
     coverImage: "/images/news/live-placement-drive-april-2025.jpeg",
     coverAlt: "Students at Future Optima IT Solutions taking part in a live placement drive on laptops at the Chembumukku campus",
@@ -192,7 +192,7 @@ export const newsPosts: NewsPost[] = [
       },
       {
         type: "p",
-        text: "By the end of the drive, 10 students had been selected — a direct result of Future Optima's placement cell bringing hiring partners on-site to interview students on their course project work and technical fundamentals.",
+        text: "By the end of the drive, 10 students had been selected by Claysis, Infopark, Kochi — a direct result of Future Optima's placement cell bringing hiring partners on-site to interview students on their course project work and technical fundamentals.",
       },
       { type: "h2", text: "Why On-Campus Placement Drives Matter" },
       {

@@ -7,6 +7,8 @@ import { siteConfig } from "@/lib/data/site";
 
 export default function Footer() {
   const year = new Date().getFullYear();
+  const copyrightYears =
+    year > siteConfig.foundingYear ? `${siteConfig.foundingYear}–${year}` : `${siteConfig.foundingYear}`;
 
   return (
     <footer className="bg-navy-950 text-white/80">
@@ -133,7 +135,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-6 text-xs text-white/50 sm:flex-row sm:px-6 lg:px-8">
           <p>
-            © {year} {siteConfig.name}. All rights reserved.
+            © {copyrightYears} {siteConfig.name}. All rights reserved.
           </p>
           <div className="flex gap-4">
             {footerNav.legal.map((item) => (

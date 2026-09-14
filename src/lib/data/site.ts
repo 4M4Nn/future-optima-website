@@ -6,9 +6,10 @@ export const siteConfig = {
   domain: "futureoptimaitsolutions.com",
   url: "https://futureoptimaitsolutions.com",
   tagline: "Best IT & AI Institute in Kochi, Kerala",
+  foundingYear: 2023,
   description:
     "Future Optima IT Solutions Pvt Ltd is a premium AI & IT training institute in Chembumukku, Kochi, Kerala, offering job-oriented courses in Python full-stack development, MERN stack, data science with AI, AI engineering, cybersecurity and more — with 90%+ placement success and pay-after-placement fee support.",
-  phones: ["8891129333"],
+  phones: ["8891129333", "8891129111", "8891129222"],
   primaryPhone: "8891129333",
   whatsapp: "918891129333",
   email: "info@futureoptimaitsolutions.com",
@@ -21,7 +22,7 @@ export const siteConfig = {
     geo: { lat: 10.0432, lng: 76.3308 },
   },
   social: {
-    instagram: "https://www.instagram.com/futureoptimaitsolutions",
+    instagram: "https://www.instagram.com/future_optima_it_solutions",
     facebook: "https://www.facebook.com/futureoptimaitsolutions",
     linkedin: "https://www.linkedin.com/company/future-optima-it-solutions",
   },

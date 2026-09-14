@@ -3,6 +3,7 @@ import { Inter, Poppins, Caveat } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import DubaiProgramBanner from "@/components/layout/DubaiProgramBanner";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import DemoClassNotification from "@/components/layout/DemoClassNotification";
@@ -109,6 +110,7 @@ const organizationSchema = {
   },
   telephone: siteConfig.primaryPhone,
   email: siteConfig.email,
+  foundingDate: `${siteConfig.foundingYear}`,
   sameAs: [siteConfig.social.instagram, siteConfig.social.facebook, siteConfig.social.linkedin],
 };
 
@@ -145,6 +147,7 @@ gtag('config', '${GOOGLE_TAG_ID}');`}
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <SmoothScrollProvider>
+          <DubaiProgramBanner />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />

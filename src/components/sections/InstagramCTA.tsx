@@ -26,7 +26,7 @@ export default function InstagramCTA() {
               className="mt-2 inline-flex items-center gap-2 rounded-full bg-amber-500 px-6 py-3 text-sm font-semibold text-navy-950 transition-colors hover:bg-amber-400"
             >
               <InstagramIcon className="h-4 w-4" />
-              Follow @futureoptimaitsolutions
+              Follow @future_optima_it_solutions
             </a>
           </div>
         </Reveal>
