@@ -12,7 +12,8 @@ export type CourseCategory =
   | "Full-Stack Development"
   | "Data & AI"
   | "Security & Testing"
-  | "Advanced Diploma";
+  | "Advanced Diploma"
+  | "Study Abroad Programs";
 
 export interface Course {
   slug: string;

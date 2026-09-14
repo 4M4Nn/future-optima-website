@@ -174,6 +174,109 @@ export const newsPosts: NewsPost[] = [
       },
     ],
   },
+  {
+    slug: "live-placement-drive-10-students-selected-april-2025",
+    title: "Live Placement Drive at Future Optima: 10 Students Selected",
+    metaTitle: "Live Placement Drive — 10 Students Selected | Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions conducted a live placement drive at its Chembumukku, Kochi campus on April 9, 2025, with 10 students selected by hiring partners.",
+    excerpt:
+      "Future Optima hosted a live placement drive at its Chembumukku campus on April 9, 2025, with hiring partners selecting 10 students on the spot.",
+    publishedAt: "2025-04-09",
+    coverImage: "/images/news/live-placement-drive-april-2025.jpeg",
+    coverAlt: "Students at Future Optima IT Solutions taking part in a live placement drive on laptops at the Chembumukku campus",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions conducted a live placement drive at its Chembumukku, Kochi campus on April 9, 2025, giving students the chance to go through the interview and selection process directly on campus rather than off-site.",
+      },
+      {
+        type: "p",
+        text: "By the end of the drive, 10 students had been selected — a direct result of Future Optima's placement cell bringing hiring partners on-site to interview students on their course project work and technical fundamentals.",
+      },
+      { type: "h2", text: "Why On-Campus Placement Drives Matter" },
+      {
+        type: "p",
+        text: "Running the drive live, on campus, keeps the process fast and low-friction for students — no travel, no scheduling back-and-forth with a recruiter, just a direct interview process backed by the portfolio and project work built during the course.",
+      },
+      {
+        type: "p",
+        text: "Drives like this run periodically as part of Future Optima's ongoing placement cell activity, alongside individual interview referrals and hiring-partner matching for graduating batches.",
+      },
+    ],
+  },
+  {
+    slug: "mou-mes-college-kunnukara-bootcamp",
+    title: "Future Optima Signs MoU with MES College of Engineering & Technology, Kunnukara — Bootcamp Completed",
+    metaTitle: "MoU & Bootcamp with MES College, Kunnukara | Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions signed a Memorandum of Understanding with MES College of Engineering & Technology, Kunnukara, Ernakulam, and completed an on-campus training bootcamp on February 19, 2026.",
+    excerpt:
+      "Future Optima partnered with MES College of Engineering & Technology, Kunnukara, and ran a hands-on bootcamp for its students on February 19, 2026.",
+    publishedAt: "2026-02-19",
+    coverImage: "/images/news/mes-college-kunnukara-mou-bootcamp.jpeg",
+    coverAlt: "Students and faculty at MES College of Engineering & Technology, Kunnukara, Ernakulam, after a Future Optima training bootcamp",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions signed a Memorandum of Understanding (MoU) with MES College of Engineering & Technology, Kunnukara, Ernakulam, and delivered an on-campus training bootcamp for the college's students on February 19, 2026.",
+      },
+      {
+        type: "p",
+        text: "The partnership brings Future Optima's industry-mentored, project-first training model directly onto the MES College campus, giving students structured, hands-on exposure to in-demand IT and AI skills alongside their regular academic curriculum.",
+      },
+      { type: "h2", text: "What the Partnership Covers" },
+      {
+        type: "list",
+        items: [
+          "A hands-on bootcamp delivered directly on the MES College, Kunnukara campus",
+          "Access to Future Optima's industry mentors and project-based training approach",
+          "A pathway from classroom learning into further job-oriented, portfolio-based training",
+          "Ongoing collaboration between Future Optima and the college on future training initiatives",
+        ],
+      },
+      {
+        type: "p",
+        text: "This MoU adds to Future Optima's growing network of academic partnerships across Kerala, aimed at closing the gap between college curricula and the practical, industry-relevant skills employers are hiring for today.",
+      },
+    ],
+  },
+  {
+    slug: "mou-mc-varghese-college-kottayam-bootcamp",
+    title: "Future Optima Signs MoU with MC Varghese College of Arts and Science, Kottayam — Bootcamp Completed",
+    metaTitle: "MoU & Bootcamp with MC Varghese College, Kottayam | Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions signed a Memorandum of Understanding with MC Varghese College of Arts and Science, Kottayam, and completed an on-campus training bootcamp on February 19, 2026.",
+    excerpt:
+      "Future Optima partnered with MC Varghese College of Arts and Science, Kottayam, formalizing the collaboration with an MoU and an on-campus bootcamp on February 19, 2026.",
+    publishedAt: "2026-02-19",
+    coverImage: "/images/news/mc-varghese-college-kottayam-mou-bootcamp.jpeg",
+    coverAlt: "Representatives of Future Optima IT Solutions and MC Varghese College of Arts and Science, Kottayam, at the MoU signing",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions signed a Memorandum of Understanding (MoU) with MC Varghese College of Arts and Science, Kottayam, and delivered an on-campus training bootcamp for the college's students on February 19, 2026.",
+      },
+      {
+        type: "p",
+        text: "The partnership extends Future Optima's academic-collaboration model into Kottayam, pairing the college's existing curriculum with hands-on, industry-mentored training in in-demand IT and AI skills.",
+      },
+      { type: "h2", text: "What the Partnership Covers" },
+      {
+        type: "list",
+        items: [
+          "A hands-on bootcamp delivered directly on the MC Varghese College, Kottayam campus",
+          "Access to Future Optima's industry mentors and project-based training approach",
+          "Career guidance and a pathway into further job-oriented, portfolio-based training",
+          "Ongoing collaboration between Future Optima and the college on future training initiatives",
+        ],
+      },
+      {
+        type: "p",
+        text: "This MoU reflects Future Optima's continued effort to work directly with academic institutions beyond Ernakulam district, bringing practical, placement-focused training to students across Kerala.",
+      },
+    ],
+  },
 ];
 
 export function getNewsPostBySlug(slug: string) {

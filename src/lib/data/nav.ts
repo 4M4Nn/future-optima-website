@@ -76,6 +76,11 @@ export const mainNav: NavItem[] = [
         href: "/courses/web-bug-hunter",
         description: "1 month — bug bounty hunting & freelance income",
       },
+      {
+        label: "IT Infrastructure Program (Dubai)",
+        href: "/courses/it-infrastructure-engineer-program-dubai",
+        description: "Windows Server, Azure, Office 365 & CCNA — 100% job assurance",
+      },
     ],
   },
   { label: "Placements", href: "/placements" },
@@ -116,6 +121,7 @@ export const footerNav = {
     { label: "Certified SOC Analyst", href: "/courses/certified-soc-analyst" },
     { label: "Web Bug Hunter", href: "/courses/web-bug-hunter" },
     { label: "Advanced Diploma — AI Systems Engineering", href: "/courses/advanced-diploma-ai-systems-engineering" },
+    { label: "IT Infrastructure Program (Dubai)", href: "/courses/it-infrastructure-engineer-program-dubai" },
   ],
   company: [
     { label: "About Us", href: "/about" },

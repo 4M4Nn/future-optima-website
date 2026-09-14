@@ -1632,6 +1632,132 @@ export const blogPosts: BlogPost[] = [
       { question: "Should I choose MERN with Agentic AI or Python Full-Stack with AI?", answer: "Both lead to strong full-stack developer roles in Kochi. MERN suits students who want to work in JavaScript across the whole stack and target product/startup teams; Python Full-Stack with AI suits students who might later want a path into data science or AI engineering, since Python carries directly into those fields." },
     ],
   },
+  {
+    slug: "it-infrastructure-engineer-program-dubai-explained",
+    title: "IT Infrastructure Engineer Program in Dubai: 100% Job-Assured IT Career Abroad",
+    metaTitle: "IT Infrastructure Engineer Program in Dubai — 100% Job Assurance | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's IT Infrastructure Engineer Program in Dubai — Windows Server, Azure, Office 365 and CCNA training with 100% job assurance, real Data Center exposure, fees and eligibility.",
+    keywords: [
+      "it infrastructure engineer program dubai",
+      "study it course in dubai",
+      "100% job assurance it course dubai",
+      "windows server azure ccna course dubai",
+      "it jobs in dubai after course",
+    ],
+    category: "Study Abroad",
+    excerpt:
+      "A dedicated IT Infrastructure Engineer track built for students who want their next job to be in Dubai — with 100% job assurance backing every stage. Here's exactly what it covers.",
+    publishedAt: "2026-09-14",
+    updatedAt: "2026-09-14",
+    readingTime: "5 min read",
+    coverImage: "it-infrastructure-engineer-program-dubai",
+    relatedCourseSlug: "it-infrastructure-engineer-program-dubai",
+    body: [
+      {
+        type: "p",
+        text: "Most IT career conversations in Kochi are about which local company will hire you. This program starts from a different question: what does it take to build an IT infrastructure career in Dubai specifically, and how do you get there with real, verifiable skill rather than just a visa and a resume?",
+      },
+      { type: "h2", text: "What the program actually covers" },
+      {
+        type: "list",
+        items: [
+          "Hardware & Networking — PC installation, troubleshooting, LAN infrastructure and router/switch/firewall familiarization",
+          "Microsoft Windows Server 2022 — installation, Hyper-V virtualization, AD/DHCP/DNS/DFS, disaster recovery and RAID",
+          "Cisco Certified Network Associate (CCNA) — IP addressing, routing, NAT/ACLs, VLANs and switch configuration",
+          "Microsoft Azure Administrator — virtual machines, virtual networking, backup/site recovery and ARM template automation",
+          "Microsoft Office 365 Administration — tenant deployment, Microsoft Entra identity, Defender security and Purview compliance",
+        ],
+      },
+      { type: "h2", text: "What \"100% job assurance\" actually means here" },
+      {
+        type: "p",
+        text: "This isn't a certificate handed out regardless of effort. Every candidate who completes the program requirements and engages fully with the placement process — CV clinic, LinkedIn and ATS workshops, technical interview prep, HR-round practice and mock interviews — receives dedicated, ongoing placement support until they are hired. It's a job that's earned through real, demonstrated skill, backed by structured support until you get there.",
+      },
+      { type: "h2", text: "Real infrastructure, not simulations" },
+      {
+        type: "p",
+        text: "Across 250 hours of training, you work hands-on with real servers, routers and switches rather than emulators alone. The program is delivered in Kochi in partnership with an established IT solutions and corporate training company based in Dubai, UAE, which is what makes client-site AMC audit visits, live Azure and Office 365 tenant deployments, and a guided tour of a Dubai Network Operations Center possible — exposure that's hard to replicate in a classroom-only course.",
+      },
+      { type: "h2", text: "Fees, duration and eligibility" },
+      {
+        type: "list",
+        items: [
+          "Duration: 4.5–6 months, with full-time and part-time schedules available",
+          "Program fee: AED 23,500, payable as a single payment, with 100% job assurance included",
+          "Microsoft and CCNA certification exam fees are separate, payable directly per the official exam schedule",
+          "Loan/financing options are available for eligible candidates",
+          "Open to degree/diploma holders with basic computer literacy — no prior IT experience required",
+        ],
+      },
+      { type: "h2", text: "Where this leads" },
+      {
+        type: "p",
+        text: "Graduates are positioned for IT Administrator, IT Level 1/2 Administrator, IT System/Network Administrator, IT Coordinator, Microsoft Cloud Administrator and Microsoft Messaging Administrator roles — the core infrastructure roles that keep any organization's IT environment running, wherever in the world you end up applying them.",
+      },
+    ],
+    faqs: [
+      { question: "What does \"100% job assurance\" mean on this program?", answer: "Every candidate who completes the program requirements and engages fully with the placement process — mock interviews, CV clinic, ATS and HR prep — receives dedicated placement support until they are hired. It's earned through full participation and real skill, not an unconditional guarantee regardless of effort." },
+      { question: "What is the total cost, including certification exams?", answer: "The program fee is AED 23,500 for the training itself. Microsoft (MS104, MS101) and CCNA certification exam fees are separate and payable directly as per the official exam schedule — ask our counselors for the current breakdown." },
+      { question: "Do I need prior IT or networking experience?", answer: "No — the program starts with hardware and networking fundamentals before moving into Windows Server, CCNA, Azure and Office 365, so basic computer literacy is enough to begin." },
+    ],
+  },
+  {
+    slug: "study-it-dubai-vs-kochi-career-path-2026",
+    title: "Study IT in Dubai vs Kochi: Which Path Fits Your Career Goals in 2026?",
+    metaTitle: "Study IT in Dubai vs Kochi — Career Path Guide 2026 | Future Optima",
+    metaDescription:
+      "Weighing an IT career path in Dubai against training and working in Kochi? A clear 2026 comparison covering roles, cost, job assurance and how to decide.",
+    keywords: [
+      "study it in dubai vs kochi",
+      "it career dubai or kerala",
+      "it infrastructure jobs dubai",
+      "study abroad it program kochi",
+    ],
+    category: "Career Guides",
+    excerpt:
+      "Two genuinely different IT career paths — one rooted in Kochi's AI and software job market, one aimed at IT infrastructure roles in Dubai. Here's how to decide which fits you.",
+    publishedAt: "2026-09-14",
+    updatedAt: "2026-09-14",
+    readingTime: "5 min read",
+    coverImage: "it-infrastructure-engineer-program-dubai",
+    relatedCourseSlug: "it-infrastructure-engineer-program-dubai",
+    body: [
+      {
+        type: "p",
+        text: "Students increasingly ask us to compare two very different tracks: building a career in Kochi's fast-growing AI and software job market, or training specifically for IT infrastructure roles abroad in Dubai. Both are legitimate paths — they just suit different goals, timelines and risk appetites.",
+      },
+      { type: "h2", text: "What a Kochi-based IT/AI career path looks like" },
+      {
+        type: "p",
+        text: "Courses like Python Full-Stack with AI, Data Science with AI or our cybersecurity certifications train you for software, data and security roles hired for across Kochi's IT services and product companies, with placement support and up to ₹15,000 of the fee only due after you're placed.",
+      },
+      { type: "h2", text: "What the Dubai IT Infrastructure path looks like" },
+      {
+        type: "p",
+        text: "The IT Infrastructure Engineer Program is built around a different goal entirely: Windows Server, Microsoft Azure, Office 365 and CCNA networking skills, aimed squarely at IT infrastructure and cloud administration roles in the UAE market, with 100% job assurance built into the program for candidates who complete it and engage fully with placement support.",
+      },
+      { type: "h2", text: "Key differences at a glance" },
+      {
+        type: "list",
+        items: [
+          "Career direction: software/data/AI roles in Kochi vs infrastructure/cloud administration roles in Dubai",
+          "Investment: Kochi courses charge in ₹, with a portion due only after placement; the Dubai program is a single AED 23,500 payment covering training, with loan options available",
+          "Certifications: Kochi courses issue Future Optima and NACTET certification; the Dubai program leads to internationally recognized Microsoft and Cisco (CCNA) certifications",
+          "Exposure: Kochi courses use industry-mentored labs and internships; the Dubai program adds live client-site AMC audits and a guided Dubai Data Center (NOC) tour",
+        ],
+      },
+      { type: "h2", text: "How to decide" },
+      {
+        type: "p",
+        text: "If you want to build a career in software, data or AI and would rather start close to home, Kochi's course lineup is the more natural fit. If your goal is specifically to work in the UAE in an IT infrastructure or cloud administration role, and you're comfortable committing to a single upfront investment for a 100% job-assurance outcome, the Dubai program is built exactly for that goal — not as a general-purpose alternative to our domestic courses, but as a distinct path with a different destination in mind.",
+      },
+    ],
+    faqs: [
+      { question: "Can I do a Kochi course first and the Dubai program later?", answer: "The two are built for different outcomes rather than as a sequence, but there's no restriction — talk to our counselors if you want to discuss combining a foundational IT course with the Dubai Infrastructure Program later." },
+      { question: "Which is more affordable, a Kochi course or the Dubai program?", answer: "Kochi courses are priced in ₹ with a pay-after-placement component; the Dubai program is a single AED 23,500 payment with loan options available. They're different currencies and structures aimed at different career destinations, so compare based on your goal, not just the headline number." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {

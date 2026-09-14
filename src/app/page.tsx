@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import USPBand from "@/components/sections/USPBand";
 import CoursesShowcase from "@/components/sections/CoursesShowcase";
 import DiplomaSpotlight from "@/components/sections/DiplomaSpotlight";
+import DubaiProgramSpotlight from "@/components/sections/DubaiProgramSpotlight";
 import PlacementNoticeStrip from "@/components/sections/PlacementNoticeStrip";
 import TrainingPillars from "@/components/sections/TrainingPillars";
 import VirtualOfficeCTA from "@/components/sections/VirtualOfficeCTA";
@@ -43,6 +44,7 @@ export default function Home() {
       <USPBand />
       <CoursesShowcase />
       <DiplomaSpotlight />
+      <DubaiProgramSpotlight />
       <VirtualOfficeCTA />
       <HiringPartnersMarquee />
       <PlacementWall />
