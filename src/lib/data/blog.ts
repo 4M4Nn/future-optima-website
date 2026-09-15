@@ -1685,7 +1685,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Duration: 4.5–6 months, with full-time and part-time schedules available",
           "Program fee: AED 23,500, payable as a single payment, with 100% job assurance included",
-          "Microsoft and CCNA certification exam fees are separate, payable directly per the official exam schedule",
+          "Microsoft (MS104, MS101) and CCNA certification exam fees are included in the program fee — no separate exam cost",
           "Loan/financing options are available for eligible candidates",
           "Open to degree/diploma holders with basic computer literacy — no prior IT experience required",
         ],
@@ -1698,7 +1698,7 @@ export const blogPosts: BlogPost[] = [
     ],
     faqs: [
       { question: "What does \"100% job assurance\" mean on this program?", answer: "Every candidate who completes the program requirements and engages fully with the placement process — mock interviews, CV clinic, ATS and HR prep — receives dedicated placement support until they are hired. It's earned through full participation and real skill, not an unconditional guarantee regardless of effort." },
-      { question: "What is the total cost, including certification exams?", answer: "The program fee is AED 23,500 for the training itself. Microsoft (MS104, MS101) and CCNA certification exam fees are separate and payable directly as per the official exam schedule — ask our counselors for the current breakdown." },
+      { question: "What is the total cost, including certification exams?", answer: "The program fee is AED 23,500, and it includes the Microsoft (MS104, MS101) and CCNA certification exam fees — there's no separate exam cost on top. Ask our counselors for the current fee breakdown." },
       { question: "Do I need prior IT or networking experience?", answer: "No — the program starts with hardware and networking fundamentals before moving into Windows Server, CCNA, Azure and Office 365, so basic computer literacy is enough to begin." },
     ],
   },
