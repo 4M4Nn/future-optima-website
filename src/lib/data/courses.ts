@@ -216,7 +216,7 @@ export const courses: Course[] = [
     shortName: "AI-Powered Data Analytics",
     tagline: "Python, Excel and Power BI analytics supercharged with AI — become a business-ready data analyst.",
     heroImage: "course-data-analytics",
-    duration: "3.5 Months",
+    duration: "6 Months",
     mode: "Classroom (Kochi) & Live Online",
     level: "Beginner to Job-Ready",
     metaTitle: "AI-Powered Data Analytics Course in Kochi, Kerala | Future Optima",
@@ -257,7 +257,7 @@ export const courses: Course[] = [
       { question: "Do I need to know coding before joining?", answer: "No prior coding is required. Excel and SQL are taught from the basics, and Python is introduced gradually for analytics tasks." },
       { question: "How is AI actually used in this course?", answer: "You'll learn to use AI tools to speed up exploratory data analysis, generate first-draft insights and summaries, and query data in natural language — skills increasingly expected of analysts in 2026." },
       { question: "Will I learn Power BI dashboard building from scratch?", answer: "Yes — data modeling, DAX fundamentals and interactive dashboard design are covered as a dedicated module, building up to publishing and sharing real reports." },
-      { question: "How long is this course compared to Data Science with AI?", answer: "AI-Powered Data Analytics is a faster, 3.5-month track focused on business analytics, compared to Data Science with AI's 6-month deeper machine-learning curriculum — pick based on whether you want analyst or data scientist roles." },
+      { question: "How is this course different from Data Science with AI in scope, since both run 6 months?", answer: "Both are now 6-month tracks, but the focus differs: AI-Powered Data Analytics goes deep on business analytics and dashboards — Excel, SQL, Power BI and AI-assisted reporting — aimed at Data Analyst/BI roles, while Data Science with AI goes deeper into machine learning and model building for Data Scientist/ML roles. Pick based on the role you're targeting, not the duration." },
     ],
   },
   {

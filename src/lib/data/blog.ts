@@ -817,7 +817,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "Want to build dashboards and business reports, avoid heavy coding? → AI-Powered Data Analytics",
           "Want to build and evaluate machine learning models? → Data Science with AI",
-          "Come from a commerce/business background and want a fast, practical entry? → AI-Powered Data Analytics",
+          "Come from a commerce/business background and want a practical, coding-light entry? → AI-Powered Data Analytics",
           "Comfortable with (or excited to learn) more Python and statistics? → Data Science with AI",
         ],
       },
@@ -829,9 +829,9 @@ export const blogPosts: BlogPost[] = [
           "Yes — many students start with AI-Powered Data Analytics to build confidence with data and light Python, then progress into Data Science with AI for deeper modeling skills.",
       },
       {
-        question: "Which course is shorter, AI-Powered Data Analytics or Data Science with AI?",
+        question: "Is one course shorter than the other?",
         answer:
-          "AI-Powered Data Analytics is the shorter track at 3.5 months, compared to Data Science with AI at 6 months, reflecting the difference in depth between the two programs.",
+          "No — both AI-Powered Data Analytics and Data Science with AI now run 6 months. The difference is in depth and focus, not duration: Data Analytics stays business-facing and coding-light, while Data Science with AI goes deeper into Python, statistics and machine learning model-building.",
       },
     ],
   },
