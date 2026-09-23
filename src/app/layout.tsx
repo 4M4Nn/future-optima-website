@@ -90,6 +90,9 @@ export const metadata: Metadata = {
     ],
     apple: "/images/brand/favicon-256.png",
   },
+  verification: {
+    google: "_zFERxtHJZq2xv7L5JWF5qiUGu9an3WMmltjzZwAPps",
+  },
 };
 
 const organizationSchema = {
