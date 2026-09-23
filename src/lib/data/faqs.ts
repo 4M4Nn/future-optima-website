@@ -121,4 +121,19 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "AI Website Development is our fastest, most practical track — building and launching real websites in hours using AI-assisted tools, aimed at freelance and small-business work. Python Full-Stack with AI is a deep, 6-month software engineering program aimed at full-stack developer job roles, not just freelancing.",
   },
+  {
+    question: "Is Future Optima a government-recognized or affiliated training institute?",
+    answer:
+      "Yes — Future Optima is Central Government affiliated as an AI & IT training institute, holds State Government affiliation as a recognized skilling and training partner, and is NACTET affiliated, giving students access to NACTET's external certification alongside our own project-completion certificate.",
+  },
+  {
+    question: "Does Future Optima offer any hands-on hardware or robotics training, or is everything software-only?",
+    answer:
+      "Most of our courses are software-focused, but AI Robotics & Edge AI Engineering is a dedicated 5-month, hands-on track with real hardware lab access — robotics, IoT sensors, embedded systems and deploying AI models directly onto edge devices, not simulations.",
+  },
+  {
+    question: "How quickly can I realistically start freelancing after a course at Future Optima?",
+    answer:
+      "It depends on the course, but our AI Website Development certification is built specifically for speed — it's 2 weeks long, and the final module is dedicated to finding clients, pricing projects and writing proposals, so many students start pitching small website work immediately after certification.",
+  },
 ];

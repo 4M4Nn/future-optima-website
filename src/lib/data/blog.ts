@@ -1758,6 +1758,120 @@ export const blogPosts: BlogPost[] = [
       { question: "Which is more affordable, a Kochi course or the Dubai program?", answer: "Kochi courses are priced in ₹ with a pay-after-placement component; the Dubai program is a single AED 23,500 payment with loan options available. They're different currencies and structures aimed at different career destinations, so compare based on your goal, not just the headline number." },
     ],
   },
+  {
+    slug: "ai-website-development-course-kochi-explained",
+    title: "AI Website Development Course in Kochi: What You Actually Learn in 2 Weeks",
+    metaTitle: "AI Website Development Course in Kochi (2 Weeks) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 2-week AI Website Development certification in Kochi, Kerala — what you build, the tools you use, and how fast you can start freelancing.",
+    keywords: [
+      "ai website development course kochi",
+      "2 week website course kerala",
+      "freelance web development course kochi",
+      "build website with ai kochi",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "Two weeks sounds too fast for a real skill — until you see how much of website work is now AI-assisted. Here's exactly what Future Optima's fastest course covers.",
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    readingTime: "4 min read",
+    coverImage: "ai-website-development",
+    relatedCourseSlug: "ai-website-development",
+    body: [
+      {
+        type: "p",
+        text: "Building a website used to mean weeks of setup, boilerplate and back-and-forth before a client saw anything live. AI-assisted development tools have compressed that timeline hard, and Kochi's freelance and small-business market is actively looking for people who can move at that new speed — which is exactly the gap Future Optima's 2-week AI Website Development certification is built to close.",
+      },
+      { type: "h2", text: "What the 2-week format actually covers" },
+      {
+        type: "list",
+        items: [
+          "AI-Assisted Web Development Foundations — HTML, CSS and JS essentials fast-tracked, how AI code generation actually works, and reading/understanding AI-generated code rather than trusting it blindly",
+          "Building Websites With AI Tools — prompt-to-website workflows, rapid prototyping a full site in hours, and building responsive, mobile-first pages",
+          "Customization & Real Deployment — customizing AI-generated code to a brand, connecting a custom domain, hosting and deployment on modern platforms, plus basic SEO setup",
+          "Freelancing & Client Work — finding your first freelance clients, pricing a website project, writing proposals and scoping client briefs, and managing revisions",
+          "Capstone: Build & Launch — a personal portfolio site and a mock client project, both built and deployed for certification review",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "The course runs on AI website/code generation tools alongside real HTML, CSS and JavaScript, Git and GitHub for version control, and modern hosting platforms with custom domains — so what you deploy in the course is the same stack you'd hand off to a paying client, not a simplified classroom sandbox.",
+      },
+      { type: "h2", text: "Who this course is actually for" },
+      {
+        type: "p",
+        text: "It's open to absolute beginners — no prior coding or design experience required. It's aimed at anyone who wants a fast, practical skill with real freelance income potential, not a deep software-engineering foundation; students who want that depth instead are pointed toward the 6-month Python Full-Stack with AI course.",
+      },
+      {
+        type: "p",
+        text: "By the end of two weeks you'll have two real, deployed websites for your portfolio and a Future Optima certification — enough for Freelance Web Developer, AI Website Builder or Junior Web Developer work, with the final module dedicated specifically to finding and pricing that first client project.",
+      },
+    ],
+    faqs: [
+      { question: "Can I really build a website in a few hours after this course?", answer: "Yes — by the middle of the course you'll be building working websites in hours using AI-assisted tools, with the second week focused on customizing, deploying and polishing them to a client-ready standard." },
+      { question: "Do I need any coding experience to join?", answer: "No. This course is designed for absolute beginners — you'll pick up enough HTML/CSS/JS to confidently read and customize what the AI generates, without needing to write everything from scratch." },
+      { question: "Is this different from the Python Full-Stack with AI course?", answer: "Yes — Python Full-Stack with AI is a deep, 6-month software engineering program. AI Website Development is a fast, 2-week practical track focused specifically on building and launching websites quickly and starting freelance work, not backend engineering depth." },
+    ],
+  },
+  {
+    slug: "ai-robotics-edge-ai-course-kochi-explained",
+    title: "AI Robotics & Edge AI Engineering Course in Kochi: What You Actually Learn in 5 Months",
+    metaTitle: "AI Robotics & Edge AI Engineering Course in Kochi (5 Months) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 5-month AI Robotics & Edge AI Engineering course in Kochi, Kerala — the hardware, robotics and edge AI skills you'll build, and who it's for.",
+    keywords: [
+      "ai robotics course kochi",
+      "edge ai training kerala",
+      "robotics engineering course kochi",
+      "iot ai course kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "AI isn't only cloud software — it increasingly runs on physical devices. Here's exactly what Future Optima's hands-on robotics and edge AI course covers, and who it's for.",
+    publishedAt: "2026-09-23",
+    updatedAt: "2026-09-23",
+    readingTime: "5 min read",
+    coverImage: "ai-robotics-edge-ai-engineering",
+    relatedCourseSlug: "ai-robotics-edge-ai-engineering",
+    body: [
+      {
+        type: "p",
+        text: "Most AI courses stay entirely in software — models, APIs, dashboards. AI Robotics & Edge AI Engineering is Future Optima's course for students who want AI to touch the physical world instead: robots, sensors and edge devices that perceive and act in real time, not just cloud endpoints that return a prediction.",
+      },
+      { type: "h2", text: "What the 5-month format actually covers" },
+      {
+        type: "list",
+        items: [
+          "Robotics & Electronics Fundamentals — sensors and actuators, circuits and electronics basics, control systems fundamentals, and robotics kit assembly",
+          "Embedded Systems & IoT — microcontroller programming (Arduino/similar), IoT architecture and protocols, sensor-to-cloud data pipelines, and real-time data handling",
+          "Edge AI Deployment — lightweight and optimized AI models, deploying models directly on edge hardware, computer vision for robotics, and latency/power considerations",
+          "Applied Robotics Projects — autonomous navigation basics, on-device object detection, human-robot interaction basics, and hands-on project debugging",
+          "Systems Integration — combining robotics, IoT and AI into one working system, testing physical systems, and documentation and safety/reliability practices",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "The course is built around Arduino/Raspberry Pi hardware, Python, TensorFlow Lite for on-device model deployment, real sensors and IoT modules, and OpenCV for computer vision — with full hardware lab access, so builds are physically assembled, programmed and tested rather than simulated.",
+      },
+      { type: "h2", text: "Who this course is actually for" },
+      {
+        type: "p",
+        text: "It's open to all degree and diploma backgrounds with an interest in hardware — no prior robotics or electronics experience required, and no ECE background needed either; the course teaches electronics, robotics and embedded fundamentals from scratch.",
+      },
+      {
+        type: "p",
+        text: "Five months is enough to build a genuine, hands-on portfolio and step into Robotics Engineer (Junior), Edge AI Engineer, IoT Developer or Embedded Systems Trainee roles — with manufacturing, automation and IoT product companies among the strongest hiring areas for these skills in Kerala.",
+      },
+    ],
+    faqs: [
+      { question: "Do I need an electronics/ECE background to join this course?", answer: "No — the course teaches electronics, robotics and embedded fundamentals from scratch. Students from CS, mechanical and electronics backgrounds have all completed this track successfully." },
+      { question: "Will I get to work with real hardware, or is it simulation only?", answer: "You get real hardware lab access — this course is built around physically assembling, programming and testing robotics/IoT devices, not simulations alone." },
+      { question: "How is this different from AI Engineering & Automation?", answer: "AI Engineering & Automation focuses on software-based AI systems and business process automation. AI Robotics & Edge AI Engineering focuses specifically on physical hardware, sensors and deploying AI models onto edge devices — a genuinely different, hands-on skill set." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {
