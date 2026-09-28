@@ -10,6 +10,7 @@ import DemoClassNotification from "@/components/layout/DemoClassNotification";
 import ChatWidget from "@/components/chat/ChatWidget";
 import SmoothScrollProvider from "@/components/motion/SmoothScrollProvider";
 import { siteConfig } from "@/lib/data/site";
+import { googleRating } from "@/lib/data/reviews";
 
 // Same GTM container + Google tag already live on the WordPress production
 // site (verified by fetching futureoptimaitsolutions.com and reading the
@@ -115,6 +116,12 @@ const organizationSchema = {
   email: siteConfig.email,
   foundingDate: `${siteConfig.foundingYear}`,
   sameAs: [siteConfig.social.instagram, siteConfig.social.facebook, siteConfig.social.linkedin],
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: googleRating.value,
+    reviewCount: googleRating.count,
+    bestRating: 5,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

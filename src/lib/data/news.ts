@@ -1,6 +1,38 @@
 import type { NewsPost } from "@/types";
+import { stockImages } from "@/lib/data/images";
 
 export const newsPosts: NewsPost[] = [
+  {
+    slug: "resume-preparation-mock-interview-session-september-2026",
+    title: "Resume Preparation & Mock Interview Session for Future Optima Students",
+    metaTitle: "Resume Prep & Mock Interview Session — Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions ran a Resume Preparation and Mock Interview session for its students at the Chembumukku, Kochi campus on Saturday, September 26, 2026.",
+    excerpt:
+      "Future Optima held a dedicated Resume Preparation and Mock Interview session for students on Saturday, September 26, 2026, part of its ongoing placement-readiness activities.",
+    publishedAt: "2026-09-26",
+    coverImage: stockImages.resumeMockInterview,
+    coverAlt: "A resume on a clipboard beside a laptop, representing Future Optima's resume preparation and mock interview session",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions conducted a Resume Preparation and Mock Interview session for its students at the Chembumukku, Kochi campus on Saturday, September 26, 2026, as part of its ongoing placement-readiness activities.",
+      },
+      {
+        type: "p",
+        text: "The session walked students through building a resume that actually survives recruiter screening and ATS filters, then moved into one-on-one mock interviews — practicing how to present technical projects clearly, handle common HR and technical questions, and manage nerves under real interview conditions.",
+      },
+      { type: "h2", text: "Why Resume and Interview Practice Matter" },
+      {
+        type: "p",
+        text: "A strong project portfolio only gets a candidate to the interview stage — how that work gets presented on paper and in person is what closes the offer. Running resume and mock interview sessions on top of the regular curriculum gives students a realistic, low-pressure environment to fix weak spots before it counts in an actual interview.",
+      },
+      {
+        type: "p",
+        text: "Sessions like this run periodically alongside Future Optima's regular placement cell activities — CV clinics, ATS and LinkedIn workshops, and HR-round preparation — giving students recurring, hands-on practice ahead of their placement drives.",
+      },
+    ],
+  },
   {
     slug: "bharata-mata-college-data-analytics-genai-addon-launch",
     title:

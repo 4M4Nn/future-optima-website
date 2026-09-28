@@ -9,6 +9,7 @@ export const stockImages = {
   placements: unsplash("photo-1521791136064-7986c2920216"),
   contact: unsplash("photo-1497366216548-37526070297c"),
   campusGeneric: unsplash("photo-1523240795612-9a054b0db644"),
+  resumeMockInterview: unsplash("photo-1586281380349-632531db7ed4"),
 };
 
 export const courseImages: Record<string, string> = {

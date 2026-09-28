@@ -710,6 +710,7 @@ export const courses: Course[] = [
     shortName: "IT Infrastructure Program (Dubai)",
     badge: "🌍 100% Job Assurance",
     placementLabel: "100% Job Assurance",
+    fee: { amount: 23500, currency: "AED" },
     tagline: "Train on Windows Server, Microsoft Azure, Office 365 and CCNA in Dubai — with 100% job assurance built into every stage.",
     heroImage: "course-it-infrastructure-dubai",
     duration: "4.5 – 6 Months",

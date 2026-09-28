@@ -79,6 +79,16 @@ export default async function CoursePage({
       courseMode: course.mode,
       courseWorkload: course.duration,
     },
+    ...(course.fee
+      ? {
+          offers: {
+            "@type": "Offer",
+            price: course.fee.amount,
+            priceCurrency: course.fee.currency,
+            category: "Paid",
+          },
+        }
+      : {}),
   };
 
   const faqSchema = {

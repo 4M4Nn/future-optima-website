@@ -40,6 +40,8 @@ export interface Course {
   badge?: string;
   /** Overrides the default "100% Placement Support" pill, e.g. "100% Job Assurance" */
   placementLabel?: string;
+  /** Disclosed program fee, for courses with a published fixed price (e.g. the Dubai program) — used in Course schema `offers` */
+  fee?: { amount: number; currency: string };
 }
 
 export interface BlogPost {

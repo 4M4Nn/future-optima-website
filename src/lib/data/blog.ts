@@ -1872,6 +1872,120 @@ export const blogPosts: BlogPost[] = [
       { question: "How is this different from AI Engineering & Automation?", answer: "AI Engineering & Automation focuses on software-based AI systems and business process automation. AI Robotics & Edge AI Engineering focuses specifically on physical hardware, sensors and deploying AI models onto edge devices — a genuinely different, hands-on skill set." },
     ],
   },
+  {
+    slug: "ai-engineering-automation-course-kochi-explained",
+    title: "AI Engineering & Automation Course in Kochi: What You Actually Learn in 6 Months",
+    metaTitle: "AI Engineering & Automation Course in Kochi (6 Months) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 6-month AI Engineering & Automation program in Kochi, Kerala — LLM integration, RAG, workflow automation and deployment, and who it's for.",
+    keywords: [
+      "ai engineering course kochi",
+      "ai automation training kerala",
+      "ai engineer course kochi",
+      "llm integration course kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "Using AI tools and engineering AI systems are different skills. Here's exactly what Future Optima's 6-month AI Engineering & Automation program covers, and where it leads.",
+    publishedAt: "2026-09-28",
+    updatedAt: "2026-09-28",
+    readingTime: "5 min read",
+    coverImage: "ai-engineering-automation",
+    relatedCourseSlug: "ai-engineering-automation",
+    body: [
+      {
+        type: "p",
+        text: "Plenty of people can prompt an AI tool. Far fewer can engineer an AI-powered system that survives production — reliable retrieval, sane guardrails, monitored automation. Future Optima's AI Engineering & Automation program is built specifically for that second, higher-value skill set, and it's become one of the institute's top-placed courses because Kochi's IT companies are actively hiring for exactly this.",
+      },
+      { type: "h2", text: "What the 6-month format actually covers" },
+      {
+        type: "list",
+        items: [
+          "AI Engineering Foundations — Python for AI systems, APIs and system design basics, working with LLM providers, and prompt engineering fundamentals",
+          "Retrieval & Knowledge Systems — embeddings and vector search, retrieval-augmented generation (RAG), building a knowledge-grounded assistant, and data pipelines for AI systems",
+          "Automation Engineering — workflow automation design, integrating AI into real business processes, trigger-based automation systems, and monitoring automated workflows",
+          "Deployment & Reliability — deploying AI features to production, testing and evaluating AI outputs, guardrails and responsible AI basics, and cost/performance considerations",
+          "Applied AI Product Building — building an AI-powered feature end to end, UX considerations for AI products, team-based project sprints, and documentation/handover",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "The program runs on Python, real LLM APIs, vector databases for retrieval, REST APIs and workflow automation platforms — the same category of tools used in production AI engineering roles, not simplified classroom substitutes.",
+      },
+      { type: "h2", text: "Who this course is actually for" },
+      {
+        type: "p",
+        text: "It's best suited to candidates with basic programming familiarity, though strong beginners are supported with bridge material in the first two weeks — no formal machine-learning background is required going in.",
+      },
+      {
+        type: "p",
+        text: "Six months is enough to build a real, deployed capstone automation solving an actual business workflow problem, and step into AI Engineer (Junior), Automation Engineer, AI Product Support Engineer or AI Implementation Associate roles. Students who specifically want to go deeper into autonomous, multi-step AI agents typically take this course first, then specialize with Agentic AI Development.",
+      },
+    ],
+    faqs: [
+      { question: "What's the difference between this and the Agentic AI Development course?", answer: "AI Engineering & Automation is broader — covering AI system design, RAG and business process automation. Agentic AI Development goes deeper specifically into building autonomous multi-step AI agents. Many students take AI Engineering first, then specialize." },
+      { question: "Do I need prior AI or ML knowledge to join?", answer: "No formal ML background is required, but basic programming familiarity helps you move faster. Non-programmers are supported with bridge material in the first two weeks." },
+      { question: "What kind of capstone project will I build?", answer: "You'll design and deploy a real AI-powered automation solving an actual business workflow problem, reviewed by industry mentors as part of your placement portfolio." },
+    ],
+  },
+  {
+    slug: "cybersecurity-red-team-soc-analyst-course-kochi-explained",
+    title: "Cybersecurity — Red Team & SOC Analyst Course in Kochi: What You Actually Learn in 5 Months",
+    metaTitle: "Cybersecurity Course in Kochi — Red Team & SOC Analyst (5 Months) | Future Optima",
+    metaDescription:
+      "A full breakdown of Future Optima's 5-month Cybersecurity — Red Team & SOC Analyst course in Kochi, Kerala — offensive and defensive security skills covered, and who it's for.",
+    keywords: [
+      "cybersecurity course kochi",
+      "red team soc analyst course kerala",
+      "cyber security certification kochi",
+      "ethical hacking soc analyst training kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "Most cybersecurity courses pick a side — offense or defense. Here's exactly what Future Optima's combined 5-month Red Team & SOC Analyst track covers, and who it's for.",
+    publishedAt: "2026-09-28",
+    updatedAt: "2026-09-28",
+    readingTime: "5 min read",
+    coverImage: "cybersecurity-red-team-soc-analyst",
+    relatedCourseSlug: "cybersecurity-red-team-soc-analyst",
+    body: [
+      {
+        type: "p",
+        text: "Cyber attacks are growing faster than trained defenders, and Kerala's IT and BFSI companies are actively hiring both offensive (red team) and defensive (SOC/blue team) security talent. Future Optima's Cybersecurity — Red Team & SOC Analyst course covers both sides deliberately, so graduates leave genuinely job-ready rather than certificate-ready for only half the job.",
+      },
+      { type: "h2", text: "What the 5-month format actually covers" },
+      {
+        type: "list",
+        items: [
+          "Networking & Systems Foundations — TCP/IP and network fundamentals, Linux and Windows for security, firewalls and network defense basics, and virtualization/lab setup",
+          "Ethical Hacking / Red Team — reconnaissance and scanning, vulnerability assessment, exploitation fundamentals, and reporting/responsible disclosure",
+          "Web Application Security — OWASP Top 10 in depth, Burp Suite and manual testing, authentication and session attacks, and secure coding awareness",
+          "SOC Analyst / Blue Team — SIEM tools and log analysis, threat detection fundamentals, the incident response process, and security monitoring case studies",
+          "Tools & Labs — Kali Linux toolkit, Wireshark for traffic analysis, Nmap and vulnerability scanners, and capture-the-flag style practicals",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "The course is lab-heavy from week one, built around Kali Linux, Burp Suite, Wireshark, Nmap, SIEM tools and Metasploit (in lab use) — practicing on real vulnerable lab environments and log-analysis exercises, not presentation slides.",
+      },
+      { type: "h2", text: "Who this course is actually for" },
+      {
+        type: "p",
+        text: "It's open to all degree backgrounds — networking and systems fundamentals are taught as the first module, so no prior security background is required, though basic computer/networking familiarity helps.",
+      },
+      {
+        type: "p",
+        text: "Five months is enough to build a genuine, dual-sided foundation and step into SOC Analyst, Cybersecurity Analyst, Junior Penetration Tester or Security Operations Trainee roles — many students start in SOC analyst roles for stability and move into red team/penetration testing later, guided by certification roadmap guidance built into the course.",
+      },
+    ],
+    faqs: [
+      { question: "Should I choose Red Team (offensive) or SOC Analyst (defensive) roles after this course?", answer: "The course covers both, and our placement cell counsels you based on your strengths — many students start in SOC analyst roles for stability and move into red team/penetration testing later." },
+      { question: "Are the labs on real systems or just theory?", answer: "The course is lab-heavy from week one — you practice on real vulnerable lab environments and log-analysis exercises, not just presentation slides." },
+      { question: "Is prior networking knowledge required to join?", answer: "No — networking and systems fundamentals are taught as the first module, so you can join with zero prior security background." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {

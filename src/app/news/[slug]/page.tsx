@@ -52,7 +52,7 @@ export default async function NewsPostPage({
     headline: post.title,
     description: post.metaDescription,
     datePublished: post.publishedAt,
-    image: [`${siteConfig.url}${post.coverImage}`],
+    image: [post.coverImage.startsWith("http") ? post.coverImage : `${siteConfig.url}${post.coverImage}`],
     author: { "@type": "Organization", name: siteConfig.name },
     publisher: { "@type": "Organization", name: siteConfig.name },
   };

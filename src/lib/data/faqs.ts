@@ -136,4 +136,14 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "It depends on the course, but our AI Website Development certification is built specifically for speed — it's 2 weeks long, and the final module is dedicated to finding clients, pricing projects and writing proposals, so many students start pitching small website work immediately after certification.",
   },
+  {
+    question: "Does Future Optima run resume-building and mock interview sessions?",
+    answer:
+      "Yes — alongside the resume building and mock interviews built into every course, our placement cell also runs dedicated Resume Preparation and Mock Interview sessions periodically, most recently on September 26, 2026, giving students focused, hands-on practice ahead of their placement drives.",
+  },
+  {
+    question: "Should I choose AI Engineering & Automation or Cybersecurity — Red Team & SOC Analyst?",
+    answer:
+      "They lead to very different roles, so pick based on the work you want to do, not general interest in tech: AI Engineering & Automation is for building and deploying AI-powered systems (LLM integration, automation, AI products), while Cybersecurity — Red Team & SOC Analyst is for offensive/defensive security roles (ethical hacking, SOC analysis, incident response).",
+  },
 ];
