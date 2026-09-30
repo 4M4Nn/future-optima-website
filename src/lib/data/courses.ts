@@ -42,7 +42,7 @@ export const courses: Course[] = [
       { title: "Deployment & Career Prep", topics: ["Git & GitHub workflow", "Cloud deployment basics", "Resume & portfolio building", "Mock interviews"] },
     ],
     tools: ["Python", "Django", "Django REST Framework", "React", "PostgreSQL", "Git/GitHub", "Postman", "Tailwind CSS"],
-    eligibility: "Any degree/diploma background (CS or non-CS). No prior coding experience required.",
+    eligibility: "Open to Plus Two (12th) students and any degree/diploma background (CS or non-CS), including students with a year gap. No prior coding experience required.",
     careerRoles: ["Python Developer", "Full-Stack Developer", "Django Developer", "Backend Engineer", "Software Developer Trainee"],
     faqs: [
       { question: "Is this Python full-stack course suitable for non-CS graduates in Kochi?", answer: "Yes. The course starts from Python fundamentals and is designed for both CS and non-CS graduates. Several of our placed students come from BSc/BCom backgrounds." },
@@ -95,7 +95,7 @@ export const courses: Course[] = [
       { title: "Capstone: Build & Launch", topics: ["Build a personal portfolio site", "Build and deploy a mock client project", "Present both projects for certification review", "Setting up your freelance profile"] },
     ],
     tools: ["AI website/code generation tools", "HTML/CSS/JavaScript", "Git & GitHub", "Modern hosting platforms", "Custom domains"],
-    eligibility: "Open to absolute beginners — no prior coding or design experience required. Ideal for anyone who wants a fast, practical skill with real freelance income potential.",
+    eligibility: "Open to Plus Two (12th) students, graduates and absolute beginners — no prior coding or design experience required. Ideal for anyone who wants a fast, practical skill with real freelance income potential.",
     careerRoles: ["Freelance Web Developer", "AI Website Builder", "Junior Web Developer", "Digital Agency Website Specialist"],
     faqs: [
       { question: "Can I really build a website in a few hours after this course?", answer: "Yes — by the middle of the course you'll be building working websites in hours using AI-assisted tools; the second week focuses on customizing, deploying and polishing them to a client-ready standard." },
@@ -146,7 +146,7 @@ export const courses: Course[] = [
       { title: "Career Readiness", topics: ["Portfolio project polish", "GitHub & version control best practice", "Resume building", "Mock technical interviews"] },
     ],
     tools: ["JavaScript", "React", "Node.js", "Express.js", "MongoDB", "Mongoose", "LLM APIs", "Git/GitHub", "Postman"],
-    eligibility: "Any degree/diploma background. Basic computer literacy is enough to start.",
+    eligibility: "Open to Plus Two (12th) students and any degree/diploma background, including students with a year gap. Basic computer literacy is enough to start.",
     careerRoles: ["MERN Stack Developer", "Full-Stack JavaScript Developer", "AI-Integrated Product Developer", "Frontend Developer (React)", "Backend Developer (Node.js)"],
     faqs: [
       { question: "Why does the MERN course now include agentic AI, and why is it 7 months instead of shorter?", answer: "Product teams increasingly expect full-stack developers to also wire in AI features, not hand that off separately. The extra time builds genuine agentic AI integration skill inside a real MERN app, not just a surface-level add-on." },
@@ -198,7 +198,7 @@ export const courses: Course[] = [
       { title: "Capstone & Career Prep", topics: ["End-to-end project on real data", "Portfolio & GitHub presentation", "Resume for data roles", "Mock interviews with case studies"] },
     ],
     tools: ["Python", "pandas", "NumPy", "scikit-learn", "TensorFlow", "SQL", "Power BI", "Jupyter Notebook"],
-    eligibility: "Open to all degree backgrounds; basic comfort with mathematics is helpful but taught from scratch.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds; basic comfort with mathematics is helpful but taught from scratch.",
     careerRoles: ["Data Scientist", "Data Analyst", "Machine Learning Engineer (Junior)", "AI/ML Trainee", "Business Intelligence Analyst"],
     faqs: [
       { question: "Can a non-CS student join the Data Science with AI course in Kochi?", answer: "Yes — this is one of our most popular non-CS-friendly tracks. Statistics and Python are taught from the ground up, and several placed students (including at Accenture) came through BTech CS and non-CS routes alike." },
@@ -250,7 +250,7 @@ export const courses: Course[] = [
       { title: "Career Prep", topics: ["Analyst portfolio building", "Resume for analytics roles", "Mock case-study interviews", "Placement readiness"] },
     ],
     tools: ["Excel", "SQL", "Python", "pandas", "Power BI", "DAX"],
-    eligibility: "Open to all degree backgrounds, including commerce and business graduates.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds, including commerce and business graduates.",
     careerRoles: ["Data Analyst", "Business Analyst", "Reporting Analyst", "Power BI Developer"],
     faqs: [
       { question: "Is this course good for commerce/BCom students in Kochi?", answer: "Yes, this is one of the most commerce-friendly tracks we offer — several placed analysts (including in business analyst roles at Malabar Group and Distinct Infotech) come from commerce and non-engineering backgrounds." },
@@ -301,7 +301,7 @@ export const courses: Course[] = [
       { title: "Career Prep", topics: ["Certification roadmap guidance", "Portfolio of lab reports", "Resume for security roles", "Mock technical interviews"] },
     ],
     tools: ["Kali Linux", "Burp Suite", "Wireshark", "Nmap", "SIEM tools", "Metasploit (lab use)"],
-    eligibility: "Open to all degree backgrounds; basic computer/networking familiarity is helpful.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds; basic computer/networking familiarity is helpful.",
     careerRoles: ["SOC Analyst", "Cybersecurity Analyst", "Junior Penetration Tester", "Security Operations Trainee"],
     faqs: [
       { question: "Should I choose Red Team (offensive) or SOC Analyst (defensive) roles after this course?", answer: "The course covers both, and our placement cell counsels you based on your strengths — many students start in SOC analyst roles for stability and move into red team/penetration testing later." },
@@ -353,7 +353,7 @@ export const courses: Course[] = [
       { title: "Career Prep", topics: ["Portfolio of AI automation projects", "Resume for AI engineering roles", "Mock interviews with case studies", "Industry mentor project review"] },
     ],
     tools: ["Python", "LLM APIs", "Vector databases", "REST APIs", "Automation platforms", "Git/GitHub"],
-    eligibility: "Best suited for candidates with basic programming familiarity; strong beginners are also supported with bridge material.",
+    eligibility: "Open to Plus Two (12th) students and graduates. Best suited for candidates with basic programming familiarity; strong beginners are also supported with bridge material.",
     careerRoles: ["AI Engineer (Junior)", "Automation Engineer", "AI Product Support Engineer", "AI Implementation Associate"],
     faqs: [
       { question: "What's the difference between this and the Agentic AI Development course?", answer: "AI Engineering & Automation is broader — covering AI system design, RAG, and business process automation. Agentic AI Development goes deeper specifically into building autonomous multi-step AI agents. Many students take AI Engineering first, then specialize." },
@@ -404,7 +404,7 @@ export const courses: Course[] = [
       { title: "Career Prep", topics: ["Hardware project portfolio", "Resume for robotics/edge AI roles", "Mock interviews", "Industry mentor project review"] },
     ],
     tools: ["Arduino/Raspberry Pi", "Python", "TensorFlow Lite", "Sensors & IoT modules", "OpenCV"],
-    eligibility: "Open to all degree/diploma backgrounds with an interest in hardware; no prior robotics experience required.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds with an interest in hardware; no prior robotics experience required.",
     careerRoles: ["Robotics Engineer (Junior)", "Edge AI Engineer", "IoT Developer", "Embedded Systems Trainee"],
     faqs: [
       { question: "Do I need an electronics/ECE background to join this course?", answer: "No — the course teaches electronics, robotics and embedded fundamentals from scratch. Students from CS, mechanical and electronics backgrounds have all completed this track successfully." },
@@ -456,7 +456,7 @@ export const courses: Course[] = [
       { title: "Capstone & Career Prep", topics: ["Building a full agentic product", "Portfolio presentation", "Resume for agentic AI roles", "Mock interviews"] },
     ],
     tools: ["Python", "LLM APIs", "Agent frameworks", "Vector databases", "Function calling / structured outputs"],
-    eligibility: "Recommended after or alongside AI Engineering & Automation; basic Python required.",
+    eligibility: "Open to Plus Two (12th) students and graduates. Recommended after or alongside AI Engineering & Automation; basic Python required.",
     careerRoles: ["AI Agent Developer", "AI Engineer — Agentic Systems", "AI Product Engineer", "AI Automation Specialist"],
     faqs: [
       { question: "What is agentic AI and why does Kerala need this course now?", answer: "Agentic AI refers to AI systems that plan and act across multiple steps using tools, rather than just answering a single prompt. As Kerala's IT companies adopt this technology, Future Optima built one of the region's first dedicated courses to meet that demand early." },
@@ -509,7 +509,7 @@ export const courses: Course[] = [
       { title: "Capstone Year & Placement", topics: ["Quarterly capstone projects", "Industry mentor reviews", "Portfolio & personal brand building", "Placement-track interview preparation"] },
     ],
     tools: ["Python", "LLM APIs", "Agent frameworks", "Vector databases", "React", "SQL", "TensorFlow/PyTorch basics", "Git/GitHub"],
-    eligibility: "Open to serious, committed students from any background; a short counseling & aptitude conversation helps confirm fit given the 1-year commitment.",
+    eligibility: "Open to serious, committed students from any background, including Plus Two (12th) students; a short counseling & aptitude conversation helps confirm fit given the 1-year commitment.",
     careerRoles: ["AI Systems Engineer", "AI Product Engineer", "Agentic AI Developer", "AI Engineering Lead (Junior)"],
     faqs: [
       { question: "Why choose the 1-year Advanced Diploma over a shorter AI course in Kochi?", answer: "The 1-year format lets us go far deeper than any single course — combining AI systems engineering, agentic AI and product development into one continuous program with multiple real capstones, which is why it's our flagship, most industry-mentored track." },
@@ -557,7 +557,7 @@ export const courses: Course[] = [
       { title: "Reporting & Certification", topics: ["Writing a professional pentest report", "Communicating risk to non-technical stakeholders", "Certification exam", "Career next steps"] },
     ],
     tools: ["Kali Linux", "Nmap", "Metasploit", "Burp Suite"],
-    eligibility: "Best suited for candidates with basic networking/systems familiarity; complete beginners are guided toward our Cybersecurity — Red Team & SOC Analyst course first.",
+    eligibility: "Open to Plus Two (12th) students and graduates. Best suited for candidates with basic networking/systems familiarity; complete beginners are guided toward our Cybersecurity — Red Team & SOC Analyst course first.",
     careerRoles: ["Junior Penetration Tester", "Security Consultant (Entry)", "Vulnerability Analyst"],
     faqs: [
       { question: "Is 1 month enough to become a penetration tester?", answer: "1 month is enough to build a genuine, certifiable foundation and land entry-level pentest or vulnerability analyst roles — deeper specialization then builds on the job and through further certification, the same way it does industry-wide." },
@@ -603,7 +603,7 @@ export const courses: Course[] = [
       { title: "Reporting, Ethics & Certification", topics: ["Professional reporting standards", "Legal & ethical framework", "Certification exam prep", "Career pathway guidance"] },
     ],
     tools: ["Kali Linux", "Nmap", "Wireshark", "Metasploit", "Burp Suite"],
-    eligibility: "Open to all degree/diploma backgrounds; no prior security experience required — networking basics are covered early in the course.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds; no prior security experience required — networking basics are covered early in the course.",
     careerRoles: ["Ethical Hacker (Junior)", "Security Analyst", "Red Team Trainee"],
     faqs: [
       { question: "Is Certified Ethical Hacking the same as the Cybersecurity — Red Team & SOC Analyst course?", answer: "No — this is a focused 2-month certification purely on ethical hacking methodology. Our Cybersecurity — Red Team & SOC Analyst course is broader and longer, covering both offensive and defensive (SOC) skills together." },
@@ -649,7 +649,7 @@ export const courses: Course[] = [
       { title: "Case Studies & Certification", topics: ["Real-style investigation case studies", "Mock SOC shift simulation", "Certification exam", "Interview preparation for SOC roles"] },
     ],
     tools: ["SIEM tools", "Wireshark", "Log analysis platforms", "Threat intelligence feeds"],
-    eligibility: "Open to all degree/diploma backgrounds; no prior security experience required — this is one of our most accessible cybersecurity entry points.",
+    eligibility: "Open to Plus Two (12th) students and all degree/diploma backgrounds; no prior security experience required — this is one of our most accessible cybersecurity entry points.",
     careerRoles: ["SOC Analyst (L1)", "Security Operations Trainee", "Incident Response Associate"],
     faqs: [
       { question: "Is Certified SOC Analyst a good first cybersecurity course for a complete beginner?", answer: "Yes — SOC analyst roles are widely considered one of the most accessible entry points into cybersecurity, and this course assumes no prior security background." },
@@ -695,7 +695,7 @@ export const courses: Course[] = [
       { title: "Reporting Like a Pro", topics: ["Writing reports that get accepted (and paid)", "Proof-of-concept best practices", "Communicating with program teams", "Portfolio & certification"] },
     ],
     tools: ["Burp Suite", "OWASP testing tools", "Browser DevTools", "Bug bounty platforms"],
-    eligibility: "Best suited for candidates with some web development or basic security familiarity; motivated beginners are supported with bridge material.",
+    eligibility: "Open to Plus Two (12th) students and graduates. Best suited for candidates with some web development or basic security familiarity; motivated beginners are supported with bridge material.",
     careerRoles: ["Bug Bounty Hunter", "Web Security Tester", "Junior AppSec Analyst"],
     faqs: [
       { question: "Can I actually earn money from bug bounty hunting after this course?", answer: "Bug bounty income depends on skill and persistence and isn't guaranteed, but the course is built specifically to teach the manual techniques and reporting quality that real bounty programs pay for — a genuine, realistic path, not a promise of instant income." },

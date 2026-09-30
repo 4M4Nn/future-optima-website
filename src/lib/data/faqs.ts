@@ -14,7 +14,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "Do I need a technical (CS/IT) degree to join Future Optima's courses?",
     answer:
-      "No. Every course is designed to take non-CS and non-technical graduates from zero to job-ready. Many of our placed students, including those placed at Accenture and IBM, came from B.Sc, B.Com and other non-CS backgrounds.",
+      "No. Every course is designed to take non-CS and non-technical graduates from zero to job-ready. Many of our placed students, including those placed at Accenture and IBM, came from B.Sc, B.Com and other non-CS backgrounds. Every course except the Dubai IT Infrastructure program is also open to Plus Two (12th) students.",
   },
   {
     question: "What is the NACTET certificate and how is it different from the Future Optima certificate?",
@@ -154,12 +154,12 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "Can Plus Two (12th) students join the Dubai IT Infrastructure program?",
     answer:
-      "No. The Dubai program is open only to degree and diploma holders. Plus Two students can join our Kochi IT and AI courses — such as the 2-week AI Website Development course or the 1-year Advanced Diploma in AI Systems Engineering — and apply for the Dubai program after completing a degree or diploma.",
+      "No. The Dubai program is open only to degree and diploma holders. Plus Two students can join every other Future Optima course — such as the 2-week AI Website Development course or the 1-year Advanced Diploma in AI Systems Engineering — and apply for the Dubai program after completing a degree or diploma.",
   },
   {
     question: "Which courses can Plus Two (12th) students join at Future Optima?",
     answer:
-      "Plus Two students can apply for our Kochi IT and AI courses. Good starting points are AI Website Development (2 weeks, open to absolute beginners), the Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year), Certified SOC Analyst (3 months) and Certified Ethical Hacking (2 months). Our counselors will help you pick based on your goals.",
+      "Every Future Optima course except the IT Infrastructure Engineer Program (Dubai) is open to Plus Two students — including Python Full-Stack with AI, MERN Stack with Agentic AI, Data Science with AI, AI-Powered Data Analytics, AI Engineering & Automation, the cybersecurity tracks and AI Robotics. Good starting points are AI Website Development (2 weeks, open to absolute beginners), the Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year), Certified SOC Analyst (3 months) and Certified Ethical Hacking (2 months). Our counselors will help you pick based on your goals.",
   },
   {
     question: "Can year gap students join Future Optima's courses?",

@@ -2116,7 +2116,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Courses Plus Two students can join at Future Optima" },
       {
         type: "p",
-        text: "Plus Two students — including those who've taken a year gap after 12th — can apply for our Kochi IT and AI courses. A few are especially good starting points:",
+        text: "Every Future Optima course except the Dubai IT Infrastructure program is open to Plus Two students — including those who've taken a year gap after 12th. A few are especially good starting points:",
       },
       {
         type: "list",
@@ -2125,7 +2125,7 @@ export const blogPosts: BlogPost[] = [
           "Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year) — our flagship program, open to serious, committed students from any background after a short counseling and aptitude conversation",
           "Certified SOC Analyst (3 months) — one of our most accessible cybersecurity entry points, with no prior security experience required",
           "Certified Ethical Hacking (2 months) — networking basics are covered early, so beginners can start from zero",
-          "Longer job-oriented tracks such as Python Full-Stack with AI, MERN Stack with Agentic AI and Data Science with AI — our counselors will help you judge whether you're ready for a 6–7 month commitment",
+          "Longer job-oriented tracks such as Python Full-Stack with AI (6 months), MERN Stack with Agentic AI (7 months), Data Science with AI, AI-Powered Data Analytics, AI Engineering & Automation, Cybersecurity — Red Team & SOC Analyst and AI Robotics & Edge AI Engineering — all open to Plus Two students",
         ],
       },
       { type: "h2", text: "How to choose the right starting course" },
@@ -2197,7 +2197,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "AI Website Development (2 weeks) — a fast, beginner-friendly start with real freelance potential",
           "Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year) — a serious long-term program for committed students",
-          "Our Kochi IT and AI courses more broadly — the Dubai program is the one exception, since it requires a degree or diploma",
+          "Every other Future Optima course, from Data Science with AI to Python Full-Stack and cybersecurity — the Dubai program is the only exception, since it requires a degree or diploma",
         ],
       },
       { type: "h2", text: "How we support students returning after a gap" },
