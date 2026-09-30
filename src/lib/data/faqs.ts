@@ -146,4 +146,34 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "They lead to very different roles, so pick based on the work you want to do, not general interest in tech: AI Engineering & Automation is for building and deploying AI-powered systems (LLM integration, automation, AI products), while Cybersecurity — Red Team & SOC Analyst is for offensive/defensive security roles (ethical hacking, SOC analysis, incident response).",
   },
+  {
+    question: "I completed B.Tech CS, BCA, B.Sc or a diploma, have a year gap and no job. What is my best option?",
+    answer:
+      "For degree and diploma holders who are open to working abroad, our IT Infrastructure Engineer Program (Dubai) is the strongest option — 4.5–6 months of hands-on Windows Server, Microsoft Azure, Office 365 and CCNA training, Microsoft and CCNA certification exam fees included, and 100% job assurance for candidates who complete the program and engage fully with placement. If you'd rather stay in Kerala, our Kochi courses in data science, full-stack development and cybersecurity are also open to gap-year graduates.",
+  },
+  {
+    question: "Can Plus Two (12th) students join the Dubai IT Infrastructure program?",
+    answer:
+      "No. The Dubai program is open only to degree and diploma holders. Plus Two students can join our Kochi IT and AI courses — such as the 2-week AI Website Development course or the 1-year Advanced Diploma in AI Systems Engineering — and apply for the Dubai program after completing a degree or diploma.",
+  },
+  {
+    question: "Which courses can Plus Two (12th) students join at Future Optima?",
+    answer:
+      "Plus Two students can apply for our Kochi IT and AI courses. Good starting points are AI Website Development (2 weeks, open to absolute beginners), the Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year), Certified SOC Analyst (3 months) and Certified Ethical Hacking (2 months). Our counselors will help you pick based on your goals.",
+  },
+  {
+    question: "Can year gap students join Future Optima's courses?",
+    answer:
+      "Yes. Students with a year gap after Plus Two, a degree or a diploma can apply for our courses. The only course with a stricter requirement is the Dubai IT Infrastructure program, which needs a completed degree or diploma — the length of the gap itself doesn't matter.",
+  },
+  {
+    question: "Does a year gap reduce my chances of getting an IT job after the course?",
+    answer:
+      "A gap filled with verifiable skills rarely holds anyone back. Our courses give you certifications, real projects and interview preparation, so you have concrete, recent work to discuss with recruiters instead of an unexplained gap.",
+  },
+  {
+    question: "Are loan options available for the Dubai IT Infrastructure program?",
+    answer:
+      "Yes. The program fee is AED 23,500 as a single payment, and study/education loan options are available for eligible candidates. Talk to our admissions counselors for current options.",
+  },
 ];
