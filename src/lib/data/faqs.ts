@@ -176,4 +176,34 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes. The program fee is AED 23,500 as a single payment, and study/education loan options are available for eligible candidates. Talk to our admissions counselors for current options.",
   },
+  {
+    question: "What is Future Optima's Advanced Diploma in AI Systems Engineering?",
+    answer:
+      "It's our flagship 1-year program covering programming foundations, applied machine learning, AI systems engineering, agentic AI, working with Claude, ERP & CRM systems with AI, and full product development — with quarterly capstone projects, industry mentor reviews, priority placement support and pay-after-placement.",
+  },
+  {
+    question: "Does Future Optima teach how to use Claude AI?",
+    answer:
+      "Yes. The Advanced Diploma includes a dedicated module that takes you through five stages: prompting well, Projects and artifacts, AI-assisted development with Claude Code, building with the Claude API, and building AI agents with the Claude Agent SDK and MCP.",
+  },
+  {
+    question: "Is there a course in Kochi that teaches ERP and CRM with AI?",
+    answer:
+      "Yes — Future Optima's 1-year Advanced Diploma includes an ERP & CRM Systems with AI module covering ERP and CRM fundamentals, API integrations, AI automations such as lead scoring and invoice processing, and agentic workflows across business systems.",
+  },
+  {
+    question: "Which course should I choose to become an AI developer?",
+    answer:
+      "For the most complete path, choose the 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development — it combines programming fundamentals, AI coding tools like Claude Code, LLM and agent development, ERP/CRM with AI and real product building. Shorter options include AI Engineering & Automation (6 months) and Agentic AI Development (4 months).",
+  },
+  {
+    question: "How efficient is an AI developer compared to a traditional developer?",
+    answer:
+      "On routine work — setup, boilerplate, prototypes, tests, documentation and debugging — AI developers are often dramatically faster. Design decisions, security and understanding the business problem still depend on human judgment, which is why strong fundamentals matter as much as AI tools.",
+  },
+  {
+    question: "Can Plus Two students join the 1-year AI diploma?",
+    answer:
+      "Yes. The Advanced Diploma is open to Plus Two (12th) students and graduates from any background, including students with a year gap, after a short counseling and aptitude conversation to confirm fit for the 1-year commitment.",
+  },
 ];
