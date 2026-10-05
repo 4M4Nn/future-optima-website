@@ -206,4 +206,24 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes. The Advanced Diploma is open to Plus Two (12th) students and graduates from any background, including students with a year gap, after a short counseling and aptitude conversation to confirm fit for the 1-year commitment.",
   },
+  {
+    question: "How long are Future Optima's courses?",
+    answer:
+      "It depends on the course: AI Website Development is 2 weeks, Certified Penetration Testing and Web Bug Hunter are 1 month, Certified Ethical Hacking is 2 months, Certified SOC Analyst is 3 months, Agentic AI Development is 4 months, the Cybersecurity and AI Robotics tracks are 5 months, Python Full-Stack, Data Science, Data Analytics and AI Engineering are 6 months, MERN Stack is 7 months, and the Advanced Diploma is 1 year.",
+  },
+  {
+    question: "Which is better for a commerce student — data analytics or data science?",
+    answer:
+      "Most commerce and B.Com students find AI-Powered Data Analytics the more natural fit, since it focuses on Excel, SQL, Power BI and business reporting. Data Science with AI suits students who want to go deeper into machine learning and model building. Both are 6 months and open to commerce graduates.",
+  },
+  {
+    question: "Which Future Optima course is best for a complete beginner in coding?",
+    answer:
+      "Python Full-Stack with AI, MERN Stack with Agentic AI, Data Science with AI and AI-Powered Data Analytics all start from the basics with no prior coding needed. For a quick first step, the 2-week AI Website Development course is open to absolute beginners. Agentic AI Development is intermediate and needs basic Python.",
+  },
+  {
+    question: "What is the difference between Agentic AI Development and the Advanced Diploma?",
+    answer:
+      "Agentic AI Development is a focused 4-month intermediate course on building AI agents and needs basic Python. The 1-year Advanced Diploma starts from programming foundations and covers machine learning, AI systems engineering, agentic AI, Claude, ERP & CRM with AI and product development — agentic AI is one of its core building blocks.",
+  },
 ];

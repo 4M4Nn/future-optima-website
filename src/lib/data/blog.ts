@@ -2527,6 +2527,231 @@ export const blogPosts: BlogPost[] = [
       { question: "What is the best AI diploma course in Kochi?", answer: "Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development is our flagship and most complete program — covering AI systems engineering, agentic AI, Claude, ERP/CRM with AI and product development, with pay-after-placement." },
     ],
   },
+  {
+    slug: "data-science-with-ai-course-kochi-what-you-learn",
+    title: "Data Science with AI Course in Kochi: What You Actually Learn in 6 Months",
+    metaTitle: "Data Science with AI Course in Kochi — 6-Month Syllabus Explained | Future Optima",
+    metaDescription:
+      "A module-by-module look at Future Optima's 6-month Data Science with AI course in Kochi — Python, statistics, machine learning, deep learning basics, SQL, Power BI and a raw-data-to-deployed-model capstone.",
+    keywords: [
+      "data science course kochi syllabus",
+      "data science with ai course kerala",
+      "6 month data science course kochi",
+      "machine learning course kochi",
+      "data science course after plus two kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "Our most-placed course, broken down module by module — what you'll actually do each month, the tools you'll use, and the roles it prepares you for.",
+    publishedAt: "2026-10-05",
+    updatedAt: "2026-10-05",
+    readingTime: "5 min read",
+    coverImage: "data-science-with-ai",
+    relatedCourseSlug: "data-science-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "Data Science with AI is Future Optima's most-placed course, and the reason is simple: it sits where two of Kerala's strongest hiring categories — data and AI — overlap. Here's exactly what the six months cover, so you know what you're signing up for before you join.",
+      },
+      { type: "h2", text: "The six modules" },
+      {
+        type: "list",
+        items: [
+          "Python for Data Science — NumPy and pandas, data cleaning and wrangling, exploratory data analysis and visualization",
+          "Statistics & Mathematics — probability and distributions, hypothesis testing, linear algebra essentials and statistical inference",
+          "Machine Learning — regression and classification, decision trees and ensembles, clustering, and model evaluation and tuning",
+          "AI & Deep Learning Basics — neural network fundamentals, pretrained models, an introduction to NLP and LLMs, and applied AI use cases",
+          "Tools & Deployment — Jupyter, scikit-learn, TensorFlow basics, SQL for data scientists, model deployment basics and version control for ML",
+          "Capstone & Career Prep — an end-to-end project on real data, portfolio and GitHub presentation, a data-focused resume and case-study mock interviews",
+        ],
+      },
+      { type: "h2", text: "Tools you'll actually use" },
+      {
+        type: "p",
+        text: "Python, pandas, NumPy, scikit-learn, TensorFlow, SQL, Power BI and Jupyter Notebook — every module is anchored to a real or realistic dataset and a real business question, rather than textbook exercises.",
+      },
+      { type: "h2", text: "Who it's for" },
+      {
+        type: "p",
+        text: "The course is open to Plus Two students and all degree and diploma backgrounds. Statistics and Python are taught from scratch, so basic comfort with mathematics helps but isn't a barrier — many of our placed students came from non-CS backgrounds.",
+      },
+      { type: "h2", text: "Roles it prepares you for" },
+      {
+        type: "p",
+        text: "Data Scientist, Data Analyst, Junior Machine Learning Engineer, AI/ML Trainee and Business Intelligence Analyst. If your goal is dashboards and business reporting rather than model building, AI-Powered Data Analytics is the closer fit; if you want to go further into AI systems and agents, the 1-year Advanced Diploma builds on the same foundations.",
+      },
+    ],
+    faqs: [
+      { question: "How long is the Data Science with AI course at Future Optima?", answer: "6 months, available as classroom batches at our Kochi campus or live online, with a capstone project and placement preparation built in." },
+      { question: "Can I join the data science course after Plus Two?", answer: "Yes. The course is open to Plus Two students and all degree and diploma backgrounds — Python and statistics are taught from the basics." },
+      { question: "Does the course include deep learning and LLMs?", answer: "Yes — it covers neural network fundamentals, working with pretrained models and an introduction to NLP and LLMs, alongside core machine learning." },
+    ],
+  },
+  {
+    slug: "ai-powered-data-analytics-course-kochi-what-you-learn",
+    title: "AI-Powered Data Analytics Course in Kochi: What You Actually Learn in 6 Months",
+    metaTitle: "AI-Powered Data Analytics Course in Kochi — Excel, SQL, Power BI | Future Optima",
+    metaDescription:
+      "What Future Optima's 6-month AI-Powered Data Analytics course in Kochi covers — Excel, SQL, Python, Power BI dashboards, AI-assisted analysis and real business case projects. Open to commerce students and Plus Two.",
+    keywords: [
+      "data analytics course kochi syllabus",
+      "power bi course kochi",
+      "excel sql power bi course kerala",
+      "data analyst course for commerce students kerala",
+      "ai data analytics course kochi",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "A business-ready analyst track built on Excel, SQL, Python and Power BI — with AI tools to speed up analysis. Here's what each module covers and who it suits best.",
+    publishedAt: "2026-10-05",
+    updatedAt: "2026-10-05",
+    readingTime: "5 min read",
+    coverImage: "ai-powered-data-analytics",
+    relatedCourseSlug: "ai-powered-data-analytics",
+    body: [
+      {
+        type: "p",
+        text: "Every company generates data, but very few have people who can turn it into decisions quickly. AI-Powered Data Analytics trains you as that person: a business-ready analyst who is fluent in Excel, SQL, Python and Power BI and knows how to use AI tools to move faster.",
+      },
+      { type: "h2", text: "The six modules" },
+      {
+        type: "list",
+        items: [
+          "Excel & SQL for Analytics — advanced formulas and pivot tables, SQL joins, aggregation and window functions, data cleaning and reporting automation",
+          "Python for Analytics — pandas, visualization, automating recurring reports and working with APIs and spreadsheets",
+          "Power BI & Dashboards — data modeling, DAX fundamentals, interactive dashboard design and publishing reports",
+          "AI-Assisted Analytics — using AI for faster exploratory analysis, natural-language data queries, AI-generated summaries and responsible use of AI in reporting",
+          "Business Case Projects — finance, retail/sales and operations case studies, and presenting insights to stakeholders",
+          "Career Prep — analyst portfolio, resume for analytics roles, case-study mock interviews and placement readiness",
+        ],
+      },
+      { type: "h2", text: "Who it's for" },
+      {
+        type: "p",
+        text: "It's one of our most commerce-friendly tracks. It's open to Plus Two students and all degree and diploma backgrounds, including B.Com and business graduates, and no prior coding is required — Excel and SQL start from the basics and Python is introduced gradually.",
+      },
+      { type: "h2", text: "Analytics or data science?" },
+      {
+        type: "p",
+        text: "Choose AI-Powered Data Analytics if you want to become a Data Analyst, Business Analyst, Reporting Analyst or Power BI Developer — working close to business teams. Choose Data Science with AI if you're more interested in machine learning and building predictive models.",
+      },
+    ],
+    faqs: [
+      { question: "Is the data analytics course suitable for B.Com students?", answer: "Yes — it's one of our most commerce-friendly courses, and several of our placed analysts come from commerce and non-engineering backgrounds." },
+      { question: "Will I learn Power BI in the data analytics course?", answer: "Yes. A dedicated module covers Power BI data modeling, DAX fundamentals, interactive dashboard design and publishing reports." },
+      { question: "What jobs can I get after a data analytics course in Kochi?", answer: "Data Analyst, Business Analyst, Reporting Analyst and Power BI Developer roles, supported by our placement cell and 200+ hiring partners." },
+    ],
+  },
+  {
+    slug: "agentic-ai-development-course-kochi-what-you-learn",
+    title: "Agentic AI Development Course in Kochi: What You Actually Build in 4 Months",
+    metaTitle: "Agentic AI Development Course in Kochi — 4-Month Syllabus | Future Optima",
+    metaDescription:
+      "What Future Optima's 4-month Agentic AI Development course in Kochi covers — agent architectures, tool use and function calling, memory, multi-agent systems, evaluation and guardrails, and a working agent capstone.",
+    keywords: [
+      "agentic ai course kochi syllabus",
+      "ai agent development course kerala",
+      "build ai agents course kochi",
+      "4 month agentic ai course",
+      "multi agent systems course kerala",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "One of Kerala's first dedicated agentic AI courses — here's what you'll learn about building agents that plan, use tools and finish multi-step tasks, and what you'll have built by the end.",
+    publishedAt: "2026-10-05",
+    updatedAt: "2026-10-05",
+    readingTime: "5 min read",
+    coverImage: "agentic-ai-development",
+    relatedCourseSlug: "agentic-ai-development",
+    body: [
+      {
+        type: "p",
+        text: "A chatbot answers a question. An agent gets a job done — it plans the steps, calls tools and APIs, checks the results and keeps going until the task is complete. Agentic AI Development is our focused 4-month course on building those systems properly, so they're reliable enough for real use.",
+      },
+      { type: "h2", text: "The six modules" },
+      {
+        type: "list",
+        items: [
+          "Foundations of Agentic AI — what makes a system agentic, reasoning and planning loops, LLMs vs RAG vs agents, and an overview of agent frameworks",
+          "Tool Use & Function Calling — structured outputs, connecting agents to real APIs, designing safe tool interfaces and handling tool errors",
+          "Memory & Context — short- and long-term memory, context window management, vector memory and state across sessions",
+          "Multi-Agent Systems — orchestration, task delegation, agent-to-agent communication and coordinator/worker architectures",
+          "Reliability & Evaluation — evaluating agent behavior, guardrails and safe failure modes, cost and latency, and human-in-the-loop design",
+          "Capstone & Career Prep — a full agentic product, portfolio presentation, resume for agentic AI roles and mock interviews",
+        ],
+      },
+      { type: "h2", text: "What your capstone looks like" },
+      {
+        type: "p",
+        text: "You'll build a working autonomous agent that plans a task, uses at least one real tool or API, and handles failure cases gracefully. In interviews, that stands out far more than a single-response chatbot demo.",
+      },
+      { type: "h2", text: "Who it's for" },
+      {
+        type: "p",
+        text: "This is an intermediate course that needs basic Python. It's open to Plus Two students and graduates, and works best after or alongside AI Engineering & Automation. Complete beginners usually start with Python Full-Stack with AI or AI Engineering & Automation first — or choose the 1-year Advanced Diploma, which takes you from programming foundations all the way to agents, Claude and ERP/CRM automation.",
+      },
+    ],
+    faqs: [
+      { question: "What will I build in the Agentic AI Development course?", answer: "A working autonomous agent that plans a task, uses at least one real tool or API and handles failures gracefully, plus smaller projects on tool use, memory and multi-agent orchestration." },
+      { question: "Do I need to know Python for the agentic AI course?", answer: "Yes, basic Python is required. Beginners usually start with Python Full-Stack with AI or AI Engineering & Automation, or choose the 1-year Advanced Diploma, which teaches programming from the start." },
+      { question: "How long is the Agentic AI Development course?", answer: "4 months, available in classroom batches at our Kochi campus or live online." },
+    ],
+  },
+  {
+    slug: "python-full-stack-with-ai-course-kochi-what-you-learn",
+    title: "Python Full-Stack with AI Course in Kochi: What You Actually Learn in 6 Months",
+    metaTitle: "Python Full-Stack with AI Course in Kochi — Django, React & AI Syllabus | Future Optima",
+    metaDescription:
+      "Module-by-module breakdown of Future Optima's 6-month Python Full-Stack with AI course in Kochi — Python, Django, REST APIs, PostgreSQL, React, LLM integration, deployment and a mentor-reviewed capstone.",
+    keywords: [
+      "python full stack course kochi syllabus",
+      "django react course kochi",
+      "python full stack with ai course kerala",
+      "python course after plus two kochi",
+      "full stack developer course kochi",
+    ],
+    category: "Course Guides",
+    excerpt:
+      "From your first line of Python to a deployed Django + React app with real AI features — here's what each month of our Python Full-Stack with AI course covers.",
+    publishedAt: "2026-10-05",
+    updatedAt: "2026-10-05",
+    readingTime: "5 min read",
+    coverImage: "python-full-stack-with-ai",
+    relatedCourseSlug: "python-full-stack-with-ai",
+    body: [
+      {
+        type: "p",
+        text: "Python is still the most in-demand language for backend engineering, data work and AI integration, and Kerala's IT companies are hiring full-stack Python developers who can also add AI features. Our 6-month course takes you from Python fundamentals to shipping a complete, AI-integrated web application.",
+      },
+      { type: "h2", text: "The six modules" },
+      {
+        type: "list",
+        items: [
+          "Python & Programming Foundations — syntax, functions, OOP, file handling, modules and data structures basics",
+          "Web Development with Django — project architecture, models and ORM, authentication and permissions, admin customization",
+          "APIs & Databases — Django REST Framework, PostgreSQL and MySQL, API design and versioning, and API testing with Postman",
+          "Frontend with React — components and hooks, state management, connecting React to Django APIs, and responsive UI with Tailwind CSS",
+          "AI Integration — working with LLM APIs, building a chat/assistant feature, embeddings and search, and prompt design for product features",
+          "Deployment & Career Prep — Git and GitHub, cloud deployment basics, resume and portfolio building, and mock interviews",
+        ],
+      },
+      { type: "h2", text: "What makes it different from a standard Python course" },
+      {
+        type: "p",
+        text: "You don't stop at a CRUD app. Your capstone is a full Django + React application with a real AI feature — such as an LLM-powered assistant — reviewed by industry mentors before you go into placement interviews.",
+      },
+      { type: "h2", text: "Who it's for and where it leads" },
+      {
+        type: "p",
+        text: "It's open to Plus Two students and any degree or diploma background, CS or non-CS, including students with a year gap — no prior coding experience is needed. Graduates move into Python Developer, Full-Stack Developer, Django Developer, Backend Engineer and Software Developer Trainee roles, with placed students typically starting between ₹2.5 LPA and ₹6.5 LPA depending on background, performance and the hiring company.",
+      },
+    ],
+    faqs: [
+      { question: "What do I learn in a Python full-stack course with AI?", answer: "Python, Django, Django REST Framework, PostgreSQL/MySQL, React with Tailwind CSS, LLM API integration and deployment — ending with a mentor-reviewed full-stack capstone that includes a real AI feature." },
+      { question: "Can I join the Python full-stack course after Plus Two?", answer: "Yes. It's open to Plus Two students and any degree or diploma background, and no prior coding experience is required." },
+      { question: "What salary can I expect after a Python full-stack course in Kochi?", answer: "Placed students from this track typically start between ₹2.5 LPA and ₹6.5 LPA, depending on prior background, performance and the hiring company." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {
