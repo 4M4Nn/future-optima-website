@@ -25,6 +25,7 @@ import Reveal from "@/components/motion/Reveal";
 import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 import { courses, getCourseBySlug } from "@/lib/data/courses";
 import { courseImages } from "@/lib/data/images";
+import { blogPosts } from "@/lib/data/blog";
 import { siteConfig } from "@/lib/data/site";
 
 export function generateStaticParams() {
@@ -63,6 +64,11 @@ export default async function CoursePage({
   if (!course) notFound();
 
   const related = courses.filter((c) => c.category === course.category && c.slug !== course.slug).slice(0, 3);
+
+  const guides = blogPosts
+    .filter((post) => post.relatedCourseSlug === course.slug)
+    .sort((x, y) => y.publishedAt.localeCompare(x.publishedAt))
+    .slice(0, 4);
 
   const courseSchema = {
     "@context": "https://schema.org",
@@ -300,6 +306,30 @@ export default async function CoursePage({
           </Accordion>
         </Reveal>
       </section>
+
+      {guides.length > 0 ? (
+        <section className="py-14 sm:py-16">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <Reveal>
+              <h2 className="font-heading text-2xl font-extrabold text-navy-900">
+                Guides for {course.shortName}
+              </h2>
+            </Reveal>
+            <div className="mt-6 grid gap-5 sm:grid-cols-2">
+              {guides.map((g) => (
+                <Link
+                  key={g.slug}
+                  href={`/blog/${g.slug}`}
+                  className="rounded-xl border border-border-soft bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+                >
+                  <h3 className="font-heading text-sm font-bold text-navy-900">{g.title}</h3>
+                  <p className="mt-1.5 line-clamp-2 text-xs text-muted-foreground">{g.excerpt}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {related.length > 0 ? (
         <section className="bg-navy-50 py-14 sm:py-16">

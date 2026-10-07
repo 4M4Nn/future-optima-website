@@ -202,6 +202,11 @@ export default function InternshipCorporateTrainingPage() {
                   <Mail className="mr-1 h-4 w-4" /> Enquire About Corporate Training
                 </a>
               </Button>
+              <Button asChild size="lg" className="bg-navy-900 hover:bg-navy-800">
+                <Link href="/corporate-training">
+                  Corporate Training Programs <ArrowRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
               <Button asChild size="lg" variant="outline">
                 <a href={`tel:${siteConfig.primaryPhone}`}>
                   <Phone className="mr-1 h-4 w-4" /> {siteConfig.primaryPhone}

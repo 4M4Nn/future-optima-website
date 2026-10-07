@@ -13,13 +13,16 @@ export const courses: Course[] = [
     level: "Beginner to Job-Ready",
     metaTitle: "Python Full-Stack with AI Course in Kochi, Kerala | Future Optima",
     metaDescription:
-      "Job-oriented Python full-stack development course in Kochi with AI integration — Django, REST APIs, React, databases, deployment and real projects. 90%+ placement support.",
+      "Python Full Stack course in Kochi, Kerala with AI integration — 6 months of Django, REST APIs, React, PostgreSQL, deployment and real projects. Open to Plus Two and graduates, with 90%+ placement support and pay-after-placement.",
     keywords: [
       "python full stack course kochi",
       "python full stack with ai kerala",
       "django course kochi",
       "python developer training kerala",
       "best python course in kochi",
+      "python full stack kochi",
+      "full stack developer course kochi",
+      "full stack course kerala",
     ],
     overview: [
       "Python remains the single most in-demand language for backend engineering, data work and now AI integration, and Kerala's IT companies are actively hiring full-stack Python developers who can also wire in AI features. This course takes you from Python fundamentals to shipping a complete, AI-integrated web application.",
@@ -169,13 +172,16 @@ export const courses: Course[] = [
     level: "Beginner to Job-Ready",
     metaTitle: "Data Science with AI Course in Kochi, Kerala | Future Optima IT Solutions",
     metaDescription:
-      "Future Optima's Data Science with AI course in Kochi covers Python, statistics, machine learning, deep learning basics and real datasets — with 90%+ placement success.",
+      "Data Science course in Kochi, Kerala — 6 months of Python, statistics, machine learning, deep learning basics, SQL and Power BI on real datasets. Open to Plus Two and graduates, with 90%+ placement success.",
     keywords: [
       "data science course kochi",
       "data science with ai kerala",
       "machine learning course kochi",
       "data science training kerala",
       "best data science institute kochi",
+      "data science course in kerala",
+      "data science course with placement kochi",
+      "data science and ai course kochi",
     ],
     overview: [
       "Data Science with AI is Future Optima's flagship analytics-to-machine-learning track, built for students who want to work with real data — cleaning it, modeling it, and building AI-powered predictions and insights that businesses actually use.",
@@ -272,7 +278,7 @@ export const courses: Course[] = [
     level: "Beginner to Job-Ready",
     metaTitle: "Cybersecurity Course in Kochi (Red Team & SOC Analyst) | Future Optima",
     metaDescription:
-      "Build a career in cyber defense with Future Optima's Cybersecurity course in Kochi — ethical hacking, red teaming and SOC analyst training with placement support.",
+      "Cybersecurity course in Kochi, Kerala — 5 months of ethical hacking, red teaming, web application security and SOC analyst training in hands-on labs. Open to Plus Two and graduates, with placement support.",
     keywords: [
       "cybersecurity course kochi",
       "ethical hacking course kerala",

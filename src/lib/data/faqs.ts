@@ -216,4 +216,34 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Agentic AI Development is a focused 4-month intermediate course on building AI agents and needs basic Python. The 1-year Advanced Diploma starts from programming foundations and covers machine learning, AI systems engineering, agentic AI, Claude, ERP & CRM with AI and product development — agentic AI is one of its core building blocks.",
   },
+  {
+    question: "Does Future Optima provide corporate training in Kochi?",
+    answer:
+      "Yes. Future Optima provides corporate training in Kochi and across Kerala — AI and Generative AI training for teams, IT upskilling, and Microsoft Excel and data analytics training — delivered on-site at your office or at our Chembumukku campus. See our Corporate Training page for programs.",
+  },
+  {
+    question: "Do you offer Generative AI corporate training in Kerala?",
+    answer:
+      "Yes. Our Generative AI corporate training covers how large language models work, reliable prompting, retrieval-augmented generation on company documents, AI agents, and data privacy and verification, with separate tracks for non-technical teams and IT teams.",
+  },
+  {
+    question: "Which is the best Python Full Stack course in Kochi?",
+    answer:
+      "Look for a deployed capstone project, AI integration, industry mentors and real placement support. Future Optima's 6-month Python Full-Stack with AI course covers Python, Django, REST APIs, PostgreSQL, React and LLM integration, and is open to Plus Two students and graduates with no coding background.",
+  },
+  {
+    question: "Which cybersecurity course should a beginner take in Kochi?",
+    answer:
+      "Beginners are best served by the 5-month Cybersecurity — Red Team & SOC Analyst course, which starts from networking fundamentals and covers both attack and defence. For a faster start, Certified SOC Analyst (3 months) is the most accessible entry point.",
+  },
+  {
+    question: "Which full stack developer course should I choose in Kerala — Python or MERN?",
+    answer:
+      "Choose Python Full-Stack with AI (6 months) if you may move into data science or AI later, and MERN Stack with Agentic AI (7 months) if you want to work in JavaScript across the whole stack. Both are open to Plus Two students and graduates, and both include AI integration and placement support.",
+  },
+  {
+    question: "Is there a data science course in Kerala for non-CS and Plus Two students?",
+    answer:
+      "Yes. Future Optima's 6-month Data Science with AI course in Kochi teaches Python and statistics from scratch and is open to Plus Two students and graduates from any stream. It is our most-placed course.",
+  },
 ];

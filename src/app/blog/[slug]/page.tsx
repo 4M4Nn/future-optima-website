@@ -184,6 +184,21 @@ export default async function BlogPostPage({
             </div>
           </Reveal>
         ) : null}
+
+        {post.relatedPage ? (
+          <Reveal delay={0.15}>
+            <div className="mt-14 rounded-2xl bg-navy-900 p-6 text-white sm:p-8">
+              <p className="text-sm text-white/60">{post.relatedPage.label}</p>
+              <h3 className="mt-1 font-heading text-xl font-bold">{post.relatedPage.title}</h3>
+              <p className="mt-2 text-sm text-white/70">{post.relatedPage.description}</p>
+              <Button asChild className="mt-5 bg-amber-500 text-navy-950 hover:bg-amber-400">
+                <Link href={post.relatedPage.href}>
+                  Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </Reveal>
+        ) : null}
       </section>
 
       <section className="bg-navy-50 py-14 sm:py-16">

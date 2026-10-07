@@ -58,6 +58,8 @@ export interface BlogPost {
   body: BlogBlock[];
   faqs?: CourseFaq[];
   relatedCourseSlug?: string;
+  /** Optional CTA to a non-course page (e.g. the corporate training page) */
+  relatedPage?: { label: string; title: string; description: string; href: string };
 }
 
 export type BlogBlock =
