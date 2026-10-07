@@ -65,12 +65,6 @@ const customEntries: ChatKbEntry[] = [
     answer: siteConfig.description,
     keywords: ["about", "future", "optima", "company", "institute", "who"],
   },
-  {
-    question: "Tell me about the Dubai IT Infrastructure program",
-    answer:
-      "Our IT Infrastructure Engineer Program (Dubai) trains you on Windows Server, Microsoft Azure, Office 365 and CCNA over 4.5–6 months, with 100% job assurance for candidates who complete the program and engage fully with placement support. Program fee is AED 23,500 with loan options available. Want the full details? Check out the course page or ask me anything specific!",
-    keywords: ["dubai", "abroad", "uae", "infrastructure", "azure", "windows", "server", "ccna", "job", "assurance"],
-  },
 ];
 
 export const chatKnowledgeBase: ChatKbEntry[] = [...customEntries, ...baseEntries, ...courseEntries];
@@ -78,7 +72,7 @@ export const chatKnowledgeBase: ChatKbEntry[] = [...customEntries, ...baseEntrie
 export const suggestedQuestions: string[] = [
   "What courses do you offer?",
   "What is the pay-after-placement offer?",
-  "Tell me about the Dubai IT Infrastructure program",
+  "Tell me about the 1-year Advanced Diploma",
   "Do I need a technical degree to join?",
   "How does placement support work?",
   "How can I contact admissions?",

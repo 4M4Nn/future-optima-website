@@ -17,7 +17,6 @@ const categories: CourseCategory[] = [
   "Data & AI",
   "Security & Testing",
   "Advanced Diploma",
-  "Study Abroad Programs",
 ];
 
 export default function CoursesPage() {

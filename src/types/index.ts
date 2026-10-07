@@ -12,8 +12,7 @@ export type CourseCategory =
   | "Full-Stack Development"
   | "Data & AI"
   | "Security & Testing"
-  | "Advanced Diploma"
-  | "Study Abroad Programs";
+  | "Advanced Diploma";
 
 export interface Course {
   slug: string;
@@ -38,9 +37,9 @@ export interface Course {
   featured?: boolean;
   /** Short marketing badge shown on the course card, e.g. "Most Placed", "New · 2 Weeks" */
   badge?: string;
-  /** Overrides the default "100% Placement Support" pill, e.g. "100% Job Assurance" */
+  /** Overrides the default "100% Placement Support" pill */
   placementLabel?: string;
-  /** Disclosed program fee, for courses with a published fixed price (e.g. the Dubai program) — used in Course schema `offers` */
+  /** Disclosed program fee, for courses with a published fixed price — used in Course schema `offers` */
   fee?: { amount: number; currency: string };
 }
 

@@ -1633,132 +1633,6 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "it-infrastructure-engineer-program-dubai-explained",
-    title: "IT Infrastructure Engineer Program in Dubai: 100% Job-Assured IT Career Abroad",
-    metaTitle: "IT Infrastructure Engineer Program in Dubai — 100% Job Assurance | Future Optima",
-    metaDescription:
-      "A full breakdown of Future Optima's IT Infrastructure Engineer Program in Dubai — Windows Server, Azure, Office 365 and CCNA training with 100% job assurance, real Data Center exposure, fees and eligibility.",
-    keywords: [
-      "it infrastructure engineer program dubai",
-      "study it course in dubai",
-      "100% job assurance it course dubai",
-      "windows server azure ccna course dubai",
-      "it jobs in dubai after course",
-    ],
-    category: "Study Abroad",
-    excerpt:
-      "A dedicated IT Infrastructure Engineer track built for students who want their next job to be in Dubai — with 100% job assurance backing every stage. Here's exactly what it covers.",
-    publishedAt: "2026-09-14",
-    updatedAt: "2026-09-14",
-    readingTime: "5 min read",
-    coverImage: "it-infrastructure-engineer-program-dubai",
-    relatedCourseSlug: "it-infrastructure-engineer-program-dubai",
-    body: [
-      {
-        type: "p",
-        text: "Most IT career conversations in Kochi are about which local company will hire you. This program starts from a different question: what does it take to build an IT infrastructure career in Dubai specifically, and how do you get there with real, verifiable skill rather than just a visa and a resume?",
-      },
-      { type: "h2", text: "What the program actually covers" },
-      {
-        type: "list",
-        items: [
-          "Hardware & Networking — PC installation, troubleshooting, LAN infrastructure and router/switch/firewall familiarization",
-          "Microsoft Windows Server 2022 — installation, Hyper-V virtualization, AD/DHCP/DNS/DFS, disaster recovery and RAID",
-          "Cisco Certified Network Associate (CCNA) — IP addressing, routing, NAT/ACLs, VLANs and switch configuration",
-          "Microsoft Azure Administrator — virtual machines, virtual networking, backup/site recovery and ARM template automation",
-          "Microsoft Office 365 Administration — tenant deployment, Microsoft Entra identity, Defender security and Purview compliance",
-        ],
-      },
-      { type: "h2", text: "What \"100% job assurance\" actually means here" },
-      {
-        type: "p",
-        text: "This isn't a certificate handed out regardless of effort. Every candidate who completes the program requirements and engages fully with the placement process — CV clinic, LinkedIn and ATS workshops, technical interview prep, HR-round practice and mock interviews — receives dedicated, ongoing placement support until they are hired. It's a job that's earned through real, demonstrated skill, backed by structured support until you get there.",
-      },
-      { type: "h2", text: "Real infrastructure, not simulations" },
-      {
-        type: "p",
-        text: "Across 250 hours of training, you work hands-on with real servers, routers and switches rather than emulators alone. The program is delivered in Kochi in partnership with an established IT solutions and corporate training company based in Dubai, UAE, which is what makes client-site AMC audit visits, live Azure and Office 365 tenant deployments, and a guided tour of a Dubai Network Operations Center possible — exposure that's hard to replicate in a classroom-only course.",
-      },
-      { type: "h2", text: "Fees, duration and eligibility" },
-      {
-        type: "list",
-        items: [
-          "Duration: 4.5–6 months, with full-time and part-time schedules available",
-          "Program fee: AED 23,500, payable as a single payment, with 100% job assurance included",
-          "Microsoft (MS104, MS101) and CCNA certification exam fees are included in the program fee — no separate exam cost",
-          "Loan/financing options are available for eligible candidates",
-          "Open to degree/diploma holders with basic computer literacy — no prior IT experience required",
-        ],
-      },
-      { type: "h2", text: "Where this leads" },
-      {
-        type: "p",
-        text: "Graduates are positioned for IT Administrator, IT Level 1/2 Administrator, IT System/Network Administrator, IT Coordinator, Microsoft Cloud Administrator and Microsoft Messaging Administrator roles — the core infrastructure roles that keep any organization's IT environment running, wherever in the world you end up applying them.",
-      },
-    ],
-    faqs: [
-      { question: "What does \"100% job assurance\" mean on this program?", answer: "Every candidate who completes the program requirements and engages fully with the placement process — mock interviews, CV clinic, ATS and HR prep — receives dedicated placement support until they are hired. It's earned through full participation and real skill, not an unconditional guarantee regardless of effort." },
-      { question: "What is the total cost, including certification exams?", answer: "The program fee is AED 23,500, and it includes the Microsoft (MS104, MS101) and CCNA certification exam fees — there's no separate exam cost on top. Ask our counselors for the current fee breakdown." },
-      { question: "Do I need prior IT or networking experience?", answer: "No — the program starts with hardware and networking fundamentals before moving into Windows Server, CCNA, Azure and Office 365, so basic computer literacy is enough to begin." },
-    ],
-  },
-  {
-    slug: "study-it-dubai-vs-kochi-career-path-2026",
-    title: "Study IT in Dubai vs Kochi: Which Path Fits Your Career Goals in 2026?",
-    metaTitle: "Study IT in Dubai vs Kochi — Career Path Guide 2026 | Future Optima",
-    metaDescription:
-      "Weighing an IT career path in Dubai against training and working in Kochi? A clear 2026 comparison covering roles, cost, job assurance and how to decide.",
-    keywords: [
-      "study it in dubai vs kochi",
-      "it career dubai or kerala",
-      "it infrastructure jobs dubai",
-      "study abroad it program kochi",
-    ],
-    category: "Career Guides",
-    excerpt:
-      "Two genuinely different IT career paths — one rooted in Kochi's AI and software job market, one aimed at IT infrastructure roles in Dubai. Here's how to decide which fits you.",
-    publishedAt: "2026-09-14",
-    updatedAt: "2026-09-14",
-    readingTime: "5 min read",
-    coverImage: "it-infrastructure-engineer-program-dubai",
-    relatedCourseSlug: "it-infrastructure-engineer-program-dubai",
-    body: [
-      {
-        type: "p",
-        text: "Students increasingly ask us to compare two very different tracks: building a career in Kochi's fast-growing AI and software job market, or training specifically for IT infrastructure roles abroad in Dubai. Both are legitimate paths — they just suit different goals, timelines and risk appetites.",
-      },
-      { type: "h2", text: "What a Kochi-based IT/AI career path looks like" },
-      {
-        type: "p",
-        text: "Courses like Python Full-Stack with AI, Data Science with AI or our cybersecurity certifications train you for software, data and security roles hired for across Kochi's IT services and product companies, with placement support and up to ₹15,000 of the fee only due after you're placed.",
-      },
-      { type: "h2", text: "What the Dubai IT Infrastructure path looks like" },
-      {
-        type: "p",
-        text: "The IT Infrastructure Engineer Program is built around a different goal entirely: Windows Server, Microsoft Azure, Office 365 and CCNA networking skills, aimed squarely at IT infrastructure and cloud administration roles in the UAE market, with 100% job assurance built into the program for candidates who complete it and engage fully with placement support.",
-      },
-      { type: "h2", text: "Key differences at a glance" },
-      {
-        type: "list",
-        items: [
-          "Career direction: software/data/AI roles in Kochi vs infrastructure/cloud administration roles in Dubai",
-          "Investment: Kochi courses charge in ₹, with a portion due only after placement; the Dubai program is a single AED 23,500 payment covering training, with loan options available",
-          "Certifications: Kochi courses issue Future Optima and NACTET certification; the Dubai program leads to internationally recognized Microsoft and Cisco (CCNA) certifications",
-          "Exposure: Kochi courses use industry-mentored labs and internships; the Dubai program adds live client-site AMC audits and a guided Dubai Data Center (NOC) tour",
-        ],
-      },
-      { type: "h2", text: "How to decide" },
-      {
-        type: "p",
-        text: "If you want to build a career in software, data or AI and would rather start close to home, Kochi's course lineup is the more natural fit. If your goal is specifically to work in the UAE in an IT infrastructure or cloud administration role, and you're comfortable committing to a single upfront investment for a 100% job-assurance outcome, the Dubai program is built exactly for that goal — not as a general-purpose alternative to our domestic courses, but as a distinct path with a different destination in mind.",
-      },
-    ],
-    faqs: [
-      { question: "Can I do a Kochi course first and the Dubai program later?", answer: "The two are built for different outcomes rather than as a sequence, but there's no restriction — talk to our counselors if you want to discuss combining a foundational IT course with the Dubai Infrastructure Program later." },
-      { question: "Which is more affordable, a Kochi course or the Dubai program?", answer: "Kochi courses are priced in ₹ with a pay-after-placement component; the Dubai program is a single AED 23,500 payment with loan options available. They're different currencies and structures aimed at different career destinations, so compare based on your goal, not just the headline number." },
-    ],
-  },
-  {
     slug: "ai-website-development-course-kochi-explained",
     title: "AI Website Development Course in Kochi: What You Actually Learn in 2 Weeks",
     metaTitle: "AI Website Development Course in Kochi (2 Weeks) | Future Optima",
@@ -1987,136 +1861,35 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "year-gap-after-btech-bca-bsc-diploma-no-job-dubai-it-program",
-    title: "Year Gap After B.Tech, BCA, B.Sc or Diploma and Still No Job? Why the Dubai IT Infrastructure Program Is Your Best Next Step",
-    metaTitle: "Year Gap After B.Tech CS / BCA / B.Sc / Diploma, No Job? Dubai IT Program | Future Optima",
+    slug: "plus-two-12th-students-it-ai-courses-kochi",
+    title: "IT & AI Courses After Plus Two (12th) in Kochi: Which Course Should You Join?",
+    metaTitle: "IT & AI Courses After Plus Two (12th) in Kochi, Kerala | Future Optima",
     metaDescription:
-      "Completed B.Tech CS, BCA, B.Sc or a diploma, have a year gap and no job yet? Here's why Future Optima's IT Infrastructure Engineer Program in Dubai — with 100% job assurance — is the most practical way to restart your IT career.",
-    keywords: [
-      "year gap after btech no job",
-      "btech cs year gap job",
-      "bca year gap career option",
-      "bsc computer science no job what to do",
-      "diploma year gap it job",
-      "it job in dubai for freshers with gap",
-      "best course after year gap kerala",
-      "dubai it infrastructure program eligibility",
-    ],
-    category: "Career Guidance",
-    excerpt:
-      "A year (or two) has passed since your B.Tech CS, BCA, B.Sc or diploma and the job still hasn't come. Here's an honest look at why that happens — and why a job-assured IT infrastructure program aimed at Dubai is often the strongest reset.",
-    publishedAt: "2026-09-30",
-    updatedAt: "2026-09-30",
-    readingTime: "6 min read",
-    coverImage: "it-infrastructure-engineer-program-dubai",
-    relatedCourseSlug: "it-infrastructure-engineer-program-dubai",
-    body: [
-      {
-        type: "p",
-        text: "We hear the same story from graduates across Kerala almost every week: \"I finished my B.Tech in Computer Science (or BCA, or B.Sc, or a diploma), I applied everywhere, and a year later I still don't have a job.\" If that's you, the first thing worth saying is that it's common, and it's fixable. The gap itself is rarely the real problem — the problem is that nothing on your CV has changed since the day you graduated.",
-      },
-      { type: "h2", text: "Why graduates with a year gap struggle to get hired" },
-      {
-        type: "list",
-        items: [
-          "Fresher openings attract thousands of applicants, and a degree alone no longer separates you from them",
-          "Recruiters see a gap and ask \"what did you do during it?\" — without a skill, project or certification to point to, the answer hurts",
-          "Most college curricula don't teach the hands-on server, networking and cloud skills that entry-level IT operations roles actually test in interviews",
-          "Applying for software development roles without a strong project portfolio leads to repeated rejections, which quietly extends the gap further",
-        ],
-      },
-      { type: "h2", text: "Why the Dubai IT Infrastructure Engineer Program fits gap-year graduates" },
-      {
-        type: "p",
-        text: "Future Optima's IT Infrastructure Engineer Program (Dubai) is built for exactly this situation: degree and diploma holders who want a defined, job-assured route into IT — and who are open to building that career in the UAE. It isn't a coding-heavy track, so it suits B.Sc, BCA and diploma holders as much as B.Tech CS graduates, and it doesn't depend on you already having a developer portfolio.",
-      },
-      {
-        type: "list",
-        items: [
-          "100% job assurance — every candidate who completes the program and engages fully with the placement process receives dedicated placement support until they're hired",
-          "250 hours of hands-on training on real servers, routers and switches, covering Windows Server 2022, Microsoft Azure, Office 365 administration and CCNA networking",
-          "Internationally recognized certifications — Microsoft (MS104, MS101) and CCNA exam fees are included in the program fee",
-          "Real industry exposure: client-site AMC audit visits, live Azure/Office 365 tenant deployments and a guided Dubai Data Center (NOC) tour",
-          "A 7-step career-readiness track — CV clinic, job guidance, LinkedIn and ATS workshops, technical and HR interview prep, and mock interviews",
-          "4.5 – 6 months, with full-time (10 AM – 6 PM) and part-time schedules",
-        ],
-      },
-      { type: "h2", text: "How the program turns your gap into a strength" },
-      {
-        type: "p",
-        text: "After the program, your gap stops being an empty space on your CV. It becomes the period where you trained on enterprise infrastructure, earned Microsoft and Cisco certifications and completed three capstone projects on live infrastructure. That's a concrete answer to the \"what did you do during your gap?\" question — and it's exactly what infrastructure hiring managers want to hear.",
-      },
-      { type: "h3", text: "Roles you can target after completing it" },
-      {
-        type: "list",
-        items: [
-          "IT Administrator and IT Level 1 / Level 2 Administrator",
-          "IT System / Network Administrator",
-          "IT Coordinator",
-          "Microsoft Cloud Administrator and Microsoft Messaging Administrator",
-        ],
-      },
-      { type: "h2", text: "Who is eligible — and who isn't" },
-      {
-        type: "p",
-        text: "The program is open to degree and diploma holders — B.Tech (CS or other branches), BCA, B.Sc, other graduates and diploma holders — with basic familiarity with computer operation. It does not matter how long your gap is. It is not open to students who have only completed Plus Two (12th); if that's you, see our guide to IT and AI courses for Plus Two students, which covers the Kochi courses you can join instead.",
-      },
-      { type: "h2", text: "Fees and financing" },
-      {
-        type: "p",
-        text: "The program fee is AED 23,500, paid as a single payment, covering the full training program, 100% job assurance support and the Microsoft and CCNA certification exam fees. Study/education loan options are available for eligible candidates, so a gap-year graduate without savings can still plan for it — our counselors can walk you through the current options.",
-      },
-      {
-        type: "p",
-        text: "If you've been waiting for the right opening for a year or more, the most useful thing you can do now is change what you bring to the next interview. Talk to our counselors about the Dubai program and whether it fits your background.",
-      },
-    ],
-    faqs: [
-      { question: "I completed B.Tech CS two years ago and have no job. Can I still join the Dubai program?", answer: "Yes. The program is open to degree and diploma holders regardless of the length of their gap. What matters is completing the training and engaging fully with the placement process — the gap itself doesn't disqualify you." },
-      { question: "Is the Dubai IT Infrastructure program suitable for BCA, B.Sc and diploma holders, not just B.Tech?", answer: "Yes. It isn't coding-heavy — it starts from hardware and networking fundamentals and moves into Windows Server, CCNA, Azure and Office 365 — so BCA, B.Sc, other graduates and diploma holders are all eligible." },
-      { question: "Why is this a better option than applying for more fresher software jobs?", answer: "Fresher software roles are extremely competitive without a strong project portfolio. This program gives you in-demand infrastructure and cloud skills, recognized Microsoft and Cisco certifications and 100% job assurance support, so your next application is backed by something concrete." },
-    ],
-  },
-  {
-    slug: "plus-two-12th-students-it-ai-courses-kochi-dubai-program-eligibility",
-    title: "Plus Two (12th) Students: Can You Join the Dubai IT Program? Which IT & AI Courses You Can Join Instead",
-    metaTitle: "IT & AI Courses After Plus Two (12th) in Kochi — Dubai Program Eligibility | Future Optima",
-    metaDescription:
-      "Plus Two (12th) students aren't eligible for Future Optima's Dubai IT Infrastructure program, which needs a degree or diploma — but you can join our Kochi IT and AI courses. Here's which ones fit and how to choose.",
+      "Every Future Optima course in Kochi is open to Plus Two (12th) students — from a 2-week AI Website Development course to the 1-year Advanced Diploma. Here's which ones fit and how to choose.",
     keywords: [
       "it courses after plus two kerala",
       "ai course after 12th kochi",
-      "can 12th pass join dubai it program",
       "job oriented courses after plus two",
       "computer courses after 12th kochi",
       "plus two year gap it course",
     ],
     category: "Career Guidance",
     excerpt:
-      "The Dubai IT Infrastructure program requires a degree or diploma, so Plus Two students can't join it yet — but that doesn't mean waiting. Here's what you can join right now in Kochi.",
+      "You don't need to wait for a degree to start building real IT and AI skills. Here's what Plus Two students can join right now in Kochi, and how to pick the right starting point.",
     publishedAt: "2026-09-30",
-    updatedAt: "2026-09-30",
-    readingTime: "5 min read",
+    updatedAt: "2026-10-07",
+    readingTime: "4 min read",
     coverImage: "ai-website-development",
     relatedCourseSlug: "ai-website-development",
     body: [
       {
         type: "p",
-        text: "A question our counselors get often: \"I've finished Plus Two — can I join the Dubai IT program?\" The honest answer is no, not yet. But there's a lot you can do right now, and the Kochi courses open to you can give you real, practical skills well before your classmates finish a three-year degree.",
-      },
-      { type: "h2", text: "Why Plus Two students aren't eligible for the Dubai program" },
-      {
-        type: "p",
-        text: "The IT Infrastructure Engineer Program (Dubai) is open only to degree and diploma holders. It's a job-assurance program aimed at IT administrator and cloud administrator roles in the UAE, and employers there expect a completed degree or diploma for these positions. So the eligibility rule isn't about ability — it's about what the jobs at the end of the program require.",
-      },
-      {
-        type: "p",
-        text: "If the Dubai program is your long-term goal, the path is simple: complete a degree or diploma (BCA, B.Sc, B.Tech or a polytechnic diploma all qualify), then apply. Many students build IT skills with us alongside their studies so they arrive far ahead of their batch.",
+        text: "A question our counselors get often: \"I've finished Plus Two — can I join an IT or AI course now, or do I need a degree first?\" You can join now. Every Future Optima course is open to Plus Two students, and the right one can give you real, practical skills well before your classmates finish a three-year degree.",
       },
       { type: "h2", text: "Courses Plus Two students can join at Future Optima" },
       {
         type: "p",
-        text: "Every Future Optima course except the Dubai IT Infrastructure program is open to Plus Two students — including those who've taken a year gap after 12th. A few are especially good starting points:",
+        text: "Every Future Optima course is open to Plus Two students — including those who've taken a year gap after 12th. A few are especially good starting points:",
       },
       {
         type: "list",
@@ -2135,7 +1908,7 @@ export const blogPosts: BlogPost[] = [
           "Want to earn quickly and test whether tech suits you? Start with AI Website Development",
           "Want a serious, long-term alternative or complement to a degree? Look at the 1-year Advanced Diploma",
           "Interested in security and investigation-style work? Start with Certified SOC Analyst or Certified Ethical Hacking",
-          "Planning the Dubai program later? Pick a course now and complete your degree or diploma alongside it",
+          "Doing a degree as well? Pick a course now and build skills alongside your studies so you graduate far ahead of your batch",
         ],
       },
       {
@@ -2144,9 +1917,9 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     faqs: [
-      { question: "Can a Plus Two (12th) student join the Dubai IT Infrastructure program?", answer: "No. The Dubai program is open only to degree and diploma holders. Plus Two students can join our Kochi IT and AI courses now, and apply for the Dubai program after completing a degree or diploma." },
+      { question: "Can Plus Two (12th) students join IT and AI courses at Future Optima?", answer: "Yes. Every Future Optima course is open to Plus Two students, including those with a year gap after 12th." },
       { question: "Which Future Optima course is best right after Plus Two?", answer: "AI Website Development (2 weeks) is the fastest, most beginner-friendly start, and the 1-year Advanced Diploma in AI Systems Engineering is the most complete long-term option. Our counselors will help you choose based on your goals." },
-      { question: "I took a year gap after Plus Two. Can I still join?", answer: "Yes. Students with a year gap after 12th can apply for our Kochi courses — a focused course is a strong way to turn the gap into a real skill you can show." },
+      { question: "I took a year gap after Plus Two. Can I still join?", answer: "Yes. Students with a year gap after 12th can apply for our courses — a focused course is a strong way to turn the gap into a real skill you can show." },
     ],
   },
   {
@@ -2185,7 +1958,6 @@ export const blogPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "IT Infrastructure Engineer Program (Dubai) — for degree and diploma holders who want a job-assured IT career in the UAE, with Windows Server, Azure, Office 365 and CCNA training and 100% job assurance",
           "Data Science with AI or AI-Powered Data Analytics (6 months) — strong options for B.Sc, B.Com and other non-CS graduates",
           "Python Full-Stack with AI (6 months) or MERN Stack with Agentic AI (7 months) — for graduates who want software development roles",
           "Cybersecurity — Red Team & SOC Analyst (5 months) or Certified SOC Analyst (3 months) — for those drawn to security",
@@ -2197,7 +1969,7 @@ export const blogPosts: BlogPost[] = [
         items: [
           "AI Website Development (2 weeks) — a fast, beginner-friendly start with real freelance potential",
           "Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development (1 year) — a serious long-term program for committed students",
-          "Every other Future Optima course, from Data Science with AI to Python Full-Stack and cybersecurity — the Dubai program is the only exception, since it requires a degree or diploma",
+          "Every other Future Optima course, from Data Science with AI to Python Full-Stack and cybersecurity — all are open to Plus Two students",
         ],
       },
       { type: "h2", text: "How we support students returning after a gap" },
@@ -2211,7 +1983,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     faqs: [
-      { question: "Can year gap students join Future Optima's courses?", answer: "Yes. Students with a year gap after Plus Two, a degree or a diploma can apply. The only course with a stricter requirement is the Dubai IT Infrastructure program, which needs a completed degree or diploma." },
+      { question: "Can year gap students join Future Optima's courses?", answer: "Yes. Students with a year gap after Plus Two, a degree or a diploma can apply for any of our courses." },
       { question: "How do I explain my year gap in an IT interview?", answer: "Be honest about the reason, then focus on what you've done since: the course you completed, the certifications you earned and the projects you built. A gap filled with verifiable skills is rarely a problem." },
       { question: "Is a two- or three-year gap too long to start an IT career?", answer: "No. Our courses start from fundamentals, and what employers assess is your current skill and project work. A longer gap simply makes it more important to show recent, hands-on learning." },
     ],

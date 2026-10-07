@@ -15,7 +15,7 @@ interface ChatMessage {
 }
 
 const GREETING =
-  "Hi, I'm Jeena Madhavan, Center Head at Future Optima IT Solutions! Ask me about our courses, fees, placements, admissions or our new Dubai IT Infrastructure program — happy to help.";
+  "Hi, I'm Jeena Madhavan, Center Head at Future Optima IT Solutions! Ask me about our courses, fees, placements or admissions — happy to help.";
 
 const FALLBACK =
   "That's a great question — let me connect you directly with our admissions team so you get an accurate answer. You can WhatsApp us or fill out the Contact form and a counselor will get back to you shortly.";

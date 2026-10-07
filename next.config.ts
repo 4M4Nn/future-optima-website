@@ -50,6 +50,22 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // Retired program and its related articles — sent to the closest
+      // surviving hub/article rather than left to 404.
+      { source: "/courses/it-infrastructure-engineer-program-dubai", destination: "/courses", permanent: true },
+      { source: "/blog/it-infrastructure-engineer-program-dubai-explained", destination: "/blog", permanent: true },
+      { source: "/blog/study-it-dubai-vs-kochi-career-path-2026", destination: "/blog", permanent: true },
+      {
+        source: "/blog/year-gap-after-btech-bca-bsc-diploma-no-job-dubai-it-program",
+        destination: "/blog/year-gap-students-it-ai-courses-kochi",
+        permanent: true,
+      },
+      {
+        source: "/blog/plus-two-12th-students-it-ai-courses-kochi-dubai-program-eligibility",
+        destination: "/blog/plus-two-12th-students-it-ai-courses-kochi",
+        permanent: true,
+      },
+
       // --- Core / static pages: same content, WordPress used trailing slashes ---
       { source: "/about/", destination: "/about", permanent: true },
       { source: "/courses/", destination: "/courses", permanent: true },
