@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/virtual-office`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/hire-from-us`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${BASE_URL}/corporate-training`, changeFrequency: "weekly", priority: 0.9 },
-    { url: `${BASE_URL}/internship-corporate-training`, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE_URL}/internships`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${BASE_URL}/gallery`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE_URL}/faq`, changeFrequency: "monthly", priority: 0.6 },

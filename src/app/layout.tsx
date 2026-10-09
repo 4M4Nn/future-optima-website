@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins, Caveat } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import InternshipNoticeBanner from "@/components/layout/InternshipNoticeBanner";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/layout/WhatsAppButton";
@@ -156,6 +157,7 @@ gtag('config', '${GOOGLE_TAG_ID}');`}
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <SmoothScrollProvider>
+          <InternshipNoticeBanner />
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />

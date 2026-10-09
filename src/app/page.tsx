@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Hero from "@/components/sections/Hero";
 import USPBand from "@/components/sections/USPBand";
 import CoursesShowcase from "@/components/sections/CoursesShowcase";
+import InternshipSpotlight from "@/components/sections/InternshipSpotlight";
 import DiplomaSpotlight from "@/components/sections/DiplomaSpotlight";
 import PlacementNoticeStrip from "@/components/sections/PlacementNoticeStrip";
 import TrainingPillars from "@/components/sections/TrainingPillars";
@@ -39,6 +40,7 @@ export default function Home() {
     <>
       <Hero />
       <PlacementNoticeStrip />
+      <InternshipSpotlight />
       <TrainingPillars />
       <USPBand />
       <CoursesShowcase />

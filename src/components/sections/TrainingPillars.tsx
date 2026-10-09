@@ -16,16 +16,16 @@ const pillars = [
     title: "Corporate Training",
     description:
       "Hands-on AI and workplace technology training for organizations — the same project-first approach we use with students, delivered on-site or at our campus.",
-    href: "/internship-corporate-training#corporate-training",
+    href: "/corporate-training",
     cta: "Corporate Training",
   },
   {
     icon: Briefcase,
     title: "Internship Training",
     description:
-      "Real internship experience built into select courses — Business Analytics, Cybersecurity and Data Science with AI — with genuine client and partner project work.",
-    href: "/internship-corporate-training#internships",
-    cta: "Internship Programs",
+      "Internships are open in every domain — development, data, AI and cybersecurity — with hands-on project work and industry mentors. Students can apply now.",
+    href: "/internships",
+    cta: "Apply for an Internship",
   },
 ];
 

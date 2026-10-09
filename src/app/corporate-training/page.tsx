@@ -284,7 +284,7 @@ export default function CorporateTrainingPage() {
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="/internship-corporate-training">Internship Programs</Link>
+                <Link href="/internships">Internship Programs</Link>
               </Button>
             </div>
           </Reveal>

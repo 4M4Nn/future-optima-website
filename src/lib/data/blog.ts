@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     title: "Internship Programs at Future Optima: What You'll Actually Work On",
     metaTitle: "Internship Programs in Kochi — Future Optima IT Solutions",
     metaDescription:
-      "What Future Optima's internship programs in Kochi actually involve — real client and partner project work in Business Analytics, Cybersecurity and Data Science with AI.",
+      "What Future Optima's internship programs in Kochi actually involve — real, mentored project work in every IT and AI domain, from Python and MERN to Data Science, Analytics, Cybersecurity and AI.",
     keywords: [
       "internship program kochi",
       "it internship kerala",
@@ -73,10 +73,15 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "\"Internship\" often means fetching coffee and watching from the sidelines. Here's what students at Future Optima are actually working on during theirs.",
     publishedAt: "2026-09-08",
-    updatedAt: "2026-09-08",
+    updatedAt: "2026-10-09",
     readingTime: "4 min read",
     coverImage: "data-science-with-ai",
-    relatedCourseSlug: "data-science-with-ai",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
     body: [
       {
         type: "p",
@@ -85,7 +90,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Real project work, not simulated exercises" },
       {
         type: "p",
-        text: "Internships run as a hands-on component within select courses — Business Analytics, Cybersecurity and Data Science with AI — built around real client and partner project work, mentored directly by working industry professionals. Students consistently point to this as one of the most practical parts of their training, precisely because the work is real.",
+        text: "Internships are now open in every domain — Python Full Stack, MERN Stack, Data Science with AI, Data and Business Analytics, Cybersecurity, AI Engineering, Agentic AI, AI Robotics and AI Website Development — built around hands-on project work, mentored directly by working industry professionals. Students consistently point to this as one of the most practical parts of their training, precisely because the work is real.",
       },
       { type: "h2", text: "What students actually work on" },
       {
@@ -94,6 +99,8 @@ export const blogPosts: BlogPost[] = [
           "Business Analytics interns work on real dashboards and reporting for actual business use cases",
           "Cybersecurity interns get hands-on lab and assessment work spanning practical security fundamentals",
           "Data Science with AI interns work on applied machine learning and data projects with real datasets",
+          "Python Full Stack and MERN interns build working web applications with real APIs and databases",
+          "AI Engineering and Agentic AI interns integrate LLM APIs and build AI agents that use tools",
         ],
       },
       { type: "h2", text: "Why this matters for your first job search" },
@@ -103,7 +110,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     faqs: [
-      { question: "Is the internship a separate program, or part of my course?", answer: "It's built directly into select courses — Business Analytics, Cybersecurity and Data Science with AI — as a hands-on component alongside your regular coursework and capstone project." },
+      { question: "Which domains can I do an internship in?", answer: "Every domain is available — Python Full Stack, MERN Stack, Data Science with AI, Data and Business Analytics, Cybersecurity, AI Engineering, Agentic AI, AI Robotics and AI Website Development. Internship classes have started and students can apply now." },
       { question: "Will I get real project work, or just shadow someone?", answer: "Real client and partner project work, mentored by working industry professionals — not simulated exercises or observation-only shadowing." },
     ],
   },
@@ -3051,6 +3058,390 @@ export const blogPosts: BlogPost[] = [
       { question: "Can I do a data science course after Plus Two or without a CS degree?", answer: "Yes. The course is open to Plus Two students and graduates from any stream; Python and statistics are taught from the basics." },
       { question: "How long is a data science course in Kochi?", answer: "Future Optima's Data Science with AI course is 6 months, in classroom batches in Kochi or live online." },
       { question: "What is the difference between data science and data analytics?", answer: "Data science goes deeper into machine learning and predictive models for Data Scientist and ML roles; data analytics focuses on Excel, SQL, Power BI and business reporting for Data Analyst and BI roles." },
+    ],
+  },
+  {
+    slug: "internships-in-kochi-2026-apply-now",
+    title: "Internships in Kochi 2026: Applications Open in Every IT & AI Domain",
+    metaTitle: "Internships in Kochi 2026 — Apply Now, Every Domain Open | Future Optima",
+    metaDescription:
+      "Internship opportunities in Kochi are open now at Future Optima. Internship classes have started in Python, MERN, Data Science, Data Analytics, Cybersecurity, AI and more. See the domains, who can apply and how.",
+    keywords: [
+      "internship in kochi",
+      "internships in kochi 2026",
+      "it internship kochi",
+      "internship in kerala",
+      "internship opportunities in kochi",
+      "internship for students in kochi",
+      "apply for internship kochi",
+    ],
+    category: "Internships",
+    excerpt:
+      "Internship classes have started at Future Optima and students can apply now. Here's every domain that's open, who can join and exactly how to apply.",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    readingTime: "5 min read",
+    coverImage: "python-full-stack-with-ai",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
+    body: [
+      {
+        type: "p",
+        text: "Internship applications are open now at Future Optima IT Solutions in Kochi. Internship classes have started, every domain is available, and students can apply at our Chembumukku campus or for live online sessions. If you've been looking for an IT or AI internship in Kochi, this is what's available and how to get in.",
+      },
+      { type: "h2", text: "Which internship domains are open?" },
+      {
+        type: "list",
+        items: [
+          "Python Full Stack — Django, REST APIs, React and databases",
+          "MERN Stack — MongoDB, Express, React and Node.js",
+          "Data Science with AI — data analysis and machine learning on real datasets",
+          "Data & Business Analytics — Excel, SQL and Power BI dashboards",
+          "Cybersecurity — security labs, web application testing and SOC fundamentals",
+          "AI Engineering & Automation — LLM APIs, RAG and workflow automation",
+          "Agentic AI — building AI agents that use tools",
+          "AI Robotics & Edge AI — hands-on hardware and on-device AI",
+          "AI Website Development — building and launching real websites with AI-assisted tools",
+        ],
+      },
+      { type: "h2", text: "Who can apply?" },
+      {
+        type: "list",
+        items: [
+          "College students — B.Tech, BCA, MCA, B.Sc, M.Sc and diploma",
+          "Fresh graduates who want project experience before job interviews",
+          "Plus Two students who want an early start",
+          "Students with a year gap",
+          "CS and non-CS backgrounds — beginners are guided from the fundamentals",
+        ],
+      },
+      { type: "h2", text: "What makes this a real internship" },
+      {
+        type: "p",
+        text: "You work on hands-on projects with mentors who are working industry professionals — not observation, and not simulated exercises. The aim is that you finish with something you built and can explain: the problem, what you did and what came out of it. That's the conversation interviewers want to have.",
+      },
+      { type: "h2", text: "How to apply for an internship in Kochi" },
+      {
+        type: "list",
+        items: [
+          "Send an enquiry from our contact page, or call or WhatsApp 8891129333",
+          "Tell us the domain you're interested in",
+          "A counselor confirms the right batch and schedule for you",
+          "Join the internship classes — at the Kochi campus or live online",
+        ],
+      },
+      {
+        type: "p",
+        text: "Duration and fee depend on the domain and schedule you choose, so ask our counselors for the current details for your domain.",
+      },
+    ],
+    faqs: [
+      { question: "Are there internships available in Kochi right now?", answer: "Yes. Future Optima IT Solutions in Kochi has internship applications open now. Internship classes have started and every domain is available — software development, data, AI and cybersecurity." },
+      { question: "How do I apply for an internship at Future Optima?", answer: "Send an enquiry from the contact page, or call or WhatsApp 8891129333 with your preferred domain. A counselor will confirm the batch and schedule." },
+      { question: "Can I do the internship online?", answer: "Yes. Internships are available at the Chembumukku, Kochi campus and through live online sessions." },
+    ],
+  },
+  {
+    slug: "internship-for-btech-bca-bsc-students-kochi",
+    title: "Internship for B.Tech, BCA, MCA & B.Sc Students in Kochi: Domains and How to Choose",
+    metaTitle: "Internship for B.Tech, BCA, MCA & B.Sc Students in Kochi | Future Optima",
+    metaDescription:
+      "Looking for an internship in Kochi as a B.Tech, BCA, MCA or B.Sc student? See the IT and AI domains open at Future Optima, how to pick one that matches your degree and career goal, and how to apply.",
+    keywords: [
+      "internship for btech students in kochi",
+      "internship for bca students kochi",
+      "internship for mca students kerala",
+      "internship for bsc computer science students kochi",
+      "college internship kochi",
+      "internship for engineering students kerala",
+    ],
+    category: "Internships",
+    excerpt:
+      "Your college wants an internship; employers want proof you can build. Here's how B.Tech, BCA, MCA and B.Sc students can pick an internship domain in Kochi that does both.",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    readingTime: "5 min read",
+    coverImage: "mern-stack-development",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
+    body: [
+      {
+        type: "p",
+        text: "B.Tech, BCA, MCA and B.Sc students can apply now for internships at Future Optima in Kochi, in any IT or AI domain. The best choice is the domain that matches the job you want after graduating — because the project you build during the internship becomes the main thing you talk about in your first interviews.",
+      },
+      { type: "h2", text: "How to choose an internship domain" },
+      {
+        type: "list",
+        items: [
+          "Want to be a software developer? Choose Python Full Stack or MERN Stack",
+          "Like maths, data and prediction? Choose Data Science with AI",
+          "Prefer business-facing work with dashboards? Choose Data & Business Analytics",
+          "Interested in hacking, defence and investigation? Choose Cybersecurity",
+          "Want to work on the newest AI systems? Choose AI Engineering & Automation or Agentic AI",
+          "From Electronics, Electrical or Mechanical? AI Robotics & Edge AI connects your branch to AI",
+        ],
+      },
+      { type: "h2", text: "For non-CS branches" },
+      {
+        type: "p",
+        text: "You don't need a computer science degree. Students from Electronics, Mechanical, Civil, B.Sc (Maths, Physics, Statistics) and B.Com backgrounds join regularly, and most domains start from the fundamentals. Data Analytics and AI Website Development are especially approachable first steps.",
+      },
+      { type: "h2", text: "What to get out of your internship" },
+      {
+        type: "list",
+        items: [
+          "One real project you built and can demonstrate",
+          "Working knowledge of the tools used in that role",
+          "The ability to explain your decisions — interviewers ask why, not just what",
+          "A clearer idea of whether this is the career you want",
+        ],
+      },
+      { type: "h2", text: "Fitting an internship around college" },
+      {
+        type: "p",
+        text: "Many students join alongside their degree — during semester breaks or in batches timed around college hours — and live online sessions are available for students outside Kochi. Tell our counselors your college schedule and they'll suggest a batch that fits.",
+      },
+    ],
+    faqs: [
+      { question: "Where can B.Tech students do an internship in Kochi?", answer: "Future Optima IT Solutions in Chembumukku, Kochi has internships open for B.Tech students in Python Full Stack, MERN Stack, Data Science, Data Analytics, Cybersecurity, AI Engineering, Agentic AI and AI Robotics." },
+      { question: "Can BCA and B.Sc students apply for IT internships?", answer: "Yes. BCA, MCA, B.Sc and M.Sc students can apply for any domain, and most domains start from the fundamentals." },
+      { question: "Can non-CS engineering students do an IT internship?", answer: "Yes. Students from Electronics, Electrical, Mechanical and other branches can apply; AI Robotics & Edge AI, Data Analytics and Python are common choices." },
+    ],
+  },
+  {
+    slug: "python-data-science-ai-internship-kochi",
+    title: "Python, Data Science & AI Internship in Kochi: What You'll Work On",
+    metaTitle: "Python, Data Science & AI Internship in Kochi, Kerala | Future Optima",
+    metaDescription:
+      "Python internship, data science internship and AI internship in Kochi at Future Optima — what you work on in each, the tools you use, who can apply and how to choose between them.",
+    keywords: [
+      "python internship kochi",
+      "data science internship kochi",
+      "ai internship kerala",
+      "machine learning internship kochi",
+      "python full stack internship kochi",
+      "data analytics internship kochi",
+      "artificial intelligence internship kochi",
+    ],
+    category: "Internships",
+    excerpt:
+      "Python, data science and AI internships sound similar but lead to different jobs. Here's what you actually work on in each, and how to choose.",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    readingTime: "5 min read",
+    coverImage: "data-science-with-ai",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
+    body: [
+      {
+        type: "p",
+        text: "Future Optima has Python, Data Science, Data Analytics and AI internships open in Kochi right now. All of them use Python, but the work — and the job it leads to — is different in each. Here's what you'd actually be doing.",
+      },
+      { type: "h2", text: "Python Full Stack internship" },
+      {
+        type: "list",
+        items: [
+          "Build a web application with Python and Django",
+          "Create REST APIs and connect a React frontend",
+          "Design a database with PostgreSQL",
+          "Leads toward: Python Developer, Full-Stack Developer, Backend Engineer",
+        ],
+      },
+      { type: "h2", text: "Data Science with AI internship" },
+      {
+        type: "list",
+        items: [
+          "Clean and explore real datasets with pandas and NumPy",
+          "Build and evaluate machine learning models with scikit-learn",
+          "Present findings clearly",
+          "Leads toward: Data Scientist, Junior ML Engineer, AI/ML Trainee",
+        ],
+      },
+      { type: "h2", text: "Data & Business Analytics internship" },
+      {
+        type: "list",
+        items: [
+          "Write SQL queries and clean business data",
+          "Build Power BI dashboards and reports",
+          "Work through business case studies",
+          "Leads toward: Data Analyst, Business Analyst, Power BI Developer",
+        ],
+      },
+      { type: "h2", text: "AI Engineering and Agentic AI internship" },
+      {
+        type: "list",
+        items: [
+          "Integrate large language model APIs into applications",
+          "Build retrieval-augmented generation (RAG) on documents",
+          "Design AI agents that use tools and complete multi-step tasks",
+          "Leads toward: AI Engineer, AI Agent Developer, AI Automation Specialist",
+        ],
+      },
+      { type: "h2", text: "Which one should you pick?" },
+      {
+        type: "p",
+        text: "Pick by the job you want. If you enjoy building products, choose Python Full Stack. If you enjoy statistics and patterns, choose Data Science. If you want business-facing work with less coding, choose Data Analytics. If you already know basic Python and want the newest field, choose AI Engineering or Agentic AI. Not sure? A short conversation with our counselors usually settles it.",
+      },
+    ],
+    faqs: [
+      { question: "Is there a Python internship in Kochi?", answer: "Yes. Future Optima has a Python Full Stack internship open in Kochi, covering Django, REST APIs, React and PostgreSQL, at the campus or live online." },
+      { question: "Where can I do a data science internship in Kochi?", answer: "Future Optima IT Solutions in Chembumukku, Kochi offers a Data Science with AI internship with machine learning project work on real datasets." },
+      { question: "Do I need to know Python before an AI internship?", answer: "Python, Data Science and Data Analytics internships start from the fundamentals. For AI Engineering and Agentic AI, basic Python helps — counselors will guide you on the right starting point." },
+    ],
+  },
+  {
+    slug: "cyber-security-internship-kochi",
+    title: "Cyber Security Internship in Kochi: Labs, Tools and Who Can Apply",
+    metaTitle: "Cyber Security Internship in Kochi, Kerala — Apply Now | Future Optima",
+    metaDescription:
+      "Cyber security internship in Kochi at Future Optima — hands-on labs in ethical hacking, web application security and SOC analysis with tools like Kali Linux, Burp Suite, Wireshark and Nmap. Applications open.",
+    keywords: [
+      "cyber security internship kochi",
+      "cybersecurity internship kerala",
+      "ethical hacking internship kochi",
+      "soc analyst internship kochi",
+      "cyber security internship for students kerala",
+    ],
+    category: "Internships",
+    excerpt:
+      "A cybersecurity internship should be spent in the lab, not in a lecture. Here's what the Future Optima cyber security internship in Kochi covers and who can apply.",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    readingTime: "4 min read",
+    coverImage: "cybersecurity-red-team-soc-analyst",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
+    body: [
+      {
+        type: "p",
+        text: "Future Optima's cyber security internship in Kochi is open for applications. It is lab-based: you practise assessment and defence on vulnerable lab environments, using the same tools security teams use, with mentors guiding you through each exercise.",
+      },
+      { type: "h2", text: "What you work on" },
+      {
+        type: "list",
+        items: [
+          "Networking and systems foundations — how attacks and defences actually work",
+          "Reconnaissance, scanning and vulnerability assessment in a lab",
+          "Web application security — the OWASP Top 10 and manual testing",
+          "SOC fundamentals — log analysis, threat detection and incident response",
+          "Writing up findings clearly and responsibly",
+        ],
+      },
+      { type: "h2", text: "Tools you'll use" },
+      {
+        type: "p",
+        text: "Kali Linux, Burp Suite, Wireshark, Nmap, SIEM tools and Metasploit in lab use — all practised on lab systems built for the purpose.",
+      },
+      { type: "h2", text: "Who can apply" },
+      {
+        type: "p",
+        text: "College students, graduates, Plus Two students and students with a year gap. No prior security experience is needed — networking fundamentals come first. Students have described their internship here as practical, mentor-supported training.",
+      },
+      { type: "h2", text: "Where it leads" },
+      {
+        type: "p",
+        text: "SOC Analyst is the most common entry-level cybersecurity role, with Junior Penetration Tester and Cybersecurity Analyst roles alongside it. If you want to go further after the internship, our Certified SOC Analyst, Certified Ethical Hacking and 5-month Cybersecurity — Red Team & SOC Analyst courses build on the same foundations.",
+      },
+    ],
+    faqs: [
+      { question: "Is there a cyber security internship in Kochi?", answer: "Yes. Future Optima IT Solutions in Kochi has a cyber security internship open for applications, with hands-on labs in ethical hacking, web application security and SOC fundamentals." },
+      { question: "Do I need experience for a cyber security internship?", answer: "No. Networking and systems fundamentals are covered first, so beginners can apply." },
+      { question: "What tools are used in the cyber security internship?", answer: "Kali Linux, Burp Suite, Wireshark, Nmap, SIEM tools and Metasploit in lab use, practised on purpose-built lab systems." },
+    ],
+  },
+  {
+    slug: "how-to-get-an-internship-in-kochi-as-a-fresher",
+    title: "How to Get an Internship in Kochi as a Student or Fresher (2026 Guide)",
+    metaTitle: "How to Get an Internship in Kochi as a Student or Fresher — 2026 | Future Optima",
+    metaDescription:
+      "A practical 2026 guide to getting an IT internship in Kochi with no experience — where to look, what to prepare, how to choose a domain, mistakes to avoid and where applications are open right now.",
+    keywords: [
+      "how to get an internship in kochi",
+      "internship for freshers in kochi",
+      "internship without experience kerala",
+      "it internship for freshers kochi",
+      "internship in infopark kochi",
+      "internship after degree kerala",
+    ],
+    category: "Internships",
+    excerpt:
+      "No experience, no contacts and every listing asks for both. Here's a realistic way for students and freshers to land an IT internship in Kochi — and make it count.",
+    publishedAt: "2026-10-09",
+    updatedAt: "2026-10-09",
+    readingTime: "5 min read",
+    coverImage: "ai-engineering-automation",
+    relatedPage: {
+      label: "Internships",
+      title: "Internships in Kochi, Kerala — Apply Now",
+      description: "Every IT and AI domain is open. Internship classes have started at our Kochi campus and live online.",
+      href: "/internships",
+    },
+    body: [
+      {
+        type: "p",
+        text: "To get an internship in Kochi as a fresher, decide on one domain, learn its basics, build one small project, and apply to places that train interns on real work rather than expecting you to arrive job-ready. Most students go wrong by applying everywhere with an empty CV; a single focused project changes the response you get.",
+      },
+      { type: "h2", text: "Step 1 — Pick one domain" },
+      {
+        type: "p",
+        text: "\"Any IT internship\" is hard to get; \"a Python internship\" or \"a data analytics internship\" is much easier, because you can show interest in something specific. Choose from software development (Python, MERN), data (data science, analytics), AI or cybersecurity based on the job you want.",
+      },
+      { type: "h2", text: "Step 2 — Prepare the basics" },
+      {
+        type: "list",
+        items: [
+          "A one-page CV with your education, skills and any project — even a small one",
+          "A GitHub or portfolio link if you have built anything",
+          "A clear answer to \"why this domain?\"",
+          "The fundamentals of one tool or language in that domain",
+        ],
+      },
+      { type: "h2", text: "Step 3 — Know where to look" },
+      {
+        type: "list",
+        items: [
+          "Training institutes with structured internship programs — the most accessible route for beginners",
+          "Companies in Kochi's IT hubs such as Infopark and Smart City — usually more competitive and often expect prior skills",
+          "Your college placement cell and faculty contacts",
+          "Startups, which often give interns broader hands-on work",
+        ],
+      },
+      { type: "h2", text: "Step 4 — Avoid the common mistakes" },
+      {
+        type: "list",
+        items: [
+          "Choosing an internship only for the certificate — interviewers ask what you built",
+          "Picking a domain because friends did",
+          "Accepting observation-only roles with no hands-on work",
+          "Finishing without a project you can demonstrate",
+        ],
+      },
+      { type: "h2", text: "Where applications are open now" },
+      {
+        type: "p",
+        text: "Future Optima's internship classes have started in Kochi and every domain is open — Python Full Stack, MERN, Data Science, Data Analytics, Cybersecurity, AI Engineering, Agentic AI, AI Robotics and AI Website Development. Beginners are guided from the fundamentals, and you work on hands-on projects with industry mentors. Call or WhatsApp 8891129333 to apply.",
+      },
+    ],
+    faqs: [
+      { question: "How can a fresher get an internship in Kochi?", answer: "Pick one domain, learn its basics, build a small project and apply to programs that train interns on real work. Future Optima in Kochi currently has internships open in every IT and AI domain and guides beginners from the fundamentals." },
+      { question: "Can I get an internship in Kochi without experience?", answer: "Yes. Structured internship programs at training institutes are designed for students with no prior experience and start from the fundamentals." },
+      { question: "Which internship is best for getting a job?", answer: "The one in the domain you want to work in, where you finish with a real project. Employers care more about what you built than about the certificate." },
     ],
   },
 ];

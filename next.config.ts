@@ -66,6 +66,9 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      // Combined page split into /internships and /corporate-training.
+      { source: "/internship-corporate-training", destination: "/internships", permanent: true },
+
       // --- Core / static pages: same content, WordPress used trailing slashes ---
       { source: "/about/", destination: "/about", permanent: true },
       { source: "/courses/", destination: "/courses", permanent: true },

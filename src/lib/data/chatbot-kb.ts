@@ -73,6 +73,7 @@ export const suggestedQuestions: string[] = [
   "What courses do you offer?",
   "What is the pay-after-placement offer?",
   "Tell me about the 1-year Advanced Diploma",
+  "Are internships open right now?",
   "Do I need a technical degree to join?",
   "How does placement support work?",
   "How can I contact admissions?",

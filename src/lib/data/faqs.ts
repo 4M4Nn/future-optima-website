@@ -72,9 +72,9 @@ export const generalFaqs: FaqItem[] = [
       "Batch timing depends on the course and current schedule — many of our online batches are structured to accommodate working professionals. Talk to our admissions counselors about weekend or evening timing for your preferred course before enrolling.",
   },
   {
-    question: "Does Future Optima provide internship opportunities during the course?",
+    question: "Does Future Optima provide internship opportunities?",
     answer:
-      "Yes — several of our courses include an internship component with real client or partner projects, in areas like Business Analytics, Cybersecurity and Data Science with AI, in addition to the standard capstone project every course ends with.",
+      "Yes. Internships are open in every domain — Python Full Stack, MERN Stack, Data Science with AI, Data and Business Analytics, Cybersecurity, AI Engineering, Agentic AI, AI Robotics and AI Website Development — built around hands-on project work with industry mentors. Internship classes have started and students can apply now.",
   },
   {
     question: "Does Future Optima offer corporate training for companies?",
@@ -245,5 +245,25 @@ export const generalFaqs: FaqItem[] = [
     question: "Is there a data science course in Kerala for non-CS and Plus Two students?",
     answer:
       "Yes. Future Optima's 6-month Data Science with AI course in Kochi teaches Python and statistics from scratch and is open to Plus Two students and graduates from any stream. It is our most-placed course.",
+  },
+  {
+    question: "Are internships open at Future Optima right now?",
+    answer:
+      "Yes. Internship classes have started and applications are open in every domain. Students can apply from our Internships page, or by calling or WhatsApping 8891129333.",
+  },
+  {
+    question: "Who can apply for an internship at Future Optima?",
+    answer:
+      "College students (B.Tech, BCA, MCA, B.Sc, M.Sc, diploma), fresh graduates, Plus Two students and students with a year gap can apply, from CS or non-CS backgrounds. Most domains start from the fundamentals.",
+  },
+  {
+    question: "Is there a Python or data science internship in Kochi?",
+    answer:
+      "Yes. Future Optima has Python Full Stack, Data Science with AI and Data Analytics internships open in Kochi, along with MERN Stack, Cybersecurity and AI domains, at the Chembumukku campus or live online.",
+  },
+  {
+    question: "Can I do an internship online from outside Kochi?",
+    answer:
+      "Yes. Internship classes are available through live online sessions with the same mentors, as well as at our Kochi campus.",
   },
 ];
