@@ -23,7 +23,7 @@ export const blogPosts: BlogPost[] = [
     relatedPage: {
       label: "Corporate Training",
       title: "Corporate Training in Kochi, Kerala",
-      description: "AI, Generative AI, IT and Microsoft Excel training for teams — on-site or at our Kochi campus.",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
       href: "/corporate-training",
     },
     body: [
@@ -2561,7 +2561,7 @@ export const blogPosts: BlogPost[] = [
     relatedPage: {
       label: "Corporate Training",
       title: "Corporate Training in Kochi, Kerala",
-      description: "AI, Generative AI, IT and Microsoft Excel training for teams — on-site or at our Kochi campus.",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
       href: "/corporate-training",
     },
     body: [
@@ -2627,13 +2627,13 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "A good training day changes how a team works the following week. A bad one is forgotten by Friday. Here's how to tell corporate training companies in Kochi apart before you book.",
     publishedAt: "2026-10-07",
-    updatedAt: "2026-10-07",
+    updatedAt: "2026-10-14",
     readingTime: "5 min read",
     coverImage: "python-full-stack-with-ai",
     relatedPage: {
       label: "Corporate Training",
       title: "Corporate Training in Kochi, Kerala",
-      description: "AI, Generative AI, IT and Microsoft Excel training for teams — on-site or at our Kochi campus.",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
       href: "/corporate-training",
     },
     body: [
@@ -2659,7 +2659,8 @@ export const blogPosts: BlogPost[] = [
         items: [
           "AI and Generative AI for everyday work — currently the most requested topic",
           "Microsoft Excel, reporting and dashboards for finance, MIS and operations teams",
-          "IT upskilling — Python, full-stack development, data analytics and cybersecurity awareness",
+          "Cybersecurity — OWASP Top 10 for developers and cybersecurity awareness for all staff",
+          "IT upskilling — Python, full-stack development and data analytics",
           "AI-assisted development for software teams",
         ],
       },
@@ -2676,11 +2677,11 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "How Future Optima approaches corporate training" },
       {
         type: "p",
-        text: "We're a training institute first: the same trainers and project-first method behind our job-oriented courses are applied to working teams. We start with a discovery call, build the program around your team's work, and deliver on-site anywhere in Kerala or at our Kochi campus. Our corporate work includes practical AI tools training for the Kerala State Electricity Board (KSEB) in August 2026.",
+        text: "We're a training institute first: the same trainers and project-first method behind our job-oriented courses are applied to working teams. We start with a discovery call, build the program around your team's work, and deliver on-site anywhere in Kerala or at our Kochi campus. Our corporate work includes practical AI tools training for the Kerala State Electricity Board (KSEB) in August 2026 and an OWASP Top 10 and cybersecurity awareness session in October 2026.",
       },
     ],
     faqs: [
-      { question: "Which is the best corporate training company in Kochi?", answer: "The best fit is the one that offers hands-on, customised training with experienced trainers and real client proof. Future Optima IT Solutions in Kochi provides AI, Generative AI, IT and Excel corporate training on that basis, including training delivered for KSEB." },
+      { question: "Which is the best corporate training company in Kochi?", answer: "The best fit is the one that offers hands-on, customised training with experienced trainers and real client proof. Future Optima IT Solutions in Kochi provides AI, Generative AI, cybersecurity, IT and Excel corporate training on that basis, including AI training for KSEB and OWASP Top 10 and cybersecurity awareness training." },
       { question: "How much does corporate training cost in Kochi?", answer: "It depends on the topic, number of participants, duration and location. Contact Future Optima with your team size and goals for a scoped quote." },
       { question: "Can corporate training be conducted at our office in Kerala?", answer: "Yes. Future Optima delivers corporate training on-site at your premises across Kerala, or at its Chembumukku, Kochi campus." },
     ],
@@ -2708,7 +2709,7 @@ export const blogPosts: BlogPost[] = [
     relatedPage: {
       label: "Corporate Training",
       title: "Corporate Training in Kochi, Kerala",
-      description: "AI, Generative AI, IT and Microsoft Excel training for teams — on-site or at our Kochi campus.",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
       href: "/corporate-training",
     },
     body: [
@@ -3442,6 +3443,249 @@ export const blogPosts: BlogPost[] = [
       { question: "How can a fresher get an internship in Kochi?", answer: "Pick one domain, learn its basics, build a small project and apply to programs that train interns on real work. Future Optima in Kochi currently has internships open in every IT and AI domain and guides beginners from the fundamentals." },
       { question: "Can I get an internship in Kochi without experience?", answer: "Yes. Structured internship programs at training institutes are designed for students with no prior experience and start from the fundamentals." },
       { question: "Which internship is best for getting a job?", answer: "The one in the domain you want to work in, where you finish with a real project. Employers care more about what you built than about the certificate." },
+    ],
+  },
+  {
+    slug: "owasp-top-10-explained-plain-english-guide",
+    title: "OWASP Top 10 Explained: A Plain-English Guide for Developers and Teams (2026)",
+    metaTitle: "OWASP Top 10 Explained in Plain English — 2026 Guide | Future Optima Kochi",
+    metaDescription:
+      "What is the OWASP Top 10? A plain-English guide to the most critical web application security risks — broken access control, injection, misconfiguration and more — with real examples and how to prevent each.",
+    keywords: [
+      "owasp top 10 explained",
+      "what is owasp top 10",
+      "owasp top 10 training kochi",
+      "owasp top 10 for developers",
+      "web application security risks",
+      "owasp training kerala",
+    ],
+    category: "Cybersecurity",
+    excerpt:
+      "The OWASP Top 10 is the most widely used list of web application security risks. Here's what each risk actually means, with plain examples and how teams prevent them.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "7 min read",
+    coverImage: "web-bug-hunter",
+    relatedCourseSlug: "cybersecurity-red-team-soc-analyst",
+    body: [
+      {
+        type: "p",
+        text: "The OWASP Top 10 is a regularly updated list of the most critical security risks to web applications, published by the Open Worldwide Application Security Project (OWASP), a non-profit foundation. Developers, testers and security teams use it as a shared baseline: if an application is protected against the OWASP Top 10, it has dealt with the weaknesses attackers exploit most often.",
+      },
+      { type: "h2", text: "The key risks in the OWASP Top 10" },
+      {
+        type: "p",
+        text: "OWASP revises the list every few years, re-ranking and merging categories based on real-world data. The risks below appear in recent editions and are the ones every web team should understand.",
+      },
+      { type: "h3", text: "Broken access control" },
+      {
+        type: "p",
+        text: "Users can do or see things they shouldn't — for example, changing an ID in a URL to view another customer's invoice. Prevention: enforce permission checks on the server for every request, and deny by default.",
+      },
+      { type: "h3", text: "Security misconfiguration" },
+      {
+        type: "p",
+        text: "Default passwords, open cloud storage, detailed error messages or unnecessary features left switched on. Prevention: hardened configuration baselines, regular reviews and removing anything not needed.",
+      },
+      { type: "h3", text: "Vulnerable components and supply chain risks" },
+      {
+        type: "p",
+        text: "Outdated libraries, frameworks or packages with known vulnerabilities, or compromised dependencies. Prevention: keep an inventory of components, patch promptly and use trusted sources.",
+      },
+      { type: "h3", text: "Cryptographic failures" },
+      {
+        type: "p",
+        text: "Sensitive data sent or stored without proper encryption, or protected with weak algorithms. Prevention: encrypt data in transit and at rest, and use modern, well-reviewed cryptography.",
+      },
+      { type: "h3", text: "Injection" },
+      {
+        type: "p",
+        text: "Untrusted input is treated as a command — SQL injection and cross-site scripting (XSS) are the classic examples. Prevention: parameterised queries, input validation and output encoding.",
+      },
+      { type: "h3", text: "Insecure design" },
+      {
+        type: "p",
+        text: "Security flaws built into the design itself, such as a password-reset flow that can be guessed. Prevention: threat modelling and security requirements before code is written.",
+      },
+      { type: "h3", text: "Authentication failures" },
+      {
+        type: "p",
+        text: "Weak passwords allowed, no protection against repeated login attempts, or poorly handled sessions. Prevention: multi-factor authentication, rate limiting and secure session management.",
+      },
+      { type: "h3", text: "Software and data integrity failures" },
+      {
+        type: "p",
+        text: "Code, updates or data accepted without verifying they haven't been tampered with. Prevention: signed updates, verified pipelines and integrity checks.",
+      },
+      { type: "h3", text: "Security logging and monitoring failures" },
+      {
+        type: "p",
+        text: "Attacks go unnoticed because nothing is logged or nobody is alerted. Prevention: log security-relevant events, monitor them and have an incident response plan.",
+      },
+      { type: "h3", text: "Server-side request forgery and mishandled errors" },
+      {
+        type: "p",
+        text: "The server can be tricked into fetching internal resources, or errors are handled in ways that expose data or leave the system in an unsafe state. Prevention: validate outbound requests and fail safely.",
+      },
+      { type: "h2", text: "Who should learn the OWASP Top 10?" },
+      {
+        type: "list",
+        items: [
+          "Developers — to avoid introducing these flaws in the first place",
+          "Testers and QA teams — to know what to test for",
+          "Security analysts and bug bounty hunters — it is the starting map for web application testing",
+          "Team leads and managers — to set security requirements and review risk",
+        ],
+      },
+      {
+        type: "p",
+        text: "Future Optima teaches the OWASP Top 10 in depth in its Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification in Kochi, and delivers OWASP Top 10 corporate training for development teams.",
+      },
+    ],
+    faqs: [
+      { question: "What is the OWASP Top 10?", answer: "It is a regularly updated list of the most critical web application security risks, published by the non-profit OWASP foundation, and used worldwide as a baseline for secure development and testing." },
+      { question: "Is the OWASP Top 10 only for security professionals?", answer: "No. Developers, testers and team leads benefit most, because most of these risks are prevented during design and coding rather than fixed afterwards." },
+      { question: "Where can I learn OWASP Top 10 in Kochi?", answer: "Future Optima IT Solutions in Kochi covers the OWASP Top 10 in its Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification, and runs OWASP Top 10 corporate training for teams." },
+    ],
+  },
+  {
+    slug: "cybersecurity-awareness-training-for-employees-kerala",
+    title: "Cybersecurity Awareness Training for Employees: What It Covers and Why Every Team in Kerala Needs It",
+    metaTitle: "Cybersecurity Awareness Training for Employees in Kochi & Kerala | Future Optima",
+    metaDescription:
+      "What cybersecurity awareness training for employees covers — phishing, passwords, social engineering, safe data handling and incident reporting — and why organisations in Kochi and Kerala run it. Corporate training available.",
+    keywords: [
+      "cybersecurity awareness training for employees",
+      "cyber security awareness training kochi",
+      "cybersecurity awareness training kerala",
+      "phishing awareness training for employees",
+      "corporate cybersecurity training kochi",
+      "security awareness program for companies",
+    ],
+    category: "Corporate Training",
+    excerpt:
+      "Most successful attacks start with a person, not a server. Here's what cybersecurity awareness training teaches employees and how organisations in Kerala can run it well.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "5 min read",
+    coverImage: "certified-soc-analyst",
+    relatedPage: {
+      label: "Corporate Training",
+      title: "Corporate Training in Kochi, Kerala",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
+      href: "/corporate-training",
+    },
+    body: [
+      {
+        type: "p",
+        text: "Cybersecurity awareness training teaches every employee — not just the IT team — to recognise and avoid the everyday threats attackers rely on: phishing emails, fake calls and messages, weak passwords and careless handling of data. Because most breaches begin with a human mistake, it is one of the most cost-effective security measures an organisation can take.",
+      },
+      { type: "h2", text: "What cybersecurity awareness training covers" },
+      {
+        type: "list",
+        items: [
+          "Phishing — spotting fake emails, links, attachments and look-alike websites",
+          "Social engineering — pressure tactics over phone, WhatsApp and SMS, and fake \"urgent\" requests from managers or vendors",
+          "Passwords and multi-factor authentication — strong passphrases, password managers and why MFA matters",
+          "Safe data handling — what not to share, paste or upload, including into AI tools",
+          "Device and network safety — updates, public Wi-Fi, USB drives and lost devices",
+          "Reporting — what to do the moment something looks wrong, and why reporting quickly matters more than blame",
+        ],
+      },
+      { type: "h2", text: "Why awareness training works" },
+      {
+        type: "p",
+        text: "Technical controls can't stop an employee who approves a fake payment request or types their password into a convincing fake page. Training turns staff into an early warning system: people who pause, check and report instead of clicking.",
+      },
+      { type: "h2", text: "Making it stick" },
+      {
+        type: "list",
+        items: [
+          "Use real examples from your industry and region, not generic slides",
+          "Keep sessions interactive — let people try to spot the fake",
+          "Repeat regularly; threats change and attention fades",
+          "Pair it with a simple, blame-free reporting process",
+        ],
+      },
+      { type: "h2", text: "Cybersecurity awareness training in Kochi" },
+      {
+        type: "p",
+        text: "Future Optima delivers cybersecurity awareness training for organisations in Kochi and across Kerala, on-site or at our Chembumukku campus. In October 2026 we ran a corporate session combining OWASP Top 10 training for technical staff with cybersecurity awareness training for the wider team. Programs are scoped around your team's roles and the systems they use.",
+      },
+    ],
+    faqs: [
+      { question: "What is cybersecurity awareness training?", answer: "It is training for all employees on recognising and avoiding everyday threats such as phishing, social engineering, weak passwords and unsafe data handling, and on reporting incidents quickly." },
+      { question: "How often should employees get cybersecurity awareness training?", answer: "At least once a year, with shorter refreshers in between, because attack methods change and attention fades over time." },
+      { question: "Who provides cybersecurity awareness training in Kochi?", answer: "Future Optima IT Solutions in Kochi provides cybersecurity awareness training for organisations across Kerala, on-site or at its campus, and delivered a combined OWASP Top 10 and awareness session in October 2026." },
+    ],
+  },
+  {
+    slug: "corporate-cybersecurity-training-kochi-owasp",
+    title: "Corporate Cybersecurity Training in Kochi: OWASP Top 10 for Developers and Awareness for Everyone",
+    metaTitle: "Corporate Cybersecurity Training in Kochi — OWASP Top 10 & Awareness | Future Optima",
+    metaDescription:
+      "Corporate cybersecurity training in Kochi for organisations across Kerala — OWASP Top 10 training for development and IT teams, and cybersecurity awareness training for all staff. How the two fit together.",
+    keywords: [
+      "corporate cybersecurity training kochi",
+      "cyber security corporate training kerala",
+      "owasp top 10 corporate training",
+      "secure coding training for developers kochi",
+      "cybersecurity training for companies kerala",
+      "corporate training in kochi",
+    ],
+    category: "Corporate Training",
+    excerpt:
+      "Developers need to know how attacks work; everyone else needs to know how to avoid falling for them. Here's how corporate cybersecurity training covers both.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "5 min read",
+    coverImage: "cybersecurity-red-team-soc-analyst",
+    relatedPage: {
+      label: "Corporate Training",
+      title: "Corporate Training in Kochi, Kerala",
+      description: "Cybersecurity, AI, Generative AI, IT and Excel training for teams — on-site or at our Kochi campus.",
+      href: "/corporate-training",
+    },
+    body: [
+      {
+        type: "p",
+        text: "Corporate cybersecurity training works best in two layers: OWASP Top 10 and secure-coding training for the people who build and run your applications, and cybersecurity awareness training for everyone else. Future Optima delivers both for organisations in Kochi and across Kerala — and in October 2026 ran exactly this combined program for a corporate team.",
+      },
+      { type: "h2", text: "Layer 1 — OWASP Top 10 training for technical teams" },
+      {
+        type: "list",
+        items: [
+          "How the most critical web application risks work — access control, injection, misconfiguration, authentication and more",
+          "Seeing vulnerabilities from the attacker's side in a safe demonstration",
+          "Secure coding and configuration practices that prevent each risk",
+          "Building security checks into reviews and testing",
+        ],
+      },
+      { type: "h2", text: "Layer 2 — Cybersecurity awareness training for all staff" },
+      {
+        type: "list",
+        items: [
+          "Recognising phishing and social engineering",
+          "Passwords, multi-factor authentication and device safety",
+          "Handling customer and company data safely, including with AI tools",
+          "Reporting suspicious activity quickly",
+        ],
+      },
+      { type: "h2", text: "Why combine them" },
+      {
+        type: "p",
+        text: "Attackers look for the easiest way in — a vulnerable web form or a distracted employee. Training only one group leaves the other door open. A combined program also builds a shared language, so developers, managers and staff understand why security rules exist.",
+      },
+      { type: "h2", text: "How we deliver it" },
+      {
+        type: "p",
+        text: "We start with a discovery call about your systems and team, then deliver hands-on sessions on-site at your office or at our Chembumukku, Kochi campus. Trainers draw on the same curriculum and labs used in our Cybersecurity — Red Team & SOC Analyst and Web Bug Hunter programs.",
+      },
+    ],
+    faqs: [
+      { question: "Does Future Optima provide corporate cybersecurity training in Kochi?", answer: "Yes. Future Optima provides OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff, on-site across Kerala or at its Kochi campus. It delivered a combined session in October 2026." },
+      { question: "What is OWASP Top 10 corporate training?", answer: "Hands-on training that teaches developers and IT teams how the most critical web application security risks work and how to prevent them through secure design, coding and configuration." },
+      { question: "Can cybersecurity training be customised for our company?", answer: "Yes. Programs are scoped around your team's roles, technology and goals after a short discovery call." },
     ],
   },
 ];

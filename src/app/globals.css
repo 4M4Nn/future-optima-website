@@ -154,3 +154,23 @@ html.lenis body {
     scroll-behavior: auto !important;
   }
 }
+
+.news-popup-timer {
+  transform-origin: left;
+  animation: news-popup-timer 9s linear forwards;
+}
+
+@keyframes news-popup-timer {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-popup-timer {
+    animation: none;
+  }
+}

@@ -9,9 +9,9 @@ export interface CorporateProgram {
 }
 
 export const corporateTrainingMeta = {
-  title: "Corporate Training in Kochi, Kerala — AI, Generative AI, IT & Excel",
+  title: "Corporate Training in Kochi, Kerala — AI, Cybersecurity, IT & Excel",
   description:
-    "Corporate training in Kochi and across Kerala from Future Optima — hands-on AI and Generative AI training for teams, IT upskilling, and Microsoft Excel and data analytics training, delivered on-site or at our Kochi campus.",
+    "Corporate training in Kochi and across Kerala from Future Optima — AI and Generative AI training, cybersecurity (OWASP Top 10 and awareness) training, IT upskilling, and Microsoft Excel training, delivered on-site or at our Kochi campus.",
   keywords: [
     "corporate training in kochi",
     "corporate training kochi",
@@ -23,15 +23,18 @@ export const corporateTrainingMeta = {
     "corporate ai training kerala",
     "generative ai corporate training kerala",
     "microsoft excel corporate training kochi",
+    "corporate cybersecurity training kochi",
+    "cybersecurity awareness training kerala",
+    "owasp top 10 corporate training",
   ],
 };
 
 export const corporateHero = {
   eyebrow: "For Organizations",
   heading: "Corporate Training in Kochi, Kerala",
-  highlight: "AI, Generative AI, IT & Excel",
+  highlight: "AI, Generative AI, Cybersecurity, IT & Excel",
   intro:
-    "Future Optima IT Solutions is a corporate training company in Kochi delivering hands-on AI, Generative AI, IT and Microsoft Excel training for teams across Kerala — on-site at your office or at our Chembumukku campus.",
+    "Future Optima IT Solutions is a corporate training company in Kochi delivering hands-on AI, Generative AI, cybersecurity, IT and Microsoft Excel training for teams across Kerala — on-site at your office or at our Chembumukku campus.",
 };
 
 export const corporateAnswer = {
@@ -83,6 +86,20 @@ export const corporatePrograms: CorporateProgram[] = [
     audience: "Developers, IT support, analysts and fresh hires in onboarding",
   },
   {
+    id: "cybersecurity-corporate-training",
+    title: "Cybersecurity Corporate Training in Kochi",
+    summary:
+      "OWASP Top 10 training for development and IT teams, and cybersecurity awareness training for every employee.",
+    topics: [
+      "OWASP Top 10 web application security risks",
+      "Secure coding and configuration practices",
+      "Phishing and social engineering awareness",
+      "Passwords, MFA and safe data handling",
+      "Reporting and responding to incidents",
+    ],
+    audience: "Developers, IT teams and all staff",
+  },
+  {
     id: "excel-corporate-training",
     title: "Microsoft Excel Corporate Training in Kochi",
     summary:
@@ -131,18 +148,26 @@ export const corporateChecklist = {
   ],
 };
 
-export const corporateProof = {
-  heading: "Corporate AI training delivered for KSEB",
-  text: "In August 2026, Future Optima delivered a corporate training session for the Kerala State Electricity Board (KSEB) on practical AI tools for the workplace — applying the same project-first approach we use with our students to a professional audience.",
-  linkLabel: "Read about the KSEB training",
-  href: "/news/kseb-corporate-training-ai-tools",
-};
+export const corporateProof: { heading: string; text: string; linkLabel: string; href: string }[] = [
+  {
+    heading: "OWASP Top 10 & cybersecurity awareness training",
+    text: "In October 2026, Future Optima conducted a corporate training session on the OWASP Top 10 web application security risks and cybersecurity awareness — hands-on, with participants following along on their own laptops.",
+    linkLabel: "Read about the cybersecurity training",
+    href: "/news/corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
+  },
+  {
+    heading: "Corporate AI training delivered for KSEB",
+    text: "In August 2026, Future Optima delivered a corporate training session for the Kerala State Electricity Board (KSEB) on practical AI tools for the workplace — applying the same project-first approach we use with our students to a professional audience.",
+    linkLabel: "Read about the KSEB training",
+    href: "/news/kseb-corporate-training-ai-tools",
+  },
+];
 
 export const corporateFaqs: FaqItem[] = [
   {
     question: "Which company provides corporate training in Kochi?",
     answer:
-      "Future Optima IT Solutions Pvt Ltd, based in Chembumukku, Kochi, provides corporate training for organisations across Kerala — covering AI and Generative AI, IT skills, and Microsoft Excel and data analytics, delivered on-site or at our Kochi campus.",
+      "Future Optima IT Solutions Pvt Ltd, based in Chembumukku, Kochi, provides corporate training for organisations across Kerala — covering AI and Generative AI, cybersecurity (OWASP Top 10 and awareness), IT skills, and Microsoft Excel and data analytics, delivered on-site or at our Kochi campus.",
   },
   {
     question: "Do you offer AI corporate training in Kochi?",
@@ -153,6 +178,11 @@ export const corporateFaqs: FaqItem[] = [
     question: "What does Generative AI corporate training cover?",
     answer:
       "It covers how large language models work, prompting for reliable results, retrieval-augmented generation (RAG) on company documents, AI agents and tool use, and how to evaluate quality, cost and risk before rolling AI out to a team.",
+  },
+  {
+    question: "Do you offer cybersecurity corporate training in Kochi?",
+    answer:
+      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff — phishing, social engineering, passwords and MFA, safe data handling and incident reporting. We delivered a combined OWASP Top 10 and awareness session in October 2026.",
   },
   {
     question: "Do you provide Microsoft Excel corporate training in Kochi?",

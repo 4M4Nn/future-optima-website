@@ -219,7 +219,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "Does Future Optima provide corporate training in Kochi?",
     answer:
-      "Yes. Future Optima provides corporate training in Kochi and across Kerala — AI and Generative AI training for teams, IT upskilling, and Microsoft Excel and data analytics training — delivered on-site at your office or at our Chembumukku campus. See our Corporate Training page for programs.",
+      "Yes. Future Optima provides corporate training in Kochi and across Kerala — AI and Generative AI training for teams, cybersecurity (OWASP Top 10 and awareness) training, IT upskilling, and Microsoft Excel and data analytics training — delivered on-site at your office or at our Chembumukku campus. See our Corporate Training page for programs.",
   },
   {
     question: "Do you offer Generative AI corporate training in Kerala?",
@@ -265,5 +265,15 @@ export const generalFaqs: FaqItem[] = [
     question: "Can I do an internship online from outside Kochi?",
     answer:
       "Yes. Internship classes are available through live online sessions with the same mentors, as well as at our Kochi campus.",
+  },
+  {
+    question: "Does Future Optima provide cybersecurity awareness and OWASP Top 10 training for companies?",
+    answer:
+      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all employees, on-site across Kerala or at our Kochi campus. We conducted a combined OWASP Top 10 and cybersecurity awareness corporate session on October 14, 2026.",
+  },
+  {
+    question: "What is the OWASP Top 10?",
+    answer:
+      "The OWASP Top 10 is a regularly updated list of the most critical web application security risks — such as broken access control, injection, security misconfiguration and authentication failures — published by the non-profit OWASP foundation. It is taught in depth in our Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification.",
   },
 ];

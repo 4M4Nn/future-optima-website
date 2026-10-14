@@ -3,6 +3,43 @@ import { stockImages } from "@/lib/data/images";
 
 export const newsPosts: NewsPost[] = [
   {
+    slug: "corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
+    title: "Future Optima Conducts Corporate Training on OWASP Top 10 and Cybersecurity Awareness",
+    metaTitle: "Corporate OWASP Top 10 & Cybersecurity Awareness Training — Future Optima",
+    metaDescription:
+      "Future Optima IT Solutions conducted a corporate training session on OWASP Top 10 web application security and cybersecurity awareness on October 14, 2026.",
+    excerpt:
+      "Future Optima IT Solutions conducted a corporate training session on October 14, 2026, covering the OWASP Top 10 web application security risks and cybersecurity awareness for the participating team.",
+    publishedAt: "2026-10-14",
+    coverImage: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
+    coverAlt: "Future Optima trainer delivering OWASP Top 10 and cybersecurity awareness corporate training to a team in a boardroom",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions conducted a corporate training session on October 14, 2026, focused on two areas every organisation needs today: the OWASP Top 10 web application security risks, and cybersecurity awareness for the wider team.",
+      },
+      { type: "h2", text: "OWASP Top 10 Training" },
+      {
+        type: "p",
+        text: "The OWASP Top 10 is the most widely used list of critical web application security risks. The session walked participants through how risks such as broken access control, injection, security misconfiguration and authentication failures work, and the practical steps that prevent them in design, code and configuration.",
+      },
+      { type: "h2", text: "Cybersecurity Awareness Training" },
+      {
+        type: "p",
+        text: "Alongside the technical content, the session covered cybersecurity awareness — recognising phishing and social engineering, using strong passwords and multi-factor authentication, handling data safely and reporting suspicious activity quickly — because most successful attacks begin with a human mistake.",
+      },
+      { type: "h2", text: "Hands-On, Interactive Format" },
+      {
+        type: "p",
+        text: "Delivered in Future Optima's practical, interactive style, participants followed along on their laptops as the trainer explained each risk with real examples. The session draws on the same curriculum used in Future Optima's Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification.",
+      },
+      {
+        type: "p",
+        text: "The engagement adds cybersecurity to Future Optima's growing corporate training work across Kerala, following its AI tools training for the Kerala State Electricity Board (KSEB) in August 2026.",
+      },
+    ],
+  },
+  {
     slug: "resume-preparation-mock-interview-session-september-2026",
     title: "Resume Preparation & Mock Interview Session for Future Optima Students",
     metaTitle: "Resume Prep & Mock Interview Session — Future Optima",
@@ -314,3 +351,11 @@ export const newsPosts: NewsPost[] = [
 export function getNewsPostBySlug(slug: string) {
   return newsPosts.find((n) => n.slug === slug);
 }
+
+export const homepageNewsPopup = {
+  slug: "corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
+  label: "Latest News",
+  title: "Corporate training delivered today: OWASP Top 10 & Cybersecurity Awareness",
+  image: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
+  imageAlt: "Corporate OWASP Top 10 and cybersecurity awareness training by Future Optima",
+};

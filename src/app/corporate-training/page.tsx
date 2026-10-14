@@ -216,21 +216,28 @@ export default function CorporateTrainingPage() {
       </section>
 
       <section className="bg-navy-950 py-14 text-white sm:py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <Reveal>
             <h2 className="font-heading text-2xl font-extrabold sm:text-3xl">
-              {corporateProof.heading}
+              Recent Corporate Training
             </h2>
-            <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
-              {corporateProof.text}
-            </p>
-            <Link
-              href={corporateProof.href}
-              className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-amber-400 underline underline-offset-4"
-            >
-              {corporateProof.linkLabel} <ArrowRight className="h-4 w-4" />
-            </Link>
           </Reveal>
+          <div className="mt-6 grid gap-6 md:grid-cols-2">
+            {corporateProof.map((item, i) => (
+              <Reveal key={item.href} delay={i * 0.08}>
+                <div className="h-full rounded-2xl border border-white/10 bg-white/5 p-6">
+                  <h3 className="font-heading text-lg font-bold">{item.heading}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-white/70">{item.text}</p>
+                  <Link
+                    href={item.href}
+                    className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-amber-400 underline underline-offset-4"
+                  >
+                    {item.linkLabel} <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </div>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 
