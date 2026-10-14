@@ -269,7 +269,7 @@ export const generalFaqs: FaqItem[] = [
   {
     question: "Does Future Optima provide cybersecurity awareness and OWASP Top 10 training for companies?",
     answer:
-      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all employees, on-site across Kerala or at our Kochi campus. We conducted a combined OWASP Top 10 and cybersecurity awareness corporate session on October 14, 2026.",
+      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all employees, on-site across Kerala or at our Kochi campus. We conducted a combined OWASP Top 10 and cybersecurity awareness corporate session for Manappuram Insurance Brokers Ltd. on October 14, 2026.",
   },
   {
     question: "What is the OWASP Top 10?",

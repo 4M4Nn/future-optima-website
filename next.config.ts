@@ -66,6 +66,7 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
+      { source: "/news/corporate-training-owasp-top-10-cybersecurity-awareness-october-2026", destination: "/news/manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training", permanent: true },
       // Combined page split into /internships and /corporate-training.
       { source: "/internship-corporate-training", destination: "/internships", permanent: true },
 

@@ -2677,11 +2677,11 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "How Future Optima approaches corporate training" },
       {
         type: "p",
-        text: "We're a training institute first: the same trainers and project-first method behind our job-oriented courses are applied to working teams. We start with a discovery call, build the program around your team's work, and deliver on-site anywhere in Kerala or at our Kochi campus. Our corporate work includes practical AI tools training for the Kerala State Electricity Board (KSEB) in August 2026 and an OWASP Top 10 and cybersecurity awareness session in October 2026.",
+        text: "We're a training institute first: the same trainers and project-first method behind our job-oriented courses are applied to working teams. We start with a discovery call, build the program around your team's work, and deliver on-site anywhere in Kerala or at our Kochi campus. Our corporate work includes practical AI tools training for the Kerala State Electricity Board (KSEB) in August 2026 and an OWASP Top 10 and cybersecurity awareness session for Manappuram Insurance Brokers Ltd. in October 2026.",
       },
     ],
     faqs: [
-      { question: "Which is the best corporate training company in Kochi?", answer: "The best fit is the one that offers hands-on, customised training with experienced trainers and real client proof. Future Optima IT Solutions in Kochi provides AI, Generative AI, cybersecurity, IT and Excel corporate training on that basis, including AI training for KSEB and OWASP Top 10 and cybersecurity awareness training." },
+      { question: "Which is the best corporate training company in Kochi?", answer: "The best fit is the one that offers hands-on, customised training with experienced trainers and real client proof. Future Optima IT Solutions in Kochi provides AI, Generative AI, cybersecurity, IT and Excel corporate training on that basis, including AI training for KSEB and OWASP Top 10 and cybersecurity awareness training for Manappuram Insurance Brokers Ltd." },
       { question: "How much does corporate training cost in Kochi?", answer: "It depends on the topic, number of participants, duration and location. Contact Future Optima with your team size and goals for a scoped quote." },
       { question: "Can corporate training be conducted at our office in Kerala?", answer: "Yes. Future Optima delivers corporate training on-site at your premises across Kerala, or at its Chembumukku, Kochi campus." },
     ],
@@ -3610,13 +3610,13 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Cybersecurity awareness training in Kochi" },
       {
         type: "p",
-        text: "Future Optima delivers cybersecurity awareness training for organisations in Kochi and across Kerala, on-site or at our Chembumukku campus. In October 2026 we ran a corporate session combining OWASP Top 10 training for technical staff with cybersecurity awareness training for the wider team. Programs are scoped around your team's roles and the systems they use.",
+        text: "Future Optima delivers cybersecurity awareness training for organisations in Kochi and across Kerala, on-site or at our Chembumukku campus. In October 2026 we ran a corporate session for Manappuram Insurance Brokers Ltd. combining OWASP Top 10 training with cybersecurity awareness training for the team. Programs are scoped around your team's roles and the systems they use.",
       },
     ],
     faqs: [
       { question: "What is cybersecurity awareness training?", answer: "It is training for all employees on recognising and avoiding everyday threats such as phishing, social engineering, weak passwords and unsafe data handling, and on reporting incidents quickly." },
       { question: "How often should employees get cybersecurity awareness training?", answer: "At least once a year, with shorter refreshers in between, because attack methods change and attention fades over time." },
-      { question: "Who provides cybersecurity awareness training in Kochi?", answer: "Future Optima IT Solutions in Kochi provides cybersecurity awareness training for organisations across Kerala, on-site or at its campus, and delivered a combined OWASP Top 10 and awareness session in October 2026." },
+      { question: "Who provides cybersecurity awareness training in Kochi?", answer: "Future Optima IT Solutions in Kochi provides cybersecurity awareness training for organisations across Kerala, on-site or at its campus, and delivered a combined OWASP Top 10 and awareness session for Manappuram Insurance Brokers Ltd. in October 2026." },
     ],
   },
   {
@@ -3649,7 +3649,7 @@ export const blogPosts: BlogPost[] = [
     body: [
       {
         type: "p",
-        text: "Corporate cybersecurity training works best in two layers: OWASP Top 10 and secure-coding training for the people who build and run your applications, and cybersecurity awareness training for everyone else. Future Optima delivers both for organisations in Kochi and across Kerala — and in October 2026 ran exactly this combined program for a corporate team.",
+        text: "Corporate cybersecurity training works best in two layers: OWASP Top 10 and secure-coding training for the people who build and run your applications, and cybersecurity awareness training for everyone else. Future Optima delivers both for organisations in Kochi and across Kerala — and in October 2026 ran exactly this combined program for Manappuram Insurance Brokers Ltd.",
       },
       { type: "h2", text: "Layer 1 — OWASP Top 10 training for technical teams" },
       {
@@ -3683,7 +3683,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     faqs: [
-      { question: "Does Future Optima provide corporate cybersecurity training in Kochi?", answer: "Yes. Future Optima provides OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff, on-site across Kerala or at its Kochi campus. It delivered a combined session in October 2026." },
+      { question: "Does Future Optima provide corporate cybersecurity training in Kochi?", answer: "Yes. Future Optima provides OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff, on-site across Kerala or at its Kochi campus. It delivered a combined session for Manappuram Insurance Brokers Ltd. in October 2026." },
       { question: "What is OWASP Top 10 corporate training?", answer: "Hands-on training that teaches developers and IT teams how the most critical web application security risks work and how to prevent them through secure design, coding and configuration." },
       { question: "Can cybersecurity training be customised for our company?", answer: "Yes. Programs are scoped around your team's roles, technology and goals after a short discovery call." },
     ],

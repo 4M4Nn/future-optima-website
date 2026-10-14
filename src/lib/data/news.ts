@@ -3,20 +3,20 @@ import { stockImages } from "@/lib/data/images";
 
 export const newsPosts: NewsPost[] = [
   {
-    slug: "corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
-    title: "Future Optima Conducts Corporate Training on OWASP Top 10 and Cybersecurity Awareness",
-    metaTitle: "Corporate OWASP Top 10 & Cybersecurity Awareness Training — Future Optima",
+    slug: "manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training",
+    title: "Future Optima Conducts OWASP Top 10 & Cybersecurity Awareness Training for Manappuram Insurance Brokers Ltd.",
+    metaTitle: "OWASP Top 10 & Cybersecurity Awareness Training for Manappuram Insurance Brokers — Future Optima",
     metaDescription:
-      "Future Optima IT Solutions conducted a corporate training session on OWASP Top 10 web application security and cybersecurity awareness on October 14, 2026.",
+      "Future Optima IT Solutions conducted corporate training on OWASP Top 10 web application security and cybersecurity awareness for Manappuram Insurance Brokers Ltd. on October 14, 2026.",
     excerpt:
-      "Future Optima IT Solutions conducted a corporate training session on October 14, 2026, covering the OWASP Top 10 web application security risks and cybersecurity awareness for the participating team.",
+      "Future Optima IT Solutions conducted a corporate training session for Manappuram Insurance Brokers Ltd. on October 14, 2026, covering the OWASP Top 10 web application security risks and cybersecurity awareness.",
     publishedAt: "2026-10-14",
     coverImage: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
-    coverAlt: "Future Optima trainer delivering OWASP Top 10 and cybersecurity awareness corporate training to a team in a boardroom",
+    coverAlt: "Future Optima trainer delivering OWASP Top 10 and cybersecurity awareness corporate training to the Manappuram Insurance Brokers Ltd. team",
     body: [
       {
         type: "p",
-        text: "Future Optima IT Solutions conducted a corporate training session on October 14, 2026, focused on two areas every organisation needs today: the OWASP Top 10 web application security risks, and cybersecurity awareness for the wider team.",
+        text: "Future Optima IT Solutions conducted a corporate training session for Manappuram Insurance Brokers Ltd. on October 14, 2026, focused on two areas every organisation needs today: the OWASP Top 10 web application security risks, and cybersecurity awareness for the wider team.",
       },
       { type: "h2", text: "OWASP Top 10 Training" },
       {
@@ -26,12 +26,12 @@ export const newsPosts: NewsPost[] = [
       { type: "h2", text: "Cybersecurity Awareness Training" },
       {
         type: "p",
-        text: "Alongside the technical content, the session covered cybersecurity awareness — recognising phishing and social engineering, using strong passwords and multi-factor authentication, handling data safely and reporting suspicious activity quickly — because most successful attacks begin with a human mistake.",
+        text: "Alongside the technical content, the session covered cybersecurity awareness for the Manappuram Insurance Brokers team — recognising phishing and social engineering, using strong passwords and multi-factor authentication, handling data safely and reporting suspicious activity quickly — because most successful attacks begin with a human mistake.",
       },
       { type: "h2", text: "Hands-On, Interactive Format" },
       {
         type: "p",
-        text: "Delivered in Future Optima's practical, interactive style, participants followed along on their laptops as the trainer explained each risk with real examples. The session draws on the same curriculum used in Future Optima's Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification.",
+        text: "Delivered in Future Optima's practical, interactive style, Manappuram Insurance Brokers participants followed along on their laptops as the trainer explained each risk with real examples. The session draws on the same curriculum used in Future Optima's Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification.",
       },
       {
         type: "p",
@@ -353,9 +353,9 @@ export function getNewsPostBySlug(slug: string) {
 }
 
 export const homepageNewsPopup = {
-  slug: "corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
+  slug: "manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training",
   label: "Latest News",
-  title: "Corporate training delivered today: OWASP Top 10 & Cybersecurity Awareness",
+  title: "Corporate training for Manappuram Insurance Brokers Ltd. on OWASP Top 10 & Cybersecurity Awareness",
   image: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
-  imageAlt: "Corporate OWASP Top 10 and cybersecurity awareness training by Future Optima",
+  imageAlt: "Future Optima corporate cybersecurity training for Manappuram Insurance Brokers Ltd.",
 };

@@ -150,10 +150,10 @@ export const corporateChecklist = {
 
 export const corporateProof: { heading: string; text: string; linkLabel: string; href: string }[] = [
   {
-    heading: "OWASP Top 10 & cybersecurity awareness training",
-    text: "In October 2026, Future Optima conducted a corporate training session on the OWASP Top 10 web application security risks and cybersecurity awareness — hands-on, with participants following along on their own laptops.",
-    linkLabel: "Read about the cybersecurity training",
-    href: "/news/corporate-training-owasp-top-10-cybersecurity-awareness-october-2026",
+    heading: "Cybersecurity training for Manappuram Insurance Brokers Ltd.",
+    text: "In October 2026, Future Optima conducted a corporate training session for Manappuram Insurance Brokers Ltd. on the OWASP Top 10 web application security risks and cybersecurity awareness — hands-on, with participants following along on their own laptops.",
+    linkLabel: "Read about the Manappuram Insurance Brokers training",
+    href: "/news/manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training",
   },
   {
     heading: "Corporate AI training delivered for KSEB",
@@ -182,7 +182,7 @@ export const corporateFaqs: FaqItem[] = [
   {
     question: "Do you offer cybersecurity corporate training in Kochi?",
     answer:
-      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff — phishing, social engineering, passwords and MFA, safe data handling and incident reporting. We delivered a combined OWASP Top 10 and awareness session in October 2026.",
+      "Yes. We provide OWASP Top 10 training for development and IT teams and cybersecurity awareness training for all staff — phishing, social engineering, passwords and MFA, safe data handling and incident reporting. We delivered a combined OWASP Top 10 and cybersecurity awareness session for Manappuram Insurance Brokers Ltd. in October 2026.",
   },
   {
     question: "Do you provide Microsoft Excel corporate training in Kochi?",
