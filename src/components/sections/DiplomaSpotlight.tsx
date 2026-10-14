@@ -44,11 +44,23 @@ export default function DiplomaSpotlight() {
               </li>
             ))}
           </ul>
-          <Button asChild size="lg" className="mt-8 bg-amber-500 text-navy-950 hover:bg-amber-400">
-            <Link href={`/courses/${course.slug}`}>
-              Explore the Advanced Diploma <ArrowRight className="ml-1 h-4 w-4" />
-            </Link>
-          </Button>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">
+              <Link href={`/courses/${course.slug}`}>
+                Explore the Advanced Diploma <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:text-white"
+            >
+              <Link href="/blog/advanced-diploma-ai-systems-engineering-complete-guide-2026">
+                Read the Complete Guide
+              </Link>
+            </Button>
+          </div>
         </Reveal>
       </div>
     </section>

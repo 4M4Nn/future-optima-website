@@ -3688,6 +3688,495 @@ export const blogPosts: BlogPost[] = [
       { question: "Can cybersecurity training be customised for our company?", answer: "Yes. Programs are scoped around your team's roles, technology and goals after a short discovery call." },
     ],
   },
+  {
+    slug: "artificial-intelligence-course-after-plus-two-kerala",
+    title: "Artificial Intelligence Course After Plus Two in Kerala: Is a 1-Year AI Diploma the Right Start?",
+    metaTitle: "AI Course After Plus Two (12th) in Kerala — 1-Year AI Diploma | Future Optima",
+    metaDescription:
+      "Want to study Artificial Intelligence after Plus Two in Kerala? Here's what a 1-year AI diploma covers, how it compares to a degree, who it suits and how Plus Two students in Kochi can join.",
+    keywords: [
+      "ai course after plus two kerala",
+      "artificial intelligence course after 12th kerala",
+      "ai diploma after plus two",
+      "1 year ai course kochi",
+      "ai course for 12th pass students",
+      "best course after plus two for ai career",
+      "diploma in artificial intelligence kerala",
+    ],
+    category: "AI Careers",
+    excerpt:
+      "You don't need to wait three years for a degree to start a career in AI. Here's what a 1-year AI diploma after Plus Two looks like and who it's right for.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "6 min read",
+    coverImage: "advanced-diploma-ai-systems-engineering",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "Yes — Plus Two students in Kerala can start an Artificial Intelligence career straight after 12th. Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development in Kochi is open to Plus Two students from any stream. It starts from programming basics and ends with real AI projects, agents and products in your portfolio.",
+      },
+      { type: "h2", text: "What you learn in a 1-year AI diploma" },
+      {
+        type: "list",
+        items: [
+          "Programming & systems foundations — Python, data structures, APIs, databases, Git and testing",
+          "Applied machine learning — statistics, building and evaluating models, real datasets, intro to deep learning",
+          "AI systems engineering — LLM integration, RAG, vector databases and AI system design",
+          "Agentic AI — agents that plan, use tools and complete multi-step tasks",
+          "Working with Claude — from prompting to Claude Code, the Claude API and building agents",
+          "ERP & CRM systems with AI — automating real business systems",
+          "Product development — building full AI products end to end",
+          "Quarterly capstone projects with industry mentor reviews and placement preparation",
+        ],
+      },
+      { type: "h2", text: "Which Plus Two stream can join?" },
+      {
+        type: "p",
+        text: "Any stream — Science (Computer Science, Biology or Maths), Commerce or Humanities. Maths helps for the machine learning module, but statistics is taught from the basics. What matters most is commitment: the diploma is a full year, so admission includes a short counseling and aptitude conversation.",
+      },
+      { type: "h2", text: "AI diploma or a degree after Plus Two?" },
+      {
+        type: "p",
+        text: "A degree is an academic qualification; the AI diploma is a job-focused year of hands-on AI engineering. Some students do the diploma straight after Plus Two, others do it alongside or after a degree. If you're choosing between them, think about your goal: if you want hands-on AI skills and a portfolio quickly, the diploma gets you there in 12 months.",
+      },
+      { type: "h2", text: "Careers after the AI diploma" },
+      {
+        type: "p",
+        text: "AI Developer, AI Systems Engineer, AI Product Engineer, Agentic AI Developer and ERP/CRM AI Integration Developer, with priority placement-track access to our 200+ hiring partners and pay-after-placement — up to ₹15,000 of the fee is due only after you're placed.",
+      },
+    ],
+    faqs: [
+      { question: "Can I do an Artificial Intelligence course after Plus Two?", answer: "Yes. Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development in Kochi is open to Plus Two students from any stream." },
+      { question: "Which is the best AI course after 12th in Kerala?", answer: "For a complete, job-focused start, a 1-year AI diploma that covers programming, machine learning, LLMs, agents and product building with real projects. Future Optima's Advanced Diploma is built exactly this way, with placement support." },
+      { question: "Do I need Computer Science in Plus Two to learn AI?", answer: "No. Students from Science, Commerce and Humanities can join; programming and statistics are taught from the basics." },
+    ],
+  },
+  {
+    slug: "how-to-become-an-ai-engineer-in-kerala-roadmap-2026",
+    title: "How to Become an AI Engineer in Kerala: A Step-by-Step Roadmap (2026)",
+    metaTitle: "How to Become an AI Engineer in Kerala — 2026 Roadmap | Future Optima Kochi",
+    metaDescription:
+      "A clear 2026 roadmap to becoming an AI engineer in Kerala — the skills in order (Python, ML, LLMs, RAG, agents, deployment), the projects to build, the roles to target and how long it takes.",
+    keywords: [
+      "how to become an ai engineer",
+      "ai engineer roadmap 2026",
+      "ai engineer course kerala",
+      "how to become ai engineer in kerala",
+      "ai engineer skills",
+      "ai engineering course kochi",
+      "ai career roadmap for beginners",
+    ],
+    category: "AI Careers",
+    excerpt:
+      "The skills, in the right order, that take you from zero to job-ready AI engineer — plus the projects that prove it and the roles to target in Kerala.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "7 min read",
+    coverImage: "ai-engineering-automation",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "To become an AI engineer, learn Python and software fundamentals first, then machine learning basics, then how to build with large language models — prompting, RAG and agents — and finally how to deploy, evaluate and maintain AI systems. Build a project at every stage. With focused, full-time study, a beginner can become job-ready in about a year.",
+      },
+      { type: "h2", text: "Step 1 — Programming foundations" },
+      {
+        type: "p",
+        text: "Python, data structures, APIs, databases, Git and testing. AI engineers are software engineers first; without this, nothing later sticks.",
+      },
+      { type: "h2", text: "Step 2 — Machine learning basics" },
+      {
+        type: "p",
+        text: "Statistics, how models learn, regression and classification, evaluation metrics and an introduction to deep learning. You don't need to become a researcher, but you need to understand what models can and can't do.",
+      },
+      { type: "h2", text: "Step 3 — Building with LLMs" },
+      {
+        type: "list",
+        items: [
+          "Calling LLM APIs and designing system prompts",
+          "Structured outputs that your code can rely on",
+          "Embeddings, vector databases and retrieval-augmented generation (RAG)",
+          "AI coding tools such as Claude Code to build faster",
+        ],
+      },
+      { type: "h2", text: "Step 4 — Agentic AI" },
+      {
+        type: "p",
+        text: "Agents that plan, call tools, check results and finish multi-step tasks — plus memory, multi-agent orchestration, guardrails and human approval steps. This is where much of the 2026 demand is.",
+      },
+      { type: "h2", text: "Step 5 — Deployment, evaluation and products" },
+      {
+        type: "list",
+        items: [
+          "Deploying AI features and monitoring them in production",
+          "Evaluating output quality, cost and latency",
+          "Connecting AI to real business systems such as ERP and CRM",
+          "Building complete products that users actually use",
+        ],
+      },
+      { type: "h2", text: "Projects that prove you're job-ready" },
+      {
+        type: "list",
+        items: [
+          "A RAG assistant that answers questions from a set of documents",
+          "An agent that completes a real multi-step task using tools",
+          "An AI automation connected to a business system",
+          "A deployed AI product with a clear user and purpose",
+        ],
+      },
+      { type: "h2", text: "Doing it in a structured year" },
+      {
+        type: "p",
+        text: "Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development in Kochi follows this exact roadmap — programming, machine learning, AI systems, agentic AI, Claude, ERP/CRM with AI and product development — with quarterly capstones, industry mentors and priority placement support. It's open to Plus Two students and graduates.",
+      },
+    ],
+    faqs: [
+      { question: "How long does it take to become an AI engineer?", answer: "With focused, full-time study and projects at every stage, a beginner can become job-ready in about a year. Future Optima's Advanced Diploma follows a 12-month roadmap." },
+      { question: "What skills does an AI engineer need in 2026?", answer: "Python and software fundamentals, machine learning basics, LLM integration, RAG, agentic AI, deployment and evaluation — plus the ability to connect AI to real business systems and build products." },
+      { question: "Can I become an AI engineer without a B.Tech?", answer: "Yes. Employers increasingly hire on skills and portfolio. Future Optima's AI diploma is open to Plus Two students and graduates from any background." },
+    ],
+  },
+  {
+    slug: "ai-diploma-vs-btech-bca-which-is-better",
+    title: "AI Diploma vs B.Tech vs BCA: Which Is Better for an AI Career in 2026?",
+    metaTitle: "AI Diploma vs B.Tech vs BCA for an AI Career — 2026 | Future Optima Kochi",
+    metaDescription:
+      "Comparing a 1-year AI diploma with B.Tech and BCA for an AI career in 2026 — duration, what you learn, hands-on depth, cost of time and how many students combine them. An honest guide for Kerala.",
+    keywords: [
+      "ai diploma vs btech",
+      "ai diploma vs bca",
+      "is ai diploma worth it",
+      "diploma in ai or degree",
+      "ai diploma course kerala",
+      "best ai course in kerala",
+    ],
+    category: "AI Careers",
+    excerpt:
+      "Should you do a degree, an AI diploma, or both? An honest comparison of what each gives you for an AI career in 2026.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "5 min read",
+    coverImage: "advanced-diploma-ai-systems-engineering",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "A B.Tech or BCA gives you a recognised academic qualification and broad computing fundamentals over three to four years. A 1-year AI diploma gives you deep, hands-on AI engineering skills and a portfolio of real AI projects in twelve months. They aren't really competitors: the strongest AI candidates in 2026 often have both — a degree for eligibility, and diploma-level AI skills for the actual job.",
+      },
+      { type: "h2", text: "At a glance" },
+      {
+        type: "list",
+        items: [
+          "Duration: B.Tech 4 years, BCA 3 years, AI diploma 1 year",
+          "Focus: degrees cover broad computer science; the AI diploma focuses entirely on building AI systems, agents and products",
+          "Hands-on depth in AI: usually limited in degree curricula; the core of the diploma",
+          "Portfolio: depends on your own effort in a degree; built in through quarterly capstones in the diploma",
+          "Placement: varies by college; the diploma includes a priority placement track",
+        ],
+      },
+      { type: "h2", text: "When the AI diploma makes most sense" },
+      {
+        type: "list",
+        items: [
+          "Straight after Plus Two, if you want job-ready AI skills quickly",
+          "Alongside a degree, so you graduate with AI projects your classmates don't have",
+          "After a degree, if you finished B.Tech, BCA or B.Sc without practical AI skills",
+          "After a year gap, to show employers a serious, recent year of work",
+        ],
+      },
+      { type: "h2", text: "When a degree matters" },
+      {
+        type: "p",
+        text: "Some employers, government roles and higher-study routes require a degree. If those are your goals, keep the degree in your plan — and add AI skills on top.",
+      },
+      { type: "h2", text: "What Future Optima's AI diploma covers" },
+      {
+        type: "p",
+        text: "Programming foundations, applied machine learning, AI systems engineering, agentic AI, working with Claude, ERP & CRM systems with AI and product development, with quarterly capstones, industry mentor reviews and pay-after-placement. It's open to Plus Two students and graduates in Kochi or live online.",
+      },
+    ],
+    faqs: [
+      { question: "Is an AI diploma better than B.Tech?", answer: "They serve different purposes. A B.Tech is a broad academic qualification; an AI diploma is a focused year of hands-on AI engineering. Many students combine them to get both eligibility and job-ready AI skills." },
+      { question: "Can I do an AI diploma after BCA or B.Tech?", answer: "Yes. Graduates who finished without practical AI skills often take Future Optima's 1-year Advanced Diploma to become job-ready AI developers." },
+      { question: "Can I do an AI diploma while studying for a degree?", answer: "Yes. Talk to Future Optima's counselors about a batch and mode — classroom in Kochi or live online — that fits your college schedule." },
+    ],
+  },
+  {
+    slug: "generative-ai-course-in-kochi-guide-2026",
+    title: "Generative AI Course in Kochi: What to Learn, Which Course to Choose (2026)",
+    metaTitle: "Generative AI Course in Kochi, Kerala — 2026 Guide | Future Optima",
+    metaDescription:
+      "Looking for a Generative AI course in Kochi? Learn what Generative AI is, the skills a good GenAI course should teach (LLMs, prompting, RAG, agents) and which Future Optima course fits your goal.",
+    keywords: [
+      "generative ai course in kochi",
+      "generative ai course kerala",
+      "gen ai course kochi",
+      "llm course kochi",
+      "generative ai training kochi",
+      "chatgpt claude course kerala",
+      "rag course kochi",
+    ],
+    category: "AI Explained",
+    excerpt:
+      "Generative AI courses range from a weekend of prompting tips to a full engineering program. Here's what to look for, and which one matches your goal.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "6 min read",
+    coverImage: "agentic-ai-development",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "A Generative AI course teaches you to use and build with AI models that create text, code, images and more — the technology behind tools like Claude and ChatGPT. In Kochi, Future Optima teaches Generative AI at three depths: AI Engineering & Automation (6 months), Agentic AI Development (4 months) and the full 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development.",
+      },
+      { type: "h2", text: "What is Generative AI?" },
+      {
+        type: "p",
+        text: "Generative AI refers to models — mostly large language models (LLMs) — that generate new content from patterns learned during training. Instead of only classifying or predicting, they write, summarise, translate, code and reason through problems in plain language.",
+      },
+      { type: "h2", text: "What a good Generative AI course should teach" },
+      {
+        type: "list",
+        items: [
+          "How LLMs work and where they fail",
+          "Prompting and system prompts for reliable, repeatable output",
+          "Calling LLM APIs from your own code and getting structured output",
+          "Embeddings, vector databases and retrieval-augmented generation (RAG)",
+          "AI agents and tool use for multi-step tasks",
+          "Evaluating quality, cost, latency and safety",
+          "Building and deploying a real Generative AI application",
+        ],
+      },
+      { type: "h2", text: "Which Generative AI course should you choose?" },
+      {
+        type: "list",
+        items: [
+          "Complete beginner who wants a full AI career: the 1-year Advanced Diploma, which starts from programming and covers GenAI, agents, Claude, ERP/CRM with AI and product development",
+          "Some programming background, wants to build GenAI systems and automation: AI Engineering & Automation (6 months)",
+          "Already knows basic Python, wants to specialise in agents: Agentic AI Development (4 months)",
+          "Want quick, practical GenAI skills for websites and freelancing: AI Website Development (2 weeks)",
+        ],
+      },
+      { type: "h2", text: "Generative AI careers" },
+      {
+        type: "p",
+        text: "AI Engineer, AI Developer, Agentic AI Developer, AI Automation Specialist and AI Product Engineer roles all build on Generative AI skills — and companies across Kerala are adding GenAI features to their existing products and business systems.",
+      },
+    ],
+    faqs: [
+      { question: "Which is the best Generative AI course in Kochi?", answer: "It depends on your starting point. For a complete career path, Future Optima's 1-year Advanced Diploma covers programming, LLMs, RAG, agents, Claude and product building. With some programming background, the 6-month AI Engineering & Automation course is a strong fit." },
+      { question: "What is taught in a Generative AI course?", answer: "How LLMs work, prompting, LLM APIs, structured output, embeddings and RAG, AI agents and tool use, evaluation, and building and deploying a real Generative AI application." },
+      { question: "Can a beginner learn Generative AI?", answer: "Yes. Beginners can start with the 1-year Advanced Diploma, which teaches programming first, or the 2-week AI Website Development course for a quick practical start." },
+    ],
+  },
+  {
+    slug: "ai-vs-machine-learning-vs-generative-ai-vs-agentic-ai",
+    title: "AI vs Machine Learning vs Deep Learning vs Generative AI vs Agentic AI: The Differences Explained",
+    metaTitle: "AI vs Machine Learning vs Generative AI vs Agentic AI — Explained | Future Optima",
+    metaDescription:
+      "What's the difference between AI, machine learning, deep learning, generative AI and agentic AI? Simple definitions, real examples and which skills lead to which careers.",
+    keywords: [
+      "ai vs machine learning",
+      "difference between ai and machine learning",
+      "generative ai vs agentic ai",
+      "what is agentic ai",
+      "what is generative ai",
+      "deep learning vs machine learning",
+      "types of ai explained",
+    ],
+    category: "AI Explained",
+    excerpt:
+      "Five terms that get used interchangeably — and shouldn't be. Here's what each one actually means, with examples, in plain English.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "5 min read",
+    coverImage: "data-science-with-ai",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "Artificial intelligence (AI) is the broad goal of making machines perform tasks that need human-like intelligence. Machine learning is a way of achieving AI by learning from data. Deep learning is machine learning with large neural networks. Generative AI uses deep learning to create new content. Agentic AI uses generative models to plan and take actions toward a goal. Each one sits inside the one before it.",
+      },
+      { type: "h2", text: "Artificial intelligence (AI)" },
+      {
+        type: "p",
+        text: "The umbrella term for any system that performs tasks such as understanding language, recognising images or making decisions. Example: a spam filter, a chess engine, a voice assistant.",
+      },
+      { type: "h2", text: "Machine learning (ML)" },
+      {
+        type: "p",
+        text: "Systems that learn patterns from data instead of following hand-written rules. Example: predicting which customers are likely to cancel, or estimating house prices from past sales.",
+      },
+      { type: "h2", text: "Deep learning" },
+      {
+        type: "p",
+        text: "Machine learning using neural networks with many layers, which excel at images, audio and language. Example: face recognition, speech-to-text.",
+      },
+      { type: "h2", text: "Generative AI" },
+      {
+        type: "p",
+        text: "Deep learning models — especially large language models — that generate new text, code, images or audio. Example: Claude drafting an email, writing code or summarising a report.",
+      },
+      { type: "h2", text: "Agentic AI" },
+      {
+        type: "p",
+        text: "Systems built on generative models that don't just respond, but plan steps, use tools, check results and keep going until a task is done. Example: an agent that reads a customer email, checks stock in an ERP system and drafts a reply for human approval.",
+      },
+      { type: "h2", text: "Which skills lead to which careers?" },
+      {
+        type: "list",
+        items: [
+          "Machine learning and deep learning → Data Scientist, ML Engineer (Data Science with AI)",
+          "Generative AI → AI Engineer, AI Developer (AI Engineering & Automation)",
+          "Agentic AI → Agentic AI Developer, AI Automation Specialist (Agentic AI Development)",
+          "All of them together, plus product building → AI Systems Engineer, AI Product Engineer (1-year Advanced Diploma)",
+        ],
+      },
+    ],
+    faqs: [
+      { question: "What is the difference between AI and machine learning?", answer: "AI is the broad goal of machines performing intelligent tasks; machine learning is one way to achieve it, by learning patterns from data rather than following hand-written rules." },
+      { question: "What is the difference between generative AI and agentic AI?", answer: "Generative AI creates content such as text or code in response to a prompt. Agentic AI uses generative models to plan steps, use tools and take actions until a goal is completed." },
+      { question: "Which AI field should I learn first?", answer: "Start with programming and machine learning basics, then generative AI, then agentic AI. Future Optima's 1-year Advanced Diploma follows that order." },
+    ],
+  },
+  {
+    slug: "what-is-an-ai-product-engineer-ai-product-development",
+    title: "What Is an AI Product Engineer? AI Product Development Explained (2026)",
+    metaTitle: "What Is an AI Product Engineer? AI Product Development Explained | Future Optima",
+    metaDescription:
+      "What an AI product engineer does, how AI product development works from idea to launch, the skills it needs and how to train for the role in Kochi, Kerala.",
+    keywords: [
+      "ai product engineer",
+      "what is ai product development",
+      "ai product development course",
+      "ai product engineer skills",
+      "build ai products course kochi",
+      "ai startup skills kerala",
+    ],
+    category: "AI Careers",
+    excerpt:
+      "Plenty of people can call an AI model. Far fewer can turn it into a product people use. That's the AI product engineer's job — here's what it involves.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "5 min read",
+    coverImage: "ai-engineering-automation",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "An AI product engineer builds complete products with AI at their core — deciding what the AI should do for the user, building the application around it, and making it reliable, affordable and easy to use. The role combines full-stack development, AI systems engineering and product thinking.",
+      },
+      { type: "h2", text: "How AI product development works" },
+      {
+        type: "list",
+        items: [
+          "Discovery — find a real user problem where AI genuinely helps",
+          "Scoping — decide what the AI does, what humans approve and what success looks like",
+          "Prototype — build a working version quickly to test with users",
+          "Engineering — reliable LLM integration, retrieval, agents, data and the full-stack app around them",
+          "Evaluation — measure quality, cost, latency and failure cases",
+          "Launch and iterate — ship in sprints and improve from real usage",
+        ],
+      },
+      { type: "h2", text: "Skills an AI product engineer needs" },
+      {
+        type: "list",
+        items: [
+          "Full-stack development — backend, frontend and databases",
+          "LLM integration, RAG and agentic AI",
+          "UX for AI features — setting expectations, showing sources, handling errors",
+          "Evaluation and cost awareness",
+          "Understanding business systems such as ERP and CRM",
+          "Communicating with users, clients and teams",
+        ],
+      },
+      { type: "h2", text: "Why the role is in demand" },
+      {
+        type: "p",
+        text: "Companies have moved past experimenting with chatbots and now want AI features that real customers and staff rely on. That requires people who can take an AI capability all the way to a usable, maintained product — which is exactly what the AI product engineer does.",
+      },
+      { type: "h2", text: "Training for the role in Kochi" },
+      {
+        type: "p",
+        text: "Product development is one of the three pillars of Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development, alongside AI systems engineering and agentic AI. Students build products in sprints through quarterly capstones reviewed by industry mentors.",
+      },
+    ],
+    faqs: [
+      { question: "What does an AI product engineer do?", answer: "They build complete products with AI at the core — choosing what the AI should do for users, building the application around it, and making it reliable, affordable and easy to use." },
+      { question: "What skills are needed for AI product development?", answer: "Full-stack development, LLM integration, RAG and agents, UX for AI features, evaluation and cost awareness, understanding business systems and clear communication." },
+      { question: "Where can I learn AI product development in Kerala?", answer: "Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development in Kochi teaches AI product development through quarterly capstone projects." },
+    ],
+  },
+  {
+    slug: "ai-jobs-in-kerala-2026-roles-skills",
+    title: "AI Jobs in Kerala 2026: The Roles Companies Are Hiring For and the Skills They Want",
+    metaTitle: "AI Jobs in Kerala & Kochi 2026 — Roles and Skills in Demand | Future Optima",
+    metaDescription:
+      "A guide to AI jobs in Kerala and Kochi in 2026 — AI Developer, AI Engineer, Agentic AI Developer, Data Scientist, AI Product Engineer and more — what each does, the skills required and how to get hired.",
+    keywords: [
+      "ai jobs in kerala",
+      "ai jobs in kochi",
+      "ai jobs for freshers kerala",
+      "ai developer jobs kochi",
+      "ai career in kerala",
+      "artificial intelligence jobs kerala 2026",
+    ],
+    category: "AI Careers",
+    excerpt:
+      "AI hiring in Kerala has spread well beyond large tech companies. Here are the roles that keep coming up, what they involve and the skills that get you hired.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-14",
+    readingTime: "6 min read",
+    coverImage: "agentic-ai-development",
+    relatedCourseSlug: "advanced-diploma-ai-systems-engineering",
+    body: [
+      {
+        type: "p",
+        text: "AI jobs in Kerala in 2026 are concentrated in a handful of roles: AI Developer, AI Engineer, Agentic AI Developer, Data Scientist, AI Automation Specialist and AI Product Engineer. IT services firms, product startups and increasingly traditional businesses in Kochi and across the state are hiring for them, and most want practical project experience more than a specific degree.",
+      },
+      { type: "h2", text: "The AI roles in demand" },
+      {
+        type: "list",
+        items: [
+          "AI Developer — builds applications with AI features using LLM APIs and AI coding tools",
+          "AI Engineer — designs and deploys AI systems, including RAG and automation",
+          "Agentic AI Developer — builds agents that use tools and complete multi-step tasks",
+          "Data Scientist / ML Engineer — builds predictive models from business data",
+          "AI Automation Specialist — automates business workflows with AI",
+          "AI Product Engineer — turns AI capabilities into complete, usable products",
+          "ERP/CRM AI Integration Developer — adds AI to the business systems companies already run",
+        ],
+      },
+      { type: "h2", text: "Skills employers ask for" },
+      {
+        type: "list",
+        items: [
+          "Python and solid software fundamentals",
+          "LLM integration, prompting and structured output",
+          "RAG, vector databases and agents",
+          "AI coding tools such as Claude Code",
+          "Deployment, evaluation and cost awareness",
+          "A portfolio of real, deployed projects",
+        ],
+      },
+      { type: "h2", text: "How freshers get hired into AI roles" },
+      {
+        type: "p",
+        text: "Freshers who get AI jobs usually have two or three real projects they can demonstrate and explain — a RAG assistant, an agent, an AI feature inside a full-stack app — plus solid fundamentals that hold up in technical interviews. Certificates alone rarely do it.",
+      },
+      { type: "h2", text: "Getting job-ready" },
+      {
+        type: "p",
+        text: "Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development prepares students for all of these roles, with quarterly capstones, industry mentors, priority placement access to 200+ hiring partners and pay-after-placement. Shorter tracks — AI Engineering & Automation, Agentic AI Development and Data Science with AI — target specific roles.",
+      },
+    ],
+    faqs: [
+      { question: "Are there AI jobs in Kerala for freshers?", answer: "Yes. IT services firms, startups and traditional businesses in Kochi and across Kerala hire freshers into AI Developer, AI Engineer and related roles, especially those with real, demonstrable AI projects." },
+      { question: "Which AI job is best for a fresher?", answer: "AI Developer and AI Automation roles are common entry points, because they build directly on programming and LLM integration skills a fresher can demonstrate through projects." },
+      { question: "What qualification is needed for AI jobs in Kerala?", answer: "Employers increasingly hire on skills and portfolio. Strong programming fundamentals, LLM and agent projects and interview readiness matter more than a specific degree for many roles." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string) {

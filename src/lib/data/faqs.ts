@@ -276,4 +276,34 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "The OWASP Top 10 is a regularly updated list of the most critical web application security risks — such as broken access control, injection, security misconfiguration and authentication failures — published by the non-profit OWASP foundation. It is taught in depth in our Cybersecurity — Red Team & SOC Analyst course and Web Bug Hunter certification.",
   },
+  {
+    question: "Which is the best Artificial Intelligence course in Kochi?",
+    answer:
+      "For a complete AI career path, Future Optima's 1-year Advanced Diploma in AI Systems Engineering, Agentic AI & Product Development covers programming, machine learning, Generative AI, RAG, agentic AI, Claude, ERP & CRM with AI and product development, with priority placement support. Shorter options are AI Engineering & Automation (6 months) and Agentic AI Development (4 months).",
+  },
+  {
+    question: "Can I learn AI after Plus Two?",
+    answer:
+      "Yes. Future Optima's 1-year Advanced Diploma is open to Plus Two students from any stream — Science, Commerce or Humanities. Programming and statistics are taught from the basics.",
+  },
+  {
+    question: "Does Future Optima offer a Generative AI course?",
+    answer:
+      "Yes. Generative AI is taught at three depths: the 1-year Advanced Diploma (complete path from programming to AI products), AI Engineering & Automation (6 months, LLMs, RAG and automation) and Agentic AI Development (4 months, AI agents).",
+  },
+  {
+    question: "How long does it take to become an AI engineer?",
+    answer:
+      "With focused, full-time study and real projects at each stage, a beginner can become job-ready in about a year. Our Advanced Diploma follows a 12-month roadmap from programming foundations to agentic AI and AI product development.",
+  },
+  {
+    question: "What is the difference between Generative AI and Agentic AI?",
+    answer:
+      "Generative AI creates content such as text or code in response to a prompt. Agentic AI uses generative models to plan steps, use tools and take actions until a task is completed. Both are covered in our Advanced Diploma.",
+  },
+  {
+    question: "Are there AI jobs in Kerala for freshers?",
+    answer:
+      "Yes. IT services firms, startups and traditional businesses across Kerala hire freshers into AI Developer, AI Engineer and AI Automation roles — especially those with real projects such as a RAG assistant, an AI agent or an AI feature in a full-stack app.",
+  },
 ];
