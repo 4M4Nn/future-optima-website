@@ -346,6 +346,45 @@ export const newsPosts: NewsPost[] = [
       },
     ],
   },
+  {
+    slug: "best-performer-award-students-october-2026",
+    title: "Future Optima Celebrates Best Performer Students — October 2026 Recognition Ceremony",
+    metaTitle: "Best Performer Student Awards October 2026 | Future Optima IT Solutions",
+    metaDescription: "Future Optima IT Solutions recognised its best performing students at its October 2026 awards ceremony, celebrating academic excellence and outstanding project work across IT and AI programmes.",
+    excerpt: "Future Optima IT Solutions held its Best Performer Student Recognition Ceremony in October 2026, honouring students who demonstrated outstanding performance in academics, projects and placement readiness across IT and AI programmes.",
+    publishedAt: "2026-10-25",
+    coverImage: "/images/news/best-performer-award-students-october-2026.jpeg",
+    coverAlt: "Future Optima IT Solutions Best Performer Student Recognition Ceremony — October 2026",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions held its Best Performer Student Recognition Ceremony in October 2026, celebrating students who stood out across IT and AI programmes for their academic results, project quality and interview readiness.",
+      },
+      { type: "h2", text: "What the Recognition Covers" },
+      {
+        type: "p",
+        text: "The best performer recognition is awarded to students who demonstrate consistent excellence across all three dimensions we track: coursework and assessments, portfolio project quality and placement preparation effort. It is not based on a single test — it reflects sustained performance over the programme.",
+      },
+      {
+        type: "list",
+        items: [
+          "Outstanding academic performance in coursework and assessments",
+          "High-quality capstone and portfolio projects reviewed by industry mentors",
+          "Strong mock interview performance and placement readiness",
+          "Consistency and commitment throughout the programme",
+        ],
+      },
+      { type: "h2", text: "Why We Recognise Student Performance" },
+      {
+        type: "p",
+        text: "Placement success is a team outcome — the students who put in the work deserve to be recognised for it. Acknowledging best performers is also a signal to hiring partners: when they see our graduates, they know our internal bar is real.",
+      },
+      {
+        type: "p",
+        text: "Future Optima congratulates all award recipients on their achievement and looks forward to placing each of them with our 200+ hiring partners across Kerala and beyond.",
+      },
+    ],
+  },
 ];
 
 export function getNewsPostBySlug(slug: string) {
@@ -353,9 +392,9 @@ export function getNewsPostBySlug(slug: string) {
 }
 
 export const homepageNewsPopup = {
-  slug: "manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training",
+  slug: "best-performer-award-students-october-2026",
   label: "Latest News",
-  title: "Corporate training for Manappuram Insurance Brokers Ltd. on OWASP Top 10 & Cybersecurity Awareness",
-  image: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
-  imageAlt: "Future Optima corporate cybersecurity training for Manappuram Insurance Brokers Ltd.",
+  title: "Future Optima recognises Best Performer Students — October 2026 Award Ceremony",
+  image: "/images/news/best-performer-award-students-october-2026.jpeg",
+  imageAlt: "Future Optima IT Solutions Best Performer Student Recognition Ceremony October 2026",
 };

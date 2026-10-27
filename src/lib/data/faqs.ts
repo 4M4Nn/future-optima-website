@@ -306,4 +306,29 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes. IT services firms, startups and traditional businesses across Kerala hire freshers into AI Developer, AI Engineer and AI Automation roles — especially those with real projects such as a RAG assistant, an AI agent or an AI feature in a full-stack app.",
   },
+  {
+    question: "How does placement support work at Future Optima IT Solutions?",
+    answer:
+      "Our placement support covers resume and LinkedIn building, mock technical interviews, portfolio project review, and direct referrals to 200+ hiring partners across Kochi, Kerala and remote-first companies. Pay-after-placement means you pay the course fee only after you are placed, aligning our incentive with your outcome. A 90%+ placement success rate comes from students who complete their portfolio project and clear our mock interview programme.",
+  },
+  {
+    question: "Can I join a Full Stack or web development course without any coding experience?",
+    answer:
+      "Yes. Our Python Full Stack with AI (6 months), MERN Stack with Agentic AI (7 months) and AI Website Development (2 weeks) courses all start from the very basics — no prior coding experience is required. Both Plus Two and graduate students are welcome.",
+  },
+  {
+    question: "What is the difference between Full Stack Python (Django) and MERN Stack development?",
+    answer:
+      "Python Full Stack (Django + React + PostgreSQL) uses Python on the backend and is well suited for AI-heavy products, data-adjacent roles and enterprise software. MERN Stack (MongoDB + Express + React + Node.js) uses JavaScript on both sides, making it popular for startups and SaaS products. Both our courses integrate AI features and both land strong jobs in Kerala — the right choice depends on which companies you want to work at and which language you enjoy more.",
+  },
+  {
+    question: "Is cybersecurity a good career in Kerala in 2026?",
+    answer:
+      "Yes. Financial services, IT firms, healthcare organisations and government departments in Kerala are actively hiring SOC Analysts, ethical hackers and information security professionals. Our Cybersecurity — Red Team & SOC Analyst course (5 months) prepares graduates for these roles through hands-on labs, Kali Linux, Burp Suite and SIEM-based blue team exercises.",
+  },
+  {
+    question: "Which IT course is best for a commerce or humanities background student?",
+    answer:
+      "Data Analytics and AI-Powered Data Analytics are typically the strongest fit — Excel, SQL and Power BI build on the business thinking commerce students already have. AI Website Development (2 weeks) is also a practical quick-start course for any background. All our courses are open to Plus Two and degree students from any stream.",
+  },
 ];
