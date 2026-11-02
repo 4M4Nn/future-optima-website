@@ -331,4 +331,29 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Data Analytics and AI-Powered Data Analytics are typically the strongest fit — Excel, SQL and Power BI build on the business thinking commerce students already have. AI Website Development (2 weeks) is also a practical quick-start course for any background. All our courses are open to Plus Two and degree students from any stream.",
   },
+  {
+    question: "Does Future Optima teach machine learning in Kochi?",
+    answer:
+      "Yes. Machine learning is a dedicated module in our Data Science with AI course (6 months), covering supervised and unsupervised learning, model evaluation, decision trees, clustering and practical model-building with Python and scikit-learn. The course is open to Plus Two and all degree backgrounds; maths is taught from the level you need.",
+  },
+  {
+    question: "Which IT course is best for an arts or BA graduate in Kerala?",
+    answer:
+      "Our AI Website Development course (2 weeks) is the fastest entry point for any background — no coding experience needed. For a full career switch, Python Full Stack with AI (6 months) or the Advanced Diploma in AI Systems Engineering (1 year) both start from programming basics. Commerce and BA graduates with business skills often find AI-Powered Data Analytics (6 months) the most natural fit.",
+  },
+  {
+    question: "What does an AI engineer do at work every day?",
+    answer:
+      "An AI engineer integrates LLM APIs (such as Claude or GPT-4) into products, builds retrieval-augmented generation (RAG) pipelines, automates business workflows with AI, and monitors AI features in production. The role is closer to software engineering with AI tools than to academic research — most AI engineers at Indian IT companies work on building and deploying AI features, not training foundation models.",
+  },
+  {
+    question: "What is the Web Bug Hunter course and how long does it take?",
+    answer:
+      "Future Optima&apos;s Web Bug Hunter course is a focused 1-month programme covering the OWASP Top 10 in depth, manual bug hunting techniques with Burp Suite, bug bounty platform mechanics, and professional report writing. It leads to Bug Bounty Hunter, Web Security Tester and Junior AppSec Analyst roles, and is available as classroom in Kochi and live online. Open to Plus Two students and graduates.",
+  },
+  {
+    question: "Is React the most in-demand frontend skill for web developers in Kochi?",
+    answer:
+      "Yes. React is the most widely hired-for JavaScript frontend framework in Kochi and Kerala in 2026. It is the frontend layer in both our MERN Stack with Agentic AI (7 months) and Python Full Stack with AI (6 months) courses. Fresher React developers in Kochi typically start at ₹2.5–4.5 LPA, with strong salary growth for those with real project portfolios.",
+  },
 ];
