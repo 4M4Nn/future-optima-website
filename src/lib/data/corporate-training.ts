@@ -35,6 +35,8 @@ export const corporateHero = {
   highlight: "AI, Generative AI, Cybersecurity, IT & Excel",
   intro:
     "Future Optima IT Solutions is a corporate training company in Kochi delivering hands-on AI, Generative AI, cybersecurity, IT and Microsoft Excel training for teams across Kerala — on-site at your office or at our Chembumukku campus.",
+  clientCallout:
+    "Trusted by Manappuram Insurance Brokers Ltd. and KSEB for corporate training in Kerala.",
 };
 
 export const corporateAnswer = {

@@ -43,6 +43,10 @@ export default function CoursesPage() {
         </div>
       </section>
 
+      <div className="border-b border-green-700 bg-green-700 py-3 text-center text-sm font-semibold text-white">
+        🎉 Limited-time offer — Flat ₹5,000 off on all courses below ₹75,000 &nbsp;·&nbsp; ₹10,000 off on the Advanced Diploma. Enrol now.
+      </div>
+
       {categories.map((category) => {
         const list = courses.filter((c) => c.category === category);
         if (!list.length) return null;

@@ -4,6 +4,7 @@ import { ArrowRight, Clock, Code2, ShieldCheck, ShieldQuestion, Sparkles } from 
 import { Badge } from "@/components/ui/badge";
 import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 import { courseImages } from "@/lib/data/images";
+import { getCourseOffer } from "@/lib/data/offers";
 import { cn } from "@/lib/utils";
 import type { Course, CourseCategory } from "@/types";
 
@@ -48,6 +49,11 @@ export default function CourseCard({ course, delayIndex = 0 }: { course: Course;
       </Link>
 
       <div className="flex flex-1 flex-col p-5">
+        {(() => { const o = getCourseOffer(course.slug); return (
+          <div className="mb-3 -mx-5 -mt-5 flex items-center justify-center gap-1.5 bg-green-600 py-1.5 text-xs font-bold text-white">
+            🎉 {o.badgeText} This Month
+          </div>
+        ); })()}
         <p className="line-clamp-2 text-sm text-muted-foreground">{course.tagline}</p>
 
         <div className="mt-4 flex flex-wrap items-center gap-2">

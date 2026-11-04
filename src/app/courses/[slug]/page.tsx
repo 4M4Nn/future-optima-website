@@ -27,6 +27,7 @@ import { courses, getCourseBySlug } from "@/lib/data/courses";
 import { courseImages } from "@/lib/data/images";
 import { blogPosts } from "@/lib/data/blog";
 import { siteConfig } from "@/lib/data/site";
+import { getCourseOffer } from "@/lib/data/offers";
 
 export function generateStaticParams() {
   return courses.map((course) => ({ slug: course.slug }));
@@ -164,6 +165,11 @@ export default async function CoursePage({
               {course.name}
             </h1>
             <p className="mt-4 max-w-2xl text-white/70 sm:text-lg">{course.tagline}</p>
+            {(() => { const o = getCourseOffer(course.slug); return (
+              <div className="mt-5 inline-flex items-center gap-2 rounded-full border border-green-500/40 bg-green-500/15 px-5 py-2 text-sm font-bold text-green-300">
+                🎉 {o.label} — {o.detail}
+              </div>
+            ); })()}
 
             <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm">
               <span className="flex items-center gap-2">

@@ -115,6 +115,11 @@ export default function CorporateTrainingPage() {
               </span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-white/70">{corporateHero.intro}</p>
+            {corporateHero.clientCallout ? (
+              <p className="mx-auto mt-3 max-w-xl text-sm font-semibold text-amber-400">
+                {corporateHero.clientCallout}
+              </p>
+            ) : null}
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Button asChild size="lg" className="bg-amber-500 text-navy-950 hover:bg-amber-400">
                 <a

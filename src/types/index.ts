@@ -43,6 +43,8 @@ export interface Course {
   fee?: { amount: number; currency: string };
 }
 
+
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -122,6 +124,10 @@ export interface NewsPost {
   coverImage: string;
   coverAlt: string;
   body: BlogBlock[];
+  /** Pin this post at the top of the news listing with a highlight badge */
+  featured?: boolean;
+  /** Label shown on the featured badge, e.g. "Corporate Training" */
+  featuredLabel?: string;
 }
 
 export interface GoogleReview {

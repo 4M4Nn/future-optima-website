@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { CalendarDays } from "lucide-react";
+import { CalendarDays, Star } from "lucide-react";
 import Reveal from "@/components/motion/Reveal";
 import { newsPosts } from "@/lib/data/news";
 
@@ -46,14 +46,22 @@ export default function NewsPage() {
                     />
                   </div>
                   <div className="flex flex-1 flex-col p-6">
-                    <span className="flex items-center gap-1.5 text-xs font-medium text-amber-600">
-                      <CalendarDays className="h-3.5 w-3.5" />
-                      {new Date(post.publishedAt).toLocaleDateString("en-IN", {
-                        year: "numeric",
-                        month: "long",
-                        day: "numeric",
-                      })}
-                    </span>
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="flex items-center gap-1.5 text-xs font-medium text-amber-600">
+                        <CalendarDays className="h-3.5 w-3.5" />
+                        {new Date(post.publishedAt).toLocaleDateString("en-IN", {
+                          year: "numeric",
+                          month: "long",
+                          day: "numeric",
+                        })}
+                      </span>
+                      {post.featured && post.featuredLabel ? (
+                        <span className="flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-bold text-amber-700">
+                          <Star className="h-3 w-3 fill-amber-500 text-amber-500" />
+                          {post.featuredLabel}
+                        </span>
+                      ) : null}
+                    </div>
                     <h2 className="mt-3 font-heading text-lg font-bold text-navy-900">
                       {post.title}
                     </h2>

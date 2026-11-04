@@ -11,6 +11,8 @@ export const newsPosts: NewsPost[] = [
     excerpt:
       "Future Optima IT Solutions conducted a corporate training session for Manappuram Insurance Brokers Ltd. on October 14, 2026, covering the OWASP Top 10 web application security risks and cybersecurity awareness.",
     publishedAt: "2026-10-14",
+    featured: true,
+    featuredLabel: "Corporate Training",
     coverImage: "/images/news/corporate-owasp-cybersecurity-awareness-training.jpeg",
     coverAlt: "Future Optima trainer delivering OWASP Top 10 and cybersecurity awareness corporate training to the Manappuram Insurance Brokers Ltd. team",
     body: [
