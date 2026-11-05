@@ -356,4 +356,29 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes. React is the most widely hired-for JavaScript frontend framework in Kochi and Kerala in 2026. It is the frontend layer in both our MERN Stack with Agentic AI (7 months) and Python Full Stack with AI (6 months) courses. Fresher React developers in Kochi typically start at ₹2.5–4.5 LPA, with strong salary growth for those with real project portfolios.",
   },
+  {
+    question: "Can international students join IT courses at Future Optima IT Solutions in Kochi?",
+    answer:
+      "Yes. Future Optima welcomes international students at our Chembumukku, Kochi campus. All programmes are delivered in English. Students from Sri Lanka, Bangladesh, Nepal, the Maldives, Gulf countries and other nations can apply. The admission requirement is Plus Two or equivalent — no prior programming background is needed for most programmes. Email info@futureoptimaitsolutions.com to begin the admission process.",
+  },
+  {
+    question: "Which IT course in India is best for international students in 2026?",
+    answer:
+      "The Advanced Diploma in AI Systems Engineering at Future Optima Kochi is the strongest choice for international students who want one comprehensive programme: 1 year covering full-stack development, machine learning, generative AI, agentic AI, ERP/CRM and cloud deployment. For shorter tracks, Python Full-Stack with AI (6 months) and Cybersecurity with Red Team and SOC Analyst (5 months) are the most globally employable options.",
+  },
+  {
+    question: "Is Kochi, Kerala a good city for international students studying IT?",
+    answer:
+      "Yes. Kochi is one of India's safest and most cosmopolitan cities, with English widely spoken at all levels. It has a large NRI community, direct flights from Gulf countries and Sri Lanka via Cochin International Airport, and a growing IT ecosystem at Infopark and SmartCity hosting 400+ companies. Living costs are significantly lower than Bengaluru, Pune or Mumbai while training quality is comparable.",
+  },
+  {
+    question: "Do NRI students from Gulf countries come to Kochi for IT training?",
+    answer:
+      "Yes. Gulf-based NRI students — particularly from UAE, Qatar, Bahrain and Oman — regularly return to Kerala for 4-12 month IT and AI training programmes at Future Optima. The cost advantage over Gulf training options is significant, Kochi is familiar and comfortable for Kerala-origin students, and the advanced AI and cybersecurity programmes on offer are not available at the same quality in most Gulf training institutes.",
+  },
+  {
+    question: "What is OWASP Top 10 and why does every company need training on it?",
+    answer:
+      "The OWASP Top 10 is the most widely recognised list of critical web application security risks — including broken access control, injection attacks, authentication failures and misconfigured systems. Every company that runs a website, customer portal or internal web tool is exposed to at least some of these risks. Training your IT team and developers on the OWASP Top 10 is the fastest way to reduce the most exploited vulnerabilities in your applications. Future Optima delivers OWASP Top 10 corporate training on-site anywhere in Kerala.",
+  },
 ];
