@@ -99,9 +99,9 @@ export const usps: { title: string; description: string }[] = [
       "Every course is built around real projects and a portfolio, not just theory and slides.",
   },
   {
-    title: "Kerala's Industry-Mentored AI Lab",
+    title: "Kerala's AI Lab — Build Real AI Products",
     description:
-      "Hands-on lab access for agentic AI, automation and data projects, guided by working industry professionals.",
+      "Our AI Lab is where students build production-grade AI agents, automate real business workflows, and ship custom AI-powered ERP, CRM and automation systems — guided by working industry professionals.",
   },
   {
     title: "Soft Skills & Interview Preparation",

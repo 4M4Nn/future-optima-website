@@ -381,4 +381,24 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "The OWASP Top 10 is the most widely recognised list of critical web application security risks — including broken access control, injection attacks, authentication failures and misconfigured systems. Every company that runs a website, customer portal or internal web tool is exposed to at least some of these risks. Training your IT team and developers on the OWASP Top 10 is the fastest way to reduce the most exploited vulnerabilities in your applications. Future Optima delivers OWASP Top 10 corporate training on-site anywhere in Kerala.",
   },
+  {
+    question: "Is software testing a good career in India in 2026?",
+    answer:
+      "Manual software testing is under sustained pressure from AI tools that automate test case generation, regression testing and bug detection. Entry-level manual QA roles have declined significantly at Indian IT services companies. The roles holding their value are security testing, test architecture and AI/ML system validation. For long-term career security in 2026, AI engineering and cybersecurity are substantially stronger paths than manual testing.",
+  },
+  {
+    question: "What should software testers learn to stay relevant in the AI era?",
+    answer:
+      "The strongest move for a tester in 2026 is to transition into AI engineering — specifically LLM integration, agentic AI development, and business process automation. These roles pay more, are growing faster, and directly leverage the system-thinking and debugging skills testers already have. Future Optima's AI Engineering and Automation course (6 months) is specifically structured for this transition. Testers interested in security should consider the Cybersecurity with Red Team and SOC Analyst course.",
+  },
+  {
+    question: "What does Future Optima's AI Lab build?",
+    answer:
+      "Future Optima's AI Lab in Chembumukku, Kochi is where students build production AI agents, AI-powered ERP and CRM systems, real business automation workflows, RAG pipelines, and real-time AI solutions. It is a production environment — not a classroom exercise space. Everything built in the lab is deployed live and goes into the student's portfolio as a working, reviewable product that employers can see and test.",
+  },
+  {
+    question: "What is agentic AI and why is it important for a career in India in 2026?",
+    answer:
+      "Agentic AI refers to AI systems that can reason about a goal, plan the steps to achieve it, use tools and APIs, and execute tasks autonomously — going far beyond a chatbot that only answers questions. AI agents are replacing entire workflows across operations, customer service, finance and development. Building agentic AI systems is the most in-demand specialisation in AI engineering in India right now, and Future Optima's Agentic AI Development course (4 months) teaches exactly this.",
+  },
 ];
