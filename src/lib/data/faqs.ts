@@ -401,4 +401,29 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Agentic AI refers to AI systems that can reason about a goal, plan the steps to achieve it, use tools and APIs, and execute tasks autonomously — going far beyond a chatbot that only answers questions. AI agents are replacing entire workflows across operations, customer service, finance and development. Building agentic AI systems is the most in-demand specialisation in AI engineering in India right now, and Future Optima's Agentic AI Development course (4 months) teaches exactly this.",
   },
+  {
+    question: "What is the best AI course to do after 12th in Kerala?",
+    answer:
+      "The Advanced Diploma in AI Systems Engineering at Future Optima Kochi is the most comprehensive: 1 year covering full-stack development, machine learning, generative AI, agentic AI and production deployment. It is open to Plus Two students from any stream with no prior coding background. Shorter options are AI Engineering and Automation (6 months) and Python Full-Stack with AI (6 months). All are open to 12th pass students.",
+  },
+  {
+    question: "How long does it take to become an AI engineer in India from scratch?",
+    answer:
+      "With a focused full-time training programme of 6-12 months and 2-3 real deployed AI projects, most students are ready for entry-level AI engineering roles. The key is not time alone — it is building production systems (deployed agents, RAG pipelines, automation tools) that employers can review. Future Optima's AI Engineering and Automation course (6 months) or Advanced Diploma (1 year) cover the full path with AI Lab project work.",
+  },
+  {
+    question: "What is RAG in AI and how is it used?",
+    answer:
+      "RAG stands for Retrieval-Augmented Generation. It is a technique where an AI system searches your own documents or database for relevant information before answering a question — giving the LLM accurate, up-to-date knowledge from your specific data rather than only its training knowledge. RAG is the most commonly used technique in Indian enterprise AI projects for building document Q&A systems, internal knowledge bots, and AI customer support. Future Optima teaches RAG system design in both the AI Engineering course and the Advanced Diploma.",
+  },
+  {
+    question: "What is the salary of an AI engineer fresher in India in 2026?",
+    answer:
+      "AI engineering freshers with strong portfolios start at ₹5-9 LPA in India. Agentic AI specialists start slightly higher at ₹6-10 LPA. In Kochi specifically, the range is ₹5-8 LPA for entry-level, growing to ₹10-18 LPA at the mid-level (2-3 years). Salary depends heavily on portfolio quality — deployed AI projects carry more weight than certificates or degrees.",
+  },
+  {
+    question: "Is generative AI a good career in India in 2026?",
+    answer:
+      "Yes. Generative AI is producing more new job roles in Indian tech than any technology since mobile development. The key roles — LLM Integration Engineer, Agentic AI Developer, GenAI Solutions Architect and MLOps/LLMOps Engineer — are all actively hiring across IT services companies, AI-first startups and global product companies with India offices. Future Optima's AI Engineering and Automation course and Agentic AI Development course are both directly targeted at generative AI career entry.",
+  },
 ];
