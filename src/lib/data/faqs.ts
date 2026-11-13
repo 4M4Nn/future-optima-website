@@ -426,4 +426,39 @@ export const generalFaqs: FaqItem[] = [
     answer:
       "Yes. Generative AI is producing more new job roles in Indian tech than any technology since mobile development. The key roles — LLM Integration Engineer, Agentic AI Developer, GenAI Solutions Architect and MLOps/LLMOps Engineer — are all actively hiring across IT services companies, AI-first startups and global product companies with India offices. Future Optima's AI Engineering and Automation course and Agentic AI Development course are both directly targeted at generative AI career entry.",
   },
+  {
+    question: "Is Cloud Computing a good career in India in 2026?",
+    answer:
+      "Yes. Cloud computing is one of the highest-demand and best-paying engineering specialisations in India in 2026. As more companies move infrastructure from on-premises servers to AWS, Azure and GCP, cloud engineers are in short supply relative to demand. Freshers with hands-on cloud portfolios and certification start at ₹4-8 LPA in Kochi. Mid-level cloud engineers earn ₹10-18 LPA. Future Optima's Cloud Computing & DevOps with AI course (6 months) prepares for this directly.",
+  },
+  {
+    question: "What is the Cloud Computing & DevOps with AI course at Future Optima?",
+    answer:
+      "It is a 6-month programme covering Linux, networking, AWS, Azure and GCP core services, Docker, Kubernetes, CI/CD pipelines with GitHub Actions, Terraform for Infrastructure as Code, monitoring with Prometheus and Grafana, and AI-accelerated DevOps using Claude and GitHub Copilot. Open to Plus Two students and graduates from any background — no prior cloud or programming experience required.",
+  },
+  {
+    question: "What is DevOps and why is it in demand in Kerala?",
+    answer:
+      "DevOps is the engineering discipline that automates building, testing, deploying and monitoring software in production. DevOps engineers build the CI/CD pipelines, cloud infrastructure and automation systems that every development team depends on. In Kerala, demand is concentrated at Infopark and SmartCity companies, IT services firms, fintech and health-tech startups. It is consistently one of the most searched IT roles in Kerala because every growing software team eventually needs a DevOps engineer.",
+  },
+  {
+    question: "Which cloud platform is best to learn for a career in India — AWS, Azure or GCP?",
+    answer:
+      "AWS has the most cloud engineering jobs in India and is the best starting point for the broadest job market access. Azure is the second strongest, particularly for enterprise accounts using Microsoft products. GCP is third overall but the strongest platform for AI and ML cloud roles. Future Optima's Cloud & DevOps course covers all three platforms at the core services level, preparing for AWS and Azure certifications.",
+  },
+  {
+    question: "How is AI used in Cloud Computing and DevOps in 2026?",
+    answer:
+      "AI tools are transforming cloud and DevOps work in several ways: Claude and GitHub Copilot write Terraform configurations, Kubernetes YAML and CI/CD pipelines from natural language descriptions; AWS DevOps Guru and Azure Monitor apply AI-based anomaly detection to production metrics; AI tools analyse logs and diagnose incidents; and AI assists with cloud cost optimisation by identifying idle and over-provisioned resources. Future Optima's Cloud & DevOps course integrates these AI tools throughout — not as a theory topic but as working tools students use in every lab.",
+  },
+  {
+    question: "Can a Plus Two student join the Cloud Computing & DevOps course?",
+    answer:
+      "Yes. The Cloud Computing & DevOps with AI course at Future Optima is open to Plus Two (12th) students from any stream — Science, Commerce or Humanities. The course starts from Linux and networking fundamentals, so no prior cloud, programming or technical background is assumed. Many students start the course directly after their Plus Two results.",
+  },
+  {
+    question: "What certifications does the Cloud & DevOps course prepare for?",
+    answer:
+      "The curriculum is aligned with AWS Certified Cloud Practitioner, AWS Certified Solutions Architect Associate, and Azure Fundamentals (AZ-900). These are the most widely recognised cloud certifications by Indian employers. By the end of the 6-month programme at Future Optima, you will have covered the material required for both AWS and Azure certifications and can appear for them directly.",
+  },
 ];

@@ -12,6 +12,7 @@ export type CourseCategory =
   | "Full-Stack Development"
   | "Data & AI"
   | "Security & Testing"
+  | "Cloud & DevOps"
   | "Advanced Diploma";
 
 export interface Course {

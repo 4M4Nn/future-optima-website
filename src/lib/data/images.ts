@@ -27,6 +27,7 @@ export const courseImages: Record<string, string> = {
   "certified-ethical-hacking": unsplash("photo-1563986768609-322da13575f3"),
   "certified-soc-analyst": unsplash("photo-1544197150-b99a580bb7a8"),
   "web-bug-hunter": unsplash("photo-1614064548237-096f735f344f"),
+  "cloud-computing-devops-with-ai": unsplash("photo-1451187580459-43490279c0fa"),
 };
 
 // A distinct pool for blog cover images so blog cards don't visually

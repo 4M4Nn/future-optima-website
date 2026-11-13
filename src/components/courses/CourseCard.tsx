@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Clock, Code2, ShieldCheck, ShieldQuestion, Sparkles } from "lucide-react";
+import { ArrowRight, Clock, Cloud, Code2, ShieldCheck, ShieldQuestion, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import WhatsAppQuickLink from "@/components/layout/WhatsAppQuickLink";
 import { courseImages } from "@/lib/data/images";
@@ -12,6 +12,7 @@ const categoryIcons: Record<CourseCategory, typeof Code2> = {
   "Full-Stack Development": Code2,
   "Data & AI": Sparkles,
   "Security & Testing": ShieldQuestion,
+  "Cloud & DevOps": Cloud,
   "Advanced Diploma": ShieldCheck,
 };
 
