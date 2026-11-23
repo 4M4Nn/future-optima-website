@@ -3,6 +3,53 @@ import { stockImages } from "@/lib/data/images";
 
 export const newsPosts: NewsPost[] = [
   {
+    slug: "mou-st-marys-college-thrissur-ai-it-industry-partnership",
+    title: "Future Optima Signs MoU with St. Mary's College (Women's College), Thrissur — Industry–Academic Partnership for AI and IT Training",
+    metaTitle: "MoU with St. Mary's College Thrissur — AI & IT Industry Partnership | Future Optima",
+    metaDescription: "Future Optima IT Solutions signs a Memorandum of Understanding with St. Mary's College (Women's College), Thrissur, Kerala, to bring industry-linked AI, full-stack and cybersecurity training to students.",
+    excerpt: "Future Optima IT Solutions has signed a Memorandum of Understanding with St. Mary's College (Women's College), Thrissur, to deliver industry-linked AI and IT training programmes directly to students — the latest in Future Optima's growing academic partnership network across Kerala.",
+    publishedAt: "2026-11-23",
+    featured: true,
+    featuredLabel: "MoU & Partnership",
+    coverImage: "/images/news/st-marys-college-thrissur-mou.jpeg",
+    coverAlt: "Future Optima IT Solutions and St. Mary's College, Thrissur representatives at the MoU signing ceremony — industry-academic partnership for AI and IT training",
+    body: [
+      {
+        type: "p",
+        text: "Future Optima IT Solutions Pvt Ltd has signed a Memorandum of Understanding (MoU) with St. Mary's College (Women's College), Thrissur, Kerala, formalising a new industry–academic partnership to bring practical, placement-focused AI and IT training to students at the college.",
+      },
+      {
+        type: "p",
+        text: "The MoU marks Future Optima's entry into the Thrissur academic corridor, extending its college partnership network beyond Ernakulam and Kottayam districts and into one of Kerala's most prominent women's higher education institutions.",
+      },
+      { type: "h2", text: "What the Partnership Covers" },
+      {
+        type: "list",
+        items: [
+          "Industry-linked AI, full-stack development and cybersecurity training programmes for St. Mary's College students",
+          "Access to Future Optima's project-first curriculum, industry mentors and real AI lab projects",
+          "Career guidance, resume support and placement assistance through Future Optima's placement cell",
+          "A direct pathway from college to placement-ready, portfolio-backed IT and AI careers",
+          "Ongoing collaboration on campus training, bootcamps and workshops throughout the academic year",
+        ],
+      },
+      { type: "h2", text: "Why This Partnership Matters" },
+      {
+        type: "p",
+        text: "St. Mary's College, Thrissur is one of the most respected women's colleges in Kerala, with strong academic programmes across science, commerce and humanities. This partnership creates a formal industry link between the college and Future Optima — giving students access to in-demand AI, cloud, full-stack and cybersecurity skills alongside their regular academic training, with structured placement support built in.",
+      },
+      {
+        type: "p",
+        text: "Women represent an underutilised talent pool in Kerala's IT sector. Future Optima's partnership with St. Mary's College directly addresses this gap — bringing structured, project-first AI and IT training to women students who want a technology career, backed by the same placement process that Future Optima applies to all its programmes.",
+      },
+      { type: "h2", text: "Growing Academic Network" },
+      {
+        type: "p",
+        text: "This MoU adds to Future Optima's growing network of academic partnerships across Kerala — joining existing collaborations with Bharata Mata College (Thrikkakara), MES College of Engineering & Technology (Kunnukara), and MC Varghese College (Kottayam). Each partnership brings Future Optima's industry-mentored, hands-on training model directly into an academic environment, helping students graduate with real, employable skills.",
+      },
+    ],
+  },
+  {
     slug: "manappuram-insurance-brokers-owasp-top-10-cybersecurity-awareness-training",
     title: "Future Optima Conducts OWASP Top 10 & Cybersecurity Awareness Training for Manappuram Insurance Brokers Ltd.",
     metaTitle: "OWASP Top 10 & Cybersecurity Awareness Training for Manappuram Insurance Brokers — Future Optima",
