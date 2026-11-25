@@ -57,7 +57,9 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const relatedCourse = post.relatedCourseSlug ? getCourseBySlug(post.relatedCourseSlug) : undefined;
-  const moreArticles = blogPosts.filter((p) => p.slug !== post.slug).slice(0, 3);
+  const categoryPosts = blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category);
+  const otherPosts = blogPosts.filter((p) => p.slug !== post.slug && p.category !== post.category);
+  const moreArticles = [...categoryPosts, ...otherPosts].slice(0, 3);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -66,8 +68,14 @@ export default async function BlogPostPage({
     description: post.metaDescription,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    author: { "@type": "Organization", name: siteConfig.name },
-    publisher: { "@type": "Organization", name: siteConfig.name },
+    image: getBlogImage(post.slug, post.coverImage),
+    author: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+      logo: { "@type": "ImageObject", url: `${siteConfig.url}/images/brand/logo.png` },
+    },
   };
 
   const faqSchema = post.faqs?.length
